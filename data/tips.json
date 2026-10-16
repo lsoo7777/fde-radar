@@ -1,0 +1,50 @@
+[
+ {
+  "title": "Give the model the role and the reader",
+  "body": "Say who it is writing as and for whom (e.g. 'a CFO who skims'). Output changes more from audience than from adjectives."
+ },
+ {
+  "title": "Paste the source, don't describe it",
+  "body": "Paste call notes, docs or logs. Summaries of summaries lose the details that matter."
+ },
+ {
+  "title": "Ask it to flag gaps instead of guessing",
+  "body": "Add 'If the input doesn't support an answer, write NEEDS REVIEW.' This cuts made-up details in customer-facing work."
+ },
+ {
+  "title": "Use structure for reusable outputs",
+  "body": "Request fixed sections or a table so status updates and POC docs look the same every week."
+ },
+ {
+  "title": "Iterate in two passes",
+  "body": "First ask for a draft, then ask it to critique the draft as the skeptical buyer, then revise."
+ },
+ {
+  "title": "Keep a personal prompt library",
+  "body": "Save prompts that worked with your [BRACKET] variables. Our prompts page is a starting point."
+ },
+ {
+  "title": "Check your company's data policy first",
+  "body": "Don't paste customer data, credentials or contracts into tools your company hasn't approved."
+ },
+ {
+  "title": "Verify every number and claim",
+  "body": "Treat model output as a draft. Check figures, product capabilities and competitor claims before they reach a customer."
+ },
+ {
+  "title": "Use AI for demo data, not demo truth",
+  "body": "Generate fake but realistic sample data; never let the model invent features your product doesn't have."
+ },
+ {
+  "title": "Turn tribal knowledge into runbooks",
+  "body": "Paste Slack threads and ask for numbered steps with verification and rollback. Then test the runbook once yourself."
+ },
+ {
+  "title": "Prep with a role-play",
+  "body": "Ask the model to play the skeptical buyer or security reviewer and run through your demo or answers."
+ },
+ {
+  "title": "Learn how your tools connect to AI",
+  "body": "Standards like the Model Context Protocol let assistants reach your tools and data; understanding them is quickly becoming part of deployment work."
+ }
+]

@@ -1,0 +1,108 @@
+{
+ "groups": [
+  {
+   "group": "Technical foundations",
+   "items": [
+    {
+     "skill": "Command line, git, debugging basics",
+     "url": "https://missing.csail.mit.edu/",
+     "resource": "MIT Missing Semester"
+    },
+    {
+     "skill": "Git branching, interactively",
+     "url": "https://learngitbranching.js.org/",
+     "resource": "Learn Git Branching"
+    },
+    {
+     "skill": "CS fundamentals",
+     "url": "https://cs50.harvard.edu/x/",
+     "resource": "Harvard CS50x"
+    },
+    {
+     "skill": "Python",
+     "url": "https://www.learnpython.org/",
+     "resource": "LearnPython.org"
+    },
+    {
+     "skill": "SQL",
+     "url": "https://sqlbolt.com/",
+     "resource": "SQLBolt"
+    },
+    {
+     "skill": "HTTP & APIs",
+     "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+     "resource": "MDN HTTP docs"
+    },
+    {
+     "skill": "Containers",
+     "url": "https://docs.docker.com/get-started/",
+     "resource": "Docker Get Started"
+    },
+    {
+     "skill": "DevOps / cloud roadmap",
+     "url": "https://roadmap.sh/devops",
+     "resource": "roadmap.sh DevOps"
+    },
+    {
+     "skill": "Web dev end to end",
+     "url": "https://www.theodinproject.com/",
+     "resource": "The Odin Project"
+    }
+   ]
+  },
+  {
+   "group": "AI & LLM skills",
+   "items": [
+    {
+     "skill": "Prompt engineering (OpenAI)",
+     "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+     "resource": "OpenAI guide"
+    },
+    {
+     "skill": "Prompt engineering (Anthropic)",
+     "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+     "resource": "Anthropic guide"
+    },
+    {
+     "skill": "Prompting for developers",
+     "url": "https://learn.deeplearning.ai/courses/chatgpt-prompt-eng",
+     "resource": "DeepLearning.AI short course"
+    },
+    {
+     "skill": "LLMs & transformers",
+     "url": "https://huggingface.co/learn/llm-course",
+     "resource": "Hugging Face LLM course"
+    },
+    {
+     "skill": "Connecting AI to tools/data",
+     "url": "https://modelcontextprotocol.io/introduction",
+     "resource": "Model Context Protocol docs"
+    }
+   ]
+  },
+  {
+   "group": "Customer & presales skills",
+   "items": [
+    {
+     "skill": "Presales community and content",
+     "url": "https://www.presalescollective.com/",
+     "resource": "PreSales Collective"
+    },
+    {
+     "skill": "API testing for demos/POCs",
+     "url": "https://www.postman.com/api-platform/api-testing/",
+     "resource": "Postman API testing"
+    }
+   ]
+  }
+ ],
+ "customer": [
+  "Run a discovery call that ends with clear pains, metrics and next step",
+  "Build a demo tied to customer pains, not a feature tour",
+  "Scope a POC with measurable pass/fail criteria",
+  "Write a one-page solution design a VP can read",
+  "Handle an objection by asking before answering",
+  "Run a weekly status update with owners and dates",
+  "Build a working integration end to end (API → data → output) and explain it"
+ ]
+}

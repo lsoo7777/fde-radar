@@ -1,0 +1,137 @@
+[
+ {
+  "name": "Navattic",
+  "category": "Interactive demos",
+  "url": "https://www.navattic.com"
+ },
+ {
+  "name": "Consensus",
+  "category": "Demo automation",
+  "url": "https://www.goconsensus.com"
+ },
+ {
+  "name": "Reprise",
+  "category": "Demo sandbox/overlay",
+  "url": "https://www.reprise.com"
+ },
+ {
+  "name": "Walnut",
+  "category": "Interactive demos",
+  "url": "https://www.walnut.io"
+ },
+ {
+  "name": "Storylane",
+  "category": "Interactive demos",
+  "url": "https://www.storylane.io"
+ },
+ {
+  "name": "Supademo",
+  "category": "Interactive demos",
+  "url": "https://supademo.com"
+ },
+ {
+  "name": "Demostack",
+  "category": "Demo environments",
+  "url": "https://www.demostack.com"
+ },
+ {
+  "name": "TestBox",
+  "category": "Live demo environments",
+  "url": "https://www.testbox.com"
+ },
+ {
+  "name": "HowdyGo",
+  "category": "AI demo sandboxes",
+  "url": "https://www.howdygo.com"
+ },
+ {
+  "name": "Vivun",
+  "category": "Presales AI agent",
+  "url": "https://www.vivun.com"
+ },
+ {
+  "name": "AutoRFP.ai",
+  "category": "RFP automation",
+  "url": "https://autorfp.ai"
+ },
+ {
+  "name": "Loopio",
+  "category": "RFP response",
+  "url": "https://loopio.com"
+ },
+ {
+  "name": "Responsive",
+  "category": "RFP response",
+  "url": "https://www.responsive.io"
+ },
+ {
+  "name": "Gong",
+  "category": "Call intelligence",
+  "url": "https://www.gong.io"
+ },
+ {
+  "name": "Saleo",
+  "category": "Live demo data",
+  "url": "https://saleo.io"
+ },
+ {
+  "name": "Rocketlane",
+  "category": "Customer onboarding / implementation",
+  "url": "https://www.rocketlane.com"
+ },
+ {
+  "name": "Arcade",
+  "category": "Interactive demos",
+  "url": "https://www.arcade.software"
+ },
+ {
+  "name": "Highspot",
+  "category": "Sales enablement",
+  "url": "https://www.highspot.com"
+ },
+ {
+  "name": "Seismic",
+  "category": "Sales enablement",
+  "url": "https://www.seismic.com"
+ },
+ {
+  "name": "Loom",
+  "category": "Async video",
+  "url": "https://www.loom.com"
+ },
+ {
+  "name": "Postman",
+  "category": "API testing",
+  "url": "https://www.postman.com"
+ },
+ {
+  "name": "Cursor",
+  "category": "AI code editor",
+  "url": "https://cursor.com"
+ },
+ {
+  "name": "LangSmith",
+  "category": "LLM tracing & evals",
+  "url": "https://www.langchain.com/langsmith"
+ },
+ {
+  "name": "n8n",
+  "category": "Workflow automation",
+  "url": "https://n8n.io"
+ },
+ {
+  "name": "Zapier",
+  "category": "Workflow automation",
+  "url": "https://zapier.com"
+ },
+ {
+  "name": "Fathom",
+  "category": "AI meeting notes",
+  "url": "https://www.fathom.video"
+ },
+ {
+  "name": "Granola",
+  "category": "AI meeting notes",
+  "url": "https://granola.ai"
+ }
+]

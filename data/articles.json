@@ -1,0 +1,114 @@
+[
+ {
+  "title": "What are Forward Deployed Engineers, and why are they so in demand?",
+  "source": "The Pragmatic Engineer",
+  "type": "Article",
+  "url": "https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers",
+  "summary": "Gergely Orosz on where the FDE role came from (Palantir's 'Deltas') and how OpenAI and Ramp run it today."
+ },
+ {
+  "title": "Forward Deployed Engineers",
+  "source": "SVPG",
+  "type": "Article",
+  "url": "https://www.svpg.com/forward-deployed-engineers/",
+  "summary": "Marty Cagan argues FDEs work best when field learnings get turned into reusable platform capabilities."
+ },
+ {
+  "title": "Trading Margin for Moat: Why the FDE Is the Hottest Job in Startups",
+  "source": "a16z",
+  "type": "Article",
+  "url": "https://a16z.com/services-led-growth/",
+  "summary": "Why AI application companies accept lower early margins to embed engineers who make agents work in customer systems."
+ },
+ {
+  "title": "The Palantirization of everything",
+  "source": "a16z",
+  "type": "Article",
+  "url": "https://a16z.com/the-palantirization-of-everything/",
+  "summary": "Where startups copying Palantir's forward-deployed model get the analogy right, and where it breaks."
+ },
+ {
+  "title": "Forward Deployed Engineering",
+  "source": "Ramp Builders",
+  "type": "Article",
+  "url": "https://engineering.ramp.com/post/forward-deployed-engineering",
+  "summary": "How Ramp's engineering team describes its own forward deployed engineering function."
+ },
+ {
+  "title": "What is a forward deployed engineer? The job, the pay and who hires",
+  "source": "Szymon Paluch",
+  "type": "Article",
+  "url": "https://szymonpaluch.com/blog/posts/what-is-a-forward-deployed-engineer",
+  "summary": "A sourced explainer comparing the FDE, consultant and Deployment Strategist titles and who hires for each."
+ },
+ {
+  "title": "A short history of the forward deployed engineer",
+  "source": "PIAS / fde10x",
+  "type": "Article",
+  "url": "https://fde10x.com/t/forward-deployed-engineer-history",
+  "summary": "A timeline from Palantir to the model labs to AI studios."
+ },
+ {
+  "title": "Building effective agents",
+  "source": "Anthropic",
+  "type": "Guide",
+  "url": "https://www.anthropic.com/engineering/building-effective-agents",
+  "summary": "Anthropic's patterns for agent systems that work in practice. Useful before scoping any agent POC."
+ },
+ {
+  "title": "A practical guide to building agents",
+  "source": "OpenAI",
+  "type": "Guide (PDF)",
+  "url": "https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf",
+  "summary": "OpenAI's guide to agent design, tools, guardrails and orchestration for deployment teams."
+ },
+ {
+  "title": "The Convergence of Presales and Post-Sales (Shamil Turner)",
+  "source": "PreSales Collective",
+  "type": "Podcast",
+  "url": "https://salesengineeringpodcast.libsyn.com/the-convergence-of-presales-and-post-sales-a-new-career-path-with-shamil-turner",
+  "summary": "Figma's first SE on why presales is absorbing post-sales work and where the FDE role fits."
+ },
+ {
+  "title": "What an AI-Enabled SE Looks Like in 2026 (Darlene Volas)",
+  "source": "PreSales Collective",
+  "type": "Podcast",
+  "url": "https://salesengineeringpodcast.libsyn.com/what-an-ai-enabled-se-looks-like-in-2026-with-darlene-volas",
+  "summary": "Practical AI workflows for SE teams, from meeting prep automation to governance."
+ },
+ {
+  "title": "Debunking the Traditional Path to Presales (Adam Bauman)",
+  "source": "PreSales Collective",
+  "type": "Podcast",
+  "url": "https://www.presalescollective.com/podcast/debunking-the-traditional-path-to-presales-with-adam-bauman",
+  "summary": "A Kong staff SE on moving into presales and how to interview without prior SE experience."
+ },
+ {
+  "title": "Diary of a Sales Engineer",
+  "source": "DiaryofaSE",
+  "type": "Podcast",
+  "url": "https://podcastaddict.com/podcast/diary-of-a-sales-engineer/6928227",
+  "summary": "A podcast on SE careers, including episodes on forward-deploy solution engineers and Field CTO paths."
+ },
+ {
+  "title": "Job postings for this tech role have grown more than 700%",
+  "source": "Business Insider",
+  "type": "News",
+  "url": "https://www.businessinsider.com/forward-deployed-engineer-jobs-in-demand-2026-5",
+  "summary": "Indeed data on how fast forward-deployed engineer postings grew from 2025 to 2026."
+ },
+ {
+  "title": "One of the fastest-growing jobs in Silicon Valley…",
+  "source": "Fortune",
+  "type": "News",
+  "url": "https://fortune.com/2026/09/03/forward-deployed-engineers-fast-growing-six-figure-silicon-valley-job-integrate-ai-with-customers-tech-careers-palantir/",
+  "summary": "Lightcast data on FDE posting growth and median advertised pay."
+ },
+ {
+  "title": "What is a Forward Deployed Engineer? The fastest growing AI job",
+  "source": "Lightcast",
+  "type": "Research",
+  "url": "https://lightcast.io/resources/blog/forward-deployed-engineer-ai-job",
+  "summary": "Labor-market analysis of US FDE posting volume from 2024 to 2026."
+ }
+]

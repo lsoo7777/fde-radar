@@ -1,0 +1,98 @@
+[
+ {
+  "repo": "langchain-ai/langgraph",
+  "stars": 43370,
+  "description": "Build resilient agents.",
+  "url": "https://github.com/langchain-ai/langgraph"
+ },
+ {
+  "repo": "crewAIInc/crewAI",
+  "stars": 59768,
+  "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+  "url": "https://github.com/crewAIInc/crewAI"
+ },
+ {
+  "repo": "microsoft/autogen",
+  "stars": 61443,
+  "description": "A programming framework for agentic AI",
+  "url": "https://github.com/microsoft/autogen"
+ },
+ {
+  "repo": "openai/openai-agents-python",
+  "stars": 30088,
+  "description": "A lightweight, powerful framework for multi-agent workflows",
+  "url": "https://github.com/openai/openai-agents-python"
+ },
+ {
+  "repo": "modelcontextprotocol/servers",
+  "stars": 91313,
+  "description": "Model Context Protocol Servers",
+  "url": "https://github.com/modelcontextprotocol/servers"
+ },
+ {
+  "repo": "modelcontextprotocol/python-sdk",
+  "stars": 24594,
+  "description": "The official Python SDK for Model Context Protocol servers and clients",
+  "url": "https://github.com/modelcontextprotocol/python-sdk"
+ },
+ {
+  "repo": "anthropics/claude-cookbooks",
+  "stars": 53495,
+  "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+  "url": "https://github.com/anthropics/claude-cookbooks"
+ },
+ {
+  "repo": "openai/openai-cookbook",
+  "stars": 76649,
+  "description": "Examples and guides for using the OpenAI API",
+  "url": "https://github.com/openai/openai-cookbook"
+ },
+ {
+  "repo": "vercel/ai",
+  "stars": 27355,
+  "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
+  "url": "https://github.com/vercel/ai"
+ },
+ {
+  "repo": "vercel/chatbot",
+  "stars": 20995,
+  "description": "A full-featured, hackable Next.js AI chatbot built by Vercel",
+  "url": "https://github.com/vercel/chatbot"
+ },
+ {
+  "repo": "promptfoo/promptfoo",
+  "stars": 26062,
+  "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.",
+  "url": "https://github.com/promptfoo/promptfoo"
+ },
+ {
+  "repo": "confident-ai/deepeval",
+  "stars": 18906,
+  "description": "The LLM Evaluation Framework",
+  "url": "https://github.com/confident-ai/deepeval"
+ },
+ {
+  "repo": "vibrantlabsai/ragas",
+  "stars": 16041,
+  "description": "Supercharge Your LLM Application Evaluations 🚀",
+  "url": "https://github.com/vibrantlabsai/ragas"
+ },
+ {
+  "repo": "langfuse/langfuse",
+  "stars": 35928,
+  "description": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
+  "url": "https://github.com/langfuse/langfuse"
+ },
+ {
+  "repo": "run-llama/llama_index",
+  "stars": 52524,
+  "description": "LlamaIndex is the document processing platform for AI",
+  "url": "https://github.com/run-llama/llama_index"
+ },
+ {
+  "repo": "pydantic/pydantic-ai",
+  "stars": 20666,
+  "description": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.",
+  "url": "https://github.com/pydantic/pydantic-ai"
+ }
+]
