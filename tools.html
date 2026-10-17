@@ -32,6 +32,12 @@ pre{white-space:pre-wrap;background:var(--pn);border:1px solid var(--bd);border-
 .act{display:flex;gap:6px;align-items:flex-start}.act>*{border:1px solid var(--bd);background:none;border-radius:6px;padding:4px 10px;font-size:12px;white-space:nowrap}.btn{color:var(--acc)}.up.on,.sv.on{color:var(--acc);border-color:var(--acc)}.cp{border:1px solid var(--bd);background:none;border-radius:6px;padding:3px 10px;font-size:12px}
 .nl{border:1px solid var(--bd);border-radius:10px;padding:18px;margin:28px 0;background:var(--pn)}.nl h2{margin:0 0 4px;font-size:16px}.nl p{color:var(--mut);margin:0 0 10px}
 .mq{position:fixed;bottom:0;left:0;right:0;height:38px;border-top:1px solid var(--bd);background:var(--pn);overflow:hidden;z-index:9;font-size:12px;color:var(--mut)}.mq div{display:flex;gap:48px;white-space:nowrap;animation:m 40s linear infinite;line-height:38px;width:max-content}.mq a{color:var(--acc)}@keyframes m{to{transform:translateX(-50%)}}
+.row.feat{background:linear-gradient(90deg,rgba(250,176,5,.13),transparent 70%);box-shadow:inset 3px 0 0 #fab005}.fb{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#111;background:linear-gradient(135deg,#fab005,#ffd43b);border-radius:4px;padding:1px 6px;margin-right:8px;vertical-align:1px}
+.pj{display:flex;align-items:center;white-space:nowrap;background:linear-gradient(135deg,#f59f00,#ffd43b);color:#111;font-weight:700;border-radius:6px;padding:0 12px}.pj:hover{filter:brightness(1.06)}
+.jb{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;border:1px solid #fab005;border-radius:10px;padding:12px 16px;margin:0 0 14px;background:linear-gradient(90deg,rgba(250,176,5,.12),transparent)}.jb p{margin:0;color:var(--mut)}.jb p b{color:var(--fg)}.jb div{display:flex;gap:8px;flex-wrap:wrap}.jb a{border-radius:6px;padding:7px 14px;font-weight:700}.jb .a1{background:linear-gradient(135deg,#f59f00,#ffd43b);color:#111}.jb .a2{border:1px solid var(--bd);font-weight:400}
+.pg{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 18px}.pg div{border:1px solid var(--bd);background:var(--pn);border-radius:12px;padding:16px}.pg b{display:block;font-size:15px;margin:6px 0 4px}.pg p{margin:0;color:var(--mut);font-size:13px}.pg s{text-decoration:none;font-size:22px}
+.st{display:grid;grid-template-columns:44px 1fr;gap:14px;border:1px solid var(--bd);background:var(--pn);border-radius:12px;padding:18px;margin-bottom:12px}.st>i{font-style:normal;width:40px;height:40px;border-radius:10px;display:grid;place-items:center;font-weight:700;font-size:18px;color:#fff;background:linear-gradient(135deg,#5c7cfa,#4dabf7)}.st h2{margin:0 0 4px;font-size:16px}.st p{margin:0 0 12px;color:var(--mut)}.st .cta{display:inline-block;padding:10px 18px;margin:0}.st .pay{background:linear-gradient(135deg,#f59f00,#ffd43b);color:#111}.st .note{font-size:12px;margin:10px 0 0}
+@media(max-width:820px){.pg{grid-template-columns:1fr}.pj{padding:0 8px;font-size:12px}}
 .menu{display:none}.brand svg{color:#4dabf7}
 .hx{position:relative;border-radius:18px;overflow:hidden;padding:30px 30px 24px;margin:4px 0 18px;color:#fff;background:radial-gradient(900px 340px at 95% -20%,#5e5ce6 0,transparent 60%),radial-gradient(700px 420px at -5% 130%,#f06595 0,transparent 55%),linear-gradient(135deg,#111a3a,#1b2452);border:1px solid rgba(255,255,255,.08)}
 .hx .vt{display:flex;justify-content:space-between;font-size:11px;letter-spacing:.12em;color:rgba(255,255,255,.6);text-transform:uppercase;margin-bottom:14px}
@@ -51,194 +57,194 @@ pre{white-space:pre-wrap;background:var(--pn);border:1px solid var(--bd);border-
 </style><script data-goatcounter="https://fderadar.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></head><body>
 <div class="wrap"><aside id="side"><a class="brand" href="index.html"><svg class="logo" viewBox="0 0 7 7" width="28" height="28" shape-rendering="crispEdges"><rect x="2" y="0" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="3" y="0" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="4" y="0" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="1" y="1" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="2" y="1" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="3" y="1" width="1" height="1" fill="currentColor" opacity="1.0"/><rect x="4" y="1" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="5" y="1" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="0" y="2" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="1" y="2" width="1" height="1" fill="currentColor" opacity="1.0"/><rect x="3" y="2" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="5" y="2" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="6" y="2" width="1" height="1" fill="currentColor" opacity="1.0"/><rect x="0" y="3" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="1" y="3" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="2" y="3" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="3" y="3" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="4" y="3" width="1" height="1" fill="currentColor" opacity="1.0"/><rect x="5" y="3" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="6" y="3" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="0" y="4" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="1" y="4" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="3" y="4" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="5" y="4" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="6" y="4" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="1" y="5" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="2" y="5" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="3" y="5" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="4" y="5" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="5" y="5" width="1" height="1" fill="currentColor" opacity="1.0"/><rect x="2" y="6" width="1" height="1" fill="currentColor" opacity="0.25"/><rect x="3" y="6" width="1" height="1" fill="currentColor" opacity="1.0"/><rect x="4" y="6" width="1" height="1" fill="currentColor" opacity="0.25"/></svg><span>fde<b style="color:#fd7e14">.</b>radar</span></a>
 <div class="tag">// jobs, pay, prompts &amp; playbooks for Forward Deployed Engineers, Deployment Strategists &amp; SEs</div>
-<a class="cta" href="https://lorenzos-newsletter-cae0d9.beehiiv.com/subscribe" target="_blank" rel="noopener">Get the weekly 5 →</a><a class="ghost" href="post.html">+ Submit / post a job</a>
+<a class="cta" href="https://lorenzos-newsletter-cae0d9.beehiiv.com/subscribe" target="_blank" rel="noopener">Get the weekly 5 →</a><a class="ghost" href="post-a-job.html" style="border-color:#fab005;color:#fab005;font-weight:700">+ Post a job, $75</a>
 <div class="stat"><b>200</b>resources · updated weekly · <span id="nsv">0</span> saved</div>
 <div class="sp"><b>Sponsor slot</b><br>Your product in front of FDEs &amp; SEs. <a href="post.html#sponsor" style="color:var(--acc)">Sponsor info →</a></div>
 <div class="h">Categories</div><nav class="cats"><a href="index.html" class=""><span>All</span><span>200</span></a><a href="jobs.html" class=""><span><i style="--c:#4dabf7"></i>Jobs</span><span>59</span></a><a href="workflows.html" class=""><span><i style="--c:#fd7e14"></i>Workflows</span><span>12</span></a><a href="prompts.html" class=""><span><i style="--c:#38d9a9"></i>Prompts</span><span>22</span></a><a href="skills.html" class=""><span><i style="--c:#22b8cf"></i>Skills</span><span>23</span></a><a href="tools.html" class="on"><span><i style="--c:#be4bdb"></i>Tools</span><span>27</span></a><a href="articles.html" class=""><span><i style="--c:#f06595"></i>Articles</span><span>16</span></a><a href="github.html" class=""><span><i style="--c:#9775fa"></i>GitHub</span><span>16</span></a><a href="posts.html" class=""><span><i style="--c:#339af0"></i>Posts</span><span>8</span></a><a href="pay.html" class=""><span><i style="--c:#fab005"></i>Pay</span><span>5</span></a><a href="ai-tips.html" class=""><span><i style="--c:#ff6b6b"></i>AI tips</span><span>12</span></a></nav><div class="h">Guides</div><nav class="cats"><a href="fde-salary.html" class=""><span>FDE salary 2026</span></a><a href="fde-vs-se.html" class=""><span>FDE vs SE vs DS</span></a><a href="how-to-become-fde.html" class=""><span>How to become an FDE</span></a></nav></aside>
-<main><div class="top"><button class="menu" onclick="side.classList.toggle('open')">☰</button><label class="sb">⌕<input id="q" placeholder="Search 200 resources…" oninput="go()"><kbd>⌘K</kbd></label><div class="tg"><button class="on" onclick="sort(this,'top')">Top</button><button onclick="sort(this,'new')">New</button></div><button class="mode" onclick="mode()" title="Toggle theme">◐</button></div>
-<section class="hx" style="background:radial-gradient(700px 300px at 100% -30%,rgba(255,255,255,.25),transparent 60%),linear-gradient(135deg,#845ef7,#be4bdb)"><div class="vt"><span>FDE.RADAR / tools</span><span>[05]</span></div><h1>Tools</h1><p style="margin:0;color:rgba(255,255,255,.9)">27 curated tools for FDEs, Deployment Strategists &amp; SEs. Expand any row for typed details.</p></section><div class="chips"><button class="on" onclick="chip(this,'all')">All 27</button><button onclick="chip(this,'new')">New this week</button><button onclick="chip(this,'saved')">Saved</button></div><div class="grp"><article class="row" data-id="tools-116" data-t="navattic interactive demos interactive demos navattic.com" data-d="2026-10-16">
+<main><div class="top"><button class="menu" onclick="side.classList.toggle('open')">☰</button><label class="sb">⌕<input id="q" placeholder="Search 200 resources…" oninput="go()"><kbd>⌘K</kbd></label><div class="tg"><button class="on" onclick="sort(this,'top')">Top</button><button onclick="sort(this,'new')">New</button></div><a class="pj" href="post-a-job.html">+ Post a job, $75</a><button class="mode" onclick="mode()" title="Toggle theme">◐</button></div>
+<section class="hx" style="background:radial-gradient(700px 300px at 100% -30%,rgba(255,255,255,.25),transparent 60%),linear-gradient(135deg,#845ef7,#be4bdb)"><div class="vt"><span>FDE.RADAR / tools</span><span>[05]</span></div><h1>Tools</h1><p style="margin:0;color:rgba(255,255,255,.9)">27 curated tools for FDEs, Deployment Strategists &amp; SEs. Expand any row for typed details.</p></section><div class="chips"><button class="on" onclick="chip(this,'all')">All 27</button><button onclick="chip(this,'new')">New this week</button><button onclick="chip(this,'saved')">Saved</button></div><div class="grp"><article class="row" data-f="0" data-id="tools-116" data-t="navattic interactive demos interactive demos navattic.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.navattic.com" target=_blank rel=noopener>Navattic</a></h3><p>Interactive demos</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Interactive demos</span><span>navattic.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Navattic&quot;</s>;
   <i>category</i>: <s>&quot;Interactive demos&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.navattic.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-117" data-t="consensus demo automation demo automation goconsensus.com" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.navattic.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-117" data-t="consensus demo automation demo automation goconsensus.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.goconsensus.com" target=_blank rel=noopener>Consensus</a></h3><p>Demo automation</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Demo automation</span><span>goconsensus.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Consensus&quot;</s>;
   <i>category</i>: <s>&quot;Demo automation&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.goconsensus.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-118" data-t="reprise demo sandbox/overlay demo sandbox/overlay reprise.com" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.goconsensus.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-118" data-t="reprise demo sandbox/overlay demo sandbox/overlay reprise.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.reprise.com" target=_blank rel=noopener>Reprise</a></h3><p>Demo sandbox/overlay</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Demo sandbox/overlay</span><span>reprise.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Reprise&quot;</s>;
   <i>category</i>: <s>&quot;Demo sandbox/overlay&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.reprise.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-119" data-t="walnut interactive demos interactive demos walnut.io" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.reprise.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-119" data-t="walnut interactive demos interactive demos walnut.io" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.walnut.io" target=_blank rel=noopener>Walnut</a></h3><p>Interactive demos</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Interactive demos</span><span>walnut.io</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Walnut&quot;</s>;
   <i>category</i>: <s>&quot;Interactive demos&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.walnut.io" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-120" data-t="storylane interactive demos interactive demos storylane.io" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.walnut.io" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-120" data-t="storylane interactive demos interactive demos storylane.io" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.storylane.io" target=_blank rel=noopener>Storylane</a></h3><p>Interactive demos</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Interactive demos</span><span>storylane.io</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Storylane&quot;</s>;
   <i>category</i>: <s>&quot;Interactive demos&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.storylane.io" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-121" data-t="supademo interactive demos interactive demos supademo.com" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.storylane.io" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-121" data-t="supademo interactive demos interactive demos supademo.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://supademo.com" target=_blank rel=noopener>Supademo</a></h3><p>Interactive demos</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Interactive demos</span><span>supademo.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Supademo&quot;</s>;
   <i>category</i>: <s>&quot;Interactive demos&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://supademo.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-122" data-t="demostack demo environments demo environments demostack.com" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://supademo.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-122" data-t="demostack demo environments demo environments demostack.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.demostack.com" target=_blank rel=noopener>Demostack</a></h3><p>Demo environments</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Demo environments</span><span>demostack.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Demostack&quot;</s>;
   <i>category</i>: <s>&quot;Demo environments&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.demostack.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-123" data-t="testbox live demo environments live demo environments testbox.com" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.demostack.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-123" data-t="testbox live demo environments live demo environments testbox.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.testbox.com" target=_blank rel=noopener>TestBox</a></h3><p>Live demo environments</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Live demo environments</span><span>testbox.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;TestBox&quot;</s>;
   <i>category</i>: <s>&quot;Live demo environments&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.testbox.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-124" data-t="howdygo ai demo sandboxes ai demo sandboxes howdygo.com" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.testbox.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-124" data-t="howdygo ai demo sandboxes ai demo sandboxes howdygo.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.howdygo.com" target=_blank rel=noopener>HowdyGo</a></h3><p>AI demo sandboxes</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">AI demo sandboxes</span><span>howdygo.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;HowdyGo&quot;</s>;
   <i>category</i>: <s>&quot;AI demo sandboxes&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.howdygo.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-125" data-t="vivun presales ai agent presales ai agent vivun.com" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.howdygo.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-125" data-t="vivun presales ai agent presales ai agent vivun.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.vivun.com" target=_blank rel=noopener>Vivun</a></h3><p>Presales AI agent</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Presales AI agent</span><span>vivun.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Vivun&quot;</s>;
   <i>category</i>: <s>&quot;Presales AI agent&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.vivun.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-126" data-t="autorfp.ai rfp automation rfp automation autorfp.ai" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.vivun.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-126" data-t="autorfp.ai rfp automation rfp automation autorfp.ai" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://autorfp.ai" target=_blank rel=noopener>AutoRFP.ai</a></h3><p>RFP automation</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">RFP automation</span><span>autorfp.ai</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;AutoRFP.ai&quot;</s>;
   <i>category</i>: <s>&quot;RFP automation&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://autorfp.ai" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-127" data-t="loopio rfp response rfp response loopio.com" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://autorfp.ai" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-127" data-t="loopio rfp response rfp response loopio.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://loopio.com" target=_blank rel=noopener>Loopio</a></h3><p>RFP response</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">RFP response</span><span>loopio.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Loopio&quot;</s>;
   <i>category</i>: <s>&quot;RFP response&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://loopio.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-128" data-t="responsive rfp response rfp response responsive.io" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://loopio.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-128" data-t="responsive rfp response rfp response responsive.io" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.responsive.io" target=_blank rel=noopener>Responsive</a></h3><p>RFP response</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">RFP response</span><span>responsive.io</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Responsive&quot;</s>;
   <i>category</i>: <s>&quot;RFP response&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.responsive.io" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-129" data-t="gong call intelligence call intelligence gong.io" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.responsive.io" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-129" data-t="gong call intelligence call intelligence gong.io" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.gong.io" target=_blank rel=noopener>Gong</a></h3><p>Call intelligence</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Call intelligence</span><span>gong.io</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Gong&quot;</s>;
   <i>category</i>: <s>&quot;Call intelligence&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.gong.io" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-130" data-t="saleo live demo data live demo data saleo.io" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.gong.io" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-130" data-t="saleo live demo data live demo data saleo.io" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://saleo.io" target=_blank rel=noopener>Saleo</a></h3><p>Live demo data</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Live demo data</span><span>saleo.io</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Saleo&quot;</s>;
   <i>category</i>: <s>&quot;Live demo data&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://saleo.io" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-131" data-t="rocketlane customer onboarding / implementation customer onboarding / implementation rocketlane.com" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://saleo.io" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-131" data-t="rocketlane customer onboarding / implementation customer onboarding / implementation rocketlane.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.rocketlane.com" target=_blank rel=noopener>Rocketlane</a></h3><p>Customer onboarding / implementation</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Customer onboarding / implementation</span><span>rocketlane.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Rocketlane&quot;</s>;
   <i>category</i>: <s>&quot;Customer onboarding / implementation&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.rocketlane.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-132" data-t="arcade interactive demos interactive demos arcade.software" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.rocketlane.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-132" data-t="arcade interactive demos interactive demos arcade.software" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.arcade.software" target=_blank rel=noopener>Arcade</a></h3><p>Interactive demos</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Interactive demos</span><span>arcade.software</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Arcade&quot;</s>;
   <i>category</i>: <s>&quot;Interactive demos&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.arcade.software" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-133" data-t="highspot sales enablement sales enablement highspot.com" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.arcade.software" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-133" data-t="highspot sales enablement sales enablement highspot.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.highspot.com" target=_blank rel=noopener>Highspot</a></h3><p>Sales enablement</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Sales enablement</span><span>highspot.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Highspot&quot;</s>;
   <i>category</i>: <s>&quot;Sales enablement&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.highspot.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-134" data-t="seismic sales enablement sales enablement seismic.com" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.highspot.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-134" data-t="seismic sales enablement sales enablement seismic.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.seismic.com" target=_blank rel=noopener>Seismic</a></h3><p>Sales enablement</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Sales enablement</span><span>seismic.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Seismic&quot;</s>;
   <i>category</i>: <s>&quot;Sales enablement&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.seismic.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-135" data-t="loom async video async video loom.com" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.seismic.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-135" data-t="loom async video async video loom.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.loom.com" target=_blank rel=noopener>Loom</a></h3><p>Async video</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Async video</span><span>loom.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Loom&quot;</s>;
   <i>category</i>: <s>&quot;Async video&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.loom.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-136" data-t="postman api testing api testing postman.com" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.loom.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-136" data-t="postman api testing api testing postman.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.postman.com" target=_blank rel=noopener>Postman</a></h3><p>API testing</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">API testing</span><span>postman.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Postman&quot;</s>;
   <i>category</i>: <s>&quot;API testing&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.postman.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-137" data-t="cursor ai code editor ai code editor cursor.com" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.postman.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-137" data-t="cursor ai code editor ai code editor cursor.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://cursor.com" target=_blank rel=noopener>Cursor</a></h3><p>AI code editor</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">AI code editor</span><span>cursor.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Cursor&quot;</s>;
   <i>category</i>: <s>&quot;AI code editor&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://cursor.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-138" data-t="langsmith llm tracing &amp; evals llm tracing &amp; evals langchain.com" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://cursor.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-138" data-t="langsmith llm tracing &amp; evals llm tracing &amp; evals langchain.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.langchain.com/langsmith" target=_blank rel=noopener>LangSmith</a></h3><p>LLM tracing &amp; evals</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">LLM tracing &amp; evals</span><span>langchain.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;LangSmith&quot;</s>;
   <i>category</i>: <s>&quot;LLM tracing &amp; evals&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.langchain.com/langsmith" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-139" data-t="n8n workflow automation workflow automation n8n.io" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.langchain.com/langsmith" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-139" data-t="n8n workflow automation workflow automation n8n.io" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://n8n.io" target=_blank rel=noopener>n8n</a></h3><p>Workflow automation</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Workflow automation</span><span>n8n.io</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;n8n&quot;</s>;
   <i>category</i>: <s>&quot;Workflow automation&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://n8n.io" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-140" data-t="zapier workflow automation workflow automation zapier.com" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://n8n.io" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-140" data-t="zapier workflow automation workflow automation zapier.com" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://zapier.com" target=_blank rel=noopener>Zapier</a></h3><p>Workflow automation</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">Workflow automation</span><span>zapier.com</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Zapier&quot;</s>;
   <i>category</i>: <s>&quot;Workflow automation&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://zapier.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-141" data-t="fathom ai meeting notes ai meeting notes fathom.video" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://zapier.com" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-141" data-t="fathom ai meeting notes ai meeting notes fathom.video" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://www.fathom.video" target=_blank rel=noopener>Fathom</a></h3><p>AI meeting notes</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">AI meeting notes</span><span>fathom.video</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
   <i>name</i>: <s>&quot;Fathom&quot;</s>;
   <i>category</i>: <s>&quot;AI meeting notes&quot;</s>;
 }</pre></details></div>
-<div class="act"><a class="btn" href="https://www.fathom.video" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-id="tools-142" data-t="granola ai meeting notes ai meeting notes granola.ai" data-d="2026-10-16">
+<div class="act"><a class="btn" href="https://www.fathom.video" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article><article class="row" data-f="0" data-id="tools-142" data-t="granola ai meeting notes ai meeting notes granola.ai" data-d="2026-10-16">
 <div class="ic" style="--c:#be4bdb;--g:linear-gradient(135deg,#845ef7,#be4bdb)">T</div><div class="mn"><h3><a href="https://granola.ai" target=_blank rel=noopener>Granola</a></h3><p>AI meeting notes</p>
 <div class="meta"><span class=dot style="--c:#be4bdb">AI meeting notes</span><span>granola.ai</span><span>2026-10-16</span></div>
 <details><summary>{ } details</summary><pre class="ts"><b>type</b> <u>Tool</u> = {
@@ -247,7 +253,7 @@ pre{white-space:pre-wrap;background:var(--pn);border:1px solid var(--bd);border-
 }</pre></details></div>
 <div class="act"><a class="btn" href="https://granola.ai" target=_blank rel=noopener>Open</a><button class="up" onclick="up(this)">▲ <b>0</b></button><button class="sv" onclick="sv(this)">☆ Save</button></div></article></div>
 <section class="nl" id="subscribe"><h2>&gt; Get the weekly 5</h2><p>New roles, pay data, workflows, prompts and tools for FDEs, Deployment Strategists &amp; SEs. Every Friday.</p><script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="bf2e068f-2969-4e4b-a8fe-eff953813de4"></script><noscript><a class="cta" href="https://lorenzos-newsletter-cae0d9.beehiiv.com/subscribe">Subscribe</a></noscript><p style="font-size:12px;margin-top:8px">Form not loading? <a href="https://lorenzos-newsletter-cae0d9.beehiiv.com/subscribe" style="color:var(--acc)">Subscribe on beehiiv →</a></p></section>
-<footer style="border-top:1px solid var(--bd);margin:10px 0 60px;padding-top:12px;font-size:12px;color:var(--mut)">Guides: <a style="color:var(--acc)" href="fde-salary.html">FDE salary 2026</a> · <a style="color:var(--acc)" href="fde-vs-se.html">FDE vs SE vs DS</a> · <a style="color:var(--acc)" href="how-to-become-fde.html">How to become an FDE</a> · <a style="color:var(--acc)" href="jobs.html">Jobs</a> · <a style="color:var(--acc)" href="pay.html">Pay</a> · <a style="color:var(--acc)" href="post.html">Post a job</a></footer></main></div><div class="mq"><div><span>▸ Your logo here: <a href="post.html#sponsor">sponsor us</a></span><span>▸ Reach FDEs, Deployment Strategists &amp; SEs</span><span>▸ 200 resources, updated weekly</span> <span>▸ Your logo here: <a href="post.html#sponsor">sponsor us</a></span><span>▸ Reach FDEs, Deployment Strategists &amp; SEs</span><span>▸ 200 resources, updated weekly</span> <span>▸ Your logo here: <a href="post.html#sponsor">sponsor us</a></span><span>▸ Reach FDEs, Deployment Strategists &amp; SEs</span><span>▸ 200 resources, updated weekly</span> <span>▸ Your logo here: <a href="post.html#sponsor">sponsor us</a></span><span>▸ Reach FDEs, Deployment Strategists &amp; SEs</span><span>▸ 200 resources, updated weekly</span></div></div><script>
+<footer style="border-top:1px solid var(--bd);margin:10px 0 60px;padding-top:12px;font-size:12px;color:var(--mut)">Guides: <a style="color:var(--acc)" href="fde-salary.html">FDE salary 2026</a> · <a style="color:var(--acc)" href="fde-vs-se.html">FDE vs SE vs DS</a> · <a style="color:var(--acc)" href="how-to-become-fde.html">How to become an FDE</a> · <a style="color:var(--acc)" href="jobs.html">Jobs</a> · <a style="color:var(--acc)" href="pay.html">Pay</a> · <a style="color:var(--acc)" href="post-a-job.html">Post a job, $75</a> · <a style="color:var(--acc)" href="post.html#sponsor">Sponsor</a></footer></main></div><div class="mq"><div><span>▸ Your logo here: <a href="post.html#sponsor">sponsor us</a></span><span>▸ Reach FDEs, Deployment Strategists &amp; SEs</span><span>▸ 200 resources, updated weekly</span> <span>▸ Your logo here: <a href="post.html#sponsor">sponsor us</a></span><span>▸ Reach FDEs, Deployment Strategists &amp; SEs</span><span>▸ 200 resources, updated weekly</span> <span>▸ Your logo here: <a href="post.html#sponsor">sponsor us</a></span><span>▸ Reach FDEs, Deployment Strategists &amp; SEs</span><span>▸ 200 resources, updated weekly</span> <span>▸ Your logo here: <a href="post.html#sponsor">sponsor us</a></span><span>▸ Reach FDEs, Deployment Strategists &amp; SEs</span><span>▸ 200 resources, updated weekly</span></div></div><script>
 const $=s=>[...document.querySelectorAll(s)],L=(k,d)=>JSON.parse(localStorage.getItem(k)||d),S=(k,v)=>localStorage.setItem(k,JSON.stringify(v));
 let U=L('fr_up','{}'),V=L('fr_sv','[]'),F='all';
 function paint(){$('.row').forEach(r=>{const id=r.dataset.id,u=r.querySelector('.up'),s=r.querySelector('.sv');u.classList.toggle('on',!!U[id]);u.querySelector('b').textContent=U[id]?1:0;s.classList.toggle('on',V.includes(id));s.textContent=V.includes(id)?'★ Saved':'☆ Save'});document.getElementById('nsv').textContent=V.length}
@@ -256,7 +262,7 @@ function sv(b){const id=b.closest('.row').dataset.id;V=V.includes(id)?V.filter(x
 function cp(b){navigator.clipboard.writeText(b.previousElementSibling.innerText);b.textContent='Copied ✓'}
 function go(){const q=document.getElementById('q').value.toLowerCase().trim(),wk='2026-10-09';$('.row').forEach(r=>{let ok=r.dataset.t.includes(q);if(F=='new')ok=ok&&r.dataset.d>=wk;if(F=='saved')ok=ok&&V.includes(r.dataset.id);r.style.display=ok?'':'none'});$('.sec,.grp').forEach(s=>{const g=s.nextElementSibling;if(g&&g.classList.contains('grp'))s.style.display=[...g.children].some(r=>r.style.display!='none')?'':'none'})}
 function chip(b,f){F=f;$('.chips button').forEach(x=>x.classList.remove('on'));b.classList.add('on');go()}
-function sort(b,m){$('.tg button').forEach(x=>x.classList.remove('on'));b.classList.add('on');$('.grp').forEach(g=>[...g.children].sort((a,c)=>m=='new'?c.dataset.d.localeCompare(a.dataset.d):(+!!U[c.dataset.id])-(+!!U[a.dataset.id])).forEach(r=>g.appendChild(r)))}
+function sort(b,m){$('.tg button').forEach(x=>x.classList.remove('on'));b.classList.add('on');$('.grp').forEach(g=>[...g.children].sort((a,c)=>(+c.dataset.f)-(+a.dataset.f)||(m=='new'?c.dataset.d.localeCompare(a.dataset.d):(+!!U[c.dataset.id])-(+!!U[a.dataset.id]))).forEach(r=>g.appendChild(r)))}
 function mode(){document.documentElement.classList.toggle('light');localStorage.setItem('fr_m',document.documentElement.className)}
 document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key=='k'){e.preventDefault();document.getElementById('q').focus()}});
 paint();
