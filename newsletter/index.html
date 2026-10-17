@@ -2,8 +2,10 @@
 <meta name="robots" content="noindex"><link rel="canonical" href="https://fderadar.com/newsletter/">
 <noscript><meta http-equiv="refresh" content="0; url=https://lorenzos-newsletter-cae0d9.beehiiv.com/subscribe"></noscript>
 <script>
-var NL_DEST="https://lorenzos-newsletter-cae0d9.beehiiv.com/subscribe",nlGone=false;
-function nlGo(){if(nlGone)return;nlGone=true;location.replace(NL_DEST+location.search)}
+var NL_DEST="https://lorenzos-newsletter-cae0d9.beehiiv.com/subscribe",NL_Q=location.search,nlGone=false;
+/* keep ?email= out of analytics: drop it from the visible URL before count.js reads location.search */
+try{var u=new URL(location.href);if(u.searchParams.has("email")){u.searchParams.delete("email");history.replaceState(null,"",u.pathname+u.search)}}catch(e){}
+function nlGo(){if(nlGone)return;nlGone=true;location.replace(NL_DEST+NL_Q)}
 window.goatcounter={no_onload:true};
 function nlCount(){try{window.goatcounter.count({path:"/newsletter",title:"Newsletter redirect"})}catch(e){}setTimeout(nlGo,300)}
 setTimeout(nlGo,1500);
