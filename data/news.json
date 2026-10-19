@@ -1,0 +1,107 @@
+{
+  "updated": "2026-10-19",
+  "window_days": 7,
+  "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
+  "items": [
+    {
+      "title": "Gemini 4 Argon is now generally available",
+      "summary": "Google released Gemini 4 Argon, its new frontier model, to developers, enterprises and consumers. Introductory API price is $2/M input and $10/M output tokens, with cached input 95% off. Google says it ranks #1 on the Vals Index.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "date_published": "2026-10-13",
+      "source": "Google",
+      "tag": "model-release",
+      "why_it_matters_for_FDEs": "A new frontier option at aggressive pricing, aimed at multi-step finance, legal and coding work. Expect customers to ask for bake-offs against their current model.",
+      "verified": "2026-10-19"
+    },
+    {
+      "title": "Meta releases Muse Spark Open, an open-weight frontier multimodal MoE",
+      "summary": "Meta published Muse Spark Open on Hugging Face. It is an open-weight mixture-of-experts model that takes text, image, video and audio, with a 1M-token context window.",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "date_published": "2026-10-15",
+      "source": "Hugging Face / Meta",
+      "tag": "open-weights",
+      "why_it_matters_for_FDEs": "Gives FDEs a self-hostable multimodal frontier model for customers with data-residency or on-prem limits.",
+      "verified": "2026-10-19"
+    },
+    {
+      "title": "Reflection AI releases Beam, a 501B open model",
+      "summary": "Reflection AI released Beam, a 501B-parameter open model that runs at about the speed of a 23B model. It ships BF16, FP8 and NVFP4 checkpoints, with vLLM and SGLang deployment recipes.",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "date_published": "2026-10-16",
+      "source": "Hugging Face / Reflection AI",
+      "tag": "open-weights",
+      "why_it_matters_for_FDEs": "A large open model that customers can own and fine-tune. The ready vLLM and SGLang recipes cut the time to a private deployment.",
+      "verified": "2026-10-19"
+    },
+    {
+      "title": "Cursor cloud agents get canvases, an Environments API and 300-repo environments",
+      "summary": "Cursor cloud agents can now build and share interactive canvases. An Environments API is in beta for creating agent environments programmatically, and environments now support up to 300 repos and load large ones 5x faster.",
+      "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
+      "date_published": "2026-10-16",
+      "source": "Cursor Changelog",
+      "tag": "agent-tooling",
+      "why_it_matters_for_FDEs": "The Environments API lets FDEs script reproducible multi-repo agent setups for each customer instead of hand-building them.",
+      "verified": "2026-10-19"
+    },
+    {
+      "title": "GitHub agentic autofix for code scanning alerts is GA",
+      "summary": "Code scanning alerts can be assigned to Copilot, which explores the codebase, proposes a fix, re-runs CodeQL to check it, and opens a draft PR. It is available to Code Security and Advanced Security customers on Enterprise Cloud.",
+      "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+      "date_published": "2026-10-15",
+      "source": "GitHub Changelog",
+      "tag": "agent-tooling",
+      "why_it_matters_for_FDEs": "A production pattern for a verified agent loop (fix, validate, PR) that enterprise security teams can adopt now.",
+      "verified": "2026-10-19"
+    },
+    {
+      "title": "GitHub Copilot deprecates several models on Nov 16, 2026",
+      "summary": "On Nov 16, GitHub will retire Claude Opus 4.8, Claude Opus 5 and GPT-5.6 Terra across all Copilot experiences. Suggested replacements are Claude Opus 5.5 and GPT-6.1 Sol or GPT-6 Luna.",
+      "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
+      "date_published": "2026-10-15",
+      "source": "GitHub Changelog",
+      "tag": "deprecation",
+      "why_it_matters_for_FDEs": "Customer workflows pinned to these models will break mid-November. Audit model policies and integrations now.",
+      "verified": "2026-10-19"
+    },
+    {
+      "title": "Vercel Drives: persistent storage for agents is GA",
+      "summary": "Vercel Drives keeps an agent's files independent of its execution environment. Agents can mount the same drive in a new Vercel Sandbox and continue where they left off.",
+      "url": "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
+      "date_published": "2026-10-15",
+      "source": "Vercel",
+      "tag": "agent-infra",
+      "why_it_matters_for_FDEs": "Solves the state-across-runs problem for long-running agents without custom storage plumbing.",
+      "verified": "2026-10-19"
+    },
+    {
+      "title": "Vercel AI Gateway index: open-weight models take 71.5% of tokens, 23% of spend",
+      "summary": "Vercel's October production index (September data) shows open-weight models processing more than 7 in 10 gateway tokens. AI spend is up 13x while cost per token has halved, and DeepSeek V4.1 Flash alone handled nearly half of all tokens.",
+      "url": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
+      "date_published": "2026-10-15",
+      "source": "Vercel",
+      "tag": "market-data",
+      "why_it_matters_for_FDEs": "Real production data for cost conversations: route high-volume work to open weights and keep frontier models for the hard steps.",
+      "verified": "2026-10-19"
+    },
+    {
+      "title": "Third Moment Research runs 10,000 concurrent agents for 36+ hours on OpenAI",
+      "summary": "OpenAI case study: Third Moment runs 10,000 agents at once on 36-48 hour sessions. It uses Codex as a subagent inside an outer GPT-6 Sol harness, cut a backtest from about 3 hours to about 3-5 minutes, and uses Daybreak to pen-test its sandboxes.",
+      "url": "https://openai.com/index/third-moment-research",
+      "date_published": "2026-10-14",
+      "source": "OpenAI",
+      "tag": "case-study",
+      "why_it_matters_for_FDEs": "A concrete reference architecture for very long-horizon agents: an outer supervisor harness, fixing token-wasting polling, and automated sandbox security testing.",
+      "verified": "2026-10-19"
+    },
+    {
+      "title": "MCP Events support in Vercel Connect is in public beta",
+      "summary": "Vercel Connect, the eve framework and AI SDK now support the MCP Events extension. Agents subscribe to webhook events from MCP servers, and Vercel renews subscriptions and verifies signatures automatically.",
+      "url": "https://vercel.com/changelog/mcp-events-support-in-vercel-connect-is-now-in-public-beta",
+      "date_published": "2026-10-15",
+      "source": "Vercel Changelog",
+      "tag": "agent-infra",
+      "why_it_matters_for_FDEs": "Moves customer agents from polling to event-driven triggers on new issues, messages or document feedback.",
+      "verified": "2026-10-19"
+    }
+  ]
+}

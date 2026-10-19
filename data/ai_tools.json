@@ -26,7 +26,7 @@
     "github": "https://github.com/anthropics/claude-code",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: runs in the terminal and reads skills from ~/.claude/skills, so our kit skills work in it directly.",
-    "stars": 152464,
+    "stars": 152508,
     "repo": "anthropics/claude-code",
     "free": "no",
     "free_src": "https://claude.com/product/claude-code",
@@ -42,7 +42,7 @@
      "repo": "openai/codex",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-19",
-     "stars": 129916,
+     "stars": 129924,
      "pushed": "2026-10-19",
      "archived": false,
      "license": "Apache-2.0"
@@ -53,7 +53,7 @@
      "repo": "Aider-AI/aider",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-19",
-     "stars": 49640,
+     "stars": 49641,
      "pushed": "2026-05-22",
      "archived": false,
      "license": "Apache-2.0"
@@ -70,7 +70,7 @@
     "github": "https://github.com/promptfoo/promptfoo",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: open source, runs locally from a config file, no account needed to try it.",
-    "stars": 26148,
+    "stars": 26149,
     "repo": "promptfoo/promptfoo",
     "checked": "2026-10-19",
     "pushed": "2026-10-19",
@@ -83,7 +83,7 @@
     "github": "https://github.com/langfuse/langfuse",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: open-source tracing plus evals you can self-host when customer data can't leave their cloud.",
-    "stars": 36029,
+    "stars": 36034,
     "repo": "langfuse/langfuse",
     "free": "yes",
     "free_src": "https://langfuse.com/pricing",
@@ -107,7 +107,7 @@
      "repo": "confident-ai/deepeval",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-19",
-     "stars": 18956,
+     "stars": 18959,
      "pushed": "2026-10-19",
      "archived": false,
      "license": "Apache-2.0"
@@ -144,7 +144,7 @@
     "github": "https://github.com/vercel/ai",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: a quick way to stand up a working AI app for a POC in TypeScript.",
-    "stars": 27399,
+    "stars": 27400,
     "repo": "vercel/ai",
     "checked": "2026-10-19",
     "pushed": "2026-10-19",
@@ -164,7 +164,7 @@
      "repo": "langgenius/dify",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-19",
-     "stars": 158897,
+     "stars": 158904,
      "pushed": "2026-10-19",
      "archived": false,
      "license": "NOASSERTION"
@@ -222,7 +222,7 @@
     "github": "https://github.com/firecrawl/firecrawl",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: turns company sites into clean text an agent can research from.",
-    "stars": 193007,
+    "stars": 193041,
     "repo": "firecrawl/firecrawl",
     "free": "yes",
     "free_src": "https://www.firecrawl.dev/pricing",
@@ -238,7 +238,7 @@
      "repo": "browser-use/browser-use",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-19",
-     "stars": 118507,
+     "stars": 118524,
      "pushed": "2026-10-17",
      "archived": false,
      "license": "MIT"
@@ -249,7 +249,7 @@
      "repo": "unclecode/crawl4ai",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-19",
-     "stars": 85840,
+     "stars": 85847,
      "pushed": "2026-10-19",
      "archived": false,
      "license": "Apache-2.0"
@@ -275,7 +275,7 @@
     "github": "https://github.com/n8n-io/n8n",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: self-hostable with AI agent nodes, so it fits customers who keep data in-house.",
-    "stars": 208005,
+    "stars": 208024,
     "repo": "n8n-io/n8n",
     "checked": "2026-10-19",
     "pushed": "2026-10-19",
@@ -387,6 +387,30 @@
  ],
  "gh_releases": [
   {
+   "name": "Langfuse v4.64.0",
+   "url": "https://github.com/langfuse/langfuse/releases/tag/v4.64.0",
+   "date": "2026-10-19",
+   "category": "Evals and observability",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Arize Phoenix arize-phoenix-sqlean: v0.2.1",
+   "url": "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-sqlean-v0.2.1",
+   "date": "2026-10-19",
+   "category": "Evals and observability",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Vercel AI SDK ai@7.0.144",
+   "url": "https://github.com/vercel/ai/releases/tag/ai%407.0.144",
+   "date": "2026-10-19",
+   "category": "Demo and POC building",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
    "name": "n8n stable",
    "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
    "date": "2026-10-19",
@@ -403,34 +427,10 @@
    "checked": "2026-10-19"
   },
   {
-   "name": "Langfuse v4.63.0",
-   "url": "https://github.com/langfuse/langfuse/releases/tag/v4.63.0",
-   "date": "2026-10-16",
-   "category": "Evals and observability",
-   "source": "GitHub releases API",
-   "checked": "2026-10-19"
-  },
-  {
    "name": "DeepEval Setup wizard 0.1.0",
    "url": "https://github.com/confident-ai/deepeval/releases/tag/setup-v0.1.0",
    "date": "2026-10-16",
    "category": "Evals and observability",
-   "source": "GitHub releases API",
-   "checked": "2026-10-19"
-  },
-  {
-   "name": "Arize Phoenix arize-phoenix: v20.23.0",
-   "url": "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.23.0",
-   "date": "2026-10-16",
-   "category": "Evals and observability",
-   "source": "GitHub releases API",
-   "checked": "2026-10-19"
-  },
-  {
-   "name": "Vercel AI SDK ai@7.0.143",
-   "url": "https://github.com/vercel/ai/releases/tag/ai%407.0.143",
-   "date": "2026-10-16",
-   "category": "Demo and POC building",
    "source": "GitHub releases API",
    "checked": "2026-10-19"
   },
