@@ -1,0 +1,764 @@
+{
+ "checked": "2026-10-19",
+ "method": "Open-source tools are ranked by GitHub stars from the public GitHub API, with last-commit date, refreshed daily. Tools without a public repo are listed separately as \"Our pick\" with a one-line reason; we do not rank them. Public signals only, dated, nothing paid.",
+ "use_cases": [
+  {
+   "id": "coding-agents",
+   "name": "Coding agents",
+   "blurb": "Agents that read your repo, write code and run commands. The fastest way to build a POC or customer integration.",
+   "tools": [
+    {
+     "name": "Claude Code",
+     "url": "https://claude.com/product/claude-code",
+     "what": "Terminal and IDE coding agent from Anthropic that edits files, runs commands and opens PRs.",
+     "repo": "anthropics/claude-code",
+     "free": "no",
+     "free_src": "https://claude.com/product/claude-code",
+     "pick": null,
+     "level": "advanced",
+     "source": "https://github.com/anthropics/claude-code",
+     "checked": "2026-10-19",
+     "stars": 152449,
+     "pushed": "2026-10-18",
+     "archived": false,
+     "license": null
+    },
+    {
+     "name": "OpenAI Codex",
+     "url": "https://developers.openai.com/codex",
+     "what": "OpenAI's open-source coding agent for the terminal, IDE and cloud tasks.",
+     "repo": "openai/codex",
+     "free": "open source",
+     "free_src": "https://github.com/openai/codex",
+     "pick": null,
+     "level": null,
+     "source": "https://github.com/openai/codex",
+     "checked": "2026-10-19",
+     "stars": 129909,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "Apache-2.0"
+    },
+    {
+     "name": "Gemini CLI",
+     "url": "https://geminicli.com",
+     "what": "Google's open-source terminal agent for Gemini models.",
+     "repo": "google-gemini/gemini-cli",
+     "free": "open source",
+     "free_src": "https://github.com/google-gemini/gemini-cli",
+     "pick": null,
+     "level": null,
+     "source": "https://github.com/google-gemini/gemini-cli",
+     "checked": "2026-10-19",
+     "stars": 107454,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "Apache-2.0"
+    },
+    {
+     "name": "Cline",
+     "url": "https://cline.bot",
+     "what": "Open-source coding agent inside VS Code that asks before each file edit or command.",
+     "repo": "cline/cline",
+     "free": "open source",
+     "free_src": "https://github.com/cline/cline",
+     "pick": null,
+     "level": null,
+     "source": "https://github.com/cline/cline",
+     "checked": "2026-10-19",
+     "stars": 70550,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "Apache-2.0"
+    },
+    {
+     "name": "Cursor",
+     "url": "https://cursor.com",
+     "what": "AI code editor with an agent mode, a familiar VS Code feel and a free plan.",
+     "repo": null,
+     "free": "yes",
+     "free_src": "https://cursor.com/pricing",
+     "pick": "Easiest on-ramp: a normal editor first, agent second, so beginners can watch every change.",
+     "level": "start",
+     "source": "https://cursor.com",
+     "checked": "2026-10-19"
+    }
+   ]
+  },
+  {
+   "id": "agent-frameworks",
+   "name": "Agent frameworks",
+   "blurb": "Libraries for building your own agents: tools, handoffs, memory and multi-step plans.",
+   "tools": [
+    {
+     "name": "OpenAI Agents SDK",
+     "url": "https://openai.github.io/openai-agents-python/",
+     "what": "Lightweight Python SDK for agents with tools, handoffs, guardrails and tracing.",
+     "repo": "openai/openai-agents-python",
+     "free": "open source",
+     "free_src": "https://github.com/openai/openai-agents-python",
+     "pick": null,
+     "level": "start",
+     "source": "https://github.com/openai/openai-agents-python",
+     "checked": "2026-10-19",
+     "stars": 30139,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "MIT"
+    },
+    {
+     "name": "LangGraph",
+     "url": "https://www.langchain.com/langgraph",
+     "what": "Graph-based framework for long-running, stateful agents with human-in-the-loop steps.",
+     "repo": "langchain-ai/langgraph",
+     "free": "open source",
+     "free_src": "https://github.com/langchain-ai/langgraph",
+     "pick": null,
+     "level": "advanced",
+     "source": "https://github.com/langchain-ai/langgraph",
+     "checked": "2026-10-19",
+     "stars": 43510,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "MIT"
+    },
+    {
+     "name": "CrewAI",
+     "url": "https://www.crewai.com",
+     "what": "Framework for teams of role-based agents that hand work to each other.",
+     "repo": "crewAIInc/crewAI",
+     "free": "open source",
+     "free_src": "https://github.com/crewAIInc/crewAI",
+     "pick": null,
+     "level": null,
+     "source": "https://github.com/crewAIInc/crewAI",
+     "checked": "2026-10-19",
+     "stars": 59874,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "MIT"
+    },
+    {
+     "name": "Pydantic AI",
+     "url": "https://ai.pydantic.dev",
+     "what": "Type-safe Python agent framework from the Pydantic team.",
+     "repo": "pydantic/pydantic-ai",
+     "free": "open source",
+     "free_src": "https://github.com/pydantic/pydantic-ai",
+     "pick": null,
+     "level": null,
+     "source": "https://github.com/pydantic/pydantic-ai",
+     "checked": "2026-10-19",
+     "stars": 20732,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "MIT"
+    },
+    {
+     "name": "Mastra",
+     "url": "https://mastra.ai",
+     "what": "TypeScript framework for agents, workflows, RAG and evals.",
+     "repo": "mastra-ai/mastra",
+     "free": "open source",
+     "free_src": "https://github.com/mastra-ai/mastra",
+     "pick": null,
+     "level": null,
+     "source": "https://github.com/mastra-ai/mastra",
+     "checked": "2026-10-19",
+     "stars": 28911,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "NOASSERTION"
+    }
+   ]
+  },
+  {
+   "id": "evals",
+   "name": "Evals & observability",
+   "blurb": "Prove an agent works before the customer sees it, then trace what it did in production.",
+   "tools": [
+    {
+     "name": "promptfoo",
+     "url": "https://www.promptfoo.dev",
+     "what": "CLI for prompt and agent evals plus red-teaming, driven by a simple YAML config.",
+     "repo": "promptfoo/promptfoo",
+     "free": "open source",
+     "free_src": "https://github.com/promptfoo/promptfoo",
+     "pick": null,
+     "level": "start",
+     "source": "https://github.com/promptfoo/promptfoo",
+     "checked": "2026-10-19",
+     "stars": 26148,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "MIT"
+    },
+    {
+     "name": "Langfuse",
+     "url": "https://langfuse.com",
+     "what": "Open-source LLM tracing, prompt management and evals, cloud or self-hosted.",
+     "repo": "langfuse/langfuse",
+     "free": "open source",
+     "free_src": "https://langfuse.com/pricing",
+     "pick": null,
+     "level": "advanced",
+     "source": "https://github.com/langfuse/langfuse",
+     "checked": "2026-10-19",
+     "stars": 36028,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "NOASSERTION"
+    },
+    {
+     "name": "DeepEval",
+     "url": "https://deepeval.com",
+     "what": "Pytest-style unit tests for LLM outputs with ready-made metrics.",
+     "repo": "confident-ai/deepeval",
+     "free": "open source",
+     "free_src": "https://github.com/confident-ai/deepeval",
+     "pick": null,
+     "level": null,
+     "source": "https://github.com/confident-ai/deepeval",
+     "checked": "2026-10-19",
+     "stars": 18956,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "Apache-2.0"
+    },
+    {
+     "name": "Arize Phoenix",
+     "url": "https://phoenix.arize.com",
+     "what": "Open-source tracing and eval workbench built on OpenTelemetry.",
+     "repo": "Arize-ai/phoenix",
+     "free": "open source",
+     "free_src": "https://github.com/Arize-ai/phoenix",
+     "pick": null,
+     "level": null,
+     "source": "https://github.com/Arize-ai/phoenix",
+     "checked": "2026-10-19",
+     "stars": 11910,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "NOASSERTION"
+    },
+    {
+     "name": "LangSmith",
+     "url": "https://www.langchain.com/langsmith",
+     "what": "Hosted tracing, datasets and evals from LangChain, works with any framework.",
+     "repo": null,
+     "free": "yes",
+     "free_src": "https://www.langchain.com/pricing",
+     "pick": "Hosted and framework-agnostic, with a $0 Developer seat, so a customer POC can have traces on day one.",
+     "level": null,
+     "source": "https://www.langchain.com/langsmith",
+     "checked": "2026-10-19"
+    }
+   ]
+  },
+  {
+   "id": "demo-poc",
+   "name": "Demo & POC building",
+   "blurb": "Turn a customer's use case into something clickable, fast.",
+   "tools": [
+    {
+     "name": "Streamlit",
+     "url": "https://streamlit.io",
+     "what": "Python to a shareable data or chat app in a few lines, with free community hosting.",
+     "repo": "streamlit/streamlit",
+     "free": "open source",
+     "free_src": "https://streamlit.io/cloud",
+     "pick": null,
+     "level": null,
+     "source": "https://github.com/streamlit/streamlit",
+     "checked": "2026-10-19",
+     "stars": 46043,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "Apache-2.0"
+    },
+    {
+     "name": "Gradio",
+     "url": "https://www.gradio.app",
+     "what": "Python UI for model demos, shareable with a public link.",
+     "repo": "gradio-app/gradio",
+     "free": "open source",
+     "free_src": "https://github.com/gradio-app/gradio",
+     "pick": null,
+     "level": null,
+     "source": "https://github.com/gradio-app/gradio",
+     "checked": "2026-10-19",
+     "stars": 43806,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "Apache-2.0"
+    },
+    {
+     "name": "Vercel AI SDK",
+     "url": "https://ai-sdk.dev",
+     "what": "TypeScript toolkit for streaming chat, tool calls and agent UIs in Next.js and more.",
+     "repo": "vercel/ai",
+     "free": "open source",
+     "free_src": "https://github.com/vercel/ai",
+     "pick": null,
+     "level": "advanced",
+     "source": "https://github.com/vercel/ai",
+     "checked": "2026-10-19",
+     "stars": 27399,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "NOASSERTION"
+    },
+    {
+     "name": "v0",
+     "url": "https://v0.app",
+     "what": "Describe a UI or app in plain English and get a working Next.js build you can deploy.",
+     "repo": null,
+     "free": "yes",
+     "free_src": "https://v0.app/pricing",
+     "pick": "Fastest path from a discovery call to a clickable front end, no setup.",
+     "level": "start",
+     "source": "https://v0.app",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "Navattic",
+     "url": "https://www.navattic.com",
+     "what": "Interactive, click-through product demos built from captures of your app.",
+     "repo": null,
+     "free": "yes",
+     "free_src": "https://www.navattic.com/pricing",
+     "pick": "The interactive-demo tool on our presales tools list with a free plan (1 seat, 1 demo).",
+     "level": null,
+     "source": "https://www.navattic.com",
+     "checked": "2026-10-19"
+    }
+   ]
+  },
+  {
+   "id": "meetings",
+   "name": "Meeting notes & call intelligence",
+   "blurb": "Record, summarize and mine customer calls for requirements and follow-ups.",
+   "tools": [
+    {
+     "name": "Meetily",
+     "url": "https://meetily.ai",
+     "what": "Open-source meeting notetaker that transcribes and summarizes locally, so audio stays on your machine.",
+     "repo": "Zackriya-Solutions/meetily",
+     "free": "open source",
+     "free_src": "https://github.com/Zackriya-Solutions/meetily",
+     "pick": null,
+     "level": null,
+     "source": "https://github.com/Zackriya-Solutions/meetily",
+     "checked": "2026-10-19",
+     "stars": 31938,
+     "pushed": "2026-09-15",
+     "archived": false,
+     "license": "MIT"
+    },
+    {
+     "name": "Fathom",
+     "url": "https://www.fathom.video",
+     "what": "AI notetaker for Zoom, Meet and Teams with instant call summaries.",
+     "repo": null,
+     "free": "yes",
+     "free_src": "https://www.fathom.video/pricing",
+     "pick": "Free plan with unlimited recordings, so you can try it on every discovery call.",
+     "level": "start",
+     "source": "https://www.fathom.video",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "Granola",
+     "url": "https://www.granola.ai",
+     "what": "Notepad that adds AI notes on top of what you type during a meeting, no bot joins the call.",
+     "repo": null,
+     "free": "yes",
+     "free_src": "https://www.granola.ai/pricing",
+     "pick": "No meeting bot in the room, which some customers prefer.",
+     "level": null,
+     "source": "https://www.granola.ai",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "Otter.ai",
+     "url": "https://otter.ai",
+     "what": "Live transcription and meeting summaries with a free Basic plan.",
+     "repo": null,
+     "free": "yes",
+     "free_src": "https://otter.ai/pricing",
+     "pick": "Long-running, widely used transcription with a free Basic tier.",
+     "level": null,
+     "source": "https://otter.ai",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "Gong",
+     "url": "https://www.gong.io",
+     "what": "Revenue intelligence: call recording, deal tracking and coaching across a sales team.",
+     "repo": null,
+     "free": "not listed",
+     "free_src": "https://www.gong.io/pricing/",
+     "pick": "Team-wide call intelligence once your org records every call (pricing by proposal).",
+     "level": "advanced",
+     "source": "https://www.gong.io",
+     "checked": "2026-10-19"
+    }
+   ]
+  },
+  {
+   "id": "research",
+   "name": "Research & prospecting",
+   "blurb": "Research accounts and the web with sources, the input to every brief and first touch.",
+   "tools": [
+    {
+     "name": "Firecrawl",
+     "url": "https://www.firecrawl.dev",
+     "what": "Turns websites into clean markdown or structured data for agents, with a free plan.",
+     "repo": "firecrawl/firecrawl",
+     "free": "open source",
+     "free_src": "https://www.firecrawl.dev/pricing",
+     "pick": null,
+     "level": "advanced",
+     "source": "https://github.com/firecrawl/firecrawl",
+     "checked": "2026-10-19",
+     "stars": 193000,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "AGPL-3.0"
+    },
+    {
+     "name": "Crawl4AI",
+     "url": "https://docs.crawl4ai.com",
+     "what": "Open-source crawler that outputs LLM-ready markdown.",
+     "repo": "unclecode/crawl4ai",
+     "free": "open source",
+     "free_src": "https://github.com/unclecode/crawl4ai",
+     "pick": null,
+     "level": null,
+     "source": "https://github.com/unclecode/crawl4ai",
+     "checked": "2026-10-19",
+     "stars": 85839,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "Apache-2.0"
+    },
+    {
+     "name": "GPT Researcher",
+     "url": "https://gptr.dev",
+     "what": "Open-source deep-research agent that writes sourced reports on a topic.",
+     "repo": "assafelovic/gpt-researcher",
+     "free": "open source",
+     "free_src": "https://github.com/assafelovic/gpt-researcher",
+     "pick": null,
+     "level": null,
+     "source": "https://github.com/assafelovic/gpt-researcher",
+     "checked": "2026-10-19",
+     "stars": 30173,
+     "pushed": "2026-10-10",
+     "archived": false,
+     "license": "Apache-2.0"
+    },
+    {
+     "name": "Exa",
+     "url": "https://exa.ai",
+     "what": "Search engine and API built for AI research, with free starter credits.",
+     "repo": null,
+     "free": "yes",
+     "free_src": "https://exa.ai/pricing",
+     "pick": "Search in the browser first, then the same queries by API when you build an agent.",
+     "level": "start",
+     "source": "https://exa.ai",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "Tavily",
+     "url": "https://www.tavily.com",
+     "what": "Web search API for agents, with 1,000 free credits a month.",
+     "repo": null,
+     "free": "yes",
+     "free_src": "https://www.tavily.com/pricing",
+     "pick": "A common default search tool for agent frameworks, with a no-card free plan.",
+     "level": null,
+     "source": "https://www.tavily.com",
+     "checked": "2026-10-19"
+    }
+   ]
+  },
+  {
+   "id": "automation",
+   "name": "Workflow automation",
+   "blurb": "Wire tools and agents together on triggers and schedules.",
+   "tools": [
+    {
+     "name": "n8n",
+     "url": "https://n8n.io",
+     "what": "Workflow automation with AI agent nodes, self-hosted or cloud.",
+     "repo": "n8n-io/n8n",
+     "free": "open source",
+     "free_src": "https://n8n.io/pricing/",
+     "pick": null,
+     "level": "advanced",
+     "source": "https://github.com/n8n-io/n8n",
+     "checked": "2026-10-19",
+     "stars": 208002,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "NOASSERTION"
+    },
+    {
+     "name": "Dify",
+     "url": "https://dify.ai",
+     "what": "Open-source platform for building LLM apps and agent workflows visually.",
+     "repo": "langgenius/dify",
+     "free": "open source",
+     "free_src": "https://github.com/langgenius/dify",
+     "pick": null,
+     "level": null,
+     "source": "https://github.com/langgenius/dify",
+     "checked": "2026-10-19",
+     "stars": 158890,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "NOASSERTION"
+    },
+    {
+     "name": "Activepieces",
+     "url": "https://www.activepieces.com",
+     "what": "Open-source, Zapier-style automation with AI steps and MCP support.",
+     "repo": "activepieces/activepieces",
+     "free": "open source",
+     "free_src": "https://github.com/activepieces/activepieces",
+     "pick": null,
+     "level": null,
+     "source": "https://github.com/activepieces/activepieces",
+     "checked": "2026-10-19",
+     "stars": 25114,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "NOASSERTION"
+    },
+    {
+     "name": "Zapier",
+     "url": "https://zapier.com",
+     "what": "No-code automation across thousands of apps, with a free plan.",
+     "repo": null,
+     "free": "yes",
+     "free_src": "https://zapier.com/pricing",
+     "pick": "Gentlest start: most customer apps already have a Zapier connector.",
+     "level": "start",
+     "source": "https://zapier.com",
+     "checked": "2026-10-19"
+    }
+   ]
+  }
+ ],
+ "releases": [
+  {
+   "name": "Cline Cloud sessions (Cline v4.1.25)",
+   "url": "https://github.com/cline/cline/releases/tag/v4.1.25",
+   "date": "2026-10-16",
+   "category": "Coding agents",
+   "summary": "Runs a Cline coding task in a hosted sandbox on a GitHub repo and branch you choose, keeps it running after you close your editor and notifies you when it finishes. It is rolling out gradually and is turned on in Settings.",
+   "source": "2026-10-19.json",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Claude Code Code Review (GA)",
+   "url": "https://claude.com/resources/articles/code-review-is-now-generally-available",
+   "date": "2026-10-15",
+   "category": "Coding agents",
+   "summary": "Multi-agent reviewer that automatically checks every new GitHub pull request, verifies its findings and posts them as inline comments ranked by severity, with Quick, Standard or Deep levels set per repo.",
+   "source": "2026-10-19.json",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Claude Code desktop: parallel and nested sessions",
+   "url": "https://x.com/ClaudeDevs/status/2110445844675838148",
+   "date": "2026-10-14",
+   "category": "Coding agents",
+   "summary": "The Claude Code desktop app now starts sessions faster, saves reusable environments (folders, SSH or cloud, optional Git worktrees), and runs parallel tasks as nested sessions that report back to the main thread, with a sidebar showing which sessions are working or waiting.",
+   "source": "2026-10-19.json",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Claude Platform OpenTelemetry tracing (public beta)",
+   "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
+   "date": "2026-10-14",
+   "category": "Evals and observability",
+   "summary": "Sends OpenTelemetry traces for every agent turn, model call and tool use from Claude Managed Agents, the Messages API and the Claude SDKs to any OTLP tool, such as Langfuse, LangSmith, Braintrust, Datadog, Arize or New Relic.",
+   "source": "2026-10-19.json",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "ZoomInfo native n8n node (via GTM.AI)",
+   "url": "https://ir.zoominfo.com/news-releases/news-release-details/zoominfo-launches-native-integration-n8n-through-gtmai/",
+   "date": "2026-10-12",
+   "category": "Research and prospecting / Workflow automation",
+   "summary": "A verified n8n node, maintained by ZoomInfo, that searches contacts and companies, enriches records and monitors buyer intent at run time, and that n8n AI agents can also call as a tool.",
+   "source": "2026-10-19.json",
+   "checked": "2026-10-19"
+  }
+ ],
+ "gh_releases": [
+  {
+   "name": "LangGraph langgraph-cli==0.4.37",
+   "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.37",
+   "date": "2026-10-19",
+   "category": "Agent frameworks",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "n8n stable",
+   "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+   "date": "2026-10-19",
+   "category": "Workflow automation",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Claude Code v2.1.303",
+   "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
+   "date": "2026-10-18",
+   "category": "Coding agents",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Cline SDK v0.0.95",
+   "url": "https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.95",
+   "date": "2026-10-17",
+   "category": "Coding agents",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Pydantic AI v2.57.0 (2026-10-15)",
+   "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.57.0",
+   "date": "2026-10-16",
+   "category": "Agent frameworks",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Mastra October 15, 2026",
+   "url": "https://github.com/mastra-ai/mastra/releases/tag/%40mastra/core%401.78.0",
+   "date": "2026-10-16",
+   "category": "Agent frameworks",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Langfuse v4.63.0",
+   "url": "https://github.com/langfuse/langfuse/releases/tag/v4.63.0",
+   "date": "2026-10-16",
+   "category": "Evals & observability",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "DeepEval Setup wizard 0.1.0",
+   "url": "https://github.com/confident-ai/deepeval/releases/tag/setup-v0.1.0",
+   "date": "2026-10-16",
+   "category": "Evals & observability",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Arize Phoenix arize-phoenix: v20.23.0",
+   "url": "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.23.0",
+   "date": "2026-10-16",
+   "category": "Evals & observability",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Vercel AI SDK ai@7.0.143",
+   "url": "https://github.com/vercel/ai/releases/tag/ai%407.0.143",
+   "date": "2026-10-16",
+   "category": "Demo & POC building",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "OpenAI Codex 0.163.0",
+   "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
+   "date": "2026-10-15",
+   "category": "Coding agents",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "OpenAI Agents SDK v0.24.0",
+   "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0",
+   "date": "2026-10-15",
+   "category": "Agent frameworks",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "CrewAI 1.15.28",
+   "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.28",
+   "date": "2026-10-14",
+   "category": "Agent frameworks",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Streamlit 1.66.0",
+   "url": "https://github.com/streamlit/streamlit/releases/tag/1.66.0",
+   "date": "2026-10-14",
+   "category": "Demo & POC building",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Crawl4AI Release v0.9.5",
+   "url": "https://github.com/unclecode/crawl4ai/releases/tag/v0.9.5",
+   "date": "2026-10-14",
+   "category": "Research & prospecting",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Gemini CLI Release v0.64.0",
+   "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0",
+   "date": "2026-10-13",
+   "category": "Coding agents",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Activepieces 0.92.3",
+   "url": "https://github.com/activepieces/activepieces/releases/tag/0.92.3",
+   "date": "2026-10-12",
+   "category": "Workflow automation",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "promptfoo 0.124.1",
+   "url": "https://github.com/promptfoo/promptfoo/releases/tag/0.124.1",
+   "date": "2026-10-08",
+   "category": "Evals & observability",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "Gradio gradio@6.30.0",
+   "url": "https://github.com/gradio-app/gradio/releases/tag/gradio%406.30.0",
+   "date": "2026-10-08",
+   "category": "Demo & POC building",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  },
+  {
+   "name": "GPT Researcher Jev update and many bug fixes and improvements",
+   "url": "https://github.com/assafelovic/gpt-researcher/releases/tag/v3.7.0",
+   "date": "2026-09-26",
+   "category": "Research & prospecting",
+   "source": "GitHub releases API",
+   "checked": "2026-10-19"
+  }
+ ]
+}

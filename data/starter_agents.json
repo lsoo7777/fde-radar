@@ -1,0 +1,251 @@
+{
+ "checked": "2026-10-19",
+ "how_to_import": {
+  "name": "Templates for Grok Bot",
+  "url": "https://x.ai/bot/guides/templates-for-grok-bot",
+  "author": "Matt Palmer"
+ },
+ "excluded": "We leave out templates that auto-send email or messages, scrape or find email addresses, or make revenue claims.",
+ "jobs": [
+  {
+   "id": "account-research",
+   "name": "Account research",
+   "blurb": "A sourced brief on one account before a call: what changed, who matters, open questions.",
+   "agents": [
+    {
+     "name": "Account Research Desk",
+     "url": "https://x.ai/bot/marketplace/bots/account-book",
+     "author": "Anoop Baliga",
+     "where": "Grok Bot Marketplace",
+     "what": "Researches the companies you sell to and writes a pre-call brief and account plan from the public web and your notes. Never sends without you.",
+     "difficulty": "beginner",
+     "try_first": "Brief me on [COMPANY] before my call on [DATE]: what changed in the last 90 days, who I should know, and 3 questions to ask. Source and date every claim.",
+     "kind": "Grok Bot template",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "GTM Account Research",
+     "url": "https://x.ai/bot/marketplace/bots/account-research",
+     "author": "Stefan Markarian",
+     "where": "Grok Bot Marketplace",
+     "what": "Researches one account before a meeting or deal review: company changes, key people, relationship history, open questions, with sources. Routines start off and never send externally.",
+     "difficulty": "intermediate",
+     "try_first": "Research [COMPANY] for an SE-led discovery call: tech stack signals, recent launches, likely stakeholders, and the sources behind each finding.",
+     "kind": "Grok Bot template",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "Account research before the first call (kit skill)",
+     "url": "agent-skills-setup.html",
+     "author": "FDE Radar",
+     "where": "FDE Radar Playbook Kit",
+     "what": "A ready-made SKILL.md in our free kit (account-research-before-first-call). Drop it into Claude Code or Cursor; the guide shows how in 5 minutes.",
+     "difficulty": "beginner",
+     "try_first": "Use the account-research-before-first-call skill on [COMPANY]. Their site is [URL].",
+     "kind": "Kit skill + guide",
+     "checked": "2026-10-19"
+    }
+   ]
+  },
+  {
+   "id": "prospecting",
+   "name": "Prospecting that drafts, never sends",
+   "blurb": "Builds a short list and drafts the first touch. You read every draft and press send yourself.",
+   "agents": [
+    {
+     "name": "Set up a prospecting agent (our guide)",
+     "url": "prospecting-agent-setup.html",
+     "author": "FDE Radar",
+     "where": "FDE Radar guide",
+     "what": "Step-by-step: a prospecting agent that researches accounts and drafts messages, but never sends. Includes 2 copy-paste prompts (also in the kit).",
+     "difficulty": "beginner",
+     "try_first": "Find 5 companies that match [ICP]. For each, one sourced reason they might need [PRODUCT] now, and a 60-word first-touch draft. Do not send anything.",
+     "kind": "Our guide",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "Outbound Prospecting",
+     "url": "https://x.ai/bot/marketplace/bots/pg",
+     "author": "Krista Letz",
+     "where": "Grok Bot Marketplace",
+     "what": "Finds prospects that match your ideal customer, researches each on the public web and drafts a first message. Drafts by default; nothing sends without your yes.",
+     "difficulty": "intermediate",
+     "try_first": "Build a list of 10 [TITLE]s at [SEGMENT] companies and draft one opener each. Leave any fact without a source blank.",
+     "kind": "Grok Bot template",
+     "checked": "2026-10-19"
+    }
+   ]
+  },
+  {
+   "id": "meeting-prep",
+   "name": "Meeting & discovery prep",
+   "blurb": "Walk into every call with a brief, and walk out with a scored recap.",
+   "agents": [
+    {
+     "name": "Customer Call Coach & Assistant",
+     "url": "https://x.ai/bot/marketplace/bots/customer-call-coach",
+     "author": "Anoop Baliga",
+     "where": "Grok Bot Marketplace",
+     "what": "Briefs you before customer calls from your notes and past threads, then coaches you afterwards. Never sends Slack or email for you unless you ask for that specific message.",
+     "difficulty": "beginner",
+     "try_first": "I have a call with [COMPANY] at [TIME]. Pull what we know and give me a one-page brief with goals, risks and 5 discovery questions.",
+     "kind": "Grok Bot template",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "Sales Call Coach",
+     "url": "https://x.ai/bot/marketplace/bots/sales-call-coach",
+     "author": "Daniel Brill",
+     "where": "Grok Bot Marketplace",
+     "what": "Scores a sales call from a pasted transcript or recording and tells you the two or three things to fix before the next one.",
+     "difficulty": "beginner",
+     "try_first": "Here is the transcript of my last discovery call. Score it and tell me the 3 things to change next time.",
+     "kind": "Grok Bot template",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "Discovery to brief in 15 minutes (kit skill)",
+     "url": "agent-skills-setup.html",
+     "author": "FDE Radar",
+     "where": "FDE Radar Playbook Kit",
+     "what": "A SKILL.md in our free kit (discovery-to-brief-in-15-minutes) that turns a call transcript into a 5-bullet brief for your AE, lists unstated assumptions and drafts (never sends) a follow-up.",
+     "difficulty": "beginner",
+     "try_first": "Use the discovery-to-brief skill on these notes: [PASTE NOTES].",
+     "kind": "Kit skill + guide",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "Meeting Recap Deck",
+     "url": "https://x.ai/bot/marketplace/bots/echo",
+     "author": "Krista Letz",
+     "where": "Grok Bot Marketplace",
+     "what": "Turns one meeting's notes into a recap deck in your slide template: what you heard, next steps with owners and dates. Drafts only, never invents a quote.",
+     "difficulty": "intermediate",
+     "try_first": "Turn these notes from today's call with [COMPANY] into a 5-slide recap with next steps and owners: [PASTE NOTES].",
+     "kind": "Grok Bot template",
+     "checked": "2026-10-19"
+    }
+   ]
+  },
+  {
+   "id": "demo-poc",
+   "name": "Demo & POC builder",
+   "blurb": "From a customer's use case to something they can click, scoped so it gets signed.",
+   "agents": [
+    {
+     "name": "Tailored demo in an hour (kit skill)",
+     "url": "agent-skills-setup.html",
+     "author": "FDE Radar",
+     "where": "FDE Radar Playbook Kit",
+     "what": "A SKILL.md in our free kit (tailored-demo-in-an-hour) that maps the top 3 discovery pains to feature and outcome, builds realistic demo data and pre-mortems the demo as a skeptical buyer.",
+     "difficulty": "intermediate",
+     "try_first": "Use the tailored-demo skill. Customer: [COMPANY]. Their workflow: [DESCRIBE]. Give me the demo script and the 3 screens to build.",
+     "kind": "Kit skill + guide",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "Agent POC with evals (kit skill)",
+     "url": "agent-skills-setup.html",
+     "author": "FDE Radar",
+     "where": "FDE Radar Playbook Kit",
+     "what": "A SKILL.md in our free kit (agent-poc-with-evals) that scopes one narrow task, collects 20 to 50 real example inputs and reports a pass rate against agreed criteria.",
+     "difficulty": "advanced",
+     "try_first": "Use the agent-poc-with-evals skill for [USE CASE]. Draft 20 eval cases and the pass bar before writing any code.",
+     "kind": "Kit skill + guide",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "Proto Bot",
+     "url": "https://x.ai/bot/marketplace/bots/proto-bot",
+     "author": "Shub Gaur",
+     "where": "Grok Bot Marketplace",
+     "what": "Turns ideas into live prototypes in your real app as draft pull requests, with click-path screenshots and a short video. Never merges or publishes without your yes.",
+     "difficulty": "advanced",
+     "try_first": "Prototype this idea in [REPO] as a draft PR: [IDEA]. Send me screenshots of the click path.",
+     "kind": "Grok Bot template",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "Tech Demos",
+     "url": "https://x.ai/bot/marketplace/bots/tech-demos",
+     "author": "Matt Palmer",
+     "where": "Grok Bot Marketplace",
+     "what": "Weekday scout that picks one new library from your X bookmarks, asks for approval, then plans and builds a demo with a cloud coding agent.",
+     "difficulty": "advanced",
+     "try_first": "Pick one library from my bookmarks this week worth a 1-hour demo and tell me why before building anything.",
+     "kind": "Grok Bot template",
+     "checked": "2026-10-19"
+    }
+   ]
+  },
+  {
+   "id": "daily-briefing",
+   "name": "Daily briefing",
+   "blurb": "One short, linked brief each morning, so you are current before your first call.",
+   "agents": [
+    {
+     "name": "X Brief",
+     "url": "https://x.ai/bot/marketplace/bots/x-brief",
+     "author": "Dan McAteer",
+     "where": "Grok Bot Marketplace",
+     "what": "Turns the X accounts and topics you pick into one short daily brief with a link on every line. Never posts for you.",
+     "difficulty": "beginner",
+     "try_first": "Every weekday at 8 AM, brief me on posts from [HANDLES] and the topics \"forward deployed engineer\" and \"AI agents\". One line and one link per item.",
+     "kind": "Grok Bot template",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "Cooper",
+     "url": "https://x.ai/bot/marketplace/bots/cooper",
+     "author": "Tommy Hansen",
+     "where": "Grok Bot Marketplace",
+     "what": "News agent for AI, tech and business: a tight daily briefing of top stories, plus alerts only when something clears the bar.",
+     "difficulty": "beginner",
+     "try_first": "Give me today's top 5 AI-agent stories that matter to customers I sell to, each with setup, what happened and why it matters.",
+     "kind": "Grok Bot template",
+     "checked": "2026-10-19"
+    }
+   ]
+  },
+  {
+   "id": "content-research",
+   "name": "Content research",
+   "blurb": "Know what competitors ship and what people say, with a source on every line.",
+   "agents": [
+    {
+     "name": "Competitor Watch",
+     "url": "https://x.ai/bot/marketplace/bots/competitor-watching",
+     "author": "Shimecki",
+     "where": "Grok Bot Marketplace",
+     "what": "Tracks competitor pricing, product and hiring pages from URLs you paste and briefs you only on real changes, each with a source link.",
+     "difficulty": "beginner",
+     "try_first": "Watch these pages and tell me only what changed since last week: [URLS].",
+     "kind": "Grok Bot template",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "Overheard",
+     "url": "https://x.ai/bot/marketplace/bots/overheard",
+     "author": "Lenny Rachitsky",
+     "where": "Grok Bot Marketplace",
+     "what": "Watches Reddit, Hacker News, news sites and X for third-party mentions of your name, brand and URLs. Stays quiet on dead days and never posts.",
+     "difficulty": "beginner",
+     "try_first": "Watch for mentions of [BRAND] and [URL] and send me a short weekday digest only when there is something new.",
+     "kind": "Grok Bot template",
+     "checked": "2026-10-19"
+    },
+    {
+     "name": "SEO & AEO Desk",
+     "url": "https://x.ai/bot/marketplace/bots/seo-aeo-desk",
+     "author": "Adam Tanguay",
+     "where": "Grok Bot Marketplace",
+     "what": "Turns your keywords into content ideas and writer-ready briefs for search and AI answers. Drafts by default; never publishes without your yes.",
+     "difficulty": "intermediate",
+     "try_first": "Here are 10 keywords we care about: [LIST]. Give me 5 content ideas and one full brief for the best one.",
+     "kind": "Grok Bot template",
+     "checked": "2026-10-19"
+    }
+   ]
+  }
+ ]
+}
