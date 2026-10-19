@@ -1,0 +1,262 @@
+[
+ {
+  "id": "Ck-LeYlAVbY",
+  "title": "What is a Forward Deployed Engineer? (with Founding Rippling FDE)",
+  "channel": "Aced (formerly Exponent)",
+  "category": "FDE & deployment",
+  "url": "https://www.youtube.com/watch?v=Ck-LeYlAVbY",
+  "thumb": "https://i.ytimg.com/vi/Ck-LeYlAVbY/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "pauWCMTd9pE",
+  "title": "Interview Tips: Solution Engineer",
+  "channel": "Salesforce Careers & University",
+  "category": "SE & interviews",
+  "url": "https://www.youtube.com/watch?v=pauWCMTd9pE",
+  "thumb": "https://i.ytimg.com/vi/pauWCMTd9pE/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "D7_ipDqhtwk",
+  "title": "How We Build Effective Agents: Barry Zhang, Anthropic",
+  "channel": "AI Engineer",
+  "category": "Agent building",
+  "url": "https://www.youtube.com/watch?v=D7_ipDqhtwk",
+  "thumb": "https://i.ytimg.com/vi/D7_ipDqhtwk/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "LP5OCa20Zpg",
+  "title": "Tips for building AI agents",
+  "channel": "Anthropic",
+  "category": "Agent building",
+  "url": "https://www.youtube.com/watch?v=LP5OCa20Zpg",
+  "thumb": "https://i.ytimg.com/vi/LP5OCa20Zpg/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "uhJJgc-0iTQ",
+  "title": "Building more effective AI agents",
+  "channel": "Anthropic",
+  "category": "Agent building",
+  "url": "https://www.youtube.com/watch?v=uhJJgc-0iTQ",
+  "thumb": "https://i.ytimg.com/vi/uhJJgc-0iTQ/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "SGvJK-aruJ8",
+  "title": "Palantir's Forward Deployed Software Engineer - Revolution or Rebrand? | AA218",
+  "channel": "Arguing Agile",
+  "category": "FDE & deployment",
+  "url": "https://www.youtube.com/watch?v=SGvJK-aruJ8",
+  "thumb": "https://i.ytimg.com/vi/SGvJK-aruJ8/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "tipvkOko0H0",
+  "title": "I Interviewed a Palantir FDE - Here’s What Everyone Is Missing",
+  "channel": "Future Investing",
+  "category": "FDE & deployment",
+  "url": "https://www.youtube.com/watch?v=tipvkOko0H0",
+  "thumb": "https://i.ytimg.com/vi/tipvkOko0H0/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "VDzeQD9uikc",
+  "title": "PALANTIR'S 7TH AIPCon: Exclusive Interviews With Engineers & Customers.",
+  "channel": "Amit Kukreja",
+  "category": "FDE & deployment",
+  "url": "https://www.youtube.com/watch?v=VDzeQD9uikc",
+  "thumb": "https://i.ytimg.com/vi/VDzeQD9uikc/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "xQkSenlJvwA",
+  "title": "How Palantir built the ultimate founder factory | Nabeel S. Qureshi (founder, writer, ex-Palantir)",
+  "channel": "Lenny's Podcast",
+  "category": "FDE & deployment",
+  "url": "https://www.youtube.com/watch?v=xQkSenlJvwA",
+  "thumb": "https://i.ytimg.com/vi/xQkSenlJvwA/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "ObTPqBGsEbA",
+  "title": "The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks",
+  "channel": "AI Engineer",
+  "category": "FDE & deployment",
+  "url": "https://www.youtube.com/watch?v=ObTPqBGsEbA",
+  "thumb": "https://i.ytimg.com/vi/ObTPqBGsEbA/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "kQmXtrmQ5Zg",
+  "title": "Building Agents with Model Context Protocol - Full Workshop with Mahesh Murag of Anthropic",
+  "channel": "AI Engineer",
+  "category": "Agent building",
+  "url": "https://www.youtube.com/watch?v=kQmXtrmQ5Zg",
+  "thumb": "https://i.ytimg.com/vi/kQmXtrmQ5Zg/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "1uZl3e8GdsU",
+  "title": "\"MCP for dummies: Feed more context to LLM\" - Tarun Jain (PyCon AU 2025)",
+  "channel": "PyCon AU",
+  "category": "Agent building",
+  "url": "https://www.youtube.com/watch?v=1uZl3e8GdsU",
+  "thumb": "https://i.ytimg.com/vi/1uZl3e8GdsU/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "maai4tuDtoM",
+  "title": "Anatomy of a Successful Discovery Call",
+  "channel": "GitLab Unfiltered",
+  "category": "SE & interviews",
+  "url": "https://www.youtube.com/watch?v=maai4tuDtoM",
+  "thumb": "https://i.ytimg.com/vi/maai4tuDtoM/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "LCEmiRjPEtQ",
+  "title": "Andrej Karpathy: Software Is Changing (Again)",
+  "channel": "Y Combinator",
+  "category": "Agent building",
+  "url": "https://www.youtube.com/watch?v=LCEmiRjPEtQ",
+  "thumb": "https://i.ytimg.com/vi/LCEmiRjPEtQ/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "pBBe1pk8hf4",
+  "title": "What's next for AI agents ft. LangChain's Harrison Chase",
+  "channel": "Sequoia Capital",
+  "category": "Agent building",
+  "url": "https://www.youtube.com/watch?v=pBBe1pk8hf4",
+  "thumb": "https://i.ytimg.com/vi/pBBe1pk8hf4/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "7wu2hsRfvV0",
+  "title": "How Forward Deployed Engineering is done at Decagon — Sunny Rekhi",
+  "channel": "AI Engineer",
+  "category": "FDE & deployment",
+  "url": "https://www.youtube.com/watch?v=7wu2hsRfvV0",
+  "thumb": "https://i.ytimg.com/vi/7wu2hsRfvV0/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "wpOA-UXynoM",
+  "title": "How Forward Deployed Engineering is done at Factory — Eno Reyes",
+  "channel": "AI Engineer",
+  "category": "FDE & deployment",
+  "url": "https://www.youtube.com/watch?v=wpOA-UXynoM",
+  "thumb": "https://i.ytimg.com/vi/wpOA-UXynoM/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "7E-qdsVEoB8",
+  "title": "Build Hour: Agentic Tool Calling",
+  "channel": "OpenAI",
+  "category": "Agent building",
+  "url": "https://www.youtube.com/watch?v=7E-qdsVEoB8",
+  "thumb": "https://i.ytimg.com/vi/7E-qdsVEoB8/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "tK32trvj_b4",
+  "title": "Build Hour: Agents SDK",
+  "channel": "OpenAI",
+  "category": "Agent building",
+  "url": "https://www.youtube.com/watch?v=tK32trvj_b4",
+  "thumb": "https://i.ytimg.com/vi/tK32trvj_b4/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "WsGVXiWzTpI",
+  "title": "Build Hour: Agent Memory Patterns",
+  "channel": "OpenAI",
+  "category": "Agent building",
+  "url": "https://www.youtube.com/watch?v=WsGVXiWzTpI",
+  "thumb": "https://i.ytimg.com/vi/WsGVXiWzTpI/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "DZxaPNYi_k0",
+  "title": "How To Approach Your AI Evals",
+  "channel": "Hamel Husain",
+  "category": "Evals",
+  "url": "https://www.youtube.com/watch?v=DZxaPNYi_k0",
+  "thumb": "https://i.ytimg.com/vi/DZxaPNYi_k0/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "BsWxPI9UM4c",
+  "title": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar",
+  "channel": "Lenny's Podcast",
+  "category": "Evals",
+  "url": "https://www.youtube.com/watch?v=BsWxPI9UM4c",
+  "thumb": "https://i.ytimg.com/vi/BsWxPI9UM4c/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "GL0XhAj5LPE",
+  "title": "LLM Evals: Common Mistakes",
+  "channel": "Hamel Husain",
+  "category": "Evals",
+  "url": "https://www.youtube.com/watch?v=GL0XhAj5LPE",
+  "thumb": "https://i.ytimg.com/vi/GL0XhAj5LPE/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "uiza7wp1KrE",
+  "title": "AI Evaluations Clearly Explained in 50 Minutes (Real Example) | Hamel Husain",
+  "channel": "Peter Yang",
+  "category": "Evals",
+  "url": "https://www.youtube.com/watch?v=uiza7wp1KrE",
+  "thumb": "https://i.ytimg.com/vi/uiza7wp1KrE/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "5iaFb5A6Hug",
+  "title": "Solutions Architect Interview: Mock Discovery Call for Customer Needs (feat. Salesforce, Dropbox SA)",
+  "channel": "Aced (formerly Exponent)",
+  "category": "SE & interviews",
+  "url": "https://www.youtube.com/watch?v=5iaFb5A6Hug",
+  "thumb": "https://i.ytimg.com/vi/5iaFb5A6Hug/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ },
+ {
+  "id": "b_6XZCuzc8Q",
+  "title": "Solutions Architect Mock Interview - Product Demo of LabelBox and Databricks",
+  "channel": "Aced (formerly Exponent)",
+  "category": "SE & interviews",
+  "url": "https://www.youtube.com/watch?v=b_6XZCuzc8Q",
+  "thumb": "https://i.ytimg.com/vi/b_6XZCuzc8Q/hqdefault.jpg",
+  "source": "YouTube oEmbed",
+  "checked": "2026-10-19"
+ }
+]
