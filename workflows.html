@@ -418,4 +418,5 @@ function chip(b,f){F=f;$('.chips button').forEach(x=>x.setAttribute('aria-presse
 function menu(b){const o=document.getElementById('side').classList.toggle('open');b.setAttribute('aria-expanded',o)}
 document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key=='k'){e.preventDefault();document.getElementById('q').focus()}if(e.key=='Escape')document.getElementById('side').classList.remove('open')});
 paint();
+(function(){const q=document.getElementById('q');if(!q)return;const u=new URLSearchParams(location.search).get('q');if(u){q.value=u;go()}q.addEventListener('keydown',e=>{if(e.key=='Enter'){e.preventDefault();const v=q.value.trim();if(!v)return;if(location.pathname.endsWith('/search.html')){history.replaceState(null,'','?q='+encodeURIComponent(v));go();const r=document.getElementById('sr');if(r)r.scrollIntoView()}else location.href='/search.html?q='+encodeURIComponent(v)}})})();
 </script></body></html>
