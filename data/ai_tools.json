@@ -337,7 +337,7 @@
   }
  ],
  "new_releases": "read /workspace/fde-hub/new-releases/*.json",
- "method": "Start here and Advanced are our picks (labeled \"Our pick\" with a reason). Open-source tools show GitHub stars and last commit from the public GitHub API with the date checked, refreshed daily; alternatives are sorted by stars. Public signals only, nothing paid, any featured spot labeled.",
+ "method": "Start here and Advanced are our picks (labeled \"Our pick\" with a reason). Tools with public GitHub repos show GitHub stars and last commit from the public GitHub API with the date checked, refreshed daily; alternatives are sorted by stars. Public signals only, nothing paid, any featured spot labeled.",
  "releases": [
   {
    "name": "Cline Cloud sessions (Cline v4.1.25)",
