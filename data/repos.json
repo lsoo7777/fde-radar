@@ -10,7 +10,7 @@
  },
  {
   "repo": "crewAIInc/crewAI",
-  "stars": 59877,
+  "stars": 59878,
   "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
   "url": "https://github.com/crewAIInc/crewAI",
   "pushed": "2026-10-19",
@@ -55,7 +55,7 @@
  },
  {
   "repo": "anthropics/claude-cookbooks",
-  "stars": 53575,
+  "stars": 53576,
   "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
   "url": "https://github.com/anthropics/claude-cookbooks",
   "pushed": "2026-10-17",
@@ -127,7 +127,7 @@
  },
  {
   "repo": "run-llama/llama_index",
-  "stars": 52568,
+  "stars": 52569,
   "description": "LlamaIndex is the document processing platform for AI",
   "url": "https://github.com/run-llama/llama_index",
   "pushed": "2026-10-14",
@@ -185,7 +185,7 @@
  },
  {
   "repo": "ollama/ollama",
-  "stars": 183849,
+  "stars": 183850,
   "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
   "url": "https://github.com/ollama/ollama",
   "group": "Indie starter",
