@@ -1,6 +1,6 @@
 ---
 name: integration-debugging-loop
-description: "FDE implementation workflow: Integration debugging loop. Use when a forward deployed or solutions engineer asks for help with integration debugging loop."
+description: "Use when a customer integration is failing (API errors, webhooks, auth, timeouts): triages pasted logs and request/response pairs into 3 ranked root causes with the next diagnostic step for each, then writes a runbook entry and a plain-English customer summary. Triggers: \"debug this integration\", \"why is this API call failing\", \"triage these logs\"."
 ---
 
 # Integration debugging loop
@@ -8,9 +8,9 @@ description: "FDE implementation workflow: Integration debugging loop. Use when 
 Run this workflow with the user step by step. Ask for any missing input before starting, use only facts the user provides, and mark anything you had to assume as ASSUMPTION.
 
 ## Steps
-1. Reproduce the issue and capture logs, request/response and environment.
+1. Reproduce the issue and capture logs, request/response and environment. Redact tokens, API keys, passwords and personal data before pasting anything into an AI tool.
 2. Paste logs into the triage prompt for ranked root causes.
-3. Test the top hypothesis with Postman or a small script.
+3. The user tests the top hypothesis with Postman, curl or a small script, and pastes the result back.
 4. Document the fix as a runbook entry.
 5. Share a plain-English summary with the customer.
 

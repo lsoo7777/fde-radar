@@ -1,6 +1,6 @@
 ---
 name: poc-scope-that-gets-signed
-description: "FDE POC workflow: POC scope that gets signed. Use when a forward deployed or solutions engineer asks for help with POC scope that gets signed."
+description: "Use when scoping a customer proof of concept: drafts a one-page POC scope (objective, 3-5 measurable success criteria, in/out of scope, data needed, weekly timeline, owners, exit decision) and pressure-tests each criterion into pass/fail tests. Triggers: \"scope a POC\", \"success criteria\", \"POC plan\"."
 ---
 
 # POC scope that gets signed
@@ -12,7 +12,7 @@ Run this workflow with the user step by step. Ask for any missing input before s
 2. Pressure-test each success criterion for measurability.
 3. Review with the champion; agree on pass/fail before kickoff.
 4. Turn the timeline into a shared checklist with dates.
-5. Send a recap email confirming criteria in writing.
+5. Draft a recap email confirming criteria in writing for the user to review and send.
 
 ## Prompts
 

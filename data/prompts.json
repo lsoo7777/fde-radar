@@ -1,112 +1,127 @@
 [
- {
-  "category": "Discovery",
-  "title": "Discovery call prep",
-  "prompt": "I have a discovery call with [COMPANY], a [INDUSTRY] company, with [ROLE OF ATTENDEES]. Our product does [ONE-LINE PRODUCT]. Using only public info I paste below, list: 5 likely business pains, 10 open-ended discovery questions ranked by importance, and 3 signals that this is NOT a fit. Info: [PASTE]"
- },
- {
-  "category": "Discovery",
-  "title": "Turn call notes into a deal summary",
-  "prompt": "Here are raw notes from a discovery call: [PASTE]. Rewrite them as: current state, desired outcome, metrics they care about, decision process, technical environment, risks, and open questions. Flag anything I assumed but they did not say."
- },
- {
-  "category": "Discovery",
-  "title": "Map the stakeholders",
-  "prompt": "From this email thread and call notes [PASTE], build a stakeholder map: name, title, what they care about, likely objection, influence (high/med/low). Suggest one question to ask each person next."
- },
- {
-  "category": "Demo prep",
-  "title": "Build a tailored demo story",
-  "prompt": "Our product features: [LIST]. Prospect pains from discovery: [LIST]. Build a 20-minute demo flow: opening hook tied to their top pain, 3 scenes (pain → feature → outcome), and a close asking for a specific next step. Cut any feature that doesn't map to a pain."
- },
- {
-  "category": "Demo prep",
-  "title": "Generate realistic demo data",
-  "prompt": "Generate 25 rows of realistic but fake sample data for a [INDUSTRY] demo of [USE CASE] as CSV with columns [COLUMNS]. Include 3 edge cases that would make the demo more convincing. No real company or person names."
- },
- {
-  "category": "Demo prep",
-  "title": "Pre-mortem my demo",
-  "prompt": "Here is my demo outline: [PASTE]. Act as a skeptical [BUYER ROLE]. List the 7 moments where you would lose interest or push back, and how I should fix each."
- },
- {
-  "category": "POC scoping",
-  "title": "Scope a proof of concept",
-  "prompt": "Draft a POC scope for [COMPANY] testing [PRODUCT] for [USE CASE]. Include: objective, 3–5 measurable success criteria, in/out of scope, data and access needed from them, timeline by week, owners on both sides, and exit decision. Keep it to one page."
- },
- {
-  "category": "POC scoping",
-  "title": "Pressure-test success criteria",
-  "prompt": "Here are proposed POC success criteria: [PASTE]. For each, say if it is measurable, who measures it, how it could be gamed or misread, and rewrite vague ones into concrete pass/fail tests."
- },
- {
-  "category": "POC scoping",
-  "title": "Data and security questionnaire prep",
-  "prompt": "The customer sent this security/IT questionnaire: [PASTE]. Using our documentation [PASTE], draft answers. Mark any question where our docs don't clearly support an answer as NEEDS REVIEW instead of guessing."
- },
- {
-  "category": "Technical writeups",
-  "title": "Architecture explainer for execs",
-  "prompt": "Explain this integration architecture [PASTE DIAGRAM DESCRIPTION OR NOTES] to a non-technical VP in under 200 words: what connects to what, where their data goes, and what their team has to do. No jargon without a plain-English gloss."
- },
- {
-  "category": "Technical writeups",
-  "title": "Write a solution design doc",
-  "prompt": "Turn these notes into a solution design doc with sections: context, requirements, proposed design, integrations, data flow, security considerations, alternatives considered, open questions. Notes: [PASTE]"
- },
- {
-  "category": "Technical writeups",
-  "title": "Debug log triage",
-  "prompt": "Here is an error log from a customer environment: [PASTE]. Summarize what likely failed, the 3 most probable root causes in order, and the exact next diagnostic step for each. Say clearly if the log is insufficient."
- },
- {
-  "category": "Objection handling",
-  "title": "Objection response drafts",
-  "prompt": "Prospect objection: \"[OBJECTION]\". Context: [DEAL CONTEXT]. Give 3 responses: one that asks a clarifying question, one that reframes with a business outcome, one that offers proof (POC, reference, doc). Keep each under 60 words."
- },
- {
-  "category": "Objection handling",
-  "title": "Competitive positioning",
-  "prompt": "We're competing with [COMPETITOR] for [USE CASE]. From the public info I paste [PASTE], list where they are genuinely stronger, where we are, and 4 discovery questions that surface our strengths honestly. Don't invent claims about them."
- },
- {
-  "category": "Objection handling",
-  "title": "Build vs buy rebuttal",
-  "prompt": "The customer's engineering team says they can build this in-house. Draft a respectful talk track covering total cost of ownership, time to value, maintenance, and what they'd still own. Include 3 questions to quantify their build estimate."
- },
- {
-  "category": "Implementation plans",
-  "title": "30-60-90 implementation plan",
-  "prompt": "Create a 30-60-90 day implementation plan for [CUSTOMER] deploying [PRODUCT] for [USE CASE] with [TEAM SIZE]. Include milestones, dependencies, customer-side owners, risks, and what 'live' means at day 90."
- },
- {
-  "category": "Implementation plans",
-  "title": "Risk register",
-  "prompt": "From this project plan [PASTE], build a risk register table: risk, likelihood, impact, early warning sign, mitigation, owner. Add 3 risks the plan doesn't mention but deployments like this commonly hit."
- },
- {
-  "category": "Implementation plans",
-  "title": "Runbook from tribal knowledge",
-  "prompt": "Here's a messy Slack thread about how we set up [SYSTEM] for a customer: [PASTE]. Turn it into a numbered runbook with prerequisites, steps, verification checks, and rollback steps."
- },
- {
-  "category": "Stakeholder updates",
-  "title": "Weekly customer status update",
-  "prompt": "Write a weekly status email for [CUSTOMER] from these notes [PASTE]: green/yellow/red status, done this week, next week, blockers needing their action (with owner and date), decisions needed. Under 200 words."
- },
- {
-  "category": "Stakeholder updates",
-  "title": "Escalation email",
-  "prompt": "Draft a calm escalation email to [CUSTOMER EXEC] about [ISSUE]: what happened, impact, what we've done, what we need from them, and the date of the next update. No blame, no hedging."
- },
- {
-  "category": "Stakeholder updates",
-  "title": "Internal deal debrief",
-  "prompt": "Summarize this deal for my internal team from these notes [PASTE]: why we won/lost, what the customer actually valued, product gaps raised, and 3 lessons for the next similar deal."
- },
- {
-  "category": "Stakeholder updates",
-  "title": "Executive business review",
-  "prompt": "Draft an EBR outline for [CUSTOMER] after [N] months using these usage metrics and outcomes [PASTE]: goals vs results, value delivered, adoption gaps, roadmap asks, and a proposed expansion next step. Only use the numbers provided."
- }
+  {
+    "category": "Discovery",
+    "title": "Discovery call prep",
+    "prompt": "I have a discovery call with [COMPANY], a [INDUSTRY] company, with [ROLE OF ATTENDEES]. Our product does [ONE-LINE PRODUCT]. Using only public info I paste below, list: 5 likely business pains, 10 open-ended discovery questions ranked by importance, and 3 signals that this is NOT a fit. Info: [PASTE]"
+  },
+  {
+    "category": "Discovery",
+    "title": "Turn call notes into a deal summary",
+    "prompt": "Here are raw notes from a discovery call: [PASTE]. Rewrite them as: current state, desired outcome, metrics they care about, decision process, technical environment, risks, and open questions. Flag anything I assumed but they did not say."
+  },
+  {
+    "category": "Discovery",
+    "title": "Map the stakeholders",
+    "prompt": "From this email thread and call notes [PASTE], build a stakeholder map: name, title, what they care about, likely objection, influence (high/med/low). Suggest one question to ask each person next."
+  },
+  {
+    "category": "Demo prep",
+    "title": "Build a tailored demo story",
+    "prompt": "Our product features: [LIST]. Prospect pains from discovery: [LIST]. Build a 20-minute demo flow: opening hook tied to their top pain, 3 scenes (pain → feature → outcome), and a close asking for a specific next step. Cut any feature that doesn't map to a pain."
+  },
+  {
+    "category": "Demo prep",
+    "title": "Generate realistic demo data",
+    "prompt": "Generate 25 rows of realistic but fake sample data for a [INDUSTRY] demo of [USE CASE] as CSV with columns [COLUMNS]. Include 3 edge cases that would make the demo more convincing. No real company or person names."
+  },
+  {
+    "category": "Demo prep",
+    "title": "Pre-mortem my demo",
+    "prompt": "Here is my demo outline: [PASTE]. Act as a skeptical [BUYER ROLE]. List the 7 moments where you would lose interest or push back, and how I should fix each."
+  },
+  {
+    "category": "POC scoping",
+    "title": "Scope a proof of concept",
+    "prompt": "Draft a POC scope for [COMPANY] testing [PRODUCT] for [USE CASE]. Include: objective, 3–5 measurable success criteria, in/out of scope, data and access needed from them, timeline by week, owners on both sides, and exit decision. Keep it to one page."
+  },
+  {
+    "category": "POC scoping",
+    "title": "Pressure-test success criteria",
+    "prompt": "Here are proposed POC success criteria: [PASTE]. For each, say if it is measurable, who measures it, how it could be gamed or misread, and rewrite vague ones into concrete pass/fail tests."
+  },
+  {
+    "category": "POC scoping",
+    "title": "Data and security questionnaire prep",
+    "prompt": "The customer sent this security/IT questionnaire: [PASTE]. Using our documentation [PASTE], draft answers. Mark any question where our docs don't clearly support an answer as NEEDS REVIEW instead of guessing."
+  },
+  {
+    "category": "Technical writeups",
+    "title": "Architecture explainer for execs",
+    "prompt": "Explain this integration architecture [PASTE DIAGRAM DESCRIPTION OR NOTES] to a non-technical VP in under 200 words: what connects to what, where their data goes, and what their team has to do. No jargon without a plain-English gloss."
+  },
+  {
+    "category": "Technical writeups",
+    "title": "Write a solution design doc",
+    "prompt": "Turn these notes into a solution design doc with sections: context, requirements, proposed design, integrations, data flow, security considerations, alternatives considered, open questions. Notes: [PASTE]"
+  },
+  {
+    "category": "Technical writeups",
+    "title": "Debug log triage",
+    "prompt": "Here is an error log from a customer environment: [PASTE]. Summarize what likely failed, the 3 most probable root causes in order, and the exact next diagnostic step for each. Say clearly if the log is insufficient."
+  },
+  {
+    "category": "Objection handling",
+    "title": "Objection response drafts",
+    "prompt": "Prospect objection: \"[OBJECTION]\". Context: [DEAL CONTEXT]. Give 3 responses: one that asks a clarifying question, one that reframes with a business outcome, one that offers proof (POC, reference, doc). Keep each under 60 words."
+  },
+  {
+    "category": "Objection handling",
+    "title": "Competitive positioning",
+    "prompt": "We're competing with [COMPETITOR] for [USE CASE]. From the public info I paste [PASTE], list where they are genuinely stronger, where we are, and 4 discovery questions that surface our strengths honestly. Don't invent claims about them."
+  },
+  {
+    "category": "Objection handling",
+    "title": "Build vs buy rebuttal",
+    "prompt": "The customer's engineering team says they can build this in-house. Draft a respectful talk track covering total cost of ownership, time to value, maintenance, and what they'd still own. Include 3 questions to quantify their build estimate."
+  },
+  {
+    "category": "Implementation plans",
+    "title": "30-60-90 implementation plan",
+    "prompt": "Create a 30-60-90 day implementation plan for [CUSTOMER] deploying [PRODUCT] for [USE CASE] with [TEAM SIZE]. Include milestones, dependencies, customer-side owners, risks, and what 'live' means at day 90. Use TBD for any owner or date I haven't given you."
+  },
+  {
+    "category": "Implementation plans",
+    "title": "Risk register",
+    "prompt": "From this project plan [PASTE], build a risk register table: risk, likelihood, impact, early warning sign, mitigation, owner. Add 3 risks the plan doesn't mention but deployments like this commonly hit, labeled GENERIC."
+  },
+  {
+    "category": "Implementation plans",
+    "title": "Runbook from tribal knowledge",
+    "prompt": "Here's a messy Slack thread about how we set up [SYSTEM] for a customer: [PASTE]. Turn it into a numbered runbook with prerequisites, steps, verification checks, and rollback steps. Mark anything the thread doesn't cover as GAP instead of filling it in."
+  },
+  {
+    "category": "Stakeholder updates",
+    "title": "Weekly customer status update",
+    "prompt": "Write a weekly status email for [CUSTOMER] from these notes [PASTE]: green/yellow/red status, done this week, next week, blockers needing their action (with owner and date), decisions needed. Under 200 words."
+  },
+  {
+    "category": "Stakeholder updates",
+    "title": "Escalation email",
+    "prompt": "Draft a calm escalation email to [CUSTOMER EXEC] about [ISSUE]: what happened, impact, what we've done, what we need from them, and the date of the next update (use [DATE] if I haven't given one). No blame, no hedging."
+  },
+  {
+    "category": "Stakeholder updates",
+    "title": "Internal deal debrief",
+    "prompt": "Summarize this deal for my internal team from these notes [PASTE]: why we won/lost, what the customer actually valued, product gaps raised (each with a verbatim quote from the notes or \"no quote\", a theme, and the deal size), and 3 lessons for the next similar deal."
+  },
+  {
+    "category": "Stakeholder updates",
+    "title": "Executive business review",
+    "prompt": "Draft an EBR outline for [CUSTOMER] after [N] months using these usage metrics and outcomes [PASTE]: goals vs results, value delivered, adoption gaps, roadmap asks, and a proposed expansion next step. Only use the numbers provided."
+  },
+  {
+    "category": "Discovery",
+    "title": "AE brief and follow-up email",
+    "prompt": "From this corrected deal summary [PASTE], write (1) a 5-bullet brief for my account executive: pain, deadline, must-haves, buying path, next step with date, and (2) a short follow-up email to the customer recapping what we heard and the agreed next steps. Use only facts in the summary."
+  },
+  {
+    "category": "POC scoping",
+    "title": "Build the eval set",
+    "prompt": "Here is the agent's task: [TASK]. Here are real example inputs, shared with permission: [PASTE]. For each input, write the expected output and 1-3 pass/fail checks a script or reviewer can apply. Mark ambiguous inputs AMBIGUOUS instead of choosing an answer, and list them for the customer to label."
+  },
+  {
+    "category": "POC scoping",
+    "title": "Pass-rate report",
+    "prompt": "Agreed criteria: [PASTE]. Eval results: [PASTE]. Report the pass rate for each criterion with counts (e.g. 27/30), say pass or fail against each threshold, list the failing ids, and give one concrete next fix. Use only the numbers provided.\n\n(To agree the criteria first, use the poc-scope-that-gets-signed skill.)"
+  }
 ]

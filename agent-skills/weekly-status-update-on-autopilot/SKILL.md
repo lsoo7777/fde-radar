@@ -1,6 +1,6 @@
 ---
 name: weekly-status-update-on-autopilot
-description: "FDE stakeholders workflow: Weekly status update on autopilot. Use when a forward deployed or solutions engineer asks for help with weekly status update on autopilot."
+description: "Use on Fridays (or any week end) to turn a customer's running notes into a weekly status email: red/yellow/green, done, next, blockers with owner and date, decisions needed, under 200 words; plus a calm escalation email for any red item. Triggers: \"weekly status update\", \"customer status email\", \"escalation email\"."
 ---
 
 # Weekly status update on autopilot
@@ -11,7 +11,7 @@ Run this workflow with the user step by step. Ask for any missing input before s
 1. Keep a running notes doc per customer during the week.
 2. Friday: paste notes into the status prompt (RAG status, done, next, blockers).
 3. Check every owner and date is real.
-4. Send it and pin it in the shared channel.
+4. Return the email as a draft. The user sends it and pins it in the shared channel.
 5. Escalate any red item with the escalation prompt the same day.
 
 ## Prompts
@@ -22,7 +22,7 @@ Write a weekly status email for [CUSTOMER] from these notes [PASTE]: green/yello
 
 ### Escalation email
 
-Draft a calm escalation email to [CUSTOMER EXEC] about [ISSUE]: what happened, impact, what we've done, what we need from them, and the date of the next update. No blame, no hedging.
+Draft a calm escalation email to [CUSTOMER EXEC] about [ISSUE]: what happened, impact, what we've done, what we need from them, and the date of the next update (use [DATE] if I haven't given one). No blame, no hedging.
 
 ## Rules
 

@@ -1,6 +1,6 @@
 ---
 name: security-questionnaire-first-pass
-description: "FDE security workflow: Security questionnaire first pass. Use when a forward deployed or solutions engineer asks for help with security questionnaire first pass."
+description: "Use when a customer sends a security, IT or vendor-risk questionnaire: drafts answers only from your approved security docs (SOC 2 summary, DPA, architecture) and marks anything unsupported NEEDS REVIEW. Triggers: \"fill out this security questionnaire\", \"vendor assessment\", \"SIG / CAIQ answers\"."
 ---
 
 # Security questionnaire first pass
@@ -11,7 +11,7 @@ Run this workflow with the user step by step. Ask for any missing input before s
 1. Gather your approved security docs (SOC 2 summary, DPA, architecture).
 2. Prompt the AI to answer only from those docs and mark gaps NEEDS REVIEW.
 3. Route NEEDS REVIEW items to security/legal owners.
-4. Store final answers in your RFP tool (e.g. Loopio, Responsive) for reuse.
+4. Store final, approved answers in your RFP tool (e.g. Loopio, or Responsive, formerly RFPIO) for reuse.
 5. Track turnaround time per questionnaire.
 
 ## Prompts

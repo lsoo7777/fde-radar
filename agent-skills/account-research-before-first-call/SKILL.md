@@ -1,6 +1,6 @@
 ---
 name: account-research-before-first-call
-description: "FDE discovery workflow: Account research before first call. Use when a forward deployed or solutions engineer asks for help with account research before first call."
+description: "Use before a first call with a new prospect to turn the company's public info (site, 10-K, press releases, attendee titles) into a one-page call plan: likely pains as hypotheses, 10 ranked discovery questions and 3 not-a-fit signals. Triggers: \"prep me for my first call with X\", \"research this account\"."
 ---
 
 # Account research before first call
@@ -8,11 +8,11 @@ description: "FDE discovery workflow: Account research before first call. Use wh
 Run this workflow with the user step by step. Ask for any missing input before starting, use only facts the user provides, and mark anything you had to assume as ASSUMPTION.
 
 ## Steps
-1. Collect the company's site, latest 10-K or press releases and the attendees' LinkedIn roles.
-2. Prompt: summarize business model, likely priorities, recent changes.
+1. Ask the user to paste the company's public info (site pages, latest 10-K or press releases) and the attendees' titles. If you have web access, you may read public pages yourself; cite the URL for every fact. Do not scrape LinkedIn.
+2. Summarize business model, recent changes and likely priorities. Label every inferred pain or priority HYPOTHESIS.
 3. Generate 10 discovery questions ranked by importance.
 4. Flag 3 'not a fit' signals to watch for.
-5. Save it as a one-page call plan.
+5. Return a one-page call plan with these sections: business model, recent changes, likely pains (hypotheses), 10 ranked questions, 3 not-a-fit signals, open questions.
 
 ## Prompts
 

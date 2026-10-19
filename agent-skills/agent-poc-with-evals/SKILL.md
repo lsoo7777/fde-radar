@@ -1,6 +1,6 @@
 ---
 name: agent-poc-with-evals
-description: "FDE POC workflow: Agent POC with evals. Use when a forward deployed or solutions engineer asks for help with agent POC with evals."
+description: "Use when building an AI-agent proof of concept for a customer and you need evidence it works: turns 20-50 real example inputs into an eval set with expected outputs and pass/fail checks, and reports pass rate against agreed criteria. Triggers: \"evals for my agent POC\", \"test cases for this agent\", \"pass rate report\"."
 ---
 
 # Agent POC with evals
@@ -10,19 +10,21 @@ Run this workflow with the user step by step. Ask for any missing input before s
 ## Steps
 1. Pick one narrow task and collect 20–50 real example inputs (with permission).
 2. Build the first version with an agent framework (e.g. LangGraph, OpenAI Agents SDK).
-3. Write expected outputs and run them through an eval tool (e.g. promptfoo, DeepEval).
-4. Trace failures with an observability tool (e.g. Langfuse, LangSmith).
-5. Report pass rate against the agreed criteria, not vibes.
+3. Write expected outputs and pass/fail checks for each input (first prompt), then run them through an eval tool (e.g. promptfoo, now part of OpenAI and still MIT open source, or DeepEval).
+4. Trace failures with an observability tool (e.g. Langfuse, now part of ClickHouse and still open source, or LangSmith).
+5. Report pass rate against the agreed criteria with the second prompt, not vibes. A zero-tolerance check that fails means the POC fails, whatever the average.
 
 ## Prompts
 
-### Scope a proof of concept
+### Build the eval set
 
-Draft a POC scope for [COMPANY] testing [PRODUCT] for [USE CASE]. Include: objective, 3–5 measurable success criteria, in/out of scope, data and access needed from them, timeline by week, owners on both sides, and exit decision. Keep it to one page.
+Here is the agent's task: [TASK]. Here are real example inputs, shared with permission: [PASTE]. For each input, write the expected output and 1-3 pass/fail checks a script or reviewer can apply. Mark ambiguous inputs AMBIGUOUS instead of choosing an answer, and list them for the customer to label.
 
-### Pressure-test success criteria
+### Pass-rate report
 
-Here are proposed POC success criteria: [PASTE]. For each, say if it is measurable, who measures it, how it could be gamed or misread, and rewrite vague ones into concrete pass/fail tests.
+Agreed criteria: [PASTE]. Eval results: [PASTE]. Report the pass rate for each criterion with counts (e.g. 27/30), say pass or fail against each threshold, list the failing ids, and give one concrete next fix. Use only the numbers provided.
+
+(To agree the criteria first, use the poc-scope-that-gets-signed skill.)
 
 ## Rules
 

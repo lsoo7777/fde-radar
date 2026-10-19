@@ -1,0 +1,95 @@
+{
+  "checked": "2026-10-19",
+  "lede": "Hand-picked pieces on agents, evals and skills from authors whose work you can check. We link to the original; the words are theirs.",
+  "articles": [
+    {
+      "title": "Using Claude Code: Spending your effort",
+      "author": "Thariq",
+      "handle": "@trq212",
+      "url": "https://x.com/trq212/status/2103576349499855160",
+      "date": "2026-09-25",
+      "date_label": "Sep 25, 2026",
+      "summary": "His working loop: interview, then build on low/medium, then verify on high.",
+      "disc": null,
+      "repo": null
+    },
+    {
+      "title": "Jev-as-a-Judge for Agent Evaluations",
+      "author": "elvis",
+      "handle": "@omarsar0",
+      "url": "https://x.com/omarsar0/status/2107472222398886011",
+      "date": "2026-10-06",
+      "date_label": "Oct 6, 2026",
+      "summary": "Using the Jev model as an LLM judge for agent evals, with a refund-agent example that checks tool calls, not just the final reply.",
+      "disc": null,
+      "repo": null
+    },
+    {
+      "title": "Skill Deep Dive: what every SKILL.md costs you in Claude Code and Codex",
+      "author": "EK",
+      "handle": "@ekcheungAI",
+      "url": "https://x.com/ekcheungAI/status/2111834671164346422",
+      "date": "2026-10-18",
+      "date_label": "Oct 18, 2026",
+      "summary": "Advice: put the use case first in the description.",
+      "disc": null,
+      "repo": null
+    },
+    {
+      "title": "Ship Code at Scale with Grok Bot and Cursor: people and Bots in one thread",
+      "author": "Tibor (Tee)",
+      "handle": "@tibor_tee",
+      "url": "https://x.com/tibor_tee/status/2111397316427149510",
+      "date": "2026-10-17",
+      "date_label": "Oct 17, 2026",
+      "summary": "People and bots in one thread, trust built step by step, and when to use the Bot Development Kit.",
+      "disc": null,
+      "repo": null
+    },
+    {
+      "title": "Simple is not always better (and it’s often worse)",
+      "author": "Santiago",
+      "handle": "@svpino",
+      "url": "https://x.com/svpino/status/2111074033588412530",
+      "date": "2026-10-16",
+      "date_label": "Oct 16, 2026",
+      "summary": "A warehouse note in the tool output caused an unwanted refund, so he splits responsibilities across agents with guardrails.",
+      "disc": "Sponsored: “thanks to Google Cloud for collaborating with me on this piece.” The demo is scripted, not a live failure.",
+      "repo": "https://github.com/svpino/returns-agent"
+    },
+    {
+      "title": "We stopped reviewing the code. Let's not stop reviewing the agent.",
+      "author": "Tomy",
+      "handle": "@TomySpagnoletti",
+      "url": "https://x.com/TomySpagnoletti/status/2109657993599971703",
+      "date": "2026-10-12",
+      "date_label": "Oct 12, 2026",
+      "summary": "The human's job now is reviewing the agent's report (decisions, assumptions, asks), not the diff.",
+      "disc": null,
+      "repo": null
+    },
+    {
+      "title": "Build an Obsidian Second Brain Every AI Agent Can Use",
+      "author": "Eugeniu Ghelbur",
+      "handle": "@eugeniu_ghelbur",
+      "url": "https://x.com/eugeniu_ghelbur/status/2110437592885854617",
+      "date": "2026-10-14",
+      "date_label": "Oct 14, 2026",
+      "summary": "An open-source skill that gives Claude Code, Codex, Grok Bot and others one shared Obsidian memory.",
+      "disc": null,
+      "repo": null
+    },
+    {
+      "title": "Grok Bot Engineering: Set Up a Harness for Your One-Person Company",
+      "author": "beamnxw ./",
+      "handle": "@beamnxw",
+      "url": "https://x.com/beamnxw/status/2107143806546002398",
+      "date": "2026-10-05",
+      "date_label": "Oct 5, 2026",
+      "summary": "A defined job, a source-of-truth brief ('fill unknown fields with unknown') and an approval boundary.",
+      "disc": null,
+      "repo": null
+    }
+  ],
+  "held": []
+}

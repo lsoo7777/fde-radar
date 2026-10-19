@@ -1,134 +1,134 @@
 [
- {
-  "title": "Discovery-to-brief in 15 minutes",
-  "category": "Discovery",
-  "steps": [
-   "Record the call with an approved notetaker (e.g. Fathom, Granola).",
-   "Paste the transcript into your AI tool with the 'deal summary' prompt.",
-   "Ask it to list every assumption not stated by the customer.",
-   "Fix gaps, then generate a 5-bullet brief for your AE and a follow-up email draft.",
-   "Log the brief in CRM and set next-step dates."
-  ]
- },
- {
-  "title": "Account research before first call",
-  "category": "Discovery",
-  "steps": [
-   "Collect the company's site, latest 10-K or press releases and the attendees' LinkedIn roles.",
-   "Prompt: summarize business model, likely priorities, recent changes.",
-   "Generate 10 discovery questions ranked by importance.",
-   "Flag 3 'not a fit' signals to watch for.",
-   "Save it as a one-page call plan."
-  ]
- },
- {
-  "title": "Tailored demo in an hour",
-  "category": "Demo prep",
-  "steps": [
-   "List the top 3 pains from discovery.",
-   "Prompt the demo-story template to map pain → feature → outcome.",
-   "Generate fake but realistic demo data as CSV and load it into your sandbox.",
-   "Run the 'pre-mortem my demo' prompt as the skeptical buyer.",
-   "Record a 3-minute Loom of the flow for async stakeholders."
-  ]
- },
- {
-  "title": "POC scope that gets signed",
-  "category": "POC",
-  "steps": [
-   "Draft the scope with the POC prompt (objective, criteria, timeline, owners).",
-   "Pressure-test each success criterion for measurability.",
-   "Review with the champion; agree on pass/fail before kickoff.",
-   "Turn the timeline into a shared checklist with dates.",
-   "Send a recap email confirming criteria in writing."
-  ]
- },
- {
-  "title": "Agent POC with evals",
-  "category": "POC",
-  "steps": [
-   "Pick one narrow task and collect 20–50 real example inputs (with permission).",
-   "Build the first version with an agent framework (e.g. LangGraph, OpenAI Agents SDK).",
-   "Write expected outputs and run them through an eval tool (e.g. promptfoo, DeepEval).",
-   "Trace failures with an observability tool (e.g. Langfuse, LangSmith).",
-   "Report pass rate against the agreed criteria, not vibes."
-  ]
- },
- {
-  "title": "Security questionnaire first pass",
-  "category": "Security",
-  "steps": [
-   "Gather your approved security docs (SOC 2 summary, DPA, architecture).",
-   "Prompt the AI to answer only from those docs and mark gaps NEEDS REVIEW.",
-   "Route NEEDS REVIEW items to security/legal owners.",
-   "Store final answers in your RFP tool (e.g. Loopio, Responsive) for reuse.",
-   "Track turnaround time per questionnaire."
-  ]
- },
- {
-  "title": "Integration debugging loop",
-  "category": "Implementation",
-  "steps": [
-   "Reproduce the issue and capture logs, request/response and environment.",
-   "Paste logs into the triage prompt for ranked root causes.",
-   "Test the top hypothesis with Postman or a small script.",
-   "Document the fix as a runbook entry.",
-   "Share a plain-English summary with the customer."
-  ]
- },
- {
-  "title": "30-60-90 implementation plan",
-  "category": "Implementation",
-  "steps": [
-   "Feed scope, team size and success criteria into the 30-60-90 prompt.",
-   "Generate a risk register and add customer-specific risks.",
-   "Assign customer-side owners for every dependency.",
-   "Review in the kickoff meeting and get explicit agreement.",
-   "Turn milestones into weekly status-update headings."
-  ]
- },
- {
-  "title": "Weekly status update on autopilot",
-  "category": "Stakeholders",
-  "steps": [
-   "Keep a running notes doc per customer during the week.",
-   "Friday: paste notes into the status prompt (RAG status, done, next, blockers).",
-   "Check every owner and date is real.",
-   "Send it and pin it in the shared channel.",
-   "Escalate any red item with the escalation prompt the same day."
-  ]
- },
- {
-  "title": "Runbook from Slack chaos",
-  "category": "Implementation",
-  "steps": [
-   "Export the relevant thread(s).",
-   "Prompt the AI to produce a numbered runbook with checks and rollback.",
-   "Follow the runbook yourself once on a test environment.",
-   "Fix steps that fail, then publish to your wiki.",
-   "Link the runbook in future tickets."
-  ]
- },
- {
-  "title": "Deal debrief → product feedback",
-  "category": "Stakeholders",
-  "steps": [
-   "After win/loss, paste notes into the debrief prompt.",
-   "Extract product gaps with customer quotes you actually heard.",
-   "Group gaps by theme and deal size.",
-   "Share with product monthly in a single doc.",
-   "Track which gaps ship and tell the customer."
-  ]
- },
- {
-  "title": "EBR deck in an afternoon",
-  "category": "Stakeholders",
-  "steps": [
-   "Export usage metrics and outcomes for the period.",
-   "Prompt the EBR outline using only the provided numbers.",
-   "Add one customer story and one adoption gap.",
-   "Propose a specific expansion next step.",
-   "Rehearse with the champion before the exec meeting."
-  ]
- }
+  {
+    "title": "Discovery-to-brief in 15 minutes",
+    "category": "Discovery",
+    "steps": [
+      "Get the customer's consent before recording, then record with a notetaker your company has approved (e.g. Fathom, Granola). If there is no recording, use your typed notes.",
+      "Paste the transcript into your AI tool with the 'deal summary' prompt.",
+      "Ask it to list every assumption not stated by the customer.",
+      "Fix gaps with the user, then generate a 5-bullet brief for the AE and a follow-up email draft (use the second prompt). Do not send the email.",
+      "The user logs the brief in CRM and sets next-step dates."
+    ]
+  },
+  {
+    "title": "Account research before first call",
+    "category": "Discovery",
+    "steps": [
+      "Ask the user to paste the company's public info (site pages, latest 10-K or press releases) and the attendees' titles. If you have web access, you may read public pages yourself; cite the URL for every fact. Do not scrape LinkedIn.",
+      "Summarize business model, recent changes and likely priorities. Label every inferred pain or priority HYPOTHESIS.",
+      "Generate 10 discovery questions ranked by importance.",
+      "Flag 3 'not a fit' signals to watch for.",
+      "Return a one-page call plan with these sections: business model, recent changes, likely pains (hypotheses), 10 ranked questions, 3 not-a-fit signals, open questions."
+    ]
+  },
+  {
+    "title": "Tailored demo in an hour",
+    "category": "Demo prep",
+    "steps": [
+      "List the top 3 pains from discovery.",
+      "Prompt the demo-story template to map pain → feature → outcome.",
+      "Generate fake but realistic demo data as CSV; the user loads it into their sandbox.",
+      "Run the 'pre-mortem my demo' prompt as the skeptical buyer.",
+      "Suggest the user record a 3-minute walkthrough (e.g. Loom) for async stakeholders."
+    ]
+  },
+  {
+    "title": "POC scope that gets signed",
+    "category": "POC",
+    "steps": [
+      "Draft the scope with the POC prompt (objective, criteria, timeline, owners).",
+      "Pressure-test each success criterion for measurability.",
+      "Review with the champion; agree on pass/fail before kickoff.",
+      "Turn the timeline into a shared checklist with dates.",
+      "Draft a recap email confirming criteria in writing for the user to review and send."
+    ]
+  },
+  {
+    "title": "Agent POC with evals",
+    "category": "POC",
+    "steps": [
+      "Pick one narrow task and collect 20–50 real example inputs (with permission).",
+      "Build the first version with an agent framework (e.g. LangGraph, OpenAI Agents SDK).",
+      "Write expected outputs and pass/fail checks for each input (first prompt), then run them through an eval tool (e.g. promptfoo, now part of OpenAI and still MIT open source, or DeepEval).",
+      "Trace failures with an observability tool (e.g. Langfuse, now part of ClickHouse and still open source, or LangSmith).",
+      "Report pass rate against the agreed criteria with the second prompt, not vibes. A zero-tolerance check that fails means the POC fails, whatever the average."
+    ]
+  },
+  {
+    "title": "Security questionnaire first pass",
+    "category": "Security",
+    "steps": [
+      "Gather your approved security docs (SOC 2 summary, DPA, architecture).",
+      "Prompt the AI to answer only from those docs and mark gaps NEEDS REVIEW.",
+      "Route NEEDS REVIEW items to security/legal owners.",
+      "Store final, approved answers in your RFP tool (e.g. Loopio, or Responsive, formerly RFPIO) for reuse.",
+      "Track turnaround time per questionnaire."
+    ]
+  },
+  {
+    "title": "Integration debugging loop",
+    "category": "Implementation",
+    "steps": [
+      "Reproduce the issue and capture logs, request/response and environment. Redact tokens, API keys, passwords and personal data before pasting anything into an AI tool.",
+      "Paste logs into the triage prompt for ranked root causes.",
+      "The user tests the top hypothesis with Postman, curl or a small script, and pastes the result back.",
+      "Document the fix as a runbook entry.",
+      "Share a plain-English summary with the customer."
+    ]
+  },
+  {
+    "title": "30-60-90 implementation plan",
+    "category": "Implementation",
+    "steps": [
+      "Feed scope, team size and success criteria into the 30-60-90 prompt.",
+      "Generate a risk register and add customer-specific risks.",
+      "Ask the user for customer-side owners for every dependency; write TBD where none is given.",
+      "The user reviews the plan in the kickoff meeting and gets explicit agreement.",
+      "Turn milestones into weekly status-update headings."
+    ]
+  },
+  {
+    "title": "Weekly status update on autopilot",
+    "category": "Stakeholders",
+    "steps": [
+      "Keep a running notes doc per customer during the week.",
+      "Friday: paste notes into the status prompt (RAG status, done, next, blockers).",
+      "Check every owner and date is real.",
+      "Return the email as a draft. The user sends it and pins it in the shared channel.",
+      "Escalate any red item with the escalation prompt the same day."
+    ]
+  },
+  {
+    "title": "Runbook from Slack chaos",
+    "category": "Implementation",
+    "steps": [
+      "Export the relevant thread(s). Remove tokens, passwords and customer personal data first.",
+      "Prompt the AI to produce a numbered runbook with checks and rollback.",
+      "Follow the runbook yourself once on a test environment.",
+      "Fix steps that fail, then publish to your wiki.",
+      "Link the runbook in future tickets."
+    ]
+  },
+  {
+    "title": "Deal debrief → product feedback",
+    "category": "Stakeholders",
+    "steps": [
+      "After win/loss, paste notes into the debrief prompt.",
+      "Extract product gaps. Use only verbatim quotes that appear in the notes; if a gap has no quote, say so.",
+      "Group gaps by theme and deal size.",
+      "The user shares the gap list with product monthly in a single doc.",
+      "The user tracks which gaps ship and tells the customer."
+    ]
+  },
+  {
+    "title": "EBR deck in an afternoon",
+    "category": "Stakeholders",
+    "steps": [
+      "Export usage metrics and outcomes for the period.",
+      "Prompt the EBR outline using only the provided numbers.",
+      "Ask the user for one real customer story; take one adoption gap from the data. Mark anything missing [NEEDED].",
+      "Propose a specific next step grounded in the data; for commercial expansion, use the user's option and pricing, never invented numbers.",
+      "Rehearse with the champion before the exec meeting."
+    ]
+  }
 ]

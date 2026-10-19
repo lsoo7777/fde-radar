@@ -1,6 +1,6 @@
 ---
 name: tailored-demo-in-an-hour
-description: "FDE demo prep workflow: Tailored demo in an hour. Use when a forward deployed or solutions engineer asks for help with tailored demo in an hour."
+description: "Use when prepping a customer demo from discovery notes: maps the top 3 pains to features in a 20-minute demo story, generates fake but realistic CSV demo data, and runs a skeptical-buyer pre-mortem. Triggers: \"build my demo\", \"demo data\", \"pre-mortem my demo\"."
 ---
 
 # Tailored demo in an hour
@@ -10,9 +10,9 @@ Run this workflow with the user step by step. Ask for any missing input before s
 ## Steps
 1. List the top 3 pains from discovery.
 2. Prompt the demo-story template to map pain → feature → outcome.
-3. Generate fake but realistic demo data as CSV and load it into your sandbox.
+3. Generate fake but realistic demo data as CSV; the user loads it into their sandbox.
 4. Run the 'pre-mortem my demo' prompt as the skeptical buyer.
-5. Record a 3-minute Loom of the flow for async stakeholders.
+5. Suggest the user record a 3-minute walkthrough (e.g. Loom) for async stakeholders.
 
 ## Prompts
 

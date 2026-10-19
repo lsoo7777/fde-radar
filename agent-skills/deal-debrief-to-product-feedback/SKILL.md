@@ -1,6 +1,6 @@
 ---
 name: deal-debrief-to-product-feedback
-description: "FDE stakeholders workflow: Deal debrief → product feedback. Use when a forward deployed or solutions engineer asks for help with deal debrief → product feedback."
+description: "Use after a deal is won or lost to turn notes into an internal debrief (why we won/lost, what they valued, lessons) and a product-gap list with verbatim customer quotes grouped by theme and deal size. Triggers: \"deal debrief\", \"win/loss notes\", \"product feedback from this deal\"."
 ---
 
 # Deal debrief → product feedback
@@ -9,16 +9,16 @@ Run this workflow with the user step by step. Ask for any missing input before s
 
 ## Steps
 1. After win/loss, paste notes into the debrief prompt.
-2. Extract product gaps with customer quotes you actually heard.
+2. Extract product gaps. Use only verbatim quotes that appear in the notes; if a gap has no quote, say so.
 3. Group gaps by theme and deal size.
-4. Share with product monthly in a single doc.
-5. Track which gaps ship and tell the customer.
+4. The user shares the gap list with product monthly in a single doc.
+5. The user tracks which gaps ship and tells the customer.
 
 ## Prompts
 
 ### Internal deal debrief
 
-Summarize this deal for my internal team from these notes [PASTE]: why we won/lost, what the customer actually valued, product gaps raised, and 3 lessons for the next similar deal.
+Summarize this deal for my internal team from these notes [PASTE]: why we won/lost, what the customer actually valued, product gaps raised (each with a verbatim quote from the notes or "no quote", a theme, and the deal size), and 3 lessons for the next similar deal.
 
 ## Rules
 
