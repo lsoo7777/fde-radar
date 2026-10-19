@@ -316,7 +316,7 @@
      "free": "yes",
      "free_src": "https://v0.app/pricing",
      "pick": "Fastest path from a discovery call to a clickable front end, no setup.",
-     "level": "start",
+     "level": null,
      "source": "https://v0.app",
      "checked": "2026-10-19"
     },
@@ -327,8 +327,8 @@
      "repo": null,
      "free": "yes",
      "free_src": "https://www.navattic.com/pricing",
-     "pick": "The interactive-demo tool on our presales tools list with a free plan (1 seat, 1 demo).",
-     "level": null,
+     "pick": "Gentlest start: click-through demos from captures of your own app, no code, with a free plan (1 seat, 1 demo).",
+     "level": "start",
      "source": "https://www.navattic.com",
      "checked": "2026-10-19"
     }
@@ -363,7 +363,7 @@
      "free": "yes",
      "free_src": "https://www.fathom.video/pricing",
      "pick": "Free plan with unlimited recordings, so you can try it on every discovery call.",
-     "level": "start",
+     "level": null,
      "source": "https://www.fathom.video",
      "checked": "2026-10-19"
     },
@@ -374,8 +374,8 @@
      "repo": null,
      "free": "yes",
      "free_src": "https://www.granola.ai/pricing",
-     "pick": "No meeting bot in the room, which some customers prefer.",
-     "level": null,
+     "pick": "Gentlest start: no meeting bot joins the call, which some customers prefer, and there is a free Basic plan.",
+     "level": "start",
      "source": "https://www.granola.ai",
      "checked": "2026-10-19"
     },
@@ -408,7 +408,7 @@
   {
    "id": "research",
    "name": "Research & prospecting",
-   "blurb": "Research accounts and the web with sources, the input to every brief and first touch.",
+   "blurb": "Research accounts and the web with sources, the input to every brief and first touch. For a ready-made prospecting agent that drafts but never sends, see Starter agents.",
    "tools": [
     {
      "name": "Firecrawl",
