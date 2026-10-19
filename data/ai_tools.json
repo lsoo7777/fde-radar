@@ -1,224 +1,111 @@
 {
  "checked": "2026-10-19",
- "method": "Open-source tools are ranked by GitHub stars from the public GitHub API, with last-commit date, refreshed daily. Tools without a public repo are listed separately as \"Our pick\" with a one-line reason; we do not rank them. Public signals only, dated, nothing paid.",
- "use_cases": [
+ "rules": [
+  "'Our pick' = our judgment, labeled as such",
+  "Stars come from repos.json at build time, shown with the build date",
+  "Nothing auto-sends",
+  "No paid placements; any featured spot is labeled"
+ ],
+ "categories": [
   {
    "id": "coding-agents",
    "name": "Coding agents",
-   "blurb": "Agents that read your repo, write code and run commands. The fastest way to build a POC or customer integration.",
-   "tools": [
+   "for": "Building POCs, integrations and fixes at a customer.",
+   "start": {
+    "name": "Cursor",
+    "url": "https://cursor.com",
+    "why": "Our pick: an editor first, agent second, so it's the gentlest start if you already code in VS Code.",
+    "repo": null,
+    "free": "yes",
+    "free_src": "https://cursor.com/pricing",
+    "checked": "2026-10-19"
+   },
+   "advanced": {
+    "name": "Claude Code",
+    "url": "https://github.com/anthropics/claude-code",
+    "github": "https://github.com/anthropics/claude-code",
+    "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
+    "why": "Our pick: runs in the terminal and reads skills from ~/.claude/skills, so our kit skills work in it directly.",
+    "stars": 152464,
+    "repo": "anthropics/claude-code",
+    "free": "no",
+    "free_src": "https://claude.com/product/claude-code",
+    "checked": "2026-10-19",
+    "pushed": "2026-10-18",
+    "archived": false,
+    "license": null
+   },
+   "also": [
     {
-     "name": "Claude Code",
-     "url": "https://claude.com/product/claude-code",
-     "what": "Terminal and IDE coding agent from Anthropic that edits files, runs commands and opens PRs.",
-     "repo": "anthropics/claude-code",
-     "free": "no",
-     "free_src": "https://claude.com/product/claude-code",
-     "pick": null,
-     "level": "advanced",
-     "source": "https://github.com/anthropics/claude-code",
-     "checked": "2026-10-19",
-     "stars": 152449,
-     "pushed": "2026-10-18",
-     "archived": false,
-     "license": null
-    },
-    {
-     "name": "OpenAI Codex",
-     "url": "https://developers.openai.com/codex",
-     "what": "OpenAI's open-source coding agent for the terminal, IDE and cloud tasks.",
+     "name": "OpenAI Codex CLI",
+     "url": "https://github.com/openai/codex",
      "repo": "openai/codex",
-     "free": "open source",
-     "free_src": "https://github.com/openai/codex",
-     "pick": null,
-     "level": null,
-     "source": "https://github.com/openai/codex",
+     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-19",
-     "stars": 129909,
+     "stars": 129916,
      "pushed": "2026-10-19",
      "archived": false,
      "license": "Apache-2.0"
     },
     {
-     "name": "Gemini CLI",
-     "url": "https://geminicli.com",
-     "what": "Google's open-source terminal agent for Gemini models.",
-     "repo": "google-gemini/gemini-cli",
-     "free": "open source",
-     "free_src": "https://github.com/google-gemini/gemini-cli",
-     "pick": null,
-     "level": null,
-     "source": "https://github.com/google-gemini/gemini-cli",
+     "name": "Aider",
+     "url": "https://github.com/Aider-AI/aider",
+     "repo": "Aider-AI/aider",
+     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-19",
-     "stars": 107454,
-     "pushed": "2026-10-19",
+     "stars": 49640,
+     "pushed": "2026-05-22",
      "archived": false,
      "license": "Apache-2.0"
-    },
-    {
-     "name": "Cline",
-     "url": "https://cline.bot",
-     "what": "Open-source coding agent inside VS Code that asks before each file edit or command.",
-     "repo": "cline/cline",
-     "free": "open source",
-     "free_src": "https://github.com/cline/cline",
-     "pick": null,
-     "level": null,
-     "source": "https://github.com/cline/cline",
-     "checked": "2026-10-19",
-     "stars": 70550,
-     "pushed": "2026-10-19",
-     "archived": false,
-     "license": "Apache-2.0"
-    },
-    {
-     "name": "Cursor",
-     "url": "https://cursor.com",
-     "what": "AI code editor with an agent mode, a familiar VS Code feel and a free plan.",
-     "repo": null,
-     "free": "yes",
-     "free_src": "https://cursor.com/pricing",
-     "pick": "Easiest on-ramp: a normal editor first, agent second, so beginners can watch every change.",
-     "level": "start",
-     "source": "https://cursor.com",
-     "checked": "2026-10-19"
-    }
-   ]
-  },
-  {
-   "id": "agent-frameworks",
-   "name": "Agent frameworks",
-   "blurb": "Libraries for building your own agents: tools, handoffs, memory and multi-step plans.",
-   "tools": [
-    {
-     "name": "OpenAI Agents SDK",
-     "url": "https://openai.github.io/openai-agents-python/",
-     "what": "Lightweight Python SDK for agents with tools, handoffs, guardrails and tracing.",
-     "repo": "openai/openai-agents-python",
-     "free": "open source",
-     "free_src": "https://github.com/openai/openai-agents-python",
-     "pick": null,
-     "level": "start",
-     "source": "https://github.com/openai/openai-agents-python",
-     "checked": "2026-10-19",
-     "stars": 30139,
-     "pushed": "2026-10-19",
-     "archived": false,
-     "license": "MIT"
-    },
-    {
-     "name": "LangGraph",
-     "url": "https://www.langchain.com/langgraph",
-     "what": "Graph-based framework for long-running, stateful agents with human-in-the-loop steps.",
-     "repo": "langchain-ai/langgraph",
-     "free": "open source",
-     "free_src": "https://github.com/langchain-ai/langgraph",
-     "pick": null,
-     "level": "advanced",
-     "source": "https://github.com/langchain-ai/langgraph",
-     "checked": "2026-10-19",
-     "stars": 43510,
-     "pushed": "2026-10-19",
-     "archived": false,
-     "license": "MIT"
-    },
-    {
-     "name": "CrewAI",
-     "url": "https://www.crewai.com",
-     "what": "Framework for teams of role-based agents that hand work to each other.",
-     "repo": "crewAIInc/crewAI",
-     "free": "open source",
-     "free_src": "https://github.com/crewAIInc/crewAI",
-     "pick": null,
-     "level": null,
-     "source": "https://github.com/crewAIInc/crewAI",
-     "checked": "2026-10-19",
-     "stars": 59874,
-     "pushed": "2026-10-19",
-     "archived": false,
-     "license": "MIT"
-    },
-    {
-     "name": "Pydantic AI",
-     "url": "https://ai.pydantic.dev",
-     "what": "Type-safe Python agent framework from the Pydantic team.",
-     "repo": "pydantic/pydantic-ai",
-     "free": "open source",
-     "free_src": "https://github.com/pydantic/pydantic-ai",
-     "pick": null,
-     "level": null,
-     "source": "https://github.com/pydantic/pydantic-ai",
-     "checked": "2026-10-19",
-     "stars": 20732,
-     "pushed": "2026-10-19",
-     "archived": false,
-     "license": "MIT"
-    },
-    {
-     "name": "Mastra",
-     "url": "https://mastra.ai",
-     "what": "TypeScript framework for agents, workflows, RAG and evals.",
-     "repo": "mastra-ai/mastra",
-     "free": "open source",
-     "free_src": "https://github.com/mastra-ai/mastra",
-     "pick": null,
-     "level": null,
-     "source": "https://github.com/mastra-ai/mastra",
-     "checked": "2026-10-19",
-     "stars": 28911,
-     "pushed": "2026-10-19",
-     "archived": false,
-     "license": "NOASSERTION"
     }
    ]
   },
   {
    "id": "evals",
-   "name": "Evals & observability",
-   "blurb": "Prove an agent works before the customer sees it, then trace what it did in production.",
-   "tools": [
+   "name": "Evals and observability",
+   "for": "Proving an agent works before the customer demo, and tracing it after.",
+   "start": {
+    "name": "promptfoo",
+    "url": "https://github.com/promptfoo/promptfoo",
+    "github": "https://github.com/promptfoo/promptfoo",
+    "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
+    "why": "Our pick: open source, runs locally from a config file, no account needed to try it.",
+    "stars": 26148,
+    "repo": "promptfoo/promptfoo",
+    "checked": "2026-10-19",
+    "pushed": "2026-10-19",
+    "archived": false,
+    "license": "MIT"
+   },
+   "advanced": {
+    "name": "Langfuse",
+    "url": "https://github.com/langfuse/langfuse",
+    "github": "https://github.com/langfuse/langfuse",
+    "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
+    "why": "Our pick: open-source tracing plus evals you can self-host when customer data can't leave their cloud.",
+    "stars": 36029,
+    "repo": "langfuse/langfuse",
+    "free": "yes",
+    "free_src": "https://langfuse.com/pricing",
+    "checked": "2026-10-19",
+    "pushed": "2026-10-19",
+    "archived": false,
+    "license": "NOASSERTION"
+   },
+   "also": [
     {
-     "name": "promptfoo",
-     "url": "https://www.promptfoo.dev",
-     "what": "CLI for prompt and agent evals plus red-teaming, driven by a simple YAML config.",
-     "repo": "promptfoo/promptfoo",
-     "free": "open source",
-     "free_src": "https://github.com/promptfoo/promptfoo",
-     "pick": null,
-     "level": "start",
-     "source": "https://github.com/promptfoo/promptfoo",
-     "checked": "2026-10-19",
-     "stars": 26148,
-     "pushed": "2026-10-19",
-     "archived": false,
-     "license": "MIT"
-    },
-    {
-     "name": "Langfuse",
-     "url": "https://langfuse.com",
-     "what": "Open-source LLM tracing, prompt management and evals, cloud or self-hosted.",
-     "repo": "langfuse/langfuse",
-     "free": "open source",
-     "free_src": "https://langfuse.com/pricing",
-     "pick": null,
-     "level": "advanced",
-     "source": "https://github.com/langfuse/langfuse",
-     "checked": "2026-10-19",
-     "stars": 36028,
-     "pushed": "2026-10-19",
-     "archived": false,
-     "license": "NOASSERTION"
+     "name": "LangSmith",
+     "url": "https://www.langchain.com/langsmith",
+     "repo": null,
+     "free": "yes",
+     "free_src": "https://www.langchain.com/pricing",
+     "checked": "2026-10-19"
     },
     {
      "name": "DeepEval",
-     "url": "https://deepeval.com",
-     "what": "Pytest-style unit tests for LLM outputs with ready-made metrics.",
+     "url": "https://github.com/confident-ai/deepeval",
      "repo": "confident-ai/deepeval",
-     "free": "open source",
-     "free_src": "https://github.com/confident-ai/deepeval",
-     "pick": null,
-     "level": null,
-     "source": "https://github.com/confident-ai/deepeval",
+     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-19",
      "stars": 18956,
      "pushed": "2026-10-19",
@@ -227,331 +114,230 @@
     },
     {
      "name": "Arize Phoenix",
-     "url": "https://phoenix.arize.com",
-     "what": "Open-source tracing and eval workbench built on OpenTelemetry.",
+     "url": "https://github.com/Arize-ai/phoenix",
      "repo": "Arize-ai/phoenix",
-     "free": "open source",
-     "free_src": "https://github.com/Arize-ai/phoenix",
-     "pick": null,
-     "level": null,
-     "source": "https://github.com/Arize-ai/phoenix",
+     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-19",
-     "stars": 11910,
+     "stars": 11911,
      "pushed": "2026-10-19",
      "archived": false,
      "license": "NOASSERTION"
-    },
-    {
-     "name": "LangSmith",
-     "url": "https://www.langchain.com/langsmith",
-     "what": "Hosted tracing, datasets and evals from LangChain, works with any framework.",
-     "repo": null,
-     "free": "yes",
-     "free_src": "https://www.langchain.com/pricing",
-     "pick": "Hosted and framework-agnostic, with a $0 Developer seat, so a customer POC can have traces on day one.",
-     "level": null,
-     "source": "https://www.langchain.com/langsmith",
-     "checked": "2026-10-19"
     }
    ]
   },
   {
    "id": "demo-poc",
-   "name": "Demo & POC building",
-   "blurb": "Turn a customer's use case into something clickable, fast.",
-   "tools": [
+   "name": "Demo and POC building",
+   "for": "Showing the product on the customer's own use case.",
+   "start": {
+    "name": "Navattic",
+    "url": "https://www.navattic.com",
+    "why": "Our pick: click-through demos with no code; already on our tools list.",
+    "repo": null,
+    "free": "yes",
+    "free_src": "https://www.navattic.com/pricing",
+    "checked": "2026-10-19"
+   },
+   "advanced": {
+    "name": "Vercel AI SDK",
+    "url": "https://github.com/vercel/ai",
+    "github": "https://github.com/vercel/ai",
+    "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
+    "why": "Our pick: a quick way to stand up a working AI app for a POC in TypeScript.",
+    "stars": 27399,
+    "repo": "vercel/ai",
+    "checked": "2026-10-19",
+    "pushed": "2026-10-19",
+    "archived": false,
+    "license": "NOASSERTION"
+   },
+   "also": [
     {
-     "name": "Streamlit",
-     "url": "https://streamlit.io",
-     "what": "Python to a shareable data or chat app in a few lines, with free community hosting.",
-     "repo": "streamlit/streamlit",
-     "free": "open source",
-     "free_src": "https://streamlit.io/cloud",
-     "pick": null,
-     "level": null,
-     "source": "https://github.com/streamlit/streamlit",
-     "checked": "2026-10-19",
-     "stars": 46043,
-     "pushed": "2026-10-19",
-     "archived": false,
-     "license": "Apache-2.0"
-    },
-    {
-     "name": "Gradio",
-     "url": "https://www.gradio.app",
-     "what": "Python UI for model demos, shareable with a public link.",
-     "repo": "gradio-app/gradio",
-     "free": "open source",
-     "free_src": "https://github.com/gradio-app/gradio",
-     "pick": null,
-     "level": null,
-     "source": "https://github.com/gradio-app/gradio",
-     "checked": "2026-10-19",
-     "stars": 43806,
-     "pushed": "2026-10-19",
-     "archived": false,
-     "license": "Apache-2.0"
-    },
-    {
-     "name": "Vercel AI SDK",
-     "url": "https://ai-sdk.dev",
-     "what": "TypeScript toolkit for streaming chat, tool calls and agent UIs in Next.js and more.",
-     "repo": "vercel/ai",
-     "free": "open source",
-     "free_src": "https://github.com/vercel/ai",
-     "pick": null,
-     "level": "advanced",
-     "source": "https://github.com/vercel/ai",
-     "checked": "2026-10-19",
-     "stars": 27399,
-     "pushed": "2026-10-19",
-     "archived": false,
-     "license": "NOASSERTION"
-    },
-    {
-     "name": "v0",
-     "url": "https://v0.app",
-     "what": "Describe a UI or app in plain English and get a working Next.js build you can deploy.",
+     "name": "Storylane",
+     "url": "https://www.storylane.io",
      "repo": null,
-     "free": "yes",
-     "free_src": "https://v0.app/pricing",
-     "pick": "Fastest path from a discovery call to a clickable front end, no setup.",
-     "level": null,
-     "source": "https://v0.app",
      "checked": "2026-10-19"
     },
     {
-     "name": "Navattic",
-     "url": "https://www.navattic.com",
-     "what": "Interactive, click-through product demos built from captures of your app.",
+     "name": "Dify",
+     "url": "https://github.com/langgenius/dify",
+     "repo": "langgenius/dify",
+     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
+     "checked": "2026-10-19",
+     "stars": 158897,
+     "pushed": "2026-10-19",
+     "archived": false,
+     "license": "NOASSERTION"
+    }
+   ]
+  },
+  {
+   "id": "meeting-notes",
+   "name": "Meeting notes and call intelligence",
+   "for": "Capturing discovery calls so nothing gets lost.",
+   "start": {
+    "name": "Granola",
+    "url": "https://www.granola.ai",
+    "why": "Our pick: notes on your own machine with no bot joining the call. Check your company approves it first.",
+    "repo": null,
+    "free": "yes",
+    "free_src": "https://www.granola.ai/pricing",
+    "checked": "2026-10-19"
+   },
+   "advanced": {
+    "name": "Gong",
+    "url": "https://www.gong.io",
+    "why": "Our pick: team-wide call recording and deal tracking, usually bought by the sales org.",
+    "repo": null,
+    "free": "not listed",
+    "free_src": "https://www.gong.io/pricing/",
+    "checked": "2026-10-19"
+   },
+   "also": [
+    {
+     "name": "Fathom",
+     "url": "https://fathom.video",
      "repo": null,
      "free": "yes",
-     "free_src": "https://www.navattic.com/pricing",
-     "pick": "Gentlest start: click-through demos from captures of your own app, no code, with a free plan (1 seat, 1 demo).",
-     "level": "start",
-     "source": "https://www.navattic.com",
+     "free_src": "https://www.fathom.video/pricing",
      "checked": "2026-10-19"
     }
    ]
   },
   {
-   "id": "meetings",
-   "name": "Meeting notes & call intelligence",
-   "blurb": "Record, summarize and mine customer calls for requirements and follow-ups.",
-   "tools": [
+   "id": "research-prospecting",
+   "name": "Research and prospecting",
+   "for": "Account research before a first call, with every fact sourced.",
+   "start": {
+    "name": "Grok Bot Outbound Prospecting template",
+    "url": "https://x.ai/bot/marketplace/bots/pg",
+    "credit": "Krista Letz",
+    "why": "Importable; every fact needs a source URL or stays blank, and it never sends without a yes.",
+    "repo": null,
+    "checked": "2026-10-19"
+   },
+   "advanced": {
+    "name": "Firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "github": "https://github.com/firecrawl/firecrawl",
+    "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
+    "why": "Our pick: turns company sites into clean text an agent can research from.",
+    "stars": 193007,
+    "repo": "firecrawl/firecrawl",
+    "free": "yes",
+    "free_src": "https://www.firecrawl.dev/pricing",
+    "checked": "2026-10-19",
+    "pushed": "2026-10-19",
+    "archived": false,
+    "license": "AGPL-3.0"
+   },
+   "also": [
     {
-     "name": "Meetily",
-     "url": "https://meetily.ai",
-     "what": "Open-source meeting notetaker that transcribes and summarizes locally, so audio stays on your machine.",
-     "repo": "Zackriya-Solutions/meetily",
-     "free": "open source",
-     "free_src": "https://github.com/Zackriya-Solutions/meetily",
-     "pick": null,
-     "level": null,
-     "source": "https://github.com/Zackriya-Solutions/meetily",
+     "name": "browser-use",
+     "url": "https://github.com/browser-use/browser-use",
+     "repo": "browser-use/browser-use",
+     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-19",
-     "stars": 31938,
-     "pushed": "2026-09-15",
+     "stars": 118507,
+     "pushed": "2026-10-17",
      "archived": false,
      "license": "MIT"
     },
     {
-     "name": "Fathom",
-     "url": "https://www.fathom.video",
-     "what": "AI notetaker for Zoom, Meet and Teams with instant call summaries.",
-     "repo": null,
-     "free": "yes",
-     "free_src": "https://www.fathom.video/pricing",
-     "pick": "Free plan with unlimited recordings, so you can try it on every discovery call.",
-     "level": null,
-     "source": "https://www.fathom.video",
-     "checked": "2026-10-19"
-    },
-    {
-     "name": "Granola",
-     "url": "https://www.granola.ai",
-     "what": "Notepad that adds AI notes on top of what you type during a meeting, no bot joins the call.",
-     "repo": null,
-     "free": "yes",
-     "free_src": "https://www.granola.ai/pricing",
-     "pick": "Gentlest start: no meeting bot joins the call, which some customers prefer, and there is a free Basic plan.",
-     "level": "start",
-     "source": "https://www.granola.ai",
-     "checked": "2026-10-19"
-    },
-    {
-     "name": "Otter.ai",
-     "url": "https://otter.ai",
-     "what": "Live transcription and meeting summaries with a free Basic plan.",
-     "repo": null,
-     "free": "yes",
-     "free_src": "https://otter.ai/pricing",
-     "pick": "Long-running, widely used transcription with a free Basic tier.",
-     "level": null,
-     "source": "https://otter.ai",
-     "checked": "2026-10-19"
-    },
-    {
-     "name": "Gong",
-     "url": "https://www.gong.io",
-     "what": "Revenue intelligence: call recording, deal tracking and coaching across a sales team.",
-     "repo": null,
-     "free": "not listed",
-     "free_src": "https://www.gong.io/pricing/",
-     "pick": "Team-wide call intelligence once your org records every call (pricing by proposal).",
-     "level": "advanced",
-     "source": "https://www.gong.io",
-     "checked": "2026-10-19"
-    }
-   ]
-  },
-  {
-   "id": "research",
-   "name": "Research & prospecting",
-   "blurb": "Research accounts and the web with sources, the input to every brief and first touch. For a ready-made prospecting agent that drafts but never sends, see Starter agents.",
-   "tools": [
-    {
-     "name": "Firecrawl",
-     "url": "https://www.firecrawl.dev",
-     "what": "Turns websites into clean markdown or structured data for agents, with a free plan.",
-     "repo": "firecrawl/firecrawl",
-     "free": "open source",
-     "free_src": "https://www.firecrawl.dev/pricing",
-     "pick": null,
-     "level": "advanced",
-     "source": "https://github.com/firecrawl/firecrawl",
-     "checked": "2026-10-19",
-     "stars": 193000,
-     "pushed": "2026-10-19",
-     "archived": false,
-     "license": "AGPL-3.0"
-    },
-    {
      "name": "Crawl4AI",
-     "url": "https://docs.crawl4ai.com",
-     "what": "Open-source crawler that outputs LLM-ready markdown.",
+     "url": "https://github.com/unclecode/crawl4ai",
      "repo": "unclecode/crawl4ai",
-     "free": "open source",
-     "free_src": "https://github.com/unclecode/crawl4ai",
-     "pick": null,
-     "level": null,
-     "source": "https://github.com/unclecode/crawl4ai",
+     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-19",
-     "stars": 85839,
+     "stars": 85840,
      "pushed": "2026-10-19",
      "archived": false,
      "license": "Apache-2.0"
-    },
-    {
-     "name": "GPT Researcher",
-     "url": "https://gptr.dev",
-     "what": "Open-source deep-research agent that writes sourced reports on a topic.",
-     "repo": "assafelovic/gpt-researcher",
-     "free": "open source",
-     "free_src": "https://github.com/assafelovic/gpt-researcher",
-     "pick": null,
-     "level": null,
-     "source": "https://github.com/assafelovic/gpt-researcher",
-     "checked": "2026-10-19",
-     "stars": 30173,
-     "pushed": "2026-10-10",
-     "archived": false,
-     "license": "Apache-2.0"
-    },
-    {
-     "name": "Exa",
-     "url": "https://exa.ai",
-     "what": "Search engine and API built for AI research, with free starter credits.",
-     "repo": null,
-     "free": "yes",
-     "free_src": "https://exa.ai/pricing",
-     "pick": "Search in the browser first, then the same queries by API when you build an agent.",
-     "level": "start",
-     "source": "https://exa.ai",
-     "checked": "2026-10-19"
-    },
-    {
-     "name": "Tavily",
-     "url": "https://www.tavily.com",
-     "what": "Web search API for agents, with 1,000 free credits a month.",
-     "repo": null,
-     "free": "yes",
-     "free_src": "https://www.tavily.com/pricing",
-     "pick": "A common default search tool for agent frameworks, with a no-card free plan.",
-     "level": null,
-     "source": "https://www.tavily.com",
-     "checked": "2026-10-19"
     }
    ]
   },
   {
    "id": "automation",
    "name": "Workflow automation",
-   "blurb": "Wire tools and agents together on triggers and schedules.",
-   "tools": [
-    {
-     "name": "n8n",
-     "url": "https://n8n.io",
-     "what": "Workflow automation with AI agent nodes, self-hosted or cloud.",
-     "repo": "n8n-io/n8n",
-     "free": "open source",
-     "free_src": "https://n8n.io/pricing/",
-     "pick": null,
-     "level": "advanced",
-     "source": "https://github.com/n8n-io/n8n",
-     "checked": "2026-10-19",
-     "stars": 208002,
-     "pushed": "2026-10-19",
-     "archived": false,
-     "license": "NOASSERTION"
-    },
-    {
-     "name": "Dify",
-     "url": "https://dify.ai",
-     "what": "Open-source platform for building LLM apps and agent workflows visually.",
-     "repo": "langgenius/dify",
-     "free": "open source",
-     "free_src": "https://github.com/langgenius/dify",
-     "pick": null,
-     "level": null,
-     "source": "https://github.com/langgenius/dify",
-     "checked": "2026-10-19",
-     "stars": 158890,
-     "pushed": "2026-10-19",
-     "archived": false,
-     "license": "NOASSERTION"
-    },
-    {
-     "name": "Activepieces",
-     "url": "https://www.activepieces.com",
-     "what": "Open-source, Zapier-style automation with AI steps and MCP support.",
-     "repo": "activepieces/activepieces",
-     "free": "open source",
-     "free_src": "https://github.com/activepieces/activepieces",
-     "pick": null,
-     "level": null,
-     "source": "https://github.com/activepieces/activepieces",
-     "checked": "2026-10-19",
-     "stars": 25114,
-     "pushed": "2026-10-19",
-     "archived": false,
-     "license": "NOASSERTION"
-    },
-    {
-     "name": "Zapier",
-     "url": "https://zapier.com",
-     "what": "No-code automation across thousands of apps, with a free plan.",
-     "repo": null,
-     "free": "yes",
-     "free_src": "https://zapier.com/pricing",
-     "pick": "Gentlest start: most customer apps already have a Zapier connector.",
-     "level": "start",
-     "source": "https://zapier.com",
-     "checked": "2026-10-19"
-    }
-   ]
+   "for": "Glue between the customer's systems and the agent.",
+   "start": {
+    "name": "Zapier",
+    "url": "https://zapier.com",
+    "why": "Our pick: hosted, huge app catalog, nothing to run.",
+    "repo": null,
+    "free": "yes",
+    "free_src": "https://zapier.com/pricing",
+    "checked": "2026-10-19"
+   },
+   "advanced": {
+    "name": "n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "github": "https://github.com/n8n-io/n8n",
+    "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
+    "why": "Our pick: self-hostable with AI agent nodes, so it fits customers who keep data in-house.",
+    "stars": 208005,
+    "repo": "n8n-io/n8n",
+    "checked": "2026-10-19",
+    "pushed": "2026-10-19",
+    "archived": false,
+    "license": "NOASSERTION"
+   },
+   "also": []
   }
  ],
+ "starter_agents": [
+  {
+   "level": "beginner",
+   "job": "Discovery call to brief",
+   "source": "kit skill discovery-to-brief-in-15-minutes",
+   "url": "https://fderadar.com/agent-skills-setup.html",
+   "try_first": "/discovery-to-brief-in-15-minutes then paste your call notes."
+  },
+  {
+   "level": "beginner",
+   "job": "Account research before a first call",
+   "source": "kit skill account-research-before-first-call",
+   "url": "https://fderadar.com/agent-skills-setup.html",
+   "try_first": "Give it the company and the attendees' roles; get a one-page call plan with 10 ranked discovery questions."
+  },
+  {
+   "level": "beginner",
+   "job": "Weekly customer status update",
+   "source": "kit skill weekly-status-update-on-autopilot",
+   "url": "https://fderadar.com/agent-skills-setup.html",
+   "try_first": "Paste this week's notes and Slack threads; review the draft before it goes anywhere."
+  },
+  {
+   "level": "intermediate",
+   "job": "Prospecting list for review",
+   "source": "Grok Bot Outbound Prospecting template (Krista Letz)",
+   "url": "https://x.ai/bot/marketplace/bots/pg",
+   "try_first": "Give it 5 target companies; it returns a sourced review list and sends nothing."
+  },
+  {
+   "level": "intermediate",
+   "job": "Security questionnaire first pass",
+   "source": "kit skill security-questionnaire-first-pass",
+   "url": "https://fderadar.com/agent-skills-setup.html",
+   "try_first": "Paste the questionnaire plus your approved security docs; it answers only from them and marks gaps NEEDS REVIEW."
+  },
+  {
+   "level": "advanced",
+   "job": "Agent POC with evals",
+   "source": "kit skill agent-poc-with-evals",
+   "url": "https://fderadar.com/agent-skills-setup.html",
+   "try_first": "Start with 20-50 real example inputs; it walks you through the build, the evals and a pass-rate report."
+  },
+  {
+   "level": "advanced",
+   "job": "Nightly prospecting routine",
+   "source": "guide: prospecting-agent-setup.html (built on Grok Bot's official Sales Outbound use case)",
+   "url": "https://fderadar.com/prospecting-agent-setup.html",
+   "try_first": "Run the prompt by hand once, then schedule it to stop at the review list."
+  }
+ ],
+ "new_releases": "read /workspace/fde-hub/new-releases/*.json",
+ "method": "Start here and Advanced are our picks (labeled \"Our pick\" with a reason). Open-source tools show GitHub stars and last commit from the public GitHub API with the date checked, refreshed daily; alternatives are sorted by stars. Public signals only, nothing paid, any featured spot labeled.",
  "releases": [
   {
    "name": "Cline Cloud sessions (Cline v4.1.25)",
@@ -601,14 +387,6 @@
  ],
  "gh_releases": [
   {
-   "name": "LangGraph langgraph-cli==0.4.37",
-   "url": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.37",
-   "date": "2026-10-19",
-   "category": "Agent frameworks",
-   "source": "GitHub releases API",
-   "checked": "2026-10-19"
-  },
-  {
    "name": "n8n stable",
    "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
    "date": "2026-10-19",
@@ -625,34 +403,10 @@
    "checked": "2026-10-19"
   },
   {
-   "name": "Cline SDK v0.0.95",
-   "url": "https://github.com/cline/cline/releases/tag/sdk/sdk/v0.0.95",
-   "date": "2026-10-17",
-   "category": "Coding agents",
-   "source": "GitHub releases API",
-   "checked": "2026-10-19"
-  },
-  {
-   "name": "Pydantic AI v2.57.0 (2026-10-15)",
-   "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.57.0",
-   "date": "2026-10-16",
-   "category": "Agent frameworks",
-   "source": "GitHub releases API",
-   "checked": "2026-10-19"
-  },
-  {
-   "name": "Mastra October 15, 2026",
-   "url": "https://github.com/mastra-ai/mastra/releases/tag/%40mastra/core%401.78.0",
-   "date": "2026-10-16",
-   "category": "Agent frameworks",
-   "source": "GitHub releases API",
-   "checked": "2026-10-19"
-  },
-  {
    "name": "Langfuse v4.63.0",
    "url": "https://github.com/langfuse/langfuse/releases/tag/v4.63.0",
    "date": "2026-10-16",
-   "category": "Evals & observability",
+   "category": "Evals and observability",
    "source": "GitHub releases API",
    "checked": "2026-10-19"
   },
@@ -660,7 +414,7 @@
    "name": "DeepEval Setup wizard 0.1.0",
    "url": "https://github.com/confident-ai/deepeval/releases/tag/setup-v0.1.0",
    "date": "2026-10-16",
-   "category": "Evals & observability",
+   "category": "Evals and observability",
    "source": "GitHub releases API",
    "checked": "2026-10-19"
   },
@@ -668,7 +422,7 @@
    "name": "Arize Phoenix arize-phoenix: v20.23.0",
    "url": "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-v20.23.0",
    "date": "2026-10-16",
-   "category": "Evals & observability",
+   "category": "Evals and observability",
    "source": "GitHub releases API",
    "checked": "2026-10-19"
   },
@@ -676,12 +430,12 @@
    "name": "Vercel AI SDK ai@7.0.143",
    "url": "https://github.com/vercel/ai/releases/tag/ai%407.0.143",
    "date": "2026-10-16",
-   "category": "Demo & POC building",
+   "category": "Demo and POC building",
    "source": "GitHub releases API",
    "checked": "2026-10-19"
   },
   {
-   "name": "OpenAI Codex 0.163.0",
+   "name": "OpenAI Codex CLI 0.163.0",
    "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
    "date": "2026-10-15",
    "category": "Coding agents",
@@ -689,26 +443,10 @@
    "checked": "2026-10-19"
   },
   {
-   "name": "OpenAI Agents SDK v0.24.0",
-   "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0",
+   "name": "browser-use 0.13.13: OpenAI browser tools and Cloud fixes",
+   "url": "https://github.com/browser-use/browser-use/releases/tag/0.13.13",
    "date": "2026-10-15",
-   "category": "Agent frameworks",
-   "source": "GitHub releases API",
-   "checked": "2026-10-19"
-  },
-  {
-   "name": "CrewAI 1.15.28",
-   "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.28",
-   "date": "2026-10-14",
-   "category": "Agent frameworks",
-   "source": "GitHub releases API",
-   "checked": "2026-10-19"
-  },
-  {
-   "name": "Streamlit 1.66.0",
-   "url": "https://github.com/streamlit/streamlit/releases/tag/1.66.0",
-   "date": "2026-10-14",
-   "category": "Demo & POC building",
+   "category": "Research and prospecting",
    "source": "GitHub releases API",
    "checked": "2026-10-19"
   },
@@ -716,23 +454,7 @@
    "name": "Crawl4AI Release v0.9.5",
    "url": "https://github.com/unclecode/crawl4ai/releases/tag/v0.9.5",
    "date": "2026-10-14",
-   "category": "Research & prospecting",
-   "source": "GitHub releases API",
-   "checked": "2026-10-19"
-  },
-  {
-   "name": "Gemini CLI Release v0.64.0",
-   "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0",
-   "date": "2026-10-13",
-   "category": "Coding agents",
-   "source": "GitHub releases API",
-   "checked": "2026-10-19"
-  },
-  {
-   "name": "Activepieces 0.92.3",
-   "url": "https://github.com/activepieces/activepieces/releases/tag/0.92.3",
-   "date": "2026-10-12",
-   "category": "Workflow automation",
+   "category": "Research and prospecting",
    "source": "GitHub releases API",
    "checked": "2026-10-19"
   },
@@ -740,25 +462,10 @@
    "name": "promptfoo 0.124.1",
    "url": "https://github.com/promptfoo/promptfoo/releases/tag/0.124.1",
    "date": "2026-10-08",
-   "category": "Evals & observability",
-   "source": "GitHub releases API",
-   "checked": "2026-10-19"
-  },
-  {
-   "name": "Gradio gradio@6.30.0",
-   "url": "https://github.com/gradio-app/gradio/releases/tag/gradio%406.30.0",
-   "date": "2026-10-08",
-   "category": "Demo & POC building",
-   "source": "GitHub releases API",
-   "checked": "2026-10-19"
-  },
-  {
-   "name": "GPT Researcher Jev update and many bug fixes and improvements",
-   "url": "https://github.com/assafelovic/gpt-researcher/releases/tag/v3.7.0",
-   "date": "2026-09-26",
-   "category": "Research & prospecting",
+   "category": "Evals and observability",
    "source": "GitHub releases API",
    "checked": "2026-10-19"
   }
- ]
+ ],
+ "source": "Chief AI Officer, guides/ai-tools-draft.json (2026-10-19), merged with GitHub API signals"
 }
