@@ -1,0 +1,14 @@
+[
+ {
+  "id": "cloudflare-skills",
+  "repo": "cloudflare/skills",
+  "url": "https://github.com/cloudflare/skills",
+  "stars": 3111,
+  "checked": "2026-10-20",
+  "license": "Apache-2.0",
+  "what": "Cloudflare's official agent skills. They teach your coding agent how to build and deploy on Cloudflare, so it stops guessing at things like wrangler config. The plugin also adds Cloudflare's MCP server.",
+  "install": "/plugin marketplace add cloudflare/skills",
+  "x": "https://x.com/AgenticRadar/status/2112578811896156599",
+  "date_label": "Oct 20, 2026"
+ }
+]

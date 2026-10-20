@@ -1,8 +1,38 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "window_days": 7,
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
+    {
+      "title": "Microsoft: treat deployed AI agents as insider threats",
+      "summary": "Microsoft's official blog argues that frontier models, whatever their origin, can't be trusted, and that enterprises need guardian agents that watch and moderate every action of their own agents before it happens, extending its Project Perception security system to internal agents.",
+      "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+      "date_published": "2026-10-19",
+      "source": "Microsoft",
+      "tag": "agent-infra",
+      "why_it_matters_for_FDEs": "Enterprise security teams will now expect agent deployments to come with per-action monitoring, least-privilege tool access and audit trails, so build those into the design rather than bolting them on.",
+      "verified": "2026-10-20"
+    },
+    {
+      "title": "NVIDIA releases Nemotron 3.5 Super VL and Bolt open models for agents",
+      "summary": "NVIDIA released Nemotron 3.5 Super VL, an open 120B multimodal model for always-on enterprise agents, plus Bolt 74B-A9B for local workstations now and Bolt E4B (4GB) on Oct 23.",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+      "date_published": "2026-10-15",
+      "source": "NVIDIA",
+      "tag": "open-weights",
+      "why_it_matters_for_FDEs": "Gives you an open agent model at server, workstation and edge sizes that customers can post-train on their data and run on their own NVIDIA hardware.",
+      "verified": "2026-10-20"
+    },
+    {
+      "title": "GitHub Copilot retired GPT-5.5, GPT-5.4, Gemini 3.7 Flash and Grok 4.5 on Oct 19",
+      "summary": "GitHub deprecated six models across Copilot Chat, agent mode and completions on Oct 19, 2026, pointing users to GPT-6.1 Sol, GPT-6 Luna, Gemini 3.8 Flash and Grok 4.7 instead.",
+      "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+      "date_published": "2026-10-19",
+      "source": "GitHub Changelog",
+      "tag": "deprecation",
+      "why_it_matters_for_FDEs": "Customer workflows pinned to these models break now; Copilot Enterprise admins may need to enable the replacement models in their model policies.",
+      "verified": "2026-10-20"
+    },
     {
       "title": "Gemini 4 Argon is now generally available",
       "summary": "Google released Gemini 4 Argon, its new frontier model, to developers, enterprises and consumers. Introductory API price is $2/M input and $10/M output tokens, with cached input 95% off. Google says it ranks #1 on the Vals Index.",
@@ -12,6 +42,26 @@
       "tag": "model-release",
       "why_it_matters_for_FDEs": "A new frontier option at aggressive pricing, aimed at multi-step finance, legal and coding work. Expect customers to ask for bake-offs against their current model.",
       "verified": "2026-10-19"
+    },
+    {
+      "title": "GitHub ships a REST API for Copilot model policies",
+      "summary": "GET and PATCH endpoints for Copilot model policies are now generally available at the enterprise, enterprise team, enterprise app and organization levels.",
+      "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+      "date_published": "2026-10-19",
+      "source": "GitHub Changelog",
+      "tag": "agent-tooling",
+      "why_it_matters_for_FDEs": "Lets you script which models each customer org or team can use, instead of clicking through settings, which helps with rollouts and model deprecations.",
+      "verified": "2026-10-20"
+    },
+    {
+      "title": "Hugging Face libraries add native support for TorchNeuron on AWS Trainium",
+      "summary": "TorchNeuron, a native PyTorch backend for AWS Trainium with eager mode, torch.compile, FSDP and TP, enters public beta Oct 20, and Transformers, Diffusers and Kernels support it directly.",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "date_published": "2026-10-19",
+      "source": "Hugging Face",
+      "tag": "agent-infra",
+      "why_it_matters_for_FDEs": "Makes Trainium a more realistic lower-cost option for AWS customers who want to train or serve open models without rewriting code for a compiler-first stack.",
+      "verified": "2026-10-20"
     },
     {
       "title": "Meta releases Muse Spark Open, an open-weight frontier multimodal MoE",
