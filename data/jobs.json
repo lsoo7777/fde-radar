@@ -93,21 +93,21 @@
  {
   "co": "scaleai",
   "title": "Staff Frontier Agents Engineer (Forward Deployed Engineering)",
-  "loc": "San Francisco, CA; New York, NY",
+  "loc": "San Francisco, CA",
   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694865005",
   "status": "open"
  },
  {
   "co": "scaleai",
   "title": "Senior Frontier Agents Engineer (Forward Deployed Engineering)",
-  "loc": "San Francisco, CA; New York, NY",
+  "loc": "San Francisco, CA",
   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694863005",
   "status": "open"
  },
  {
   "co": "scaleai",
   "title": "Frontier Agents Engineer (Forward Deployed Engineering)",
-  "loc": "San Francisco, CA; New York, NY",
+  "loc": "San Francisco, CA",
   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694861005",
   "status": "open"
  },
@@ -116,6 +116,13 @@
   "title": "Staff FullStack Software Engineer, (Forward Deployed), GPS",
   "loc": "Doha, Qatar ",
   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4673314005",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "Solutions Engineer",
+  "loc": "Sao Paulo, Brazil",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8882485002",
   "status": "open"
  },
  {
@@ -182,13 +189,6 @@
   "status": "open"
  },
  {
-  "co": "databricks",
-  "title": "Forward Deployed Engineer",
-  "loc": "Remote - India",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8771566002",
-  "status": "open"
- },
- {
   "co": "vercel",
   "title": "Partner Solutions Engineer",
   "loc": "Hybrid - San Francisco",
@@ -218,8 +218,8 @@
  },
  {
   "co": "gleanwork",
-  "title": "Solutions Engineering Manager",
-  "loc": "Nashville",
+  "title": "Solutions Engineering Manager, Central",
+  "loc": "Remote - US",
   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4743056005",
   "status": "open"
  },
@@ -232,8 +232,8 @@
  },
  {
   "co": "gleanwork",
-  "title": "Solutions Engineer, UK",
-  "loc": "London",
+  "title": "Solutions Engineer, London",
+  "loc": "London, UK",
   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4729652005",
   "status": "open"
  },
@@ -337,6 +337,13 @@
  },
  {
   "co": "openai",
+  "title": "Deployment Lead, Forward Deployed Engineering (FDE) - Platform",
+  "loc": "San Francisco",
+  "url": "https://jobs.ashbyhq.com/openai/bc80a3ae-1e69-4a8d-8366-77fcdd56ff61",
+  "status": "open"
+ },
+ {
+  "co": "openai",
   "title": "Deployment Lead, FDE - SF",
   "loc": "San Francisco",
   "url": "https://jobs.ashbyhq.com/openai/a23a49a6-0c20-4cb3-8ffd-4881f5914474",
@@ -396,13 +403,6 @@
   "title": "Solutions Engineer, Ads Solutions - San Francisco",
   "loc": "San Francisco",
   "url": "https://jobs.ashbyhq.com/openai/d3d17f29-fbaf-4697-a6ed-aaa0055ecc5c",
-  "status": "open"
- },
- {
-  "co": "openai",
-  "title": "Forward Deployed Engineer - UAE",
-  "loc": "Abu Dhabi, UAE",
-  "url": "https://jobs.ashbyhq.com/openai/e9d435e1-1b9e-4715-84ce-75f372e5559c",
   "status": "open"
  },
  {
@@ -890,6 +890,13 @@
  },
  {
   "co": "elevenlabs",
+  "title": "Deployment Strategist - Italy",
+  "loc": "Italy",
+  "url": "https://jobs.ashbyhq.com/elevenlabs/b85d7749-5b12-4f3c-87e9-61a477da77aa",
+  "status": "open"
+ },
+ {
+  "co": "elevenlabs",
   "title": "Deployment Strategist - South Korea",
   "loc": "Korea",
   "url": "https://jobs.ashbyhq.com/elevenlabs/cfcb55a7-17ce-43b5-ad4e-2111adff393a",
@@ -900,13 +907,6 @@
   "title": "Forward Deployed Engineer - Software Engineer - USA",
   "loc": "San Francisco",
   "url": "https://jobs.ashbyhq.com/elevenlabs/6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6",
-  "status": "open"
- },
- {
-  "co": "elevenlabs",
-  "title": "Enterprise Solutions Engineer - Canada",
-  "loc": "Canada",
-  "url": "https://jobs.ashbyhq.com/elevenlabs/0d68b2a2-887e-491c-8b9b-56e8354f75fb",
   "status": "open"
  },
  {
@@ -1023,9 +1023,9 @@
  },
  {
   "co": "cursor",
-  "title": "RVP, Forward Deployed Engineering - EMEA",
-  "loc": "London",
-  "url": "https://jobs.ashbyhq.com/cursor/b3320730-9b59-42b6-8b90-0f2c3ef81c15",
+  "title": "Regional Director, Forward Deployed Engineering",
+  "loc": "San Francisco",
+  "url": "https://jobs.ashbyhq.com/cursor/f7ec7811-a573-42fa-8ade-01e2d07681ef",
   "status": "open"
  },
  {
