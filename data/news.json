@@ -1,8 +1,28 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "window_days": 7,
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
+    {
+      "title": "US orders federal agencies to remove DeepSeek AI, including products built on it",
+      "summary": "DHS ordered federal civilian agencies to stop buying DeepSeek products and services and remove them from government systems, and the order also covers third-party products built with DeepSeek technology, with exceptions by request.",
+      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+      "date_published": "2026-10-20",
+      "source": "TechCrunch",
+      "tag": "policy",
+      "why_it_matters_for_FDEs": "If you deploy for US federal customers, audit every stack for DeepSeek models or DeepSeek-based components now, including open weights hosted by third parties.",
+      "verified": "2026-10-21"
+    },
+    {
+      "title": "DeepSeek open-sources DeepInfer, its production inference stack",
+      "summary": "DeepSeek released DeepInfer under Apache-2.0, the vLLM-based inference framework it uses to serve DeepSeek-V4.1-Flash at scale, though its most optimized KV cache and load balancing are not included.",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "date_published": "2026-10-20",
+      "source": "DeepSeek (GitHub)",
+      "tag": "open-source",
+      "why_it_matters_for_FDEs": "A production-proven reference for self-hosted inference that can cut serving costs for customers running open models, but check the new federal DeepSeek ban before proposing it to government customers.",
+      "verified": "2026-10-21"
+    },
     {
       "title": "Microsoft: treat deployed AI agents as insider threats",
       "summary": "Microsoft's official blog argues that frontier models, whatever their origin, can't be trusted, and that enterprises need guardian agents that watch and moderate every action of their own agents before it happens, extending its Project Perception security system to internal agents.",
@@ -11,16 +31,6 @@
       "source": "Microsoft",
       "tag": "agent-infra",
       "why_it_matters_for_FDEs": "Enterprise security teams will now expect agent deployments to come with per-action monitoring, least-privilege tool access and audit trails, so build those into the design rather than bolting them on.",
-      "verified": "2026-10-20"
-    },
-    {
-      "title": "NVIDIA releases Nemotron 3.5 Super VL and Bolt open models for agents",
-      "summary": "NVIDIA released Nemotron 3.5 Super VL, an open 120B multimodal model for always-on enterprise agents, plus Bolt 74B-A9B for local workstations now and Bolt E4B (4GB) on Oct 23.",
-      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-      "date_published": "2026-10-15",
-      "source": "NVIDIA",
-      "tag": "open-weights",
-      "why_it_matters_for_FDEs": "Gives you an open agent model at server, workstation and edge sizes that customers can post-train on their data and run on their own NVIDIA hardware.",
       "verified": "2026-10-20"
     },
     {
@@ -34,6 +44,26 @@
       "verified": "2026-10-20"
     },
     {
+      "title": "IBM's ALTK-Evolve tops τ²-bench customer service with GPT-4.1 and learned memory",
+      "summary": "IBM Research shows a stock ReAct agent on GPT-4.1, given guidelines learned from past runs, reaching 67.5% Pass^4 on τ²-bench retail, above every retail entry in its Oct 12 leaderboard snapshot, without changing model weights.",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "date_published": "2026-10-20",
+      "source": "Hugging Face / IBM Research",
+      "tag": "agent-research",
+      "why_it_matters_for_FDEs": "Learned playbooks can make cheaper models reliable on policy-bound support workflows, so try memory and guidelines before upgrading a customer to a pricier frontier model.",
+      "verified": "2026-10-21"
+    },
+    {
+      "title": "Vercel: running coding agent harnesses durably in the cloud",
+      "summary": "Vercel's engineering blog explains how it runs long-lived agent harnesses like Claude Code and Pi in the cloud so sessions survive restarts and run for hours without a laptop staying awake.",
+      "url": "https://vercel.com/blog/making-every-harness-durable",
+      "date_published": "2026-10-19",
+      "source": "Vercel",
+      "tag": "agent-infra",
+      "why_it_matters_for_FDEs": "Useful patterns for keeping customer-facing agents running around the clock with resumable sessions and persistent workspaces.",
+      "verified": "2026-10-21"
+    },
+    {
       "title": "Gemini 4 Argon is now generally available",
       "summary": "Google released Gemini 4 Argon, its new frontier model, to developers, enterprises and consumers. Introductory API price is $2/M input and $10/M output tokens, with cached input 95% off. Google says it ranks #1 on the Vals Index.",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
@@ -44,6 +74,16 @@
       "verified": "2026-10-19"
     },
     {
+      "title": "NVIDIA releases Nemotron 3.5 Super VL and Bolt open models for agents",
+      "summary": "NVIDIA released Nemotron 3.5 Super VL, an open 120B multimodal model for always-on enterprise agents, plus Bolt 74B-A9B for local workstations now and Bolt E4B (4GB) on Oct 23.",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+      "date_published": "2026-10-15",
+      "source": "NVIDIA",
+      "tag": "open-weights",
+      "why_it_matters_for_FDEs": "Gives you an open agent model at server, workstation and edge sizes that customers can post-train on their data and run on their own NVIDIA hardware.",
+      "verified": "2026-10-20"
+    },
+    {
       "title": "GitHub ships a REST API for Copilot model policies",
       "summary": "GET and PATCH endpoints for Copilot model policies are now generally available at the enterprise, enterprise team, enterprise app and organization levels.",
       "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
@@ -51,16 +91,6 @@
       "source": "GitHub Changelog",
       "tag": "agent-tooling",
       "why_it_matters_for_FDEs": "Lets you script which models each customer org or team can use, instead of clicking through settings, which helps with rollouts and model deprecations.",
-      "verified": "2026-10-20"
-    },
-    {
-      "title": "Hugging Face libraries add native support for TorchNeuron on AWS Trainium",
-      "summary": "TorchNeuron, a native PyTorch backend for AWS Trainium with eager mode, torch.compile, FSDP and TP, enters public beta Oct 20, and Transformers, Diffusers and Kernels support it directly.",
-      "url": "https://huggingface.co/blog/hf-torchneuron",
-      "date_published": "2026-10-19",
-      "source": "Hugging Face",
-      "tag": "agent-infra",
-      "why_it_matters_for_FDEs": "Makes Trainium a more realistic lower-cost option for AWS customers who want to train or serve open models without rewriting code for a compiler-first stack.",
       "verified": "2026-10-20"
     },
     {
@@ -121,36 +151,6 @@
       "source": "Vercel",
       "tag": "agent-infra",
       "why_it_matters_for_FDEs": "Solves the state-across-runs problem for long-running agents without custom storage plumbing.",
-      "verified": "2026-10-19"
-    },
-    {
-      "title": "Vercel AI Gateway index: open-weight models take 71.5% of tokens, 23% of spend",
-      "summary": "Vercel's October production index (September data) shows open-weight models processing more than 7 in 10 gateway tokens. AI spend is up 13x while cost per token has halved, and DeepSeek V4.1 Flash alone handled nearly half of all tokens.",
-      "url": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
-      "date_published": "2026-10-15",
-      "source": "Vercel",
-      "tag": "market-data",
-      "why_it_matters_for_FDEs": "Real production data for cost conversations: route high-volume work to open weights and keep frontier models for the hard steps.",
-      "verified": "2026-10-19"
-    },
-    {
-      "title": "Third Moment Research runs 10,000 concurrent agents for 36+ hours on OpenAI",
-      "summary": "OpenAI case study: Third Moment runs 10,000 agents at once on 36-48 hour sessions. It uses Codex as a subagent inside an outer GPT-6 Sol harness, cut a backtest from about 3 hours to about 3-5 minutes, and uses Daybreak to pen-test its sandboxes.",
-      "url": "https://openai.com/index/third-moment-research",
-      "date_published": "2026-10-14",
-      "source": "OpenAI",
-      "tag": "case-study",
-      "why_it_matters_for_FDEs": "A concrete reference architecture for very long-horizon agents: an outer supervisor harness, fixing token-wasting polling, and automated sandbox security testing.",
-      "verified": "2026-10-19"
-    },
-    {
-      "title": "MCP Events support in Vercel Connect is in public beta",
-      "summary": "Vercel Connect, the eve framework and AI SDK now support the MCP Events extension. Agents subscribe to webhook events from MCP servers, and Vercel renews subscriptions and verifies signatures automatically.",
-      "url": "https://vercel.com/changelog/mcp-events-support-in-vercel-connect-is-now-in-public-beta",
-      "date_published": "2026-10-15",
-      "source": "Vercel Changelog",
-      "tag": "agent-infra",
-      "why_it_matters_for_FDEs": "Moves customer agents from polling to event-driven triggers on new issues, messages or document feedback.",
       "verified": "2026-10-19"
     }
   ]

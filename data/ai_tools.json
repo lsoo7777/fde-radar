@@ -26,7 +26,7 @@
     "github": "https://github.com/anthropics/claude-code",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: runs in the terminal and reads skills from ~/.claude/skills, so our kit skills work in it directly.",
-    "stars": 152665,
+    "stars": 152666,
     "repo": "anthropics/claude-code",
     "free": "no",
     "free_src": "https://claude.com/product/claude-code",
@@ -42,7 +42,7 @@
      "repo": "openai/codex",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-21",
-     "stars": 130250,
+     "stars": 130254,
      "pushed": "2026-10-21",
      "archived": false,
      "license": "Apache-2.0"
@@ -83,7 +83,7 @@
     "github": "https://github.com/langfuse/langfuse",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: open-source tracing plus evals you can self-host when customer data can't leave their cloud.",
-    "stars": 36130,
+    "stars": 36131,
     "repo": "langfuse/langfuse",
     "free": "yes",
     "free_src": "https://langfuse.com/pricing",
@@ -107,7 +107,7 @@
      "repo": "confident-ai/deepeval",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-21",
-     "stars": 19008,
+     "stars": 19009,
      "pushed": "2026-10-19",
      "archived": false,
      "license": "Apache-2.0"
@@ -164,7 +164,7 @@
      "repo": "langgenius/dify",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-21",
-     "stars": 159118,
+     "stars": 159120,
      "pushed": "2026-10-21",
      "archived": false,
      "license": "NOASSERTION"
@@ -222,7 +222,7 @@
     "github": "https://github.com/firecrawl/firecrawl",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: turns company sites into clean text an agent can research from.",
-    "stars": 193656,
+    "stars": 193664,
     "repo": "firecrawl/firecrawl",
     "free": "yes",
     "free_src": "https://www.firecrawl.dev/pricing",
@@ -238,7 +238,7 @@
      "repo": "browser-use/browser-use",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-21",
-     "stars": 118729,
+     "stars": 118730,
      "pushed": "2026-10-20",
      "archived": false,
      "license": "MIT"
@@ -249,7 +249,7 @@
      "repo": "unclecode/crawl4ai",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-10-21",
-     "stars": 85965,
+     "stars": 85966,
      "pushed": "2026-10-20",
      "archived": false,
      "license": "Apache-2.0"
@@ -275,7 +275,7 @@
     "github": "https://github.com/n8n-io/n8n",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: self-hostable with AI agent nodes, so it fits customers who keep data in-house.",
-    "stars": 208204,
+    "stars": 208205,
     "repo": "n8n-io/n8n",
     "checked": "2026-10-21",
     "pushed": "2026-10-21",
@@ -395,6 +395,14 @@
    "checked": "2026-10-21"
   },
   {
+   "name": "Langfuse v4.67.0",
+   "url": "https://github.com/langfuse/langfuse/releases/tag/v4.67.0",
+   "date": "2026-10-21",
+   "category": "Evals and observability",
+   "source": "GitHub releases API",
+   "checked": "2026-10-21"
+  },
+  {
    "name": "Vercel AI SDK ai@7.0.148",
    "url": "https://github.com/vercel/ai/releases/tag/ai%407.0.148",
    "date": "2026-10-21",
@@ -407,14 +415,6 @@
    "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
    "date": "2026-10-21",
    "category": "Workflow automation",
-   "source": "GitHub releases API",
-   "checked": "2026-10-21"
-  },
-  {
-   "name": "Langfuse v4.66.0",
-   "url": "https://github.com/langfuse/langfuse/releases/tag/v4.66.0",
-   "date": "2026-10-20",
-   "category": "Evals and observability",
    "source": "GitHub releases API",
    "checked": "2026-10-21"
   },
