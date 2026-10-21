@@ -6,8 +6,8 @@
   "stars": 2290,
   "checked": "2026-10-21",
   "license": "MIT",
-  "what": "Beacon by Asymptote Labs turns your coding-agent sessions into reusable skills that work across Claude Code, Cursor, Codex and 20+ other agents.",
-  "note": "Asymptote Labs announced a $5.5M seed round led by Tower Research Ventures on Oct 20, 2026 (<a style=\"color:var(--acc)\" href=\"https://www.asymptotelabs.ai/blog/asymptote-labs-raises-5-5m-seed-round\" target=\"_blank\" rel=\"noopener\">source</a>).",
+  "what": "Beacon by Asymptote Labs captures session history across Claude Code, Cursor, Codex, OpenCode and 20+ other harnesses and turns it into reusable knowledge.",
+  "note": "Asymptote Labs raised $5.5M in a seed round led by Tower Research Ventures, announced Oct 20, 2026 (<a style=\"color:var(--acc)\" href=\"https://www.asymptotelabs.ai/blog/asymptote-labs-raises-5-5m-seed-round\" target=\"_blank\" rel=\"noopener\">source</a>).",
   "install_label": "Install (Homebrew, from the README):",
   "install": "brew tap asymptote-labs/tap\nbrew install beacon",
   "date_label": "Oct 21, 2026"
