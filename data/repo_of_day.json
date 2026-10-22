@@ -1,5 +1,17 @@
 [
  {
+  "id": "graphify",
+  "repo": "Graphify-Labs/graphify",
+  "url": "https://github.com/Graphify-Labs/graphify",
+  "stars": 132251,
+  "checked": "2026-10-22",
+  "license": "Apache-2.0",
+  "what": "Graphify turns a codebase, plus its docs, SQL schemas, configs and PDFs, into a queryable knowledge graph. It ships as a /graphify skill for Claude Code, Cursor, Codex and Gemini CLI.",
+  "install_label": "Install (from the README):",
+  "install": "uv tool install graphifyy\ngraphify install",
+  "date_label": "Oct 22, 2026"
+ },
+ {
   "id": "agent-beacon",
   "repo": "Asymptote-Labs/agent-beacon",
   "url": "https://github.com/Asymptote-Labs/agent-beacon",
