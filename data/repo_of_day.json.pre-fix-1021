@@ -1,0 +1,27 @@
+[
+ {
+  "id": "agent-beacon",
+  "repo": "Asymptote-Labs/agent-beacon",
+  "url": "https://github.com/Asymptote-Labs/agent-beacon",
+  "stars": 2290,
+  "checked": "2026-10-21",
+  "license": "MIT",
+  "what": "Beacon by Asymptote Labs turns your coding-agent sessions into reusable skills that work across Claude Code, Cursor, Codex and 20+ other agents.",
+  "note": "Asymptote Labs announced a $5.5M seed round led by Tower Research Ventures on Oct 20, 2026 (<a style=\"color:var(--acc)\" href=\"https://www.asymptotelabs.ai/blog/asymptote-labs-raises-5-5m-seed-round\" target=\"_blank\" rel=\"noopener\">source</a>).",
+  "install_label": "Install (Homebrew, from the README):",
+  "install": "brew tap asymptote-labs/tap\nbrew install beacon",
+  "date_label": "Oct 21, 2026"
+ },
+ {
+  "id": "cloudflare-skills",
+  "repo": "cloudflare/skills",
+  "url": "https://github.com/cloudflare/skills",
+  "stars": 3111,
+  "checked": "2026-10-20",
+  "license": "Apache-2.0",
+  "what": "Cloudflare's official agent skills. They teach your coding agent how to build and deploy on Cloudflare, so it stops guessing at things like wrangler config. The plugin also adds Cloudflare's MCP server.",
+  "install": "/plugin marketplace add cloudflare/skills",
+  "x": "https://x.com/AgenticRadar/status/2112578811896156599",
+  "date_label": "Oct 20, 2026"
+ }
+]

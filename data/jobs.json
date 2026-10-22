@@ -267,13 +267,6 @@
  },
  {
   "co": "samsara",
-  "title": "Sr. Recruiter, Sales Engineering (Contract)",
-  "loc": "Remote - US",
-  "url": "https://job-boards.greenhouse.io/samsara/jobs/8279080",
-  "status": "open"
- },
- {
-  "co": "samsara",
   "title": "Enterprise Sales Engineer - US Southeast",
   "loc": "Remote - US",
   "url": "https://job-boards.greenhouse.io/samsara/jobs/8244432",
@@ -333,6 +326,13 @@
   "title": "Associate Sales Engineer, SE Desk - Southeast",
   "loc": "Remote - US",
   "url": "https://job-boards.greenhouse.io/samsara/jobs/7848351",
+  "status": "open"
+ },
+ {
+  "co": "samsara",
+  "title": "Enterprise Core Sales Engineer - West",
+  "loc": "Remote - US",
+  "url": "https://job-boards.greenhouse.io/samsara/jobs/7848529",
   "status": "open"
  },
  {
@@ -610,6 +610,13 @@
  },
  {
   "co": "sierra",
+  "title": "Associate Sales Engineer",
+  "loc": "San Francisco, CA",
+  "url": "https://jobs.ashbyhq.com/sierra/cfecdf07-ee22-45a0-b472-5de10f167984",
+  "status": "open"
+ },
+ {
+  "co": "sierra",
   "title": "Sales Engineering Manager, High Growth",
   "loc": "San Francisco, CA",
   "url": "https://jobs.ashbyhq.com/sierra/fe3a612c-e4f1-447c-a518-3a2a26c5e10b",
@@ -669,13 +676,6 @@
   "title": "Enterprise Sales Engineer (Brazilian Portuguese speaking)",
   "loc": "San Francisco, CA",
   "url": "https://jobs.ashbyhq.com/sierra/102b597d-876d-458f-bf11-58924df4b73d",
-  "status": "open"
- },
- {
-  "co": "sierra",
-  "title": "Enterprise Sales Engineer, Healthcare",
-  "loc": "San Francisco, CA",
-  "url": "https://jobs.ashbyhq.com/sierra/ab7ce8a1-d088-4808-93e2-a4162c315821",
   "status": "open"
  },
  {
@@ -792,6 +792,13 @@
  },
  {
   "co": "baseten",
+  "title": "Technical Program Manager, Forward Deployed Engineering",
+  "loc": "San Francisco",
+  "url": "https://jobs.ashbyhq.com/baseten/976f89ef-1065-45a7-8b51-31fecd1ef1e6",
+  "status": "open"
+ },
+ {
+  "co": "baseten",
   "title": "Forward Deployed Engineer (Training)",
   "loc": "San Francisco",
   "url": "https://jobs.ashbyhq.com/baseten/11ab2593-6648-4943-ab4a-284fe7e89720",
@@ -883,9 +890,9 @@
  },
  {
   "co": "cohere",
-  "title": "Forward Deployed Engineer, Infrastructure Specialist (Singapore)",
-  "loc": "Singapore",
-  "url": "https://jobs.ashbyhq.com/cohere/e88931c0-d3fa-4e81-accc-45db823ea616",
+  "title": "Forward Deployed Engineer, Agentic Platform (Europe)",
+  "loc": "Europe",
+  "url": "https://jobs.ashbyhq.com/cohere/2d256112-b336-4539-8133-a0bf7f6698f0",
   "status": "open"
  },
  {
