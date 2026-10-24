@@ -1,0 +1,157 @@
+{
+  "updated": "2026-10-21",
+  "window_days": 7,
+  "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
+  "items": [
+    {
+      "title": "US orders federal agencies to remove DeepSeek AI, including products built on it",
+      "summary": "DHS ordered federal civilian agencies to stop buying DeepSeek products and services and remove them from government systems, and the order also covers third-party products built with DeepSeek technology, with exceptions by request.",
+      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+      "date_published": "2026-10-20",
+      "source": "TechCrunch",
+      "tag": "policy",
+      "why_it_matters_for_FDEs": "If you deploy for US federal customers, audit every stack for DeepSeek models or DeepSeek-based components now, including open weights hosted by third parties.",
+      "verified": "2026-10-21"
+    },
+    {
+      "title": "DeepSeek open-sources DeepInfer, its production inference stack",
+      "summary": "DeepSeek released DeepInfer under Apache-2.0, the vLLM-based inference framework it uses to serve DeepSeek-V4.1-Flash at scale, though its most optimized KV cache and load balancing are not included.",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "date_published": "2026-10-20",
+      "source": "DeepSeek (GitHub)",
+      "tag": "open-source",
+      "why_it_matters_for_FDEs": "A production-proven reference for self-hosted inference that can cut serving costs for customers running open models, but check the new federal DeepSeek ban before proposing it to government customers.",
+      "verified": "2026-10-21"
+    },
+    {
+      "title": "Microsoft: treat deployed AI agents as insider threats",
+      "summary": "Microsoft's official blog argues that frontier models, whatever their origin, can't be trusted, and that enterprises need guardian agents that watch and moderate every action of their own agents before it happens, extending its Project Perception security system to internal agents.",
+      "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+      "date_published": "2026-10-19",
+      "source": "Microsoft",
+      "tag": "agent-infra",
+      "why_it_matters_for_FDEs": "Enterprise security teams will now expect agent deployments to come with per-action monitoring, least-privilege tool access and audit trails, so build those into the design rather than bolting them on.",
+      "verified": "2026-10-20"
+    },
+    {
+      "title": "GitHub Copilot retired GPT-5.5, GPT-5.4, Gemini 3.7 Flash and Grok 4.5 on Oct 19",
+      "summary": "GitHub deprecated six models across Copilot Chat, agent mode and completions on Oct 19, 2026, pointing users to GPT-6.1 Sol, GPT-6 Luna, Gemini 3.8 Flash and Grok 4.7 instead.",
+      "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+      "date_published": "2026-10-19",
+      "source": "GitHub Changelog",
+      "tag": "deprecation",
+      "why_it_matters_for_FDEs": "Customer workflows pinned to these models break now; Copilot Enterprise admins may need to enable the replacement models in their model policies.",
+      "verified": "2026-10-20"
+    },
+    {
+      "title": "IBM's ALTK-Evolve tops τ²-bench customer service with GPT-4.1 and learned memory",
+      "summary": "IBM Research shows a stock ReAct agent on GPT-4.1, given guidelines learned from past runs, reaching 67.5% Pass^4 on τ²-bench retail, above every retail entry in its Oct 12 leaderboard snapshot, without changing model weights.",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "date_published": "2026-10-20",
+      "source": "Hugging Face / IBM Research",
+      "tag": "agent-research",
+      "why_it_matters_for_FDEs": "Learned playbooks can make cheaper models reliable on policy-bound support workflows, so try memory and guidelines before upgrading a customer to a pricier frontier model.",
+      "verified": "2026-10-21"
+    },
+    {
+      "title": "Vercel: running coding agent harnesses durably in the cloud",
+      "summary": "Vercel's engineering blog explains how it runs long-lived agent harnesses like Claude Code and Pi in the cloud so sessions survive restarts and run for hours without a laptop staying awake.",
+      "url": "https://vercel.com/blog/making-every-harness-durable",
+      "date_published": "2026-10-19",
+      "source": "Vercel",
+      "tag": "agent-infra",
+      "why_it_matters_for_FDEs": "Useful patterns for keeping customer-facing agents running around the clock with resumable sessions and persistent workspaces.",
+      "verified": "2026-10-21"
+    },
+    {
+      "title": "Gemini 4 Argon is now generally available",
+      "summary": "Google released Gemini 4 Argon, its new frontier model, to developers, enterprises and consumers. Introductory API price is $2/M input and $10/M output tokens, with cached input 95% off. Google says it ranks #1 on the Vals Index.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "date_published": "2026-10-13",
+      "source": "Google",
+      "tag": "model-release",
+      "why_it_matters_for_FDEs": "A new frontier option at aggressive pricing, aimed at multi-step finance, legal and coding work. Expect customers to ask for bake-offs against their current model.",
+      "verified": "2026-10-19"
+    },
+    {
+      "title": "NVIDIA releases Nemotron 3.5 Super VL and Bolt open models for agents",
+      "summary": "NVIDIA released Nemotron 3.5 Super VL, an open 120B multimodal model for always-on enterprise agents, plus Bolt 74B-A9B for local workstations now and Bolt E4B (4GB) on Oct 23.",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+      "date_published": "2026-10-15",
+      "source": "NVIDIA",
+      "tag": "open-weights",
+      "why_it_matters_for_FDEs": "Gives you an open agent model at server, workstation and edge sizes that customers can post-train on their data and run on their own NVIDIA hardware.",
+      "verified": "2026-10-20"
+    },
+    {
+      "title": "GitHub ships a REST API for Copilot model policies",
+      "summary": "GET and PATCH endpoints for Copilot model policies are now generally available at the enterprise, enterprise team, enterprise app and organization levels.",
+      "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+      "date_published": "2026-10-19",
+      "source": "GitHub Changelog",
+      "tag": "agent-tooling",
+      "why_it_matters_for_FDEs": "Lets you script which models each customer org or team can use, instead of clicking through settings, which helps with rollouts and model deprecations.",
+      "verified": "2026-10-20"
+    },
+    {
+      "title": "Meta releases Muse Spark Open, an open-weight frontier multimodal MoE",
+      "summary": "Meta published Muse Spark Open on Hugging Face. It is an open-weight mixture-of-experts model that takes text, image, video and audio, with a 1M-token context window.",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "date_published": "2026-10-15",
+      "source": "Hugging Face / Meta",
+      "tag": "open-weights",
+      "why_it_matters_for_FDEs": "Gives FDEs a self-hostable multimodal frontier model for customers with data-residency or on-prem limits.",
+      "verified": "2026-10-19"
+    },
+    {
+      "title": "Reflection AI releases Beam, a 501B open model",
+      "summary": "Reflection AI released Beam, a 501B-parameter open model that runs at about the speed of a 23B model. It ships BF16, FP8 and NVFP4 checkpoints, with vLLM and SGLang deployment recipes.",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "date_published": "2026-10-16",
+      "source": "Hugging Face / Reflection AI",
+      "tag": "open-weights",
+      "why_it_matters_for_FDEs": "A large open model that customers can own and fine-tune. The ready vLLM and SGLang recipes cut the time to a private deployment.",
+      "verified": "2026-10-19"
+    },
+    {
+      "title": "Cursor cloud agents get canvases, an Environments API and 300-repo environments",
+      "summary": "Cursor cloud agents can now build and share interactive canvases. An Environments API is in beta for creating agent environments programmatically, and environments now support up to 300 repos and load large ones 5x faster.",
+      "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
+      "date_published": "2026-10-16",
+      "source": "Cursor Changelog",
+      "tag": "agent-tooling",
+      "why_it_matters_for_FDEs": "The Environments API lets FDEs script reproducible multi-repo agent setups for each customer instead of hand-building them.",
+      "verified": "2026-10-19"
+    },
+    {
+      "title": "GitHub agentic autofix for code scanning alerts is GA",
+      "summary": "Code scanning alerts can be assigned to Copilot, which explores the codebase, proposes a fix, re-runs CodeQL to check it, and opens a draft PR. It is available to Code Security and Advanced Security customers on Enterprise Cloud.",
+      "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+      "date_published": "2026-10-15",
+      "source": "GitHub Changelog",
+      "tag": "agent-tooling",
+      "why_it_matters_for_FDEs": "A production pattern for a verified agent loop (fix, validate, PR) that enterprise security teams can adopt now.",
+      "verified": "2026-10-19"
+    },
+    {
+      "title": "GitHub Copilot deprecates several models on Nov 16, 2026",
+      "summary": "On Nov 16, GitHub will retire Claude Opus 4.8, Claude Opus 5 and GPT-5.6 Terra across all Copilot experiences. Suggested replacements are Claude Opus 5.5 and GPT-6.1 Sol or GPT-6 Luna.",
+      "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
+      "date_published": "2026-10-15",
+      "source": "GitHub Changelog",
+      "tag": "deprecation",
+      "why_it_matters_for_FDEs": "Customer workflows pinned to these models will break mid-November. Audit model policies and integrations now.",
+      "verified": "2026-10-19"
+    },
+    {
+      "title": "Vercel Drives: persistent storage for agents is GA",
+      "summary": "Vercel Drives keeps an agent's files independent of its execution environment. Agents can mount the same drive in a new Vercel Sandbox and continue where they left off.",
+      "url": "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
+      "date_published": "2026-10-15",
+      "source": "Vercel",
+      "tag": "agent-infra",
+      "why_it_matters_for_FDEs": "Solves the state-across-runs problem for long-running agents without custom storage plumbing.",
+      "verified": "2026-10-19"
+    }
+  ]
+}

@@ -1,8 +1,48 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "window_days": 7,
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
+    {
+      "title": "LiteLLM 1.107.0 was compromised on PyPI and Docker; upgrade from or pin 1.106.2 and rotate keys",
+      "summary": "On Oct 21 LiteLLM's release pipeline was compromised and pushed a malicious v1.107.0 that steals credentials. LiteLLM says the incident is contained.",
+      "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026",
+      "date_published": "2026-10-21",
+      "source": "LiteLLM",
+      "tag": "security",
+      "why_it_matters_for_FDEs": "Check every customer environment and CI image for LiteLLM 1.107.0; if found, remove it, pin 1.106.2 and rotate every cloud and model-provider key it could reach.",
+      "verified": "2026-10-22"
+    },
+    {
+      "title": "OpenAI's Patch the Planet coalition fixes critical PHP flaws found with GPT-5.6 Sol",
+      "summary": "OpenAI led a two-month coordinated disclosure of critical vulnerabilities in PHP, found by Calif using GPT-5.6 Sol and independently by Wiz, and urges everyone running PHP to apply the maintainers' fixes now.",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "date_published": "2026-10-21",
+      "source": "OpenAI",
+      "tag": "security",
+      "why_it_matters_for_FDEs": "Check every customer stack that runs PHP and patch today; OpenAI also published a PHP version checker as a Codex skill to find vulnerable versions.",
+      "verified": "2026-10-22"
+    },
+    {
+      "title": "OpenAI models and Codex are coming to Google Cloud's Model Garden",
+      "summary": "OpenAI's frontier models and Codex will be sold through Google Cloud Model Garden and Marketplace, count against GCP spend commitments, and later reach Google Antigravity and the Gemini Agent, with general availability planned in the coming weeks.",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "date_published": "2026-10-21",
+      "source": "OpenAI",
+      "tag": "lab",
+      "why_it_matters_for_FDEs": "GCP-committed customers will be able to use OpenAI models inside their existing governance and budget, which removes a common procurement blocker.",
+      "verified": "2026-10-22"
+    },
+    {
+      "title": "Anthropic launches Claude Duet, a proactive agent app, in research preview",
+      "summary": "Claude Duet is a new Claude app built on Opus 5.5 that sends a morning brief, watches connected apps, takes on tasks in its own browser VM and asks for approval before big steps, starting by waitlist for US Pro and Max subscribers.",
+      "url": "https://claude.com/blog/claude-duet",
+      "date_published": "2026-10-21",
+      "source": "Anthropic",
+      "tag": "agents",
+      "why_it_matters_for_FDEs": "It is a reference design for always-on business agents, with approval gates and a classifier for sensitive data that you can borrow for customer deployments.",
+      "verified": "2026-10-22"
+    },
     {
       "title": "US orders federal agencies to remove DeepSeek AI, including products built on it",
       "summary": "DHS ordered federal civilian agencies to stop buying DeepSeek products and services and remove them from government systems, and the order also covers third-party products built with DeepSeek technology, with exceptions by request.",
@@ -111,46 +151,6 @@
       "source": "Hugging Face / Reflection AI",
       "tag": "open-weights",
       "why_it_matters_for_FDEs": "A large open model that customers can own and fine-tune. The ready vLLM and SGLang recipes cut the time to a private deployment.",
-      "verified": "2026-10-19"
-    },
-    {
-      "title": "Cursor cloud agents get canvases, an Environments API and 300-repo environments",
-      "summary": "Cursor cloud agents can now build and share interactive canvases. An Environments API is in beta for creating agent environments programmatically, and environments now support up to 300 repos and load large ones 5x faster.",
-      "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
-      "date_published": "2026-10-16",
-      "source": "Cursor Changelog",
-      "tag": "agent-tooling",
-      "why_it_matters_for_FDEs": "The Environments API lets FDEs script reproducible multi-repo agent setups for each customer instead of hand-building them.",
-      "verified": "2026-10-19"
-    },
-    {
-      "title": "GitHub agentic autofix for code scanning alerts is GA",
-      "summary": "Code scanning alerts can be assigned to Copilot, which explores the codebase, proposes a fix, re-runs CodeQL to check it, and opens a draft PR. It is available to Code Security and Advanced Security customers on Enterprise Cloud.",
-      "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
-      "date_published": "2026-10-15",
-      "source": "GitHub Changelog",
-      "tag": "agent-tooling",
-      "why_it_matters_for_FDEs": "A production pattern for a verified agent loop (fix, validate, PR) that enterprise security teams can adopt now.",
-      "verified": "2026-10-19"
-    },
-    {
-      "title": "GitHub Copilot deprecates several models on Nov 16, 2026",
-      "summary": "On Nov 16, GitHub will retire Claude Opus 4.8, Claude Opus 5 and GPT-5.6 Terra across all Copilot experiences. Suggested replacements are Claude Opus 5.5 and GPT-6.1 Sol or GPT-6 Luna.",
-      "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
-      "date_published": "2026-10-15",
-      "source": "GitHub Changelog",
-      "tag": "deprecation",
-      "why_it_matters_for_FDEs": "Customer workflows pinned to these models will break mid-November. Audit model policies and integrations now.",
-      "verified": "2026-10-19"
-    },
-    {
-      "title": "Vercel Drives: persistent storage for agents is GA",
-      "summary": "Vercel Drives keeps an agent's files independent of its execution environment. Agents can mount the same drive in a new Vercel Sandbox and continue where they left off.",
-      "url": "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
-      "date_published": "2026-10-15",
-      "source": "Vercel",
-      "tag": "agent-infra",
-      "why_it_matters_for_FDEs": "Solves the state-across-runs problem for long-running agents without custom storage plumbing.",
       "verified": "2026-10-19"
     }
   ]
