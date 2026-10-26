@@ -4,6 +4,16 @@
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
     {
+      "title": "China's tech giants offer FDE pay approaching 1M yuan a year",
+      "summary": "ByteDance, Tencent and Alibaba are recruiting forward-deployed engineers with annual packages approaching 1M yuan (about US$150K); Maimai data shows FDE postings in China up 1,523% in the first seven months of 2026 vs 2025.",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3371925/chinas-tech-giants-are-paying-1-million-yuan-new-kind-ai-engineer",
+      "date_published": "2026-10-25",
+      "source": "South China Morning Post",
+      "tag": "jobs",
+      "why_it_matters_for_FDEs": "FDE demand is now global: Maimai ranks FDE as the fastest-growing AI technical role in China.",
+      "verified": "2026-10-26"
+    },
+    {
       "title": "LiteLLM 1.107.0 was compromised on PyPI and Docker; upgrade from or pin 1.106.2 and rotate keys",
       "summary": "On Oct 21 LiteLLM's release pipeline was compromised and pushed a malicious v1.107.0 that steals credentials. LiteLLM says the incident is contained.",
       "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026",
@@ -141,16 +151,6 @@
       "source": "Hugging Face / Meta",
       "tag": "open-weights",
       "why_it_matters_for_FDEs": "Gives FDEs a self-hostable multimodal frontier model for customers with data-residency or on-prem limits.",
-      "verified": "2026-10-19"
-    },
-    {
-      "title": "Reflection AI releases Beam, a 501B open model",
-      "summary": "Reflection AI released Beam, a 501B-parameter open model that runs at about the speed of a 23B model. It ships BF16, FP8 and NVFP4 checkpoints, with vLLM and SGLang deployment recipes.",
-      "url": "https://huggingface.co/blog/reflection-beam",
-      "date_published": "2026-10-16",
-      "source": "Hugging Face / Reflection AI",
-      "tag": "open-weights",
-      "why_it_matters_for_FDEs": "A large open model that customers can own and fine-tune. The ready vLLM and SGLang recipes cut the time to a private deployment.",
       "verified": "2026-10-19"
     }
   ]

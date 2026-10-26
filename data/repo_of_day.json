@@ -1,5 +1,17 @@
 [
  {
+  "id": "awesome-claude-code-toolkit",
+  "repo": "rohitg00/awesome-claude-code-toolkit",
+  "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+  "stars": 2765,
+  "checked": "2026-10-26",
+  "license": "Apache-2.0",
+  "what": "A large curated toolkit for Claude Code: agents, skills, slash commands, plugins, hooks, rules, templates and MCP configs in one repo.",
+  "install_label": "Get it:",
+  "install": "git clone https://github.com/rohitg00/awesome-claude-code-toolkit",
+  "date_label": "Oct 26, 2026"
+ },
+ {
   "id": "graphify",
   "repo": "Graphify-Labs/graphify",
   "url": "https://github.com/Graphify-Labs/graphify",
