@@ -120,13 +120,6 @@
  },
  {
   "co": "databricks",
-  "title": "Associate Forward Deployed Engineer",
-  "loc": "Mountain View, California",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8910846002",
-  "status": "open"
- },
- {
-  "co": "databricks",
   "title": "Scale Solution Engineer",
   "loc": "Heredia, Costa Rica",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8779031002",
@@ -155,13 +148,6 @@
  },
  {
   "co": "databricks",
-  "title": "Forward Deployed Engineer, FDE (L4)",
-  "loc": "Remote - India",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8876613002",
-  "status": "open"
- },
- {
-  "co": "databricks",
   "title": "Senior Forward Deployed Engineer, Sr FDE (L5)",
   "loc": "Remote - India",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8876680002",
@@ -186,6 +172,20 @@
   "title": "Technical Program Manager, Forward Deployed Engineering",
   "loc": "London, United Kingdom",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8884751002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "Sr. Engagement Manager, FDE",
+  "loc": "Munich, Germany",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8885045002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "Solutions Engineer",
+  "loc": "New York City, New York",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8886384002",
   "status": "open"
  },
  {
@@ -1124,6 +1124,20 @@
   "title": "Deployment Strategist - US Government",
   "loc": "Kitsap, WA",
   "url": "https://jobs.lever.co/palantir/802add74-04cf-479c-9479-ff3043940e29",
+  "status": "open"
+ },
+ {
+  "co": "lovable",
+  "title": "Forward Deployed Engineering Lead",
+  "loc": "New York City",
+  "url": "https://jobs.ashbyhq.com/lovable/2bad82d6-3fd0-42a2-afbf-f1e9511057d4",
+  "status": "open"
+ },
+ {
+  "co": "lovable",
+  "title": "Forward Deployed Engineering Lead",
+  "loc": "Stockholm",
+  "url": "https://jobs.ashbyhq.com/lovable/f8590c0f-5374-4753-839b-e5c7315a71c2",
   "status": "open"
  }
 ]
