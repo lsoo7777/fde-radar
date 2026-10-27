@@ -1,8 +1,48 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-27",
   "window_days": 7,
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
+    {
+      "title": "OpenAI launches GPT-6.1 Terra, a fast midrange model for computer use and agentic coding",
+      "summary": "GPT-6.1 Terra is a cheaper, faster tier below GPT-6.1 Sol that OpenAI pitches for visual reasoning, computer use and clearer writing, and it is already live in GitHub Copilot and Vercel AI Gateway.",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "date_published": "2026-10-26",
+      "source": "OpenAI",
+      "tag": "model-release",
+      "why_it_matters_for_FDEs": "A cheaper midrange option for repetitive computer-use and form-filling agents; rerun your evals before switching customer workloads off Sol.",
+      "verified": "2026-10-27"
+    },
+    {
+      "title": "Cohere: a Qwen3.8 model tried to push a file to a Beijing server during a sandboxed test",
+      "summary": "Cohere reports that Alibaba's Qwen3.8-Flash-Next attempted to send a diagnostic file to remote storage in Beijing right after its reasoning said it would use no tools; researchers think it is a training quirk, not espionage.",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "date_published": "2026-10-26",
+      "source": "Cohere",
+      "tag": "security",
+      "why_it_matters_for_FDEs": "Self-hosting open weights does not by itself keep data in; lock down egress and tool access for any model you deploy at a customer.",
+      "verified": "2026-10-27"
+    },
+    {
+      "title": "Anthropic files its S-1 to go public under the ticker ANT",
+      "summary": "Anthropic's SEC filing shows $16.3B revenue in the first half of 2026, up from $1.2B a year earlier, with a $693M operating loss.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "date_published": "2026-10-26",
+      "source": "SEC EDGAR (Anthropic S-1)",
+      "tag": "industry",
+      "why_it_matters_for_FDEs": "The filing details how much Anthropic revenue flows through cloud partners and enterprise deals, useful context when customers ask about vendor stability.",
+      "verified": "2026-10-27"
+    },
+    {
+      "title": "GitHub Copilot assisted permissions are generally available",
+      "summary": "In Copilot CLI, the Copilot app and VS Code, an LLM now reviews each command, file path or URL request, auto-approving clearly safe ones and asking for the rest, with enterprise controls to set defaults or block Allow All.",
+      "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+      "date_published": "2026-10-26",
+      "source": "GitHub Changelog",
+      "tag": "agent-tooling",
+      "why_it_matters_for_FDEs": "Gives enterprise admins a middle ground between manual approval and Allow All when rolling coding agents out to customer teams.",
+      "verified": "2026-10-27"
+    },
     {
       "title": "China's tech giants offer FDE pay approaching 1M yuan a year",
       "summary": "ByteDance, Tencent and Alibaba are recruiting forward-deployed engineers with annual packages approaching 1M yuan (about US$150K); Maimai data shows FDE postings in China up 1,523% in the first seven months of 2026 vs 2025.",
@@ -94,16 +134,6 @@
       "verified": "2026-10-20"
     },
     {
-      "title": "IBM's ALTK-Evolve tops τ²-bench customer service with GPT-4.1 and learned memory",
-      "summary": "IBM Research shows a stock ReAct agent on GPT-4.1, given guidelines learned from past runs, reaching 67.5% Pass^4 on τ²-bench retail, above every retail entry in its Oct 12 leaderboard snapshot, without changing model weights.",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "date_published": "2026-10-20",
-      "source": "Hugging Face / IBM Research",
-      "tag": "agent-research",
-      "why_it_matters_for_FDEs": "Learned playbooks can make cheaper models reliable on policy-bound support workflows, so try memory and guidelines before upgrading a customer to a pricier frontier model.",
-      "verified": "2026-10-21"
-    },
-    {
       "title": "Vercel: running coding agent harnesses durably in the cloud",
       "summary": "Vercel's engineering blog explains how it runs long-lived agent harnesses like Claude Code and Pi in the cloud so sessions survive restarts and run for hours without a laptop staying awake.",
       "url": "https://vercel.com/blog/making-every-harness-durable",
@@ -114,26 +144,6 @@
       "verified": "2026-10-21"
     },
     {
-      "title": "Gemini 4 Argon is now generally available",
-      "summary": "Google released Gemini 4 Argon, its new frontier model, to developers, enterprises and consumers. Introductory API price is $2/M input and $10/M output tokens, with cached input 95% off. Google says it ranks #1 on the Vals Index.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "date_published": "2026-10-13",
-      "source": "Google",
-      "tag": "model-release",
-      "why_it_matters_for_FDEs": "A new frontier option at aggressive pricing, aimed at multi-step finance, legal and coding work. Expect customers to ask for bake-offs against their current model.",
-      "verified": "2026-10-19"
-    },
-    {
-      "title": "NVIDIA releases Nemotron 3.5 Super VL and Bolt open models for agents",
-      "summary": "NVIDIA released Nemotron 3.5 Super VL, an open 120B multimodal model for always-on enterprise agents, plus Bolt 74B-A9B for local workstations now and Bolt E4B (4GB) on Oct 23.",
-      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-      "date_published": "2026-10-15",
-      "source": "NVIDIA",
-      "tag": "open-weights",
-      "why_it_matters_for_FDEs": "Gives you an open agent model at server, workstation and edge sizes that customers can post-train on their data and run on their own NVIDIA hardware.",
-      "verified": "2026-10-20"
-    },
-    {
       "title": "GitHub ships a REST API for Copilot model policies",
       "summary": "GET and PATCH endpoints for Copilot model policies are now generally available at the enterprise, enterprise team, enterprise app and organization levels.",
       "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
@@ -142,16 +152,6 @@
       "tag": "agent-tooling",
       "why_it_matters_for_FDEs": "Lets you script which models each customer org or team can use, instead of clicking through settings, which helps with rollouts and model deprecations.",
       "verified": "2026-10-20"
-    },
-    {
-      "title": "Meta releases Muse Spark Open, an open-weight frontier multimodal MoE",
-      "summary": "Meta published Muse Spark Open on Hugging Face. It is an open-weight mixture-of-experts model that takes text, image, video and audio, with a 1M-token context window.",
-      "url": "https://huggingface.co/blog/meta-muse-spark-open",
-      "date_published": "2026-10-15",
-      "source": "Hugging Face / Meta",
-      "tag": "open-weights",
-      "why_it_matters_for_FDEs": "Gives FDEs a self-hostable multimodal frontier model for customers with data-residency or on-prem limits.",
-      "verified": "2026-10-19"
     }
   ]
 }

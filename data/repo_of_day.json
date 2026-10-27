@@ -1,5 +1,17 @@
 [
  {
+  "id": "mattpocock-skills",
+  "repo": "mattpocock/skills",
+  "url": "https://github.com/mattpocock/skills",
+  "stars": 304483,
+  "checked": "2026-10-27",
+  "license": "MIT",
+  "what": "Matt Pocock's ready-made slash-command skills for Claude Code, Codex and Cursor, straight from his own .agents directory. FDEs and SEs can drop them in instead of writing prompts from scratch.",
+  "install_label": "Get it:",
+  "install": "git clone https://github.com/mattpocock/skills.git",
+  "date_label": "Oct 27, 2026"
+ },
+ {
   "id": "awesome-claude-code-toolkit",
   "repo": "rohitg00/awesome-claude-code-toolkit",
   "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
