@@ -1,0 +1,52 @@
+[
+ {
+  "id": "wk-context7",
+  "repo": "upstash/context7",
+  "url": "https://github.com/upstash/context7",
+  "stars": 63835,
+  "license": "MIT",
+  "what": "Upstash's MCP server that pulls up-to-date library docs into your coding agent's prompt, so it stops writing last year's API against a customer's newer stack.",
+  "checked": "2026-10-28",
+  "install": "git clone https://github.com/upstash/context7.git"
+ },
+ {
+  "id": "wk-artemis",
+  "repo": "google/artemis",
+  "url": "https://github.com/google/artemis",
+  "stars": 15373,
+  "license": "Apache-2.0",
+  "what": "Google's open-source tool that turns natural-language instructions into Android automation, with MCP so Claude Code and other agents can drive a real phone for mobile demos and QA without Appium scripts.",
+  "checked": "2026-10-28",
+  "install": "git clone https://github.com/google/artemis.git"
+ },
+ {
+  "id": "wk-codebase-memory-mcp",
+  "repo": "DeusData/codebase-memory-mcp",
+  "url": "https://github.com/DeusData/codebase-memory-mcp",
+  "stars": 47712,
+  "license": "MIT",
+  "what": "DeusData's MCP server that links code, docs, config and infrastructure into a local knowledge graph, so you can learn a customer's unfamiliar codebase on day one. No hosted service or API key.",
+  "checked": "2026-10-28",
+  "install": "git clone https://github.com/DeusData/codebase-memory-mcp.git"
+ },
+ {
+  "id": "wk-pageindex",
+  "repo": "VectifyAI/PageIndex",
+  "url": "https://github.com/VectifyAI/PageIndex",
+  "stars": 39872,
+  "license": "MIT",
+  "what": "VectifyAI's vectorless, reasoning-based RAG for long documents like contracts, filings and manuals, without a vector database.",
+  "checked": "2026-10-28",
+  "install": "git clone https://github.com/VectifyAI/PageIndex.git"
+ },
+ {
+  "id": "wk-hermes-agent",
+  "repo": "NousResearch/hermes-agent",
+  "url": "https://github.com/NousResearch/hermes-agent",
+  "stars": 257975,
+  "license": "MIT",
+  "what": "Nous Research's self-improving agent that creates skills from experience, works with any model provider and runs on a $5 VPS.",
+  "checked": "2026-10-28",
+  "install": "git clone https://github.com/NousResearch/hermes-agent.git"
+ }
+]
