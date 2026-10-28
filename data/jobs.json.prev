@@ -120,6 +120,27 @@
  },
  {
   "co": "databricks",
+  "title": "Senior Forward Deployed Engineer (Technical Data Architect)",
+  "loc": "London, United Kingdom",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8916552002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "Forward Deployed Engineering Manager",
+  "loc": "London, United Kingdom",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8910850002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "Associate Forward Deployed Engineer",
+  "loc": "Mountain View, California",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8910846002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
   "title": "Scale Solution Engineer",
   "loc": "Heredia, Costa Rica",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8779031002",
@@ -130,6 +151,13 @@
   "title": "Sr. Technical Program Manager, FDE - LATAM",
   "loc": "USCA",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8684079002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "Associate Forward Deployed Engineer",
+  "loc": "New York City, New York",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8907988002",
   "status": "open"
  },
  {
@@ -158,34 +186,6 @@
   "title": "Solutions Engineer",
   "loc": "Chicago, Illinois",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8886944002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "Senior Engagement Manager, Forward Deployed Engineering",
-  "loc": "London, United Kingdom",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8884904002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "Technical Program Manager, Forward Deployed Engineering",
-  "loc": "London, United Kingdom",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8884751002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "Sr. Engagement Manager, FDE",
-  "loc": "Munich, Germany",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8885045002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "Solutions Engineer",
-  "loc": "New York City, New York",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8886384002",
   "status": "open"
  },
  {
@@ -351,6 +351,13 @@
  },
  {
   "co": "openai",
+  "title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
+  "loc": "San Francisco",
+  "url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
+  "status": "open"
+ },
+ {
+  "co": "openai",
   "title": "Deployment Lead, FDE - SF",
   "loc": "San Francisco",
   "url": "https://jobs.ashbyhq.com/openai/a23a49a6-0c20-4cb3-8ffd-4881f5914474",
@@ -410,13 +417,6 @@
   "title": "Solutions Engineer, Ads Solutions - San Francisco",
   "loc": "San Francisco",
   "url": "https://jobs.ashbyhq.com/openai/d3d17f29-fbaf-4697-a6ed-aaa0055ecc5c",
-  "status": "open"
- },
- {
-  "co": "openai",
-  "title": "Forward Deployed Engineer - UAE",
-  "loc": "Abu Dhabi, UAE",
-  "url": "https://jobs.ashbyhq.com/openai/e9d435e1-1b9e-4715-84ce-75f372e5559c",
   "status": "open"
  },
  {
@@ -1131,6 +1131,13 @@
   "title": "Forward Deployed Engineering Lead",
   "loc": "New York City",
   "url": "https://jobs.ashbyhq.com/lovable/2bad82d6-3fd0-42a2-afbf-f1e9511057d4",
+  "status": "open"
+ },
+ {
+  "co": "lovable",
+  "title": "Forward Deployed Engineering Lead",
+  "loc": "London",
+  "url": "https://jobs.ashbyhq.com/lovable/d06e485f-237e-4495-8675-79b7ad420051",
   "status": "open"
  },
  {
