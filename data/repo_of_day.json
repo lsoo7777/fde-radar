@@ -1,5 +1,17 @@
 [
  {
+  "id": "system-design-skills",
+  "repo": "proyecto26/system-design-skills",
+  "url": "https://github.com/proyecto26/system-design-skills",
+  "stars": 113,
+  "checked": "2026-10-28",
+  "license": "MIT",
+  "what": "22 agent skills for system design (caching, sharding, load balancing, API design and more) that reason from a customer's real constraints instead of memorized diagrams. Handy for FDEs to run before an architecture call.",
+  "install_label": "Get it:",
+  "install": "git clone https://github.com/proyecto26/system-design-skills.git",
+  "date_label": "Oct 28, 2026"
+ },
+ {
   "id": "mattpocock-skills",
   "repo": "mattpocock/skills",
   "url": "https://github.com/mattpocock/skills",

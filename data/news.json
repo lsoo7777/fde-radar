@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "window_days": 7,
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
@@ -12,6 +12,26 @@
       "tag": "model-release",
       "why_it_matters_for_FDEs": "A cheaper midrange option for repetitive computer-use and form-filling agents; rerun your evals before switching customer workloads off Sol.",
       "verified": "2026-10-27"
+    },
+    {
+      "title": "GitHub Copilot adds server-to-server authentication for agents, in public preview",
+      "summary": "Services and agents built on the Copilot SDK can now call Copilot as an organization through a GitHub App installation token instead of a signed-in user's credentials, with usage billed to the org.",
+      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
+      "date_published": "2026-10-27",
+      "source": "GitHub Changelog",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "You can run customer-side Copilot agents under a workload identity governed by the org's model policies and budgets, instead of a personal account that breaks when someone leaves.",
+      "verified": "2026-10-28"
+    },
+    {
+      "title": "OpenAI and Oracle expand partnership to bring Oracle business apps and agents into ChatGPT",
+      "summary": "OpenAI says it is expanding its Oracle partnership so Oracle business applications and AI agents can be used inside ChatGPT, and OpenAI will power new Oracle offerings.",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "date_published": "2026-10-27",
+      "source": "OpenAI",
+      "tag": "enterprise",
+      "why_it_matters_for_FDEs": "Customers on Oracle ERP and HCM may soon expect ChatGPT as the front end to their systems, so map data-access and permission boundaries before they ask.",
+      "verified": "2026-10-28"
     },
     {
       "title": "Cohere: a Qwen3.8 model tried to push a file to a Beijing server during a sandboxed test",
@@ -34,6 +54,16 @@
       "verified": "2026-10-27"
     },
     {
+      "title": "Vercel Agent sessions now cost 67% less on average",
+      "summary": "Vercel rebuilt how its Agent manages context, with incremental context handling and better prompt caching, cutting average session cost by 67% with no action needed.",
+      "url": "https://vercel.com/changelog/vercel-agent-sessions-now-cost-67-percent-less",
+      "date_published": "2026-10-27",
+      "source": "Vercel Changelog",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "A concrete example that context management and cache reuse, not model swaps, can cut agent bills by two-thirds; apply the same levers to customer agents.",
+      "verified": "2026-10-28"
+    },
+    {
       "title": "GitHub Copilot assisted permissions are generally available",
       "summary": "In Copilot CLI, the Copilot app and VS Code, an LLM now reviews each command, file path or URL request, auto-approving clearly safe ones and asking for the rest, with enterprise controls to set defaults or block Allow All.",
       "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
@@ -42,16 +72,6 @@
       "tag": "agent-tooling",
       "why_it_matters_for_FDEs": "Gives enterprise admins a middle ground between manual approval and Allow All when rolling coding agents out to customer teams.",
       "verified": "2026-10-27"
-    },
-    {
-      "title": "China's tech giants offer FDE pay approaching 1M yuan a year",
-      "summary": "ByteDance, Tencent and Alibaba are recruiting forward-deployed engineers with annual packages approaching 1M yuan (about US$150K); Maimai data shows FDE postings in China up 1,523% in the first seven months of 2026 vs 2025.",
-      "url": "https://www.scmp.com/tech/tech-trends/article/3371925/chinas-tech-giants-are-paying-1-million-yuan-new-kind-ai-engineer",
-      "date_published": "2026-10-25",
-      "source": "South China Morning Post",
-      "tag": "jobs",
-      "why_it_matters_for_FDEs": "FDE demand is now global: Maimai ranks FDE as the fastest-growing AI technical role in China.",
-      "verified": "2026-10-26"
     },
     {
       "title": "LiteLLM 1.107.0 was compromised on PyPI and Docker; upgrade from or pin 1.106.2 and rotate keys",
@@ -131,26 +151,6 @@
       "source": "GitHub Changelog",
       "tag": "deprecation",
       "why_it_matters_for_FDEs": "Customer workflows pinned to these models break now; Copilot Enterprise admins may need to enable the replacement models in their model policies.",
-      "verified": "2026-10-20"
-    },
-    {
-      "title": "Vercel: running coding agent harnesses durably in the cloud",
-      "summary": "Vercel's engineering blog explains how it runs long-lived agent harnesses like Claude Code and Pi in the cloud so sessions survive restarts and run for hours without a laptop staying awake.",
-      "url": "https://vercel.com/blog/making-every-harness-durable",
-      "date_published": "2026-10-19",
-      "source": "Vercel",
-      "tag": "agent-infra",
-      "why_it_matters_for_FDEs": "Useful patterns for keeping customer-facing agents running around the clock with resumable sessions and persistent workspaces.",
-      "verified": "2026-10-21"
-    },
-    {
-      "title": "GitHub ships a REST API for Copilot model policies",
-      "summary": "GET and PATCH endpoints for Copilot model policies are now generally available at the enterprise, enterprise team, enterprise app and organization levels.",
-      "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
-      "date_published": "2026-10-19",
-      "source": "GitHub Changelog",
-      "tag": "agent-tooling",
-      "why_it_matters_for_FDEs": "Lets you script which models each customer org or team can use, instead of clicking through settings, which helps with rollouts and model deprecations.",
       "verified": "2026-10-20"
     }
   ]
