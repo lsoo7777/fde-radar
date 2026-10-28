@@ -1,7 +1,7 @@
 [
  {
   "repo": "langchain-ai/langgraph",
-  "stars": 44039,
+  "stars": 44041,
   "description": "Build resilient agents.",
   "url": "https://github.com/langchain-ai/langgraph",
   "pushed": "2026-10-28",
@@ -55,7 +55,7 @@
  },
  {
   "repo": "anthropics/claude-cookbooks",
-  "stars": 53862,
+  "stars": 53863,
   "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
   "url": "https://github.com/anthropics/claude-cookbooks",
   "pushed": "2026-10-24",
@@ -145,7 +145,7 @@
  },
  {
   "repo": "vercel/next.js",
-  "stars": 143175,
+  "stars": 143176,
   "description": "The React Framework",
   "url": "https://github.com/vercel/next.js",
   "group": "Indie starter",
