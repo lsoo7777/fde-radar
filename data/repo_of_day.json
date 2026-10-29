@@ -1,5 +1,17 @@
 [
  {
+  "id": "tstack",
+  "repo": "t3dotgg/tstack",
+  "url": "https://github.com/t3dotgg/tstack",
+  "stars": 2361,
+  "checked": "2026-10-29",
+  "license": "MIT",
+  "what": "t3dotgg's (Theo's) own everyday agent skills for Claude Code and Codex, in one repo. FDEs can copy a working setup instead of building one from scratch.",
+  "install_label": "Get it:",
+  "install": "git clone https://github.com/t3dotgg/tstack.git",
+  "date_label": "Oct 29, 2026"
+ },
+ {
   "id": "system-design-skills",
   "repo": "proyecto26/system-design-skills",
   "url": "https://github.com/proyecto26/system-design-skills",

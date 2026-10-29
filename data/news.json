@@ -1,8 +1,28 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "window_days": 7,
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
+    {
+      "title": "Google DeepMind announces Gemini 4 Carbon, its new frontier model, with a limited rollout to cyber defenders first",
+      "summary": "Google says Gemini 4 Carbon is its strongest model for long-horizon coding, agentic and cybersecurity work, priced at $2 in and $10 out per million tokens, but for now only a subset of cyber defenders get access while broader developer availability waits on more guardrail work.",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "date_published": "2026-10-28",
+      "source": "Google DeepMind",
+      "tag": "model-release",
+      "why_it_matters_for_FDEs": "Plan for it but don't promise it to customers yet: there's no general API access date, so keep current Gemini 4 Argon or other deployments in place and prep evals for when Carbon opens up.",
+      "verified": "2026-10-29"
+    },
+    {
+      "title": "GitHub Agentic Workflows is generally available",
+      "summary": "GitHub's open source Agentic Workflows lets teams describe tasks like issue triage, CI failure analysis and test writing in Markdown, which compile into standard GitHub Actions run by Copilot or another coding agent.",
+      "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available",
+      "date_published": "2026-10-28",
+      "source": "GitHub Changelog",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "A supported way to put coding agents into a customer's existing Actions runners and policies, instead of standing up a separate agent platform their security team has to approve.",
+      "verified": "2026-10-29"
+    },
     {
       "title": "OpenAI launches GPT-6.1 Terra, a fast midrange model for computer use and agentic coding",
       "summary": "GPT-6.1 Terra is a cheaper, faster tier below GPT-6.1 Sol that OpenAI pitches for visual reasoning, computer use and clearer writing, and it is already live in GitHub Copilot and Vercel AI Gateway.",
@@ -22,6 +42,26 @@
       "tag": "tools",
       "why_it_matters_for_FDEs": "You can run customer-side Copilot agents under a workload identity governed by the org's model policies and budgets, instead of a personal account that breaks when someone leaves.",
       "verified": "2026-10-28"
+    },
+    {
+      "title": "GitHub Enterprise now includes Copilot, metered against the enterprise AI budget",
+      "summary": "Enterprises working with a GitHub or Microsoft account team can get Copilot for every GitHub Enterprise user, with AI usage billed from the first request against the enterprise budget instead of per-seat credits.",
+      "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot",
+      "date_published": "2026-10-28",
+      "source": "GitHub Changelog",
+      "tag": "pricing",
+      "why_it_matters_for_FDEs": "For GitHub Enterprise customers, Copilot cost becomes a usage-budget conversation, so set budgets and alerts up front because chat, code review and cloud agent stop when the budget runs out.",
+      "verified": "2026-10-29"
+    },
+    {
+      "title": "Anthropic launches reporting tools that show enterprises what their Claude spend is producing",
+      "summary": "Anthropic introduced analytics that let managers see a team's work over a date range, what it produced, what it cost and where workflows stall.",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "date_published": "2026-10-28",
+      "source": "TechCrunch",
+      "tag": "enterprise",
+      "why_it_matters_for_FDEs": "Gives you built-in ROI reporting for Claude rollouts, which is usually the question a customer's budget owner asks at renewal.",
+      "verified": "2026-10-29"
     },
     {
       "title": "OpenAI and Oracle expand partnership to bring Oracle business apps and agents into ChatGPT",
@@ -54,26 +94,6 @@
       "verified": "2026-10-27"
     },
     {
-      "title": "Vercel Agent sessions now cost 67% less on average",
-      "summary": "Vercel rebuilt how its Agent manages context, with incremental context handling and better prompt caching, cutting average session cost by 67% with no action needed.",
-      "url": "https://vercel.com/changelog/vercel-agent-sessions-now-cost-67-percent-less",
-      "date_published": "2026-10-27",
-      "source": "Vercel Changelog",
-      "tag": "tools",
-      "why_it_matters_for_FDEs": "A concrete example that context management and cache reuse, not model swaps, can cut agent bills by two-thirds; apply the same levers to customer agents.",
-      "verified": "2026-10-28"
-    },
-    {
-      "title": "GitHub Copilot assisted permissions are generally available",
-      "summary": "In Copilot CLI, the Copilot app and VS Code, an LLM now reviews each command, file path or URL request, auto-approving clearly safe ones and asking for the rest, with enterprise controls to set defaults or block Allow All.",
-      "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
-      "date_published": "2026-10-26",
-      "source": "GitHub Changelog",
-      "tag": "agent-tooling",
-      "why_it_matters_for_FDEs": "Gives enterprise admins a middle ground between manual approval and Allow All when rolling coding agents out to customer teams.",
-      "verified": "2026-10-27"
-    },
-    {
       "title": "LiteLLM 1.107.0 was compromised on PyPI and Docker; upgrade from or pin 1.106.2 and rotate keys",
       "summary": "On Oct 21 LiteLLM's release pipeline was compromised and pushed a malicious v1.107.0 that steals credentials. LiteLLM says the incident is contained.",
       "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026",
@@ -81,16 +101,6 @@
       "source": "LiteLLM",
       "tag": "security",
       "why_it_matters_for_FDEs": "Check every customer environment and CI image for LiteLLM 1.107.0; if found, remove it, pin 1.106.2 and rotate every cloud and model-provider key it could reach.",
-      "verified": "2026-10-22"
-    },
-    {
-      "title": "OpenAI's Patch the Planet coalition fixes critical PHP flaws found with GPT-5.6 Sol",
-      "summary": "OpenAI led a two-month coordinated disclosure of critical vulnerabilities in PHP, found by Calif using GPT-5.6 Sol and independently by Wiz, and urges everyone running PHP to apply the maintainers' fixes now.",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "date_published": "2026-10-21",
-      "source": "OpenAI",
-      "tag": "security",
-      "why_it_matters_for_FDEs": "Check every customer stack that runs PHP and patch today; OpenAI also published a PHP version checker as a Codex skill to find vulnerable versions.",
       "verified": "2026-10-22"
     },
     {
@@ -141,16 +151,6 @@
       "source": "Microsoft",
       "tag": "agent-infra",
       "why_it_matters_for_FDEs": "Enterprise security teams will now expect agent deployments to come with per-action monitoring, least-privilege tool access and audit trails, so build those into the design rather than bolting them on.",
-      "verified": "2026-10-20"
-    },
-    {
-      "title": "GitHub Copilot retired GPT-5.5, GPT-5.4, Gemini 3.7 Flash and Grok 4.5 on Oct 19",
-      "summary": "GitHub deprecated six models across Copilot Chat, agent mode and completions on Oct 19, 2026, pointing users to GPT-6.1 Sol, GPT-6 Luna, Gemini 3.8 Flash and Grok 4.7 instead.",
-      "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
-      "date_published": "2026-10-19",
-      "source": "GitHub Changelog",
-      "tag": "deprecation",
-      "why_it_matters_for_FDEs": "Customer workflows pinned to these models break now; Copilot Enterprise admins may need to enable the replacement models in their model policies.",
       "verified": "2026-10-20"
     }
   ]
