@@ -120,6 +120,13 @@
  },
  {
   "co": "databricks",
+  "title": "Staff Technical Solutions Engineer, Data & AI",
+  "loc": "Sao Paulo, Brazil",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8920303002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
   "title": "Senior Forward Deployed Engineer (Technical Data Architect)",
   "loc": "London, United Kingdom",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8916552002",
@@ -151,13 +158,6 @@
   "title": "Sr. Technical Program Manager, FDE - LATAM",
   "loc": "USCA",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8684079002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "Associate Forward Deployed Engineer",
-  "loc": "New York City, New York",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8907988002",
   "status": "open"
  },
  {
@@ -351,6 +351,13 @@
  },
  {
   "co": "openai",
+  "title": "Deployment Lead, Forward Deployed Engineering (FDE) - Platform",
+  "loc": "San Francisco",
+  "url": "https://jobs.ashbyhq.com/openai/bc80a3ae-1e69-4a8d-8366-77fcdd56ff61",
+  "status": "open"
+ },
+ {
+  "co": "openai",
   "title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
   "loc": "San Francisco",
   "url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
@@ -410,13 +417,6 @@
   "title": "Partner Solutions Engineer, Ads Solutions - San Francisco",
   "loc": "San Francisco",
   "url": "https://jobs.ashbyhq.com/openai/6628eb95-ede3-49ab-a11f-3d5c44b16bbb",
-  "status": "open"
- },
- {
-  "co": "openai",
-  "title": "Solutions Engineer, Ads Solutions - San Francisco",
-  "loc": "San Francisco",
-  "url": "https://jobs.ashbyhq.com/openai/d3d17f29-fbaf-4697-a6ed-aaa0055ecc5c",
   "status": "open"
  },
  {
@@ -1131,6 +1131,13 @@
   "title": "Forward Deployed Engineering Lead",
   "loc": "New York City",
   "url": "https://jobs.ashbyhq.com/lovable/2bad82d6-3fd0-42a2-afbf-f1e9511057d4",
+  "status": "open"
+ },
+ {
+  "co": "lovable",
+  "title": "Staff Forward Deployed Engineer",
+  "loc": "New York City",
+  "url": "https://jobs.ashbyhq.com/lovable/f16a20b6-d3a2-4507-944c-86becd975766",
   "status": "open"
  },
  {
