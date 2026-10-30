@@ -155,13 +155,6 @@
  },
  {
   "co": "databricks",
-  "title": "Scale Solution Engineer",
-  "loc": "Heredia, Costa Rica",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8779031002",
-  "status": "open"
- },
- {
-  "co": "databricks",
   "title": "Sr. Technical Program Manager, FDE - LATAM",
   "loc": "USCA",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8684079002",
@@ -186,6 +179,13 @@
   "title": "Senior Forward Deployed Engineer, Sr FDE (L5)",
   "loc": "Remote - India",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8876680002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "Solutions Engineer",
+  "loc": "Chicago, Illinois",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8886944002",
   "status": "open"
  },
  {
@@ -281,6 +281,20 @@
  },
  {
   "co": "samsara",
+  "title": "Sales Engineering Manager Core - DACH",
+  "loc": "Remote - Germany",
+  "url": "https://job-boards.greenhouse.io/samsara/jobs/8336439",
+  "status": "open"
+ },
+ {
+  "co": "samsara",
+  "title": "Sales Engineering Manager Core - UK&I",
+  "loc": "London, England, United Kingdom",
+  "url": "https://job-boards.greenhouse.io/samsara/jobs/8336436",
+  "status": "open"
+ },
+ {
+  "co": "samsara",
   "title": "Enterprise Sales Engineer - US Southeast",
   "loc": "Remote - US",
   "url": "https://job-boards.greenhouse.io/samsara/jobs/8244432",
@@ -333,20 +347,6 @@
   "title": "Associate Sales Engineer, SE Desk - TOLA",
   "loc": "Remote - US",
   "url": "https://job-boards.greenhouse.io/samsara/jobs/7848363",
-  "status": "open"
- },
- {
-  "co": "samsara",
-  "title": "Associate Sales Engineer, SE Desk - Southeast",
-  "loc": "Remote - US",
-  "url": "https://job-boards.greenhouse.io/samsara/jobs/7848351",
-  "status": "open"
- },
- {
-  "co": "samsara",
-  "title": "Enterprise Core Sales Engineer - West",
-  "loc": "Remote - US",
-  "url": "https://job-boards.greenhouse.io/samsara/jobs/7848529",
   "status": "open"
  },
  {
@@ -624,6 +624,34 @@
  },
  {
   "co": "sierra",
+  "title": "Enterprise Sales Engineer - Majors, Healthcare",
+  "loc": "Toronto",
+  "url": "https://jobs.ashbyhq.com/sierra/74451d23-45f5-4fa5-ae7c-121df8efb6b8",
+  "status": "open"
+ },
+ {
+  "co": "sierra",
+  "title": "Enterprise Sales Engineer - Majors, Healthcare",
+  "loc": "San Francisco, CA",
+  "url": "https://jobs.ashbyhq.com/sierra/19d700ac-5624-42fc-ab2b-868c9a23c4ea",
+  "status": "open"
+ },
+ {
+  "co": "sierra",
+  "title": "Enterprise Sales Engineer - Majors, Financial Services",
+  "loc": "Toronto",
+  "url": "https://jobs.ashbyhq.com/sierra/953b48fe-5a8f-4732-8957-5b0a1d022dae",
+  "status": "open"
+ },
+ {
+  "co": "sierra",
+  "title": "Enterprise Sales Engineer - Majors, Financial Services",
+  "loc": "San Francisco, CA",
+  "url": "https://jobs.ashbyhq.com/sierra/2b511f15-831c-4c6b-86f4-b5a8d38d8019",
+  "status": "open"
+ },
+ {
+  "co": "sierra",
   "title": "Enterprise Sales Engineer - Strategic, Retail",
   "loc": "Toronto",
   "url": "https://jobs.ashbyhq.com/sierra/fcbf5519-6bfc-4250-a171-669e5708b345",
@@ -662,34 +690,6 @@
   "title": "Enterprise Sales Engineer - Majors",
   "loc": "Toronto",
   "url": "https://jobs.ashbyhq.com/sierra/4ec93df5-05a5-45c8-9ce9-92e7e41e0cb8",
-  "status": "open"
- },
- {
-  "co": "sierra",
-  "title": "Enterprise Sales Engineer - Majors",
-  "loc": "San Francisco, CA",
-  "url": "https://jobs.ashbyhq.com/sierra/7e6bcbfd-17ad-4ba2-a2e8-8df0d0f3a588",
-  "status": "open"
- },
- {
-  "co": "sierra",
-  "title": "Enterprise Sales Engineer - Majors, Retail",
-  "loc": "Toronto",
-  "url": "https://jobs.ashbyhq.com/sierra/e98b0f55-9665-4aaf-99a6-c61c622bf323",
-  "status": "open"
- },
- {
-  "co": "sierra",
-  "title": "Enterprise Sales Engineer - Majors, Retail",
-  "loc": "San Francisco, CA",
-  "url": "https://jobs.ashbyhq.com/sierra/b870fc11-f984-4aa8-9f16-26feb0281789",
-  "status": "open"
- },
- {
-  "co": "sierra",
-  "title": "Enterprise Sales Engineer - Majors, Consumer Business Services",
-  "loc": "San Francisco, CA",
-  "url": "https://jobs.ashbyhq.com/sierra/245f2cf8-84a5-4a33-9193-e0139f88e0f2",
   "status": "open"
  },
  {
@@ -1152,13 +1152,6 @@
   "title": "Forward Deployed Engineering Lead",
   "loc": "London",
   "url": "https://jobs.ashbyhq.com/lovable/d06e485f-237e-4495-8675-79b7ad420051",
-  "status": "open"
- },
- {
-  "co": "lovable",
-  "title": "Forward Deployed Engineering Lead",
-  "loc": "Stockholm",
-  "url": "https://jobs.ashbyhq.com/lovable/f8590c0f-5374-4753-839b-e5c7315a71c2",
   "status": "open"
  },
  {
