@@ -1,7 +1,7 @@
 [
  {
   "repo": "langchain-ai/langgraph",
-  "stars": 44152,
+  "stars": 44154,
   "description": "Build resilient agents.",
   "url": "https://github.com/langchain-ai/langgraph",
   "pushed": "2026-10-29",
@@ -10,7 +10,7 @@
  },
  {
   "repo": "crewAIInc/crewAI",
-  "stars": 60289,
+  "stars": 60290,
   "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
   "url": "https://github.com/crewAIInc/crewAI",
   "pushed": "2026-10-30",
@@ -46,7 +46,7 @@
  },
  {
   "repo": "modelcontextprotocol/python-sdk",
-  "stars": 24711,
+  "stars": 24712,
   "description": "The official Python SDK for Model Context Protocol servers and clients",
   "url": "https://github.com/modelcontextprotocol/python-sdk",
   "pushed": "2026-10-27",
@@ -55,7 +55,7 @@
  },
  {
   "repo": "anthropics/claude-cookbooks",
-  "stars": 53951,
+  "stars": 53952,
   "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
   "url": "https://github.com/anthropics/claude-cookbooks",
   "pushed": "2026-10-29",
@@ -91,7 +91,7 @@
  },
  {
   "repo": "promptfoo/promptfoo",
-  "stars": 26622,
+  "stars": 26624,
   "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.",
   "url": "https://github.com/promptfoo/promptfoo",
   "pushed": "2026-10-30",
@@ -100,7 +100,7 @@
  },
  {
   "repo": "confident-ai/deepeval",
-  "stars": 19196,
+  "stars": 19197,
   "description": "The LLM Evaluation Framework",
   "url": "https://github.com/confident-ai/deepeval",
   "pushed": "2026-10-29",
@@ -118,7 +118,7 @@
  },
  {
   "repo": "langfuse/langfuse",
-  "stars": 36749,
+  "stars": 36751,
   "description": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
   "url": "https://github.com/langfuse/langfuse",
   "pushed": "2026-10-30",
@@ -155,7 +155,7 @@
  },
  {
   "repo": "shadcn-ui/ui",
-  "stars": 126951,
+  "stars": 126953,
   "description": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
   "url": "https://github.com/shadcn-ui/ui",
   "group": "Indie starter",
@@ -175,7 +175,7 @@
  },
  {
   "repo": "supabase/supabase",
-  "stars": 114338,
+  "stars": 114339,
   "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
   "url": "https://github.com/supabase/supabase",
   "group": "Indie starter",
@@ -185,7 +185,7 @@
  },
  {
   "repo": "ollama/ollama",
-  "stars": 185328,
+  "stars": 185330,
   "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
   "url": "https://github.com/ollama/ollama",
   "group": "Indie starter",
@@ -195,7 +195,7 @@
  },
  {
   "repo": "ggml-org/llama.cpp",
-  "stars": 132824,
+  "stars": 132825,
   "description": "LLM inference in C/C++",
   "url": "https://github.com/ggml-org/llama.cpp",
   "group": "Indie starter",
@@ -205,7 +205,7 @@
  },
  {
   "repo": "open-webui/open-webui",
-  "stars": 157237,
+  "stars": 157243,
   "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
   "url": "https://github.com/open-webui/open-webui",
   "group": "Indie starter",
@@ -235,7 +235,7 @@
  },
  {
   "repo": "openai/codex",
-  "stars": 131655,
+  "stars": 131657,
   "description": "Lightweight coding agent that runs in your terminal",
   "url": "https://github.com/openai/codex",
   "group": "Indie starter",
@@ -245,7 +245,7 @@
  },
  {
   "repo": "anthropics/claude-code",
-  "stars": 153916,
+  "stars": 153921,
   "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
   "url": "https://github.com/anthropics/claude-code",
   "group": "Indie starter",
@@ -255,7 +255,7 @@
  },
  {
   "repo": "BerriAI/litellm",
-  "stars": 62366,
+  "stars": 62370,
   "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
   "url": "https://github.com/BerriAI/litellm",
   "group": "Agents & infra",
@@ -265,7 +265,7 @@
  },
  {
   "repo": "browser-use/browser-use",
-  "stars": 119553,
+  "stars": 119554,
   "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
   "url": "https://github.com/browser-use/browser-use",
   "group": "Agents & infra",
@@ -275,7 +275,7 @@
  },
  {
   "repo": "microsoft/playwright-mcp",
-  "stars": 38847,
+  "stars": 38849,
   "description": "Playwright MCP server",
   "url": "https://github.com/microsoft/playwright-mcp",
   "group": "Agents & infra",
@@ -285,7 +285,7 @@
  },
  {
   "repo": "n8n-io/n8n",
-  "stars": 209100,
+  "stars": 209102,
   "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
   "url": "https://github.com/n8n-io/n8n",
   "group": "Agents & infra",
@@ -295,7 +295,7 @@
  },
  {
   "repo": "langgenius/dify",
-  "stars": 159984,
+  "stars": 159985,
   "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
   "url": "https://github.com/langgenius/dify",
   "group": "Agents & infra",
@@ -325,7 +325,7 @@
  },
  {
   "repo": "huggingface/smolagents",
-  "stars": 30143,
+  "stars": 30144,
   "description": "🤗 smolagents: a barebones library for agents that think in code.",
   "url": "https://github.com/huggingface/smolagents",
   "group": "Agents & infra",
@@ -355,7 +355,7 @@
  },
  {
   "repo": "firecrawl/firecrawl",
-  "stars": 196903,
+  "stars": 196909,
   "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
   "url": "https://github.com/firecrawl/firecrawl",
   "group": "Agents & infra",
@@ -365,7 +365,7 @@
  },
  {
   "repo": "unclecode/crawl4ai",
-  "stars": 86579,
+  "stars": 86580,
   "description": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key. Join our Discord https://discord.gg/VuxzM8mtf",
   "url": "https://github.com/unclecode/crawl4ai",
   "group": "Agents & infra",
@@ -375,7 +375,7 @@
  },
  {
   "repo": "mem0ai/mem0",
-  "stars": 68094,
+  "stars": 68095,
   "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
   "url": "https://github.com/mem0ai/mem0",
   "group": "Agents & infra",
@@ -395,7 +395,7 @@
  },
  {
   "repo": "pipecat-ai/pipecat",
-  "stars": 16939,
+  "stars": 16941,
   "description": "Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community.",
   "url": "https://github.com/pipecat-ai/pipecat",
   "group": "Agents & infra",
@@ -405,7 +405,7 @@
  },
  {
   "repo": "anomalyco/opencode",
-  "stars": 223171,
+  "stars": 223173,
   "description": "The open source coding agent.",
   "oneliner": "The open source coding agent.",
   "url": "https://github.com/anomalyco/opencode",
@@ -441,7 +441,7 @@
  },
  {
   "repo": "yetone/magpie",
-  "stars": 25919,
+  "stars": 25932,
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "oneliner": "Every agent's model in one place: one local gateway serves Claude Code, Codex, Gemini CLI and more on the model you choose, and moves to the next account when a quota runs out.",
   "url": "https://github.com/yetone/magpie",

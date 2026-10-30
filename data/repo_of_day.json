@@ -1,5 +1,17 @@
 [
  {
+  "id": "bama",
+  "repo": "daveebbelaar/bama",
+  "url": "https://github.com/daveebbelaar/bama",
+  "stars": 846,
+  "checked": "2026-10-30",
+  "license": "MIT",
+  "what": "Agent skills for building native Mac apps in Swift and SwiftUI, from idea to your Dock, with no Xcode GUI. It has 21 skills (per the README) and works as a Claude Code and Codex plugin.",
+  "install_label": "Get it:",
+  "install": "git clone https://github.com/daveebbelaar/bama.git",
+  "date_label": "Oct 30, 2026"
+ },
+ {
   "id": "tstack",
   "repo": "t3dotgg/tstack",
   "url": "https://github.com/t3dotgg/tstack",

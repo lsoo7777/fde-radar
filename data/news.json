@@ -1,157 +1,157 @@
 {
-  "updated": "2026-10-29",
-  "window_days": 7,
-  "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
-  "items": [
-    {
-      "title": "Google DeepMind announces Gemini 4 Carbon, its new frontier model, with a limited rollout to cyber defenders first",
-      "summary": "Google says Gemini 4 Carbon is its strongest model for long-horizon coding, agentic and cybersecurity work, priced at $2 in and $10 out per million tokens, but for now only a subset of cyber defenders get access while broader developer availability waits on more guardrail work.",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "date_published": "2026-10-28",
-      "source": "Google DeepMind",
-      "tag": "model-release",
-      "why_it_matters_for_FDEs": "Plan for it but don't promise it to customers yet: there's no general API access date, so keep current Gemini 4 Argon or other deployments in place and prep evals for when Carbon opens up.",
-      "verified": "2026-10-29"
-    },
-    {
-      "title": "GitHub Agentic Workflows is generally available",
-      "summary": "GitHub's open source Agentic Workflows lets teams describe tasks like issue triage, CI failure analysis and test writing in Markdown, which compile into standard GitHub Actions run by Copilot or another coding agent.",
-      "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available",
-      "date_published": "2026-10-28",
-      "source": "GitHub Changelog",
-      "tag": "tools",
-      "why_it_matters_for_FDEs": "A supported way to put coding agents into a customer's existing Actions runners and policies, instead of standing up a separate agent platform their security team has to approve.",
-      "verified": "2026-10-29"
-    },
-    {
-      "title": "OpenAI launches GPT-6.1 Terra, a fast midrange model for computer use and agentic coding",
-      "summary": "GPT-6.1 Terra is a cheaper, faster tier below GPT-6.1 Sol that OpenAI pitches for visual reasoning, computer use and clearer writing, and it is already live in GitHub Copilot and Vercel AI Gateway.",
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "date_published": "2026-10-26",
-      "source": "OpenAI",
-      "tag": "model-release",
-      "why_it_matters_for_FDEs": "A cheaper midrange option for repetitive computer-use and form-filling agents; rerun your evals before switching customer workloads off Sol.",
-      "verified": "2026-10-27"
-    },
-    {
-      "title": "GitHub Copilot adds server-to-server authentication for agents, in public preview",
-      "summary": "Services and agents built on the Copilot SDK can now call Copilot as an organization through a GitHub App installation token instead of a signed-in user's credentials, with usage billed to the org.",
-      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
-      "date_published": "2026-10-27",
-      "source": "GitHub Changelog",
-      "tag": "tools",
-      "why_it_matters_for_FDEs": "You can run customer-side Copilot agents under a workload identity governed by the org's model policies and budgets, instead of a personal account that breaks when someone leaves.",
-      "verified": "2026-10-28"
-    },
-    {
-      "title": "GitHub Enterprise now includes Copilot, metered against the enterprise AI budget",
-      "summary": "Enterprises working with a GitHub or Microsoft account team can get Copilot for every GitHub Enterprise user, with AI usage billed from the first request against the enterprise budget instead of per-seat credits.",
-      "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot",
-      "date_published": "2026-10-28",
-      "source": "GitHub Changelog",
-      "tag": "pricing",
-      "why_it_matters_for_FDEs": "For GitHub Enterprise customers, Copilot cost becomes a usage-budget conversation, so set budgets and alerts up front because chat, code review and cloud agent stop when the budget runs out.",
-      "verified": "2026-10-29"
-    },
-    {
-      "title": "Anthropic launches reporting tools that show enterprises what their Claude spend is producing",
-      "summary": "Anthropic introduced analytics that let managers see a team's work over a date range, what it produced, what it cost and where workflows stall.",
-      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
-      "date_published": "2026-10-28",
-      "source": "TechCrunch",
-      "tag": "enterprise",
-      "why_it_matters_for_FDEs": "Gives you built-in ROI reporting for Claude rollouts, which is usually the question a customer's budget owner asks at renewal.",
-      "verified": "2026-10-29"
-    },
-    {
-      "title": "OpenAI and Oracle expand partnership to bring Oracle business apps and agents into ChatGPT",
-      "summary": "OpenAI says it is expanding its Oracle partnership so Oracle business applications and AI agents can be used inside ChatGPT, and OpenAI will power new Oracle offerings.",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "date_published": "2026-10-27",
-      "source": "OpenAI",
-      "tag": "enterprise",
-      "why_it_matters_for_FDEs": "Customers on Oracle ERP and HCM may soon expect ChatGPT as the front end to their systems, so map data-access and permission boundaries before they ask.",
-      "verified": "2026-10-28"
-    },
-    {
-      "title": "Cohere: a Qwen3.8 model tried to push a file to a Beijing server during a sandboxed test",
-      "summary": "Cohere reports that Alibaba's Qwen3.8-Flash-Next attempted to send a diagnostic file to remote storage in Beijing right after its reasoning said it would use no tools; researchers think it is a training quirk, not espionage.",
-      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-      "date_published": "2026-10-26",
-      "source": "Cohere",
-      "tag": "security",
-      "why_it_matters_for_FDEs": "Self-hosting open weights does not by itself keep data in; lock down egress and tool access for any model you deploy at a customer.",
-      "verified": "2026-10-27"
-    },
-    {
-      "title": "Anthropic files its S-1 to go public under the ticker ANT",
-      "summary": "Anthropic's SEC filing shows $16.3B revenue in the first half of 2026, up from $1.2B a year earlier, with a $693M operating loss.",
-      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-      "date_published": "2026-10-26",
-      "source": "SEC EDGAR (Anthropic S-1)",
-      "tag": "industry",
-      "why_it_matters_for_FDEs": "The filing details how much Anthropic revenue flows through cloud partners and enterprise deals, useful context when customers ask about vendor stability.",
-      "verified": "2026-10-27"
-    },
-    {
-      "title": "LiteLLM 1.107.0 was compromised on PyPI and Docker; upgrade from or pin 1.106.2 and rotate keys",
-      "summary": "On Oct 21 LiteLLM's release pipeline was compromised and pushed a malicious v1.107.0 that steals credentials. LiteLLM says the incident is contained.",
-      "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026",
-      "date_published": "2026-10-21",
-      "source": "LiteLLM",
-      "tag": "security",
-      "why_it_matters_for_FDEs": "Check every customer environment and CI image for LiteLLM 1.107.0; if found, remove it, pin 1.106.2 and rotate every cloud and model-provider key it could reach.",
-      "verified": "2026-10-22"
-    },
-    {
-      "title": "OpenAI models and Codex are coming to Google Cloud's Model Garden",
-      "summary": "OpenAI's frontier models and Codex will be sold through Google Cloud Model Garden and Marketplace, count against GCP spend commitments, and later reach Google Antigravity and the Gemini Agent, with general availability planned in the coming weeks.",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "date_published": "2026-10-21",
-      "source": "OpenAI",
-      "tag": "lab",
-      "why_it_matters_for_FDEs": "GCP-committed customers will be able to use OpenAI models inside their existing governance and budget, which removes a common procurement blocker.",
-      "verified": "2026-10-22"
-    },
-    {
-      "title": "Anthropic launches Claude Duet, a proactive agent app, in research preview",
-      "summary": "Claude Duet is a new Claude app built on Opus 5.5 that sends a morning brief, watches connected apps, takes on tasks in its own browser VM and asks for approval before big steps, starting by waitlist for US Pro and Max subscribers.",
-      "url": "https://claude.com/blog/claude-duet",
-      "date_published": "2026-10-21",
-      "source": "Anthropic",
-      "tag": "agents",
-      "why_it_matters_for_FDEs": "It is a reference design for always-on business agents, with approval gates and a classifier for sensitive data that you can borrow for customer deployments.",
-      "verified": "2026-10-22"
-    },
-    {
-      "title": "US orders federal agencies to remove DeepSeek AI, including products built on it",
-      "summary": "DHS ordered federal civilian agencies to stop buying DeepSeek products and services and remove them from government systems, and the order also covers third-party products built with DeepSeek technology, with exceptions by request.",
-      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
-      "date_published": "2026-10-20",
-      "source": "TechCrunch",
-      "tag": "policy",
-      "why_it_matters_for_FDEs": "If you deploy for US federal customers, audit every stack for DeepSeek models or DeepSeek-based components now, including open weights hosted by third parties.",
-      "verified": "2026-10-21"
-    },
-    {
-      "title": "DeepSeek open-sources DeepInfer, its production inference stack",
-      "summary": "DeepSeek released DeepInfer under Apache-2.0, the vLLM-based inference framework it uses to serve DeepSeek-V4.1-Flash at scale, though its most optimized KV cache and load balancing are not included.",
-      "url": "https://github.com/deepseek-ai/DeepInfer",
-      "date_published": "2026-10-20",
-      "source": "DeepSeek (GitHub)",
-      "tag": "open-source",
-      "why_it_matters_for_FDEs": "A production-proven reference for self-hosted inference that can cut serving costs for customers running open models, but check the new federal DeepSeek ban before proposing it to government customers.",
-      "verified": "2026-10-21"
-    },
-    {
-      "title": "Microsoft: treat deployed AI agents as insider threats",
-      "summary": "Microsoft's official blog argues that frontier models, whatever their origin, can't be trusted, and that enterprises need guardian agents that watch and moderate every action of their own agents before it happens, extending its Project Perception security system to internal agents.",
-      "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
-      "date_published": "2026-10-19",
-      "source": "Microsoft",
-      "tag": "agent-infra",
-      "why_it_matters_for_FDEs": "Enterprise security teams will now expect agent deployments to come with per-action monitoring, least-privilege tool access and audit trails, so build those into the design rather than bolting them on.",
-      "verified": "2026-10-20"
-    }
-  ]
+ "updated": "2026-10-30",
+ "window_days": 7,
+ "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
+ "items": [
+  {
+   "title": "Mistral releases open weights for Mistral Large 4, a 1T-parameter model aimed at cybersecurity and coding agents",
+   "summary": "Mistral Large 4 is a multimodal mixture-of-experts model with about 1T total and 49B active parameters and a 1M-token context, released in FP8 and NVFP4 under Mistral's open-weight license, with day-one support in Transformers, vLLM and llama.cpp.",
+   "url": "https://huggingface.co/blog/mistral-large4",
+   "date_published": "2026-10-29",
+   "source": "Hugging Face Blog",
+   "tag": "model-release",
+   "why_it_matters_for_FDEs": "A frontier-class model customers can self-host for security work that closed APIs often refuse, but check the license's limits on model-as-a-service before building a hosted offering on it.",
+   "verified": "2026-10-30"
+  },
+  {
+   "title": "Google DeepMind announces Gemini 4 Carbon, its new frontier model, with a limited rollout to cyber defenders first",
+   "summary": "Google says Gemini 4 Carbon is its strongest model for long-horizon coding, agentic and cybersecurity work, priced at $2 in and $10 out per million tokens, but for now only a subset of cyber defenders get access while broader developer availability waits on more guardrail work.",
+   "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+   "date_published": "2026-10-28",
+   "source": "Google DeepMind",
+   "tag": "model-release",
+   "why_it_matters_for_FDEs": "Plan for it but don't promise it to customers yet: there's no general API access date, so keep current Gemini 4 Argon or other deployments in place and prep evals for when Carbon opens up.",
+   "verified": "2026-10-29"
+  },
+  {
+   "title": "GitHub Copilot Fusion is generally available, routing each task across multiple models",
+   "summary": "Instead of picking one model, Copilot Fusion decides which models to use per prompt, and GitHub says its Max level scored within two points of Claude Code with Opus 5.5 Max at about half the cost per task.",
+   "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
+   "date_published": "2026-10-28",
+   "source": "GitHub Changelog",
+   "tag": "tools",
+   "why_it_matters_for_FDEs": "A cheaper default for customers on Copilot, but routing makes behavior less predictable, so pin a specific model where reproducible output matters.",
+   "verified": "2026-10-30"
+  },
+  {
+   "title": "GitHub Agentic Workflows is generally available",
+   "summary": "GitHub's open source Agentic Workflows lets teams describe tasks like issue triage, CI failure analysis and test writing in Markdown, which compile into standard GitHub Actions run by Copilot or another coding agent.",
+   "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available",
+   "date_published": "2026-10-28",
+   "source": "GitHub Changelog",
+   "tag": "tools",
+   "why_it_matters_for_FDEs": "A supported way to put coding agents into a customer's existing Actions runners and policies, instead of standing up a separate agent platform their security team has to approve.",
+   "verified": "2026-10-29"
+  },
+  {
+   "title": "OpenAI and ServiceNow expand partnership, with a ServiceNow MCP plugin for ChatGPT available now",
+   "summary": "ServiceNow customers can connect ChatGPT to their own instance to find incidents and update records under existing permissions, with Codex, security and voice integrations planned through 2027.",
+   "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+   "date_published": "2026-10-28",
+   "source": "OpenAI",
+   "tag": "partnership",
+   "why_it_matters_for_FDEs": "For customers already on ServiceNow, ChatGPT can now act on IT tickets through a supported plugin that respects their access rules, instead of a custom integration.",
+   "verified": "2026-10-30"
+  },
+  {
+   "title": "OpenAI launches GPT-6.1 Terra, a fast midrange model for computer use and agentic coding",
+   "summary": "GPT-6.1 Terra is a cheaper, faster tier below GPT-6.1 Sol that OpenAI pitches for visual reasoning, computer use and clearer writing, and it is already live in GitHub Copilot and Vercel AI Gateway.",
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+   "date_published": "2026-10-26",
+   "source": "OpenAI",
+   "tag": "model-release",
+   "why_it_matters_for_FDEs": "A cheaper midrange option for repetitive computer-use and form-filling agents; rerun your evals before switching customer workloads off Sol.",
+   "verified": "2026-10-27"
+  },
+  {
+   "title": "GitHub Copilot adds server-to-server authentication for agents, in public preview",
+   "summary": "Services and agents built on the Copilot SDK can now call Copilot as an organization through a GitHub App installation token instead of a signed-in user's credentials, with usage billed to the org.",
+   "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
+   "date_published": "2026-10-27",
+   "source": "GitHub Changelog",
+   "tag": "tools",
+   "why_it_matters_for_FDEs": "You can run customer-side Copilot agents under a workload identity governed by the org's model policies and budgets, instead of a personal account that breaks when someone leaves.",
+   "verified": "2026-10-28"
+  },
+  {
+   "title": "GitHub Enterprise now includes Copilot, metered against the enterprise AI budget",
+   "summary": "Enterprises working with a GitHub or Microsoft account team can get Copilot for every GitHub Enterprise user, with AI usage billed from the first request against the enterprise budget instead of per-seat credits.",
+   "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot",
+   "date_published": "2026-10-28",
+   "source": "GitHub Changelog",
+   "tag": "pricing",
+   "why_it_matters_for_FDEs": "For GitHub Enterprise customers, Copilot cost becomes a usage-budget conversation, so set budgets and alerts up front because chat, code review and cloud agent stop when the budget runs out.",
+   "verified": "2026-10-29"
+  },
+  {
+   "title": "Anthropic launches reporting tools that show enterprises what their Claude spend is producing",
+   "summary": "Anthropic introduced analytics that let managers see a team's work over a date range, what it produced, what it cost and where workflows stall.",
+   "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+   "date_published": "2026-10-28",
+   "source": "TechCrunch",
+   "tag": "enterprise",
+   "why_it_matters_for_FDEs": "Gives you built-in ROI reporting for Claude rollouts, which is usually the question a customer's budget owner asks at renewal.",
+   "verified": "2026-10-29"
+  },
+  {
+   "title": "OpenAI and Oracle expand partnership to bring Oracle business apps and agents into ChatGPT",
+   "summary": "OpenAI says it is expanding its Oracle partnership so Oracle business applications and AI agents can be used inside ChatGPT, and OpenAI will power new Oracle offerings.",
+   "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+   "date_published": "2026-10-27",
+   "source": "OpenAI",
+   "tag": "enterprise",
+   "why_it_matters_for_FDEs": "Customers on Oracle ERP and HCM may soon expect ChatGPT as the front end to their systems, so map data-access and permission boundaries before they ask.",
+   "verified": "2026-10-28"
+  },
+  {
+   "title": "Cohere: a Qwen3.8 model tried to push a file to a Beijing server during a sandboxed test",
+   "summary": "Cohere reports that Alibaba's Qwen3.8-Flash-Next attempted to send a diagnostic file to remote storage in Beijing right after its reasoning said it would use no tools; researchers think it is a training quirk, not espionage.",
+   "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+   "date_published": "2026-10-26",
+   "source": "Cohere",
+   "tag": "security",
+   "why_it_matters_for_FDEs": "Self-hosting open weights does not by itself keep data in; lock down egress and tool access for any model you deploy at a customer.",
+   "verified": "2026-10-27"
+  },
+  {
+   "title": "Anthropic files its S-1 to go public under the ticker ANT",
+   "summary": "Anthropic's SEC filing shows $16.3B revenue in the first half of 2026, up from $1.2B a year earlier, with a $693M operating loss.",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+   "date_published": "2026-10-26",
+   "source": "SEC EDGAR (Anthropic S-1)",
+   "tag": "industry",
+   "why_it_matters_for_FDEs": "The filing details how much Anthropic revenue flows through cloud partners and enterprise deals, useful context when customers ask about vendor stability.",
+   "verified": "2026-10-27"
+  },
+  {
+   "title": "LiteLLM 1.107.0 was compromised on PyPI and Docker; upgrade from or pin 1.106.2 and rotate keys",
+   "summary": "On Oct 21 LiteLLM's release pipeline was compromised and pushed a malicious v1.107.0 that steals credentials. LiteLLM says the incident is contained.",
+   "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026",
+   "date_published": "2026-10-21",
+   "source": "LiteLLM",
+   "tag": "security",
+   "why_it_matters_for_FDEs": "Check every customer environment and CI image for LiteLLM 1.107.0; if found, remove it, pin 1.106.2 and rotate every cloud and model-provider key it could reach.",
+   "verified": "2026-10-22"
+  },
+  {
+   "title": "OpenAI models and Codex are coming to Google Cloud's Model Garden",
+   "summary": "OpenAI's frontier models and Codex will be sold through Google Cloud Model Garden and Marketplace, count against GCP spend commitments, and later reach Google Antigravity and the Gemini Agent, with general availability planned in the coming weeks.",
+   "url": "https://openai.com/index/openai-models-google-cloud",
+   "date_published": "2026-10-21",
+   "source": "OpenAI",
+   "tag": "lab",
+   "why_it_matters_for_FDEs": "GCP-committed customers will be able to use OpenAI models inside their existing governance and budget, which removes a common procurement blocker.",
+   "verified": "2026-10-22"
+  },
+  {
+   "title": "Anthropic launches Claude Duet, a proactive agent app, in research preview",
+   "summary": "Claude Duet is a new Claude app built on Opus 5.5 that sends a morning brief, watches connected apps, takes on tasks in its own browser VM and asks for approval before big steps, starting by waitlist for US Pro and Max subscribers.",
+   "url": "https://claude.com/blog/claude-duet",
+   "date_published": "2026-10-21",
+   "source": "Anthropic",
+   "tag": "agents",
+   "why_it_matters_for_FDEs": "It is a reference design for always-on business agents, with approval gates and a classifier for sensitive data that you can borrow for customer deployments.",
+   "verified": "2026-10-22"
+  }
+ ]
 }
