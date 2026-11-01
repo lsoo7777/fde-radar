@@ -281,8 +281,8 @@
  },
  {
   "co": "samsara",
-  "title": "Sales Engineering Manager Core - DACH",
-  "loc": "Remote - Germany",
+  "title": "Sales Engineering Manager Core - Mainland Europe",
+  "loc": "Remote - France; Remote - Germany",
   "url": "https://job-boards.greenhouse.io/samsara/jobs/8336439",
   "status": "open"
  },
@@ -526,7 +526,7 @@
  },
  {
   "co": "notion",
-  "title": "Forward Deployed Architect",
+  "title": "Forward Deployed Architect, EMEA",
   "loc": "Dublin, Ireland",
   "url": "https://jobs.ashbyhq.com/notion/77861b77-9493-4869-bbaf-eaa11477a251",
   "status": "open"
@@ -617,9 +617,9 @@
  },
  {
   "co": "langchain",
-  "title": "Deployed Engineer (Early Career-NYC)",
-  "loc": "New York, NY",
-  "url": "https://jobs.ashbyhq.com/langchain/dfbba971-a7e2-4feb-a0d9-8e38a1155134",
+  "title": "Deployed Engineer (Early Career- SF)",
+  "loc": "San Francisco, CA",
+  "url": "https://jobs.ashbyhq.com/langchain/0f35c8e1-9318-411d-929b-04c60e6d8522",
   "status": "open"
  },
  {
@@ -848,6 +848,13 @@
  },
  {
   "co": "cohere",
+  "title": "Forward Deployed Engineer, Infrastructure Specialist (North America)",
+  "loc": "Toronto",
+  "url": "https://jobs.ashbyhq.com/cohere/be48aafc-9610-4ebd-8414-a0722a3cd59a",
+  "status": "open"
+ },
+ {
+  "co": "cohere",
   "title": "Forward Deployed Engineer, Inference",
   "loc": "United States",
   "url": "https://jobs.ashbyhq.com/cohere/8df498e9-aba8-487f-80ba-362b492bad09",
@@ -907,13 +914,6 @@
   "title": "Forward Deployed Engineer, Agentic Platform (UK Public Sector)",
   "loc": "United Kingdom",
   "url": "https://jobs.ashbyhq.com/cohere/691982e3-9357-42e4-b4c3-a65cae906935",
-  "status": "open"
- },
- {
-  "co": "cohere",
-  "title": "Forward Deployed Engineer, Infrastructure Specialist (UK Public Sector)",
-  "loc": "United Kingdom",
-  "url": "https://jobs.ashbyhq.com/cohere/a0f174cf-4407-4334-b812-45a767092fca",
   "status": "open"
  },
  {
