@@ -1,5 +1,17 @@
 [
  {
+  "id": "floorplan",
+  "repo": "haydenschmitty/floorplan",
+  "url": "https://github.com/haydenschmitty/floorplan",
+  "stars": 2047,
+  "checked": "2026-11-02",
+  "license": "MIT",
+  "what": "Claude or Codex reads your codebase and draws an interactive, plain-English map of it, matching each web request to the endpoint that answers it, even across separate repos. A built-in health check flags keys left in code and endpoints with no sign-in, handy before a customer demo.",
+  "install_label": "Get it:",
+  "install": "git clone https://github.com/haydenschmitty/floorplan.git",
+  "date_label": "Nov 2, 2026"
+ },
+ {
   "id": "bama",
   "repo": "daveebbelaar/bama",
   "url": "https://github.com/daveebbelaar/bama",
