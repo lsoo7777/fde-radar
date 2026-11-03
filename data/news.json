@@ -1,8 +1,38 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "window_days": 7,
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
+    {
+      "title": "GitHub Actions will block pull_request_target by default in public repos starting December 2",
+      "summary": "GitHub pushed enforcement back a month to December 2, 2026, with brownouts before then, and the rule already runs in evaluate mode so you can see which workflow runs it would block unless an Actions event policy explicitly allows the trigger.",
+      "url": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2",
+      "date_published": "2026-11-02",
+      "source": "GitHub Changelog",
+      "tag": "security",
+      "why_it_matters_for_FDEs": "Any customer repo whose CI, AI review bot or agent workflow uses pull_request_target will break on December 2, so audit those workflows now and either move them to pull_request or add an explicit allow policy.",
+      "verified": "2026-11-03"
+    },
+    {
+      "title": "Anthropic's amended S-1 says it uses Claude to help build the next Claude and flags recursive self-improvement as a safety risk",
+      "summary": "The S-1/A filed on Nov 2 says internal Claude usage is accelerating Anthropic's development, warns that using AI to build more capable AI could pose a considerable safety risk, and says its Responsible Scaling Policy covers the approach to what has been termed recursive self-improvement.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+      "date_published": "2026-11-02",
+      "source": "SEC EDGAR (Anthropic S-1/A)",
+      "tag": "industry",
+      "why_it_matters_for_FDEs": "Expect customers to ask about this after the headlines; the filing itself is a risk disclosure, not a claim that self-improving AI has arrived, so point them to the exact language.",
+      "verified": "2026-11-03"
+    },
+    {
+      "title": "OpenAI is merging ChatGPT's Chat and Work tabs, and ChatGPT and Codex will share one usage allowance",
+      "summary": "According to an email OpenAI sent users, the merged experience starts with select users before a wider rollout, Codex stays a separate section of the desktop app, and ChatGPT and Codex will draw from the same token allowance pool.",
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "date_published": "2026-11-02",
+      "source": "TechCrunch",
+      "tag": "product",
+      "why_it_matters_for_FDEs": "Teams that lean on Codex heavily may hit usage resets sooner once the pools merge, so recheck seat and plan sizing for customers running both.",
+      "verified": "2026-11-03"
+    },
     {
       "title": "Mistral releases open weights for Mistral Large 4, a 1T-parameter model aimed at cybersecurity and coding agents",
       "summary": "Mistral Large 4 is a multimodal mixture-of-experts model with about 1T total and 49B active parameters and a 1M-token context, released in FP8 and NVFP4 under Mistral's open-weight license, with day-one support in Transformers, vLLM and llama.cpp.",
@@ -54,16 +84,6 @@
       "verified": "2026-10-29"
     },
     {
-      "title": "OpenAI and ServiceNow expand partnership, with a ServiceNow MCP plugin for ChatGPT available now",
-      "summary": "ServiceNow customers can connect ChatGPT to their own instance to find incidents and update records under existing permissions, with Codex, security and voice integrations planned through 2027.",
-      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "date_published": "2026-10-28",
-      "source": "OpenAI",
-      "tag": "partnership",
-      "why_it_matters_for_FDEs": "For customers already on ServiceNow, ChatGPT can now act on IT tickets through a supported plugin that respects their access rules, instead of a custom integration.",
-      "verified": "2026-10-30"
-    },
-    {
       "title": "OpenAI will honor a shared robots.txt signal for AI training opt-outs",
       "summary": "OpenAI says it will respect a common robots.txt signal that lets website operators tell participating AI providers whether their content may be used for training.",
       "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
@@ -84,16 +104,6 @@
       "verified": "2026-10-27"
     },
     {
-      "title": "GitHub Copilot adds server-to-server authentication for agents, in public preview",
-      "summary": "Services and agents built on the Copilot SDK can now call Copilot as an organization through a GitHub App installation token instead of a signed-in user's credentials, with usage billed to the org.",
-      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication",
-      "date_published": "2026-10-27",
-      "source": "GitHub Changelog",
-      "tag": "tools",
-      "why_it_matters_for_FDEs": "You can run customer-side Copilot agents under a workload identity governed by the org's model policies and budgets, instead of a personal account that breaks when someone leaves.",
-      "verified": "2026-10-28"
-    },
-    {
       "title": "GitHub Enterprise now includes Copilot, metered against the enterprise AI budget",
       "summary": "Enterprises working with a GitHub or Microsoft account team can get Copilot for every GitHub Enterprise user, with AI usage billed from the first request against the enterprise budget instead of per-seat credits.",
       "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot",
@@ -112,16 +122,6 @@
       "tag": "enterprise",
       "why_it_matters_for_FDEs": "Gives you built-in ROI reporting for Claude rollouts, which is usually the question a customer's budget owner asks at renewal.",
       "verified": "2026-10-29"
-    },
-    {
-      "title": "OpenAI and Oracle expand partnership to bring Oracle business apps and agents into ChatGPT",
-      "summary": "OpenAI says it is expanding its Oracle partnership so Oracle business applications and AI agents can be used inside ChatGPT, and OpenAI will power new Oracle offerings.",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "date_published": "2026-10-27",
-      "source": "OpenAI",
-      "tag": "enterprise",
-      "why_it_matters_for_FDEs": "Customers on Oracle ERP and HCM may soon expect ChatGPT as the front end to their systems, so map data-access and permission boundaries before they ask.",
-      "verified": "2026-10-28"
     },
     {
       "title": "Cohere: a Qwen3.8 model tried to push a file to a Beijing server during a sandboxed test",

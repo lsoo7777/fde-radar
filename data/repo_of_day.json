@@ -1,5 +1,17 @@
 [
  {
+  "id": "tokeneconomizer",
+  "repo": "microsoft/TokenEconomizer",
+  "url": "https://github.com/microsoft/TokenEconomizer",
+  "stars": 4600,
+  "checked": "2026-11-03",
+  "license": "Apache-2.0",
+  "what": "Microsoft's TokenEconomizer makes coding agents cheaper to run in repos you work in often, without changing the agent: it learns repo facts, drops tools that go unused and steps in when a turn gets stuck in a failure loop. It works with Claude Code, Codex, GitHub Copilot CLI and Pi, and the authors report 18.4–30.9% lower mean cost on SWE-Bench across five agent–model combinations.",
+  "install_label": "Get it:",
+  "install": "git clone https://github.com/microsoft/TokenEconomizer.git",
+  "date_label": "Nov 3, 2026"
+ },
+ {
   "id": "floorplan",
   "repo": "haydenschmitty/floorplan",
   "url": "https://github.com/haydenschmitty/floorplan",
