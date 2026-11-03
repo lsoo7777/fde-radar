@@ -120,6 +120,27 @@
  },
  {
   "co": "databricks",
+  "title": "Senior Forward Deployed Engineer",
+  "loc": "London, United Kingdom",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8927390002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "Sr. Engagement Manager, FDE",
+  "loc": "Seoul, South Korea",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8922943002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "Sr. Forward Deployment Strategist",
+  "loc": "Seoul, South Korea",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8922951002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
   "title": "Evergreen - AI Engineer, AI FDE",
   "loc": "Bengaluru, India",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8878946002",
@@ -168,27 +189,6 @@
   "status": "open"
  },
  {
-  "co": "databricks",
-  "title": "Sr. Technical Program Manager, FDE - LATAM",
-  "loc": "USCA",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8684079002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "Manager, Forward Deployed Engineering",
-  "loc": "Munich, Germany",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8899736002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "Solutions Engineer",
-  "loc": "Sao Paulo, Brazil",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8882485002",
-  "status": "open"
- },
- {
   "co": "vercel",
   "title": "Partner Solutions Engineer",
   "loc": "Hybrid - San Francisco",
@@ -214,6 +214,13 @@
   "title": "Forward-Deployed Engineer",
   "loc": "Hybrid - San Francisco, New York City, Austin",
   "url": "https://job-boards.greenhouse.io/vercel/jobs/5752684004",
+  "status": "open"
+ },
+ {
+  "co": "gleanwork",
+  "title": "Solutions Engineer, Canada",
+  "loc": "Remote - Canada",
+  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4749825005",
   "status": "open"
  },
  {
@@ -505,7 +512,7 @@
  },
  {
   "co": "notion",
-  "title": "Forward Deployed Engineer, Manager -London",
+  "title": "Manager, Forward Deployed Engineer",
   "loc": "London, United Kingdom",
   "url": "https://jobs.ashbyhq.com/notion/0439c4a6-7a8e-4ffa-8cfd-28ce373acbd5",
   "status": "open"
@@ -918,6 +925,13 @@
  },
  {
   "co": "elevenlabs",
+  "title": "Deployment Strategist - North America",
+  "loc": "United States",
+  "url": "https://jobs.ashbyhq.com/elevenlabs/8c068ebf-c79f-4f12-97ef-b4c9a4f7ae5f",
+  "status": "open"
+ },
+ {
+  "co": "elevenlabs",
   "title": "Deployment Strategist - Italy",
   "loc": "Italy",
   "url": "https://jobs.ashbyhq.com/elevenlabs/b85d7749-5b12-4f3c-87e9-61a477da77aa",
@@ -977,13 +991,6 @@
   "title": "Deployment Strategist - Colombia",
   "loc": "Colombia",
   "url": "https://jobs.ashbyhq.com/elevenlabs/c89e8bf6-6d4c-43bd-bd2a-661ae73c82bf",
-  "status": "open"
- },
- {
-  "co": "elevenlabs",
-  "title": "Forward Deployed Engineer - Software Engineer - Argentina",
-  "loc": "Argentina",
-  "url": "https://jobs.ashbyhq.com/elevenlabs/1f7a2786-46d3-46c9-81f3-c3849b412988",
   "status": "open"
  },
  {
