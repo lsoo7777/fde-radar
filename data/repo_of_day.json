@@ -1,5 +1,17 @@
 [
  {
+  "id": "agent-desktop",
+  "repo": "vercel-labs/agent-desktop",
+  "url": "https://github.com/vercel-labs/agent-desktop",
+  "stars": 14037,
+  "checked": "2026-11-04",
+  "license": "Apache-2.0",
+  "what": "Vercel Labs' agent-desktop, which just shipped v1.1, gives an AI agent computer use without screenshots: it reads the OS accessibility tree on macOS, Windows and Linux and returns JSON refs the agent clicks or types on, then reads the UI again to check. There's no model inside, and it ships as a CLI and a C library, handy for automating legacy desktop apps that have no API.",
+  "install_label": "Get it:",
+  "install": "git clone https://github.com/vercel-labs/agent-desktop.git",
+  "date_label": "Nov 4, 2026"
+ },
+ {
   "id": "tokeneconomizer",
   "repo": "microsoft/TokenEconomizer",
   "url": "https://github.com/microsoft/TokenEconomizer",

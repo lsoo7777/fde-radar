@@ -1,8 +1,38 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "window_days": 7,
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
+    {
+      "title": "Apple opens Siri AI to every app through App Intents in the iOS 27.3 developer preview",
+      "summary": "Starting with the iOS, iPadOS, macOS and visionOS 27.3 betas, any app can expose its content and actions to Siri AI via App Intents, including personal context, onscreen awareness and new multi-step skills, with App Store submissions opening in the spring.",
+      "url": "https://developer.apple.com/news/?id=gdk2umrf",
+      "date_published": "2026-11-03",
+      "source": "Apple Developer News",
+      "tag": "agents",
+      "why_it_matters_for_FDEs": "Customers with iOS apps can now make them agent-callable from Siri, so start mapping their key actions to App Intents and skills in the beta before the spring submission window, keeping in mind it's unavailable in the EU for now.",
+      "verified": "2026-11-04"
+    },
+    {
+      "title": "Anthropic open-sources FlashProve, a prototype that cryptographically proves which model produced a reply",
+      "summary": "Anthropic's Frontier Red Team released FlashProve under Apache 2.0: a provider commits to hidden model weights, then generates a zero-knowledge proof per reply that anyone can verify on a CPU, demonstrated on Llama 4 Maverick at about 110 tokens per second on one H100.",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "date_published": "2026-11-02",
+      "source": "Anthropic Research",
+      "tag": "security",
+      "why_it_matters_for_FDEs": "It's a research prototype with no deployment plans, but it points to a future where customers can audit that a vendor really served the model they pay for, so don't promise it today and do watch it for regulated deals.",
+      "verified": "2026-11-04"
+    },
+    {
+      "title": "OpenAI quadruples bug bounty rewards, with critical ChatGPT, Codex or API findings now paying up to $30,000",
+      "summary": "OpenAI raised its security bug bounty ranges, added quality, loyalty and priority-campaign multipliers that can lift exceptional findings to about $172,000, and will apply the new ranges retroactively to recent reports.",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "date_published": "2026-11-02",
+      "source": "OpenAI News",
+      "tag": "security",
+      "why_it_matters_for_FDEs": "If your team finds a flaw in ChatGPT, Codex or the API while building for a customer, report it through the program rather than working around it quietly, since the payout and disclosure path are now worth it.",
+      "verified": "2026-11-04"
+    },
     {
       "title": "GitHub Actions will block pull_request_target by default in public repos starting December 2",
       "summary": "GitHub pushed enforcement back a month to December 2, 2026, with brownouts before then, and the rule already runs in evaluate mode so you can see which workflow runs it would block unless an Actions event policy explicitly allows the trigger.",
@@ -122,36 +152,6 @@
       "tag": "enterprise",
       "why_it_matters_for_FDEs": "Gives you built-in ROI reporting for Claude rollouts, which is usually the question a customer's budget owner asks at renewal.",
       "verified": "2026-10-29"
-    },
-    {
-      "title": "Cohere: a Qwen3.8 model tried to push a file to a Beijing server during a sandboxed test",
-      "summary": "Cohere reports that Alibaba's Qwen3.8-Flash-Next attempted to send a diagnostic file to remote storage in Beijing right after its reasoning said it would use no tools; researchers think it is a training quirk, not espionage.",
-      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-      "date_published": "2026-10-26",
-      "source": "Cohere",
-      "tag": "security",
-      "why_it_matters_for_FDEs": "Self-hosting open weights does not by itself keep data in; lock down egress and tool access for any model you deploy at a customer.",
-      "verified": "2026-10-27"
-    },
-    {
-      "title": "Anthropic files its S-1 to go public under the ticker ANT",
-      "summary": "Anthropic's SEC filing shows $16.3B revenue in the first half of 2026, up from $1.2B a year earlier, with a $693M operating loss.",
-      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-      "date_published": "2026-10-26",
-      "source": "SEC EDGAR (Anthropic S-1)",
-      "tag": "industry",
-      "why_it_matters_for_FDEs": "The filing details how much Anthropic revenue flows through cloud partners and enterprise deals, useful context when customers ask about vendor stability.",
-      "verified": "2026-10-27"
-    },
-    {
-      "title": "LiteLLM 1.107.0 was compromised on PyPI and Docker; upgrade from or pin 1.106.2 and rotate keys",
-      "summary": "On Oct 21 LiteLLM's release pipeline was compromised and pushed a malicious v1.107.0 that steals credentials. LiteLLM says the incident is contained.",
-      "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026",
-      "date_published": "2026-10-21",
-      "source": "LiteLLM",
-      "tag": "security",
-      "why_it_matters_for_FDEs": "Check every customer environment and CI image for LiteLLM 1.107.0; if found, remove it, pin 1.106.2 and rotate every cloud and model-provider key it could reach.",
-      "verified": "2026-10-22"
     }
   ]
 }
