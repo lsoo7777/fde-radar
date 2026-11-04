@@ -1,6 +1,20 @@
 [
  {
   "co": "anthropic",
+  "title": "Manager, Forward Deployed Engineering",
+  "loc": "Paris, France",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5471721008",
+  "status": "open"
+ },
+ {
+  "co": "anthropic",
+  "title": "Manager, Forward Deployed Engineering",
+  "loc": "Munich, Germany",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5442048008",
+  "status": "open"
+ },
+ {
+  "co": "anthropic",
   "title": "Staff Forward Deployed Engineer",
   "loc": "New York City, NY; San Francisco, CA; Seattle, WA",
   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5449229008",
@@ -120,6 +134,13 @@
  },
  {
   "co": "databricks",
+  "title": "Forward Deployed Strategist",
+  "loc": "Sydney, Australia",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8922945002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
   "title": "Senior Forward Deployed Engineer",
   "loc": "London, United Kingdom",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8927390002",
@@ -182,24 +203,10 @@
   "status": "open"
  },
  {
-  "co": "databricks",
-  "title": "Forward Deployed Engineering Manager",
-  "loc": "London, United Kingdom",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8910850002",
-  "status": "open"
- },
- {
   "co": "vercel",
   "title": "Partner Solutions Engineer",
   "loc": "Hybrid - San Francisco",
   "url": "https://job-boards.greenhouse.io/vercel/jobs/6201179004",
-  "status": "open"
- },
- {
-  "co": "vercel",
-  "title": "Partner Solutions Engineer, EMEA",
-  "loc": "Hybrid - London, Berlin",
-  "url": "https://job-boards.greenhouse.io/vercel/jobs/6132416004",
   "status": "open"
  },
  {
@@ -214,6 +221,13 @@
   "title": "Forward-Deployed Engineer",
   "loc": "Hybrid - San Francisco, New York City, Austin",
   "url": "https://job-boards.greenhouse.io/vercel/jobs/5752684004",
+  "status": "open"
+ },
+ {
+  "co": "gleanwork",
+  "title": "Solutions Engineer (EMEA Shift)",
+  "loc": "Bangalore, India",
+  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4747460005",
   "status": "open"
  },
  {
