@@ -1,5 +1,18 @@
 [
  {
+  "id": "security-audit-skill",
+  "repo": "cloudflare/security-audit-skill",
+  "url": "https://github.com/cloudflare/security-audit-skill",
+  "stars": 60270,
+  "checked": "2026-11-05",
+  "license": "MIT",
+  "what": "Cloudflare's security-audit-skill is the skill that started Cloudflare's vulnerability harness. It runs a six-phase audit (map, hunt, challenge, record, verify, report), writes schema-checked findings.json with findings labeled confirmed, needs_validation or rejected, and has those findings re-checked by fresh agents.",
+  "note": "Cloudflare's write-up: <a style=\"color:var(--acc)\" href=\"https://blog.cloudflare.com/build-your-own-vulnerability-harness/\" target=\"_blank\" rel=\"noopener\">Build your own vulnerability harness</a>.",
+  "install_label": "Get it:",
+  "install": "git clone https://github.com/cloudflare/security-audit-skill.git",
+  "date_label": "Nov 5, 2026"
+ },
+ {
   "id": "agent-desktop",
   "repo": "vercel-labs/agent-desktop",
   "url": "https://github.com/vercel-labs/agent-desktop",
