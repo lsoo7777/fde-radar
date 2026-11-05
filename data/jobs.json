@@ -134,6 +134,48 @@
  },
  {
   "co": "databricks",
+  "title": "Sr. Technical Program Manager, FDE",
+  "loc": "USCA",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8927394002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "AI Forward Deployed Engineer - France",
+  "loc": "Paris, France",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8929894002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "AI Forward Deployed Engineer - Germany",
+  "loc": "Munich, Germany",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8930374002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "AI Forward Deployed Engineer - Netherlands",
+  "loc": "Amsterdam, Netherlands",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8930378002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "AI Forward Deployed Engineer - Sweden",
+  "loc": "Stockholm, Sweden",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8930381002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "AI Forward Deployed Engineer",
+  "loc": "London, United Kingdom",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8927179002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
   "title": "Forward Deployed Strategist",
   "loc": "Sydney, Australia",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8922945002",
@@ -161,48 +203,6 @@
   "status": "open"
  },
  {
-  "co": "databricks",
-  "title": "Evergreen - AI Engineer, AI FDE",
-  "loc": "Bengaluru, India",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8878946002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "Sr. Forward Deployment Strategist",
-  "loc": "Singapore",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8922941002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "Sr. Solutions Engineer (Greater China)",
-  "loc": "Singapore",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8899597002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "Forward Deployed Engineer",
-  "loc": "London, United Kingdom",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8921476002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "Staff Technical Solutions Engineer, Data & AI",
-  "loc": "Sao Paulo, Brazil",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8920303002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "Senior Forward Deployed Engineer (Technical Data Architect)",
-  "loc": "London, United Kingdom",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8916552002",
-  "status": "open"
- },
- {
   "co": "vercel",
   "title": "Partner Solutions Engineer",
   "loc": "Hybrid - San Francisco",
@@ -221,6 +221,13 @@
   "title": "Forward-Deployed Engineer",
   "loc": "Hybrid - San Francisco, New York City, Austin",
   "url": "https://job-boards.greenhouse.io/vercel/jobs/5752684004",
+  "status": "open"
+ },
+ {
+  "co": "gleanwork",
+  "title": "Forward Deployed Recruiter",
+  "loc": "Mountain View, CA",
+  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4751170005",
   "status": "open"
  },
  {
@@ -287,13 +294,6 @@
   "status": "open"
  },
  {
-  "co": "gleanwork",
-  "title": "Founding Forward Deployed Engineer",
-  "loc": "Mountain View, CA",
-  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4651990005",
-  "status": "open"
- },
- {
   "co": "figma",
   "title": "Forward Deployed Engineer",
   "loc": "San Francisco, CA • New York, NY • United States",
@@ -317,7 +317,7 @@
  {
   "co": "samsara",
   "title": "Enterprise Sales Engineer - US Southeast",
-  "loc": "Remote - US",
+  "loc": "Remote - FL; Remote - GA; Remote - NC",
   "url": "https://job-boards.greenhouse.io/samsara/jobs/8244432",
   "status": "open"
  },
@@ -345,14 +345,14 @@
  {
   "co": "samsara",
   "title": "Sales Engineer, Mid Market - Public Sector",
-  "loc": "Remote - US",
+  "loc": "Remote - Austin; Remote - CA; Remote - Chicago; Remote - Dallas; Remote - Houston; Remote - Seattle",
   "url": "https://job-boards.greenhouse.io/samsara/jobs/8036863",
   "status": "open"
  },
  {
   "co": "samsara",
   "title": "Sales Engineer, Mid Market - TOLA",
-  "loc": "Remote - TX",
+  "loc": "Remote - US",
   "url": "https://job-boards.greenhouse.io/samsara/jobs/7848459",
   "status": "open"
  },
@@ -939,6 +939,13 @@
  },
  {
   "co": "elevenlabs",
+  "title": "Deployment Strategist Lead - Middle East",
+  "loc": "UAE ",
+  "url": "https://jobs.ashbyhq.com/elevenlabs/829d5af0-3581-4d49-8073-866f30d09503",
+  "status": "open"
+ },
+ {
+  "co": "elevenlabs",
   "title": "Deployment Strategist - North America",
   "loc": "United States",
   "url": "https://jobs.ashbyhq.com/elevenlabs/8c068ebf-c79f-4f12-97ef-b4c9a4f7ae5f",
@@ -1001,13 +1008,6 @@
   "status": "open"
  },
  {
-  "co": "elevenlabs",
-  "title": "Deployment Strategist - Colombia",
-  "loc": "Colombia",
-  "url": "https://jobs.ashbyhq.com/elevenlabs/c89e8bf6-6d4c-43bd-bd2a-661ae73c82bf",
-  "status": "open"
- },
- {
   "co": "cursor",
   "title": "Regional Director, Forward Deployed Engineering - Public Sector",
   "loc": "Washington, D.C.",
@@ -1016,7 +1016,7 @@
  },
  {
   "co": "cursor",
-  "title": "Forward Deployed Engineer",
+  "title": "Forward Deployed Engineer (Australia)",
   "loc": "Australia",
   "url": "https://jobs.ashbyhq.com/cursor/44264403-5674-40b7-8b8d-e60b0a86e9ec",
   "status": "open"
@@ -1038,7 +1038,7 @@
  {
   "co": "cursor",
   "title": "Forward Deployed Engineer",
-  "loc": "San Francisco",
+  "loc": "San Francisco, CA",
   "url": "https://jobs.ashbyhq.com/cursor/34cecd0c-c392-4454-8ef5-261310541011",
   "status": "open"
  },
@@ -1051,7 +1051,7 @@
  },
  {
   "co": "cursor",
-  "title": "Regional Director, Forward Deployed Engineering",
+  "title": "Regional Director, Forward Deployed Engineering (Singapore)",
   "loc": "Singapore",
   "url": "https://jobs.ashbyhq.com/cursor/c30b1b69-518a-4fdd-a316-667380bcd608",
   "status": "open"

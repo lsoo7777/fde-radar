@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-04",
+ "checked": "2026-11-05",
  "rules": [
   "'Our pick' = our judgment, labeled as such",
   "Stars come from repos.json at build time, shown with the build date",
@@ -26,11 +26,11 @@
     "github": "https://github.com/anthropics/claude-code",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: runs in the terminal and reads skills from ~/.claude/skills, so our kit skills work in it directly.",
-    "stars": 154508,
+    "stars": 154616,
     "repo": "anthropics/claude-code",
     "free": "no",
     "free_src": "https://claude.com/product/claude-code",
-    "checked": "2026-11-04",
+    "checked": "2026-11-05",
     "pushed": "2026-11-04",
     "archived": false,
     "license": null
@@ -41,9 +41,9 @@
      "url": "https://github.com/openai/codex",
      "repo": "openai/codex",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
-     "checked": "2026-11-04",
-     "stars": 133114,
-     "pushed": "2026-11-04",
+     "checked": "2026-11-05",
+     "stars": 133287,
+     "pushed": "2026-11-05",
      "archived": false,
      "license": "Apache-2.0"
     },
@@ -52,8 +52,8 @@
      "url": "https://github.com/Aider-AI/aider",
      "repo": "Aider-AI/aider",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
-     "checked": "2026-11-04",
-     "stars": 49942,
+     "checked": "2026-11-05",
+     "stars": 49961,
      "pushed": "2026-05-22",
      "archived": false,
      "license": "Apache-2.0"
@@ -70,10 +70,10 @@
     "github": "https://github.com/promptfoo/promptfoo",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: open source, runs locally from a config file, no account needed to try it.",
-    "stars": 26822,
+    "stars": 26868,
     "repo": "promptfoo/promptfoo",
-    "checked": "2026-11-04",
-    "pushed": "2026-11-04",
+    "checked": "2026-11-05",
+    "pushed": "2026-11-05",
     "archived": false,
     "license": "MIT"
    },
@@ -83,12 +83,12 @@
     "github": "https://github.com/langfuse/langfuse",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: open-source tracing plus evals you can self-host when customer data can't leave their cloud.",
-    "stars": 36993,
+    "stars": 37050,
     "repo": "langfuse/langfuse",
     "free": "yes",
     "free_src": "https://langfuse.com/pricing",
-    "checked": "2026-11-04",
-    "pushed": "2026-11-04",
+    "checked": "2026-11-05",
+    "pushed": "2026-11-05",
     "archived": false,
     "license": "NOASSERTION"
    },
@@ -106,9 +106,9 @@
      "url": "https://github.com/confident-ai/deepeval",
      "repo": "confident-ai/deepeval",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
-     "checked": "2026-11-04",
-     "stars": 19291,
-     "pushed": "2026-11-04",
+     "checked": "2026-11-05",
+     "stars": 19314,
+     "pushed": "2026-11-05",
      "archived": false,
      "license": "Apache-2.0"
     },
@@ -117,9 +117,9 @@
      "url": "https://github.com/Arize-ai/phoenix",
      "repo": "Arize-ai/phoenix",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
-     "checked": "2026-11-04",
-     "stars": 12137,
-     "pushed": "2026-11-04",
+     "checked": "2026-11-05",
+     "stars": 12157,
+     "pushed": "2026-11-05",
      "archived": false,
      "license": "NOASSERTION"
     }
@@ -144,10 +144,10 @@
     "github": "https://github.com/vercel/ai",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: a quick way to stand up a working AI app for a POC in TypeScript.",
-    "stars": 27734,
+    "stars": 27753,
     "repo": "vercel/ai",
-    "checked": "2026-11-04",
-    "pushed": "2026-11-04",
+    "checked": "2026-11-05",
+    "pushed": "2026-11-05",
     "archived": false,
     "license": "NOASSERTION"
    },
@@ -163,9 +163,9 @@
      "url": "https://github.com/langgenius/dify",
      "repo": "langgenius/dify",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
-     "checked": "2026-11-04",
-     "stars": 160395,
-     "pushed": "2026-11-04",
+     "checked": "2026-11-05",
+     "stars": 160450,
+     "pushed": "2026-11-05",
      "archived": false,
      "license": "NOASSERTION"
     }
@@ -222,12 +222,12 @@
     "github": "https://github.com/firecrawl/firecrawl",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: turns company sites into clean text an agent can research from.",
-    "stars": 198512,
+    "stars": 198809,
     "repo": "firecrawl/firecrawl",
     "free": "yes",
     "free_src": "https://www.firecrawl.dev/pricing",
-    "checked": "2026-11-04",
-    "pushed": "2026-11-04",
+    "checked": "2026-11-05",
+    "pushed": "2026-11-05",
     "archived": false,
     "license": "AGPL-3.0"
    },
@@ -237,9 +237,9 @@
      "url": "https://github.com/browser-use/browser-use",
      "repo": "browser-use/browser-use",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
-     "checked": "2026-11-04",
-     "stars": 120003,
-     "pushed": "2026-11-02",
+     "checked": "2026-11-05",
+     "stars": 120099,
+     "pushed": "2026-11-05",
      "archived": false,
      "license": "MIT"
     },
@@ -248,8 +248,8 @@
      "url": "https://github.com/unclecode/crawl4ai",
      "repo": "unclecode/crawl4ai",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
-     "checked": "2026-11-04",
-     "stars": 86886,
+     "checked": "2026-11-05",
+     "stars": 86934,
      "pushed": "2026-11-04",
      "archived": false,
      "license": "Apache-2.0"
@@ -275,10 +275,10 @@
     "github": "https://github.com/n8n-io/n8n",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: self-hostable with AI agent nodes, so it fits customers who keep data in-house.",
-    "stars": 209540,
+    "stars": 209606,
     "repo": "n8n-io/n8n",
-    "checked": "2026-11-04",
-    "pushed": "2026-11-04",
+    "checked": "2026-11-05",
+    "pushed": "2026-11-05",
     "archived": false,
     "license": "NOASSERTION"
    },
@@ -346,7 +346,7 @@
    "category": "coding agents",
    "summary": "A proactive coding agent for one GitHub repo, packaged for DeepSeek Harness, that opens work items when an allowed teammate asks and acts only when asked or when a team rule allows; README says it's research code, not an official product.",
    "source": "2026-11-02.json",
-   "checked": "2026-11-04"
+   "checked": "2026-11-05"
   },
   {
    "name": "unslop",
@@ -355,7 +355,7 @@
    "category": "demo/POC",
    "summary": "A Claude Code and Codex skill that finds AI-looking UI patterns (purple gradients, glows, emoji labels, uneven spacing) and redesigns the screen pass by pass.",
    "source": "2026-11-02.json",
-   "checked": "2026-11-04"
+   "checked": "2026-11-05"
   },
   {
    "name": "Floorplan",
@@ -364,17 +364,33 @@
    "category": "coding agents",
    "summary": "A Claude Code and Codex plugin that maps a codebase into an interactive plain-English diagram, traces requests across repos, and runs a health check for keys in code and open endpoints.",
    "source": "2026-11-02.json",
-   "checked": "2026-11-04"
+   "checked": "2026-11-05"
   }
  ],
  "gh_releases": [
+  {
+   "name": "Arize Phoenix arize-phoenix-client: v3.7.0",
+   "url": "https://github.com/Arize-ai/phoenix/releases/tag/arize-phoenix-client-v3.7.0",
+   "date": "2026-11-05",
+   "category": "Evals and observability",
+   "source": "GitHub releases API",
+   "checked": "2026-11-05"
+  },
+  {
+   "name": "Vercel AI SDK ai@7.0.163",
+   "url": "https://github.com/vercel/ai/releases/tag/ai%407.0.163",
+   "date": "2026-11-05",
+   "category": "Demo and POC building",
+   "source": "GitHub releases API",
+   "checked": "2026-11-05"
+  },
   {
    "name": "Claude Code v2.1.318",
    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
    "date": "2026-11-04",
    "category": "Coding agents",
    "source": "GitHub releases API",
-   "checked": "2026-11-04"
+   "checked": "2026-11-05"
   },
   {
    "name": "Langfuse v4.75.0",
@@ -382,7 +398,7 @@
    "date": "2026-11-04",
    "category": "Evals and observability",
    "source": "GitHub releases API",
-   "checked": "2026-11-04"
+   "checked": "2026-11-05"
   },
   {
    "name": "Dify v1.19.0 - Trace Your Workflows, Layer by Layer",
@@ -390,7 +406,7 @@
    "date": "2026-11-04",
    "category": "Demo and POC building",
    "source": "GitHub releases API",
-   "checked": "2026-11-04"
+   "checked": "2026-11-05"
   },
   {
    "name": "n8n stable",
@@ -398,23 +414,7 @@
    "date": "2026-11-04",
    "category": "Workflow automation",
    "source": "GitHub releases API",
-   "checked": "2026-11-04"
-  },
-  {
-   "name": "Vercel AI SDK ai@7.0.162",
-   "url": "https://github.com/vercel/ai/releases/tag/ai%407.0.162",
-   "date": "2026-11-03",
-   "category": "Demo and POC building",
-   "source": "GitHub releases API",
-   "checked": "2026-11-04"
-  },
-  {
-   "name": "Arize Phoenix @arizeai/phoenix-mcp@4.3.20",
-   "url": "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai/phoenix-mcp%404.3.20",
-   "date": "2026-11-02",
-   "category": "Evals and observability",
-   "source": "GitHub releases API",
-   "checked": "2026-11-04"
+   "checked": "2026-11-05"
   },
   {
    "name": "OpenAI Codex CLI 0.166.0",
@@ -422,7 +422,7 @@
    "date": "2026-10-29",
    "category": "Coding agents",
    "source": "GitHub releases API",
-   "checked": "2026-11-04"
+   "checked": "2026-11-05"
   },
   {
    "name": "browser-use 0.13.14: Python agent and integration updates",
@@ -430,7 +430,7 @@
    "date": "2026-10-26",
    "category": "Research and prospecting",
    "source": "GitHub releases API",
-   "checked": "2026-11-04"
+   "checked": "2026-11-05"
   },
   {
    "name": "promptfoo 0.125.1",
@@ -438,7 +438,7 @@
    "date": "2026-10-25",
    "category": "Evals and observability",
    "source": "GitHub releases API",
-   "checked": "2026-11-04"
+   "checked": "2026-11-05"
   },
   {
    "name": "DeepEval Setup wizard 0.1.0",
@@ -446,7 +446,7 @@
    "date": "2026-10-16",
    "category": "Evals and observability",
    "source": "GitHub releases API",
-   "checked": "2026-11-04"
+   "checked": "2026-11-05"
   },
   {
    "name": "Crawl4AI Release v0.9.5",
@@ -454,7 +454,7 @@
    "date": "2026-10-14",
    "category": "Research and prospecting",
    "source": "GitHub releases API",
-   "checked": "2026-11-04"
+   "checked": "2026-11-05"
   }
  ],
  "source": "Chief AI Officer, guides/ai-tools-draft.json (2026-10-19), merged with GitHub API signals"
