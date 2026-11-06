@@ -1,8 +1,58 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "window_days": 7,
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
+    {
+      "title": "OpenAI releases GPT-6 Cyber for scoped vulnerability research through Daybreak Red",
+      "summary": "GPT-6 Cyber improves ExploitGym to 48.5% from GPT-5.6 Cyber's 32.1%, stayed in-scope on 99.93\u2013100% of honeypot tests, powered the Linux and Firefox findings OpenAI disclosed this week, and is initially available via API and Codex to approved Daybreak Red customers.",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "date_published": "2026-11-05",
+      "source": "OpenAI News",
+      "tag": "security",
+      "why_it_matters_for_FDEs": "If a customer has Daybreak Red access, this is the model to trial for authorized vuln research and patching; if not, apply for Daybreak and keep agents sandboxed, because OpenAI now rates the model Critical for cyber under its Preparedness Framework.",
+      "verified": "2026-11-06"
+    },
+    {
+      "title": "Cursor lets cloud agents build, security-check, and deploy live internal apps from a prompt",
+      "summary": "On paid plans with cloud agents, Cursor can scaffold a web app, provision Postgres and Cursor SSO auth, run deterministic and agentic security checks, and publish a shareable live link behind team sign-in.",
+      "url": "https://cursor.com/changelog/build-live-apps",
+      "date_published": "2026-11-05",
+      "source": "Cursor Changelog",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "Customer teams can turn ops, onboarding, and sales tools into shareable internal apps without a separate deploy stack, but treat secrets, admin publish rules, and the built-in security review as part of the rollout checklist.",
+      "verified": "2026-11-06"
+    },
+    {
+      "title": "Claude Code was putting users' account emails into User-Agent headers; Anthropic is removing them from model context",
+      "summary": "Claude Code sometimes put the signed-in account email into User-Agent on web or curl calls after Anthropic added that email to model context; a built-in privacy mod landed in 2.1.317+, and Anthropic says a release early next week will stop putting the email in context.",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "date_published": "2026-11-05",
+      "source": "Anthropic Claude Code (GitHub issue + staff confirmation)",
+      "tag": "security",
+      "why_it_matters_for_FDEs": "Any customer running Claude Code with web tools should update to 2.1.317+, keep the privacy mod on, and audit agent network egress until the context fix ships, because leaked work emails create spam and compliance exposure.",
+      "verified": "2026-11-06"
+    },
+    {
+      "title": "Google DeepMind launches Gemini Omni 1.2 Flash with 15-second video and 30% lower price",
+      "summary": "Gemini Omni 1.2 Flash is generally available on the Gemini API and Google Cloud, adds native 15-second clips, multi-turn conversational edits, stronger reference adherence, and cuts price 30% to $0.07 per second at 720p.",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "date_published": "2026-11-05",
+      "source": "Google DeepMind",
+      "tag": "models",
+      "why_it_matters_for_FDEs": "For customer video, ads, and product-demo pipelines, you can draft cheaply then edit in conversation instead of regenerating, and the same model is already on Vercel AI Gateway as google/gemini-omni-1.2-flash.",
+      "verified": "2026-11-06"
+    },
+    {
+      "title": "LangChain ships async subagents so Deep Agents can keep chatting while work runs in the background",
+      "summary": "Deep Agents for Python and JavaScript, and Managed Deep Agents, now support async subagents with start/check/update/cancel/list tools so an orchestrator stays responsive while background workers finish long tasks.",
+      "url": "https://blog.langchain.com/agents-are-going-async",
+      "date_published": "2026-11-05",
+      "source": "LangChain Blog",
+      "tag": "agents",
+      "why_it_matters_for_FDEs": "If a customer agent stalls on long research or coding steps, switch delegated work to async subagents so the main thread stays steerable, and expect task-notification APIs to still change while they are in beta.",
+      "verified": "2026-11-06"
+    },
     {
       "title": "OpenAI's agent pipeline found and patched 948 Linux kernel root exploits in one run for about $1.2 million",
       "summary": "Using an upcoming cyber model, OpenAI's autonomous pipeline reproduced 1,724 Linux kernel vulnerabilities, built 948 working local privilege escalation exploits on a stock distro and generated candidate patches, which it is reporting to maintainers through its Patch the Planet initiative.",
@@ -102,56 +152,6 @@
       "tag": "industry",
       "why_it_matters_for_FDEs": "Expect customers to ask about this after the headlines; the filing itself is a risk disclosure, not a claim that self-improving AI has arrived, so point them to the exact language.",
       "verified": "2026-11-03"
-    },
-    {
-      "title": "OpenAI is merging ChatGPT's Chat and Work tabs, and ChatGPT and Codex will share one usage allowance",
-      "summary": "According to an email OpenAI sent users, the merged experience starts with select users before a wider rollout, Codex stays a separate section of the desktop app, and ChatGPT and Codex will draw from the same token allowance pool.",
-      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
-      "date_published": "2026-11-02",
-      "source": "TechCrunch",
-      "tag": "product",
-      "why_it_matters_for_FDEs": "Teams that lean on Codex heavily may hit usage resets sooner once the pools merge, so recheck seat and plan sizing for customers running both.",
-      "verified": "2026-11-03"
-    },
-    {
-      "title": "Mistral releases open weights for Mistral Large 4, a 1T-parameter model aimed at cybersecurity and coding agents",
-      "summary": "Mistral Large 4 is a multimodal mixture-of-experts model with about 1T total and 49B active parameters and a 1M-token context, released in FP8 and NVFP4 under Mistral's open-weight license, with day-one support in Transformers, vLLM and llama.cpp.",
-      "url": "https://huggingface.co/blog/mistral-large4",
-      "date_published": "2026-10-29",
-      "source": "Hugging Face Blog",
-      "tag": "model-release",
-      "why_it_matters_for_FDEs": "A frontier-class model customers can self-host for security work that closed APIs often refuse, but check the license's limits on model-as-a-service before building a hosted offering on it.",
-      "verified": "2026-10-30"
-    },
-    {
-      "title": "Researchers show a single ChatGPT share link could take over a signed-in user's account; OpenAI has fixed it",
-      "summary": "Parameter Labs chained a graph library's virtual keyboard, an unguarded postMessage handler and a YouTube endpoint allowed by ChatGPT's content security policy to run their own JavaScript as chatgpt.com, read private chats and exfiltrate them, and OpenAI patched it on Oct 26 as a P1.",
-      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-      "date_published": "2026-10-28",
-      "source": "Parameter Labs (researcher disclosure)",
-      "tag": "security",
-      "why_it_matters_for_FDEs": "If you ship sandboxed AI-generated HTML or artifact previews for customers, audit every postMessage listener and every domain your CSP allows, because one permissive allowance broke this sandbox.",
-      "verified": "2026-11-02"
-    },
-    {
-      "title": "Google DeepMind announces Gemini 4 Carbon, its new frontier model, with a limited rollout to cyber defenders first",
-      "summary": "Google says Gemini 4 Carbon is its strongest model for long-horizon coding, agentic and cybersecurity work, priced at $2 in and $10 out per million tokens, but for now only a subset of cyber defenders get access while broader developer availability waits on more guardrail work.",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "date_published": "2026-10-28",
-      "source": "Google DeepMind",
-      "tag": "model-release",
-      "why_it_matters_for_FDEs": "Plan for it but don't promise it to customers yet: there's no general API access date, so keep current Gemini 4 Argon or other deployments in place and prep evals for when Carbon opens up.",
-      "verified": "2026-10-29"
-    },
-    {
-      "title": "OpenAI will honor a shared robots.txt signal for AI training opt-outs",
-      "summary": "OpenAI says it will respect a common robots.txt signal that lets website operators tell participating AI providers whether their content may be used for training.",
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "date_published": "2026-10-30",
-      "source": "OpenAI",
-      "tag": "policy",
-      "why_it_matters_for_FDEs": "Customers who publish content now have one standard place to state training preferences, so add it to the web-governance checklist when they ask how to control AI crawling.",
-      "verified": "2026-11-02"
     }
   ]
 }
