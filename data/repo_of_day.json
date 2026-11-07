@@ -6,7 +6,7 @@
   "stars": 209,
   "checked": "2026-11-06",
   "license": "Apache-2.0",
-  "what": "Alibaba's qz-browser-agent is a local-first browser agent for automation, research and extraction. It has been public since mid-October and runs as an extension in the Chrome or Edge you're already signed into, so it can clear login walls and long click flows — real signed-in access is the feature and the risk. Bring your own model; it returns tables, files and reports. Grok Bot, Claude Code and Codex can hand it tasks via CLI/MCP (including npx skills add alibaba/qz-browser-agent -g).",
+  "what": "Alibaba's qz-browser-agent is a local-first browser agent for automation, research and extraction. It has been public since mid-October and runs as an extension in the Chrome or Edge you're already signed into, using your existing logins for automation and long click flows — real signed-in access is the feature and the risk. Bring your own model; it returns tables, files and reports. Grok Bot, Claude Code and Codex can hand it tasks via CLI/MCP (including npx skills add alibaba/qz-browser-agent -g).",
   "note": "Docs: <a style=\"color:var(--acc)\" href=\"https://alibaba.github.io/qz-browser-agent/\" target=\"_blank\" rel=\"noopener\">alibaba.github.io/qz-browser-agent</a>.",
   "install_label": "Get it:",
   "install": "git clone https://github.com/alibaba/qz-browser-agent.git",
