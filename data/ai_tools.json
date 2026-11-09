@@ -42,7 +42,7 @@
      "repo": "openai/codex",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-11-09",
-     "stars": 134196,
+     "stars": 134198,
      "pushed": "2026-11-09",
      "archived": false,
      "license": "Apache-2.0"
@@ -144,7 +144,7 @@
     "github": "https://github.com/vercel/ai",
     "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
     "why": "Our pick: a quick way to stand up a working AI app for a POC in TypeScript.",
-    "stars": 27828,
+    "stars": 27829,
     "repo": "vercel/ai",
     "checked": "2026-11-09",
     "pushed": "2026-11-09",
@@ -249,7 +249,7 @@
      "repo": "unclecode/crawl4ai",
      "stars_source": "GitHub API (ai_tools_refresh.py, daily with the 7 AM refresh)",
      "checked": "2026-11-09",
-     "stars": 87132,
+     "stars": 87133,
      "pushed": "2026-11-04",
      "archived": false,
      "license": "Apache-2.0"
@@ -340,30 +340,30 @@
  "method": "Start here and Advanced are our picks (labeled \"Our pick\" with a reason). Tools with public GitHub repos show GitHub stars and last commit from the public GitHub API with the date checked, refreshed daily; alternatives are sorted by stars. Public signals only, nothing paid, any featured spot labeled.",
  "releases": [
   {
-   "name": "dsh-superagent (DeepSeek research prototype)",
-   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-   "date": "2026-10-31",
-   "category": "coding agents",
-   "summary": "A proactive coding agent for one GitHub repo, packaged for DeepSeek Harness, that opens work items when an allowed teammate asks and acts only when asked or when a team rule allows; README says it's research code, not an official product.",
-   "source": "2026-11-02.json",
-   "checked": "2026-11-09"
-  },
-  {
-   "name": "unslop",
-   "url": "https://github.com/heydamir/unslop",
-   "date": "2026-10-29",
+   "name": "Build Live Apps in Cursor",
+   "url": "https://cursor.com/changelog/build-live-apps",
+   "date": "2026-11-05",
    "category": "demo/POC",
-   "summary": "A Claude Code and Codex skill that finds AI-looking UI patterns (purple gradients, glows, emoji labels, uneven spacing) and redesigns the screen pass by pass.",
-   "source": "2026-11-02.json",
+   "summary": "Describe an app and a Cursor cloud agent scaffolds it, sets up Postgres if needed, adds Cursor SSO, hosts it, and runs security checks before publish. Available on paid Cursor plans with cloud agents.",
+   "source": "2026-11-09.json",
    "checked": "2026-11-09"
   },
   {
-   "name": "Floorplan",
-   "url": "https://github.com/haydenschmitty/floorplan",
-   "date": "2026-10-27",
+   "name": "Crush v0.100.0",
+   "url": "https://github.com/charmbracelet/crush/releases/tag/v0.100.0",
+   "date": "2026-11-05",
    "category": "coding agents",
-   "summary": "A Claude Code and Codex plugin that maps a codebase into an interactive plain-English diagram, traces requests across repos, and runs a health check for keys in code and open endpoints.",
-   "source": "2026-11-02.json",
+   "summary": "Charm's terminal coding agent adds subagents, Sysadmin mode, configurable safe/blocked commands, and GPG/SSH prompts.",
+   "source": "2026-11-09.json",
+   "checked": "2026-11-09"
+  },
+  {
+   "name": "Mistral Studio (managed agents, workflow builder, connectors)",
+   "url": "https://mistral.ai/news/build-with-studio/",
+   "date": "2026-11-05",
+   "category": "workflow automation",
+   "summary": "Mistral's enterprise Studio covers managed agents and apps, workflows, connectors, observability and evals, and deploys in the cloud, a VPC, or on-prem.",
+   "source": "2026-11-09.json",
    "checked": "2026-11-09"
   }
  ],
