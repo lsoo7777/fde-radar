@@ -1,8 +1,28 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-09",
   "window_days": 7,
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
+    {
+      "title": "Conductor is joining Meta, and Conductor Cloud shuts down on November 20",
+      "summary": "Conductor, the Mac app for running parallel Claude Code and Codex agents, stopped new sign-ups on Nov 4; its cloud workspaces go read-only Nov 13 and cloud data deletion begins Nov 20, while the local app gets fixes until early 2027.",
+      "url": "https://www.conductor.build/announcement",
+      "date_published": "2026-11-04",
+      "source": "Conductor",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "If you or a customer run agents in Conductor Cloud, use Transfer to local or Settings > Account > Export data before Nov 13, and plan a replacement for parallel-agent workflows before the local app winds down.",
+      "verified": "2026-11-09"
+    },
+    {
+      "title": "@GitHub in Slack and Microsoft Teams is generally available",
+      "summary": "Teams can now mention @GitHub in Slack or Teams to investigate bugs, create issues, implement changes and open pull requests, with Canvas in Teams for reviewing plans and diffs and automatic repo detection from the message.",
+      "url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
+      "date_published": "2026-11-06",
+      "source": "GitHub Changelog",
+      "tag": "agents",
+      "why_it_matters_for_FDEs": "Customers already on Copilot can hand coding tasks to an agent from the chat where requests arrive; check repo access and app permissions before rollout, since issues and PRs it creates are attributed to the requesting user.",
+      "verified": "2026-11-09"
+    },
     {
       "title": "OpenAI releases GPT-6 Cyber for scoped vulnerability research through Daybreak Red",
       "summary": "GPT-6 Cyber improves ExploitGym to 48.5% from GPT-5.6 Cyber's 32.1%, stayed in-scope on 99.93\u2013100% of honeypot tests, powered the Linux and Firefox findings OpenAI disclosed this week, and is initially available via API and Codex to approved Daybreak Red customers.",
@@ -44,6 +64,16 @@
       "verified": "2026-11-06"
     },
     {
+      "title": "Cursor adds realtime voice chat with agents, powered by Grok Voice",
+      "summary": "Cursor users can now hold a two-way voice call with an agent in the IDE, web, Agents Window and iOS app, asking about diffs and progress while the coding agent keeps working, with zero data retention under Privacy Mode.",
+      "url": "https://cursor.com/changelog/voice-chat",
+      "date_published": "2026-11-06",
+      "source": "Cursor Changelog",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "Useful for checking on long agent runs hands-free during customer sessions; confirm Privacy Mode is on before using it with customer code.",
+      "verified": "2026-11-09"
+    },
+    {
       "title": "LangChain ships async subagents so Deep Agents can keep chatting while work runs in the background",
       "summary": "Deep Agents for Python and JavaScript, and Managed Deep Agents, now support async subagents with start/check/update/cancel/list tools so an orchestrator stays responsive while background workers finish long tasks.",
       "url": "https://blog.langchain.com/agents-are-going-async",
@@ -74,26 +104,6 @@
       "verified": "2026-11-05"
     },
     {
-      "title": "Kimi K3.1 Pro is now served by more zero-data-retention providers on Vercel AI Gateway",
-      "summary": "Moonshot's Kimi K3.1 Pro and its Highspeed variant, both with 1M-token context and image input, are now available from additional ZDR providers on AI Gateway, where a ZDR flag makes requests fail rather than route to a provider without a ZDR agreement.",
-      "url": "https://vercel.com/changelog/kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway",
-      "date_published": "2026-11-04",
-      "source": "Vercel Changelog",
-      "tag": "models",
-      "why_it_matters_for_FDEs": "Customers who want a strong open-weight coding model but can't send data to a single overseas provider now have a ZDR-enforced route to Kimi K3.1 Pro that also plugs into Claude Code, Codex and Cursor.",
-      "verified": "2026-11-05"
-    },
-    {
-      "title": "Apple opens Siri AI to every app through App Intents in the iOS 27.3 developer preview",
-      "summary": "Starting with the iOS, iPadOS, macOS and visionOS 27.3 betas, any app can expose its content and actions to Siri AI via App Intents, including personal context, onscreen awareness and new multi-step skills, with App Store submissions opening in the spring.",
-      "url": "https://developer.apple.com/news/?id=gdk2umrf",
-      "date_published": "2026-11-03",
-      "source": "Apple Developer News",
-      "tag": "agents",
-      "why_it_matters_for_FDEs": "Customers with iOS apps can now make them agent-callable from Siri, so start mapping their key actions to App Intents and skills in the beta before the spring submission window, keeping in mind it's unavailable in the EU for now.",
-      "verified": "2026-11-04"
-    },
-    {
       "title": "OpenAI ships Images 2.6 with two API models, GIFs, image markup edits and SVG export",
       "summary": "Images 2.6 is 50% faster and arrives in ChatGPT, Codex and the API as GPT-Image-2.6 Flare (as little as six seconds at low quality) and Sunburst (higher quality and edit consistency), plus a new complexity parameter, markup-guided edits and SVG export.",
       "url": "https://openai.com/index/introducing-images-2-6",
@@ -121,16 +131,6 @@
       "source": "Anthropic Research",
       "tag": "security",
       "why_it_matters_for_FDEs": "It's a research prototype with no deployment plans, but it points to a future where customers can audit that a vendor really served the model they pay for, so don't promise it today and do watch it for regulated deals.",
-      "verified": "2026-11-04"
-    },
-    {
-      "title": "OpenAI quadruples bug bounty rewards, with critical ChatGPT, Codex or API findings now paying up to $30,000",
-      "summary": "OpenAI raised its security bug bounty ranges, added quality, loyalty and priority-campaign multipliers that can lift exceptional findings to about $172,000, and will apply the new ranges retroactively to recent reports.",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "date_published": "2026-11-02",
-      "source": "OpenAI News",
-      "tag": "security",
-      "why_it_matters_for_FDEs": "If your team finds a flaw in ChatGPT, Codex or the API while building for a customer, report it through the program rather than working around it quietly, since the payout and disclosure path are now worth it.",
       "verified": "2026-11-04"
     },
     {

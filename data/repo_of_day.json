@@ -1,5 +1,17 @@
 [
  {
+  "id": "hyperframes",
+  "repo": "heygen-com/hyperframes",
+  "url": "https://github.com/heygen-com/hyperframes",
+  "stars": 81389,
+  "checked": "2026-11-09",
+  "license": "Apache-2.0",
+  "what": "HeyGen's hyperframes: \"Write HTML. Render video. Built for agents.\" It turns HTML, CSS, media and seekable animations into deterministic MP4s, from the CLI or from Claude Code, Codex, Cursor and other agents via skills (npx hyperframes skills update or the Claude Code plugin). Handy for POC/demo videos for clients from HTML your agent writes, without an editor — it renders HTML to video; it does not record a live product demo.",
+  "install_label": "Get it:",
+  "install": "git clone https://github.com/heygen-com/hyperframes.git",
+  "date_label": "Nov 9, 2026"
+ },
+ {
   "id": "qz-browser-agent",
   "repo": "alibaba/qz-browser-agent",
   "url": "https://github.com/alibaba/qz-browser-agent",
