@@ -1,0 +1,157 @@
+{
+  "updated": "2026-11-09",
+  "window_days": 7,
+  "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
+  "items": [
+    {
+      "title": "Conductor is joining Meta, and Conductor Cloud shuts down on November 20",
+      "summary": "Conductor, the Mac app for running parallel Claude Code and Codex agents, stopped new sign-ups on Nov 4; its cloud workspaces go read-only Nov 13 and cloud data deletion begins Nov 20, while the local app gets fixes until early 2027.",
+      "url": "https://www.conductor.build/announcement",
+      "date_published": "2026-11-04",
+      "source": "Conductor",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "If you or a customer run agents in Conductor Cloud, use Transfer to local or Settings > Account > Export data before Nov 13, and plan a replacement for parallel-agent workflows before the local app winds down.",
+      "verified": "2026-11-09"
+    },
+    {
+      "title": "@GitHub in Slack and Microsoft Teams is generally available",
+      "summary": "Teams can now mention @GitHub in Slack or Teams to investigate bugs, create issues, implement changes and open pull requests, with Canvas in Teams for reviewing plans and diffs and automatic repo detection from the message.",
+      "url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
+      "date_published": "2026-11-06",
+      "source": "GitHub Changelog",
+      "tag": "agents",
+      "why_it_matters_for_FDEs": "Customers already on Copilot can hand coding tasks to an agent from the chat where requests arrive; check repo access and app permissions before rollout, since issues and PRs it creates are attributed to the requesting user.",
+      "verified": "2026-11-09"
+    },
+    {
+      "title": "OpenAI releases GPT-6 Cyber for scoped vulnerability research through Daybreak Red",
+      "summary": "GPT-6 Cyber improves ExploitGym to 48.5% from GPT-5.6 Cyber's 32.1%, stayed in-scope on 99.93\u2013100% of honeypot tests, powered the Linux and Firefox findings OpenAI disclosed this week, and is initially available via API and Codex to approved Daybreak Red customers.",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "date_published": "2026-11-05",
+      "source": "OpenAI News",
+      "tag": "security",
+      "why_it_matters_for_FDEs": "If a customer has Daybreak Red access, this is the model to trial for authorized vuln research and patching; if not, apply for Daybreak and keep agents sandboxed, because OpenAI now rates the model Critical for cyber under its Preparedness Framework.",
+      "verified": "2026-11-06"
+    },
+    {
+      "title": "Cursor lets cloud agents build, security-check, and deploy live internal apps from a prompt",
+      "summary": "On paid plans with cloud agents, Cursor can scaffold a web app, provision Postgres and Cursor SSO auth, run deterministic and agentic security checks, and publish a shareable live link behind team sign-in.",
+      "url": "https://cursor.com/changelog/build-live-apps",
+      "date_published": "2026-11-05",
+      "source": "Cursor Changelog",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "Customer teams can turn ops, onboarding, and sales tools into shareable internal apps without a separate deploy stack, but treat secrets, admin publish rules, and the built-in security review as part of the rollout checklist.",
+      "verified": "2026-11-06"
+    },
+    {
+      "title": "Claude Code was putting users' account emails into User-Agent headers; Anthropic is removing them from model context",
+      "summary": "Claude Code sometimes put the signed-in account email into User-Agent on web or curl calls after Anthropic added that email to model context; a built-in privacy mod landed in 2.1.317+, and Anthropic says a release early next week will stop putting the email in context.",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "date_published": "2026-11-05",
+      "source": "Anthropic Claude Code (GitHub issue + staff confirmation)",
+      "tag": "security",
+      "why_it_matters_for_FDEs": "Any customer running Claude Code with web tools should update to 2.1.317+, keep the privacy mod on, and audit agent network egress until the context fix ships, because leaked work emails create spam and compliance exposure.",
+      "verified": "2026-11-06"
+    },
+    {
+      "title": "Google DeepMind launches Gemini Omni 1.2 Flash with 15-second video and 30% lower price",
+      "summary": "Gemini Omni 1.2 Flash is generally available on the Gemini API and Google Cloud, adds native 15-second clips, multi-turn conversational edits, stronger reference adherence, and cuts price 30% to $0.07 per second at 720p.",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "date_published": "2026-11-05",
+      "source": "Google DeepMind",
+      "tag": "models",
+      "why_it_matters_for_FDEs": "For customer video, ads, and product-demo pipelines, you can draft cheaply then edit in conversation instead of regenerating, and the same model is already on Vercel AI Gateway as google/gemini-omni-1.2-flash.",
+      "verified": "2026-11-06"
+    },
+    {
+      "title": "Cursor adds realtime voice chat with agents, powered by Grok Voice",
+      "summary": "Cursor users can now hold a two-way voice call with an agent in the IDE, web, Agents Window and iOS app, asking about diffs and progress while the coding agent keeps working, with zero data retention under Privacy Mode.",
+      "url": "https://cursor.com/changelog/voice-chat",
+      "date_published": "2026-11-06",
+      "source": "Cursor Changelog",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "Useful for checking on long agent runs hands-free during customer sessions; confirm Privacy Mode is on before using it with customer code.",
+      "verified": "2026-11-09"
+    },
+    {
+      "title": "LangChain ships async subagents so Deep Agents can keep chatting while work runs in the background",
+      "summary": "Deep Agents for Python and JavaScript, and Managed Deep Agents, now support async subagents with start/check/update/cancel/list tools so an orchestrator stays responsive while background workers finish long tasks.",
+      "url": "https://blog.langchain.com/agents-are-going-async",
+      "date_published": "2026-11-05",
+      "source": "LangChain Blog",
+      "tag": "agents",
+      "why_it_matters_for_FDEs": "If a customer agent stalls on long research or coding steps, switch delegated work to async subagents so the main thread stays steerable, and expect task-notification APIs to still change while they are in beta.",
+      "verified": "2026-11-06"
+    },
+    {
+      "title": "OpenAI's agent pipeline found and patched 948 Linux kernel root exploits in one run for about $1.2 million",
+      "summary": "Using an upcoming cyber model, OpenAI's autonomous pipeline reproduced 1,724 Linux kernel vulnerabilities, built 948 working local privilege escalation exploits on a stock distro and generated candidate patches, which it is reporting to maintainers through its Patch the Planet initiative.",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "date_published": "2026-11-04",
+      "source": "OpenAI News",
+      "tag": "security",
+      "why_it_matters_for_FDEs": "OpenAI says a low-privileged account on an unpatched Linux box should now be treated as root for a well-resourced attacker, so keep customer agent hosts patched and run agents in sandboxes like gVisor or Firecracker.",
+      "verified": "2026-11-05"
+    },
+    {
+      "title": "OpenAI will acquire Pierre, the maker of Code Storage and the Trees and Diffs libraries used in Codex",
+      "summary": "OpenAI is buying Pierre Computer Company to build Git and code-review workflows for coding agents into Codex; Pierre's open-source projects stay open and Code Storage customers can keep using it after the deal closes, pending regulatory approval.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "date_published": "2026-11-04",
+      "source": "OpenAI News",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "If a customer builds on Pierre's Code Storage API, flag that its features are set to move into Codex and plan for possible changes after closing.",
+      "verified": "2026-11-05"
+    },
+    {
+      "title": "OpenAI ships Images 2.6 with two API models, GIFs, image markup edits and SVG export",
+      "summary": "Images 2.6 is 50% faster and arrives in ChatGPT, Codex and the API as GPT-Image-2.6 Flare (as little as six seconds at low quality) and Sunburst (higher quality and edit consistency), plus a new complexity parameter, markup-guided edits and SVG export.",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "date_published": "2026-11-04",
+      "source": "OpenAI News",
+      "tag": "models",
+      "why_it_matters_for_FDEs": "For customer image pipelines, pick Flare for fast drafts and Sunburst for brand-consistent edits, and use low complexity for quick edit rounds to control latency and cost.",
+      "verified": "2026-11-05"
+    },
+    {
+      "title": "GitHub Copilot now works inside Xcode's built-in coding assistant, in public preview",
+      "summary": "Starting with the Xcode 27.3 beta on macOS Tahoe 26.6 or later, developers on any Copilot plan can pick Copilot in Xcode's own coding assistant, alongside the existing separate Copilot for Xcode extension.",
+      "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
+      "date_published": "2026-11-04",
+      "source": "GitHub Changelog",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "iOS teams standardized on Copilot can now use it in Xcode's native assistant without the extension, which pairs with the App Intents work for Siri in the same 27.3 betas.",
+      "verified": "2026-11-05"
+    },
+    {
+      "title": "Anthropic open-sources FlashProve, a prototype that cryptographically proves which model produced a reply",
+      "summary": "Anthropic's Frontier Red Team released FlashProve under Apache 2.0: a provider commits to hidden model weights, then generates a zero-knowledge proof per reply that anyone can verify on a CPU, demonstrated on Llama 4 Maverick at about 110 tokens per second on one H100.",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "date_published": "2026-11-02",
+      "source": "Anthropic Research",
+      "tag": "security",
+      "why_it_matters_for_FDEs": "It's a research prototype with no deployment plans, but it points to a future where customers can audit that a vendor really served the model they pay for, so don't promise it today and do watch it for regulated deals.",
+      "verified": "2026-11-04"
+    },
+    {
+      "title": "GitHub Actions will block pull_request_target by default in public repos starting December 2",
+      "summary": "GitHub pushed enforcement back a month to December 2, 2026, with brownouts before then, and the rule already runs in evaluate mode so you can see which workflow runs it would block unless an Actions event policy explicitly allows the trigger.",
+      "url": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2",
+      "date_published": "2026-11-02",
+      "source": "GitHub Changelog",
+      "tag": "security",
+      "why_it_matters_for_FDEs": "Any customer repo whose CI, AI review bot or agent workflow uses pull_request_target will break on December 2, so audit those workflows now and either move them to pull_request or add an explicit allow policy.",
+      "verified": "2026-11-03"
+    },
+    {
+      "title": "Anthropic's amended S-1 says it uses Claude to help build the next Claude and flags recursive self-improvement as a safety risk",
+      "summary": "The S-1/A filed on Nov 2 says internal Claude usage is accelerating Anthropic's development, warns that using AI to build more capable AI could pose a considerable safety risk, and says its Responsible Scaling Policy covers the approach to what has been termed recursive self-improvement.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+      "date_published": "2026-11-02",
+      "source": "SEC EDGAR (Anthropic S-1/A)",
+      "tag": "industry",
+      "why_it_matters_for_FDEs": "Expect customers to ask about this after the headlines; the filing itself is a risk disclosure, not a claim that self-improving AI has arrived, so point them to the exact language.",
+      "verified": "2026-11-03"
+    }
+  ]
+}

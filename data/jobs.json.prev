@@ -127,6 +127,27 @@
  },
  {
   "co": "databricks",
+  "title": "Sr. Technical Program Manager, FDE",
+  "loc": "Tokyo, Japan",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8922954002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "Sr. Solutions Engineer - Hunter (New Logo)",
+  "loc": "Tokyo, Japan",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8929603002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "Delivery Partner Manager, FDE",
+  "loc": "Northeast - United States; San Francisco, California; Seattle, Washington; Southeast - United States",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8920618002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
   "title": "Staff Forward Deployed Engineer",
   "loc": "USCA",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8893780002",
@@ -172,27 +193,6 @@
   "title": "AI Forward Deployed Engineer - Netherlands",
   "loc": "Amsterdam, Netherlands",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8930378002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "AI Forward Deployed Engineer - Sweden",
-  "loc": "Stockholm, Sweden",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8930381002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "AI Forward Deployed Engineer",
-  "loc": "London, United Kingdom",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8927179002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "Forward Deployed Strategist",
-  "loc": "Sydney, Australia",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8922945002",
   "status": "open"
  },
  {
@@ -365,6 +365,20 @@
  },
  {
   "co": "openai",
+  "title": "Solutions Engineer, Ads Solutions - Tokyo",
+  "loc": "Tokyo, Japan",
+  "url": "https://jobs.ashbyhq.com/openai/40b24015-76ad-4013-b52c-313defd6f9bd",
+  "status": "open"
+ },
+ {
+  "co": "openai",
+  "title": "Solutions Engineer, Ads Solutions - NYC",
+  "loc": "San Francisco",
+  "url": "https://jobs.ashbyhq.com/openai/eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb",
+  "status": "open"
+ },
+ {
+  "co": "openai",
   "title": "Manager, Forward Deployed Engineering - Munich",
   "loc": "Munich, Germany",
   "url": "https://jobs.ashbyhq.com/openai/5d5b2256-ee0f-4ba6-a983-d62d0d70515d",
@@ -417,20 +431,6 @@
   "title": "Forward Deployed Engineering Manager, Financial Services",
   "loc": "New York City",
   "url": "https://jobs.ashbyhq.com/openai/8e7ba2dd-d632-4a8b-b95b-e2592f77a679",
-  "status": "open"
- },
- {
-  "co": "openai",
-  "title": "Deployment Lead, Forward Deployed Engineering (FDE) - Platform",
-  "loc": "San Francisco",
-  "url": "https://jobs.ashbyhq.com/openai/bc80a3ae-1e69-4a8d-8366-77fcdd56ff61",
-  "status": "open"
- },
- {
-  "co": "openai",
-  "title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
-  "loc": "San Francisco",
-  "url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
   "status": "open"
  },
  {
@@ -533,13 +533,6 @@
  },
  {
   "co": "notion",
-  "title": "Forward Deployed Architect, France",
-  "loc": "Paris, France",
-  "url": "https://jobs.ashbyhq.com/notion/d87154d4-d3c5-48cf-8e83-559436f27133",
-  "status": "open"
- },
- {
-  "co": "notion",
   "title": "Forward Deployed Architect, EMEA",
   "loc": "Dublin, Ireland",
   "url": "https://jobs.ashbyhq.com/notion/77861b77-9493-4869-bbaf-eaa11477a251",
@@ -624,16 +617,16 @@
  },
  {
   "co": "langchain",
-  "title": "Solutions Engineer (Chicago)",
+  "title": "Deployed Engineer (Chicago)",
   "loc": "Chicago, IL",
-  "url": "https://jobs.ashbyhq.com/langchain/98fcaa18-d323-49cd-b231-b2d4b905419d",
+  "url": "https://jobs.ashbyhq.com/langchain/38947013-3d0c-4257-aa58-ab8fe247ea3e",
   "status": "open"
  },
  {
   "co": "langchain",
-  "title": "Deployed Engineer (Chicago)",
-  "loc": "Chicago, IL",
-  "url": "https://jobs.ashbyhq.com/langchain/38947013-3d0c-4257-aa58-ab8fe247ea3e",
+  "title": "Deployed Engineer (Seattle)",
+  "loc": "Seattle, WA",
+  "url": "https://jobs.ashbyhq.com/langchain/60d3bd4f-e80f-45fb-9801-725d8b681d54",
   "status": "open"
  },
  {
@@ -806,9 +799,9 @@
  },
  {
   "co": "ramp",
-  "title": "Software Engineer, Forward Deployed",
+  "title": "Software Engineer, Forward Deployed, Enterprise Product",
   "loc": "New York, NY (HQ)",
-  "url": "https://jobs.ashbyhq.com/ramp/29a5da77-37f0-402a-92bc-072778e77ed8",
+  "url": "https://jobs.ashbyhq.com/ramp/09360e92-fc95-4ba6-9611-dfefd60b13ce",
   "status": "open"
  },
  {
@@ -820,7 +813,7 @@
  },
  {
   "co": "ramp",
-  "title": "Software Engineer, Forward Deployed AI Solutions",
+  "title": "Software Engineer, Forward Deployed, AI Solutions",
   "loc": "New York, NY (HQ)",
   "url": "https://jobs.ashbyhq.com/ramp/b614563f-3ce6-4dca-b5ba-0e5a6c8bda27",
   "status": "open"
@@ -960,13 +953,6 @@
  },
  {
   "co": "elevenlabs",
-  "title": "Deployment Strategist - Italy",
-  "loc": "Italy",
-  "url": "https://jobs.ashbyhq.com/ElevenLabs/b85d7749-5b12-4f3c-87e9-61a477da77aa",
-  "status": "open"
- },
- {
-  "co": "elevenlabs",
   "title": "Forward Deployed Engineer - Software Engineer - USA",
   "loc": "San Francisco",
   "url": "https://jobs.ashbyhq.com/ElevenLabs/6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6",
@@ -1008,10 +994,38 @@
   "status": "open"
  },
  {
+  "co": "elevenlabs",
+  "title": "Enterprise Solutions Engineer - Colombia",
+  "loc": "Colombia",
+  "url": "https://jobs.ashbyhq.com/ElevenLabs/ec04799b-6567-4032-8d6c-3c27261618e1",
+  "status": "open"
+ },
+ {
   "co": "cursor",
   "title": "Regional Director, Forward Deployed Engineering - Public Sector",
   "loc": "Washington, D.C.",
-  "url": "https://jobs.ashbyhq.com/cursor/7d6611cb-28bf-4277-8758-178154466934",
+  "url": "https://jobs.ashbyhq.com/cursor/0473120a-7dd7-4604-b5f6-0b834cc6e782",
+  "status": "open"
+ },
+ {
+  "co": "cursor",
+  "title": "Forward Deployed Engineer, Western Europe",
+  "loc": "London",
+  "url": "https://jobs.ashbyhq.com/cursor/c4afc6fd-b8c8-413f-9010-0000323304aa",
+  "status": "open"
+ },
+ {
+  "co": "cursor",
+  "title": "Forward Deployed Engineer - India",
+  "loc": "Bengaluru",
+  "url": "https://jobs.ashbyhq.com/cursor/5f17ee48-29e8-4f48-bbc4-dc250731250b",
+  "status": "open"
+ },
+ {
+  "co": "cursor",
+  "title": "Forward Deployed Engineer - Japan",
+  "loc": "Japan",
+  "url": "https://jobs.ashbyhq.com/cursor/7678325b-cd6c-4cf6-97af-26ba37e615ab",
   "status": "open"
  },
  {
@@ -1023,20 +1037,6 @@
  },
  {
   "co": "cursor",
-  "title": "Forward Deployed Engineer - Japan",
-  "loc": "Japan",
-  "url": "https://jobs.ashbyhq.com/cursor/38bd03a3-3d65-4868-87df-cb248d0a45e3",
-  "status": "open"
- },
- {
-  "co": "cursor",
-  "title": "Forward Deployed Engineer - EMEA",
-  "loc": "London",
-  "url": "https://jobs.ashbyhq.com/cursor/0a82f564-de1b-4c72-9ba4-10cf2b63c483",
-  "status": "open"
- },
- {
-  "co": "cursor",
   "title": "Forward Deployed Engineer",
   "loc": "San Francisco, CA",
   "url": "https://jobs.ashbyhq.com/cursor/34cecd0c-c392-4454-8ef5-261310541011",
@@ -1044,23 +1044,9 @@
  },
  {
   "co": "cursor",
-  "title": "Forward Deployed Engineer - India",
-  "loc": "Bengaluru",
-  "url": "https://jobs.ashbyhq.com/cursor/166c3951-1d2a-4e61-b79b-bedefe96073b",
-  "status": "open"
- },
- {
-  "co": "cursor",
   "title": "Regional Director, Forward Deployed Engineering (Singapore)",
   "loc": "Singapore",
   "url": "https://jobs.ashbyhq.com/cursor/c30b1b69-518a-4fdd-a316-667380bcd608",
-  "status": "open"
- },
- {
-  "co": "cursor",
-  "title": "Forward Deployed Strategist",
-  "loc": "Singapore",
-  "url": "https://jobs.ashbyhq.com/cursor/f2cf204b-f469-4997-9508-f218c5869706",
   "status": "open"
  },
  {
@@ -1075,6 +1061,13 @@
   "title": "Forward Deployed Strategist",
   "loc": "Remote",
   "url": "https://jobs.ashbyhq.com/cursor/6960dfef-6dc1-4dbb-887b-0fc9e6e4292e",
+  "status": "open"
+ },
+ {
+  "co": "cursor",
+  "title": "Regional Director, Forward Deployed Engineering",
+  "loc": "San Francisco, CA",
+  "url": "https://jobs.ashbyhq.com/cursor/f7ec7811-a573-42fa-8ade-01e2d07681ef",
   "status": "open"
  },
  {
