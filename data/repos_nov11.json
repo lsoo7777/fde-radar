@@ -1,0 +1,32 @@
+[
+ {
+  "id": "auto-ontology",
+  "repo": "NVIDIA/auto-ontology",
+  "url": "https://github.com/NVIDIA/auto-ontology",
+  "stars": 11697,
+  "license": "Apache-2.0",
+  "what": "NVIDIA's Auto Ontology is a semantic graph layer over your data for deterministic query generation and explainable retrieval.",
+  "checked": "2026-11-11",
+  "install": "git clone https://github.com/NVIDIA/auto-ontology.git"
+ },
+ {
+  "id": "scrapling",
+  "repo": "D4Vinci/Scrapling",
+  "url": "https://github.com/D4Vinci/Scrapling",
+  "stars": 101480,
+  "license": "BSD-3-Clause",
+  "what": "Scrapling is a Python scraping framework with stealth browsers, crawling, an MCP server, and site-to-Markdown.",
+  "checked": "2026-11-11",
+  "install": "git clone https://github.com/D4Vinci/Scrapling.git"
+ },
+ {
+  "id": "herdr",
+  "repo": "herdrdev/herdr",
+  "url": "https://github.com/herdrdev/herdr",
+  "stars": 50173,
+  "license": "Apache-2.0",
+  "what": "herdr is a runtime for coding-agent terminals on the remote machine: agents keep running when your SSH drops, and it shows which agent is blocked.",
+  "checked": "2026-11-11",
+  "install": "git clone https://github.com/herdrdev/herdr.git"
+ }
+]

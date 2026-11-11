@@ -1,8 +1,38 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "window_days": 7,
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
+    {
+      "title": "Google makes Gemini 4 Carbon generally available, with /swarm multi-agent teams previewing in Antigravity",
+      "summary": "Gemini 4 Carbon, Google's strongest model for long-horizon coding, research and cyber work, is now on the paid Gemini API, Gemini for business and Google AI Ultra at an introductory $2/$10 per million tokens through Nov 30 (then $4/$20), and Antigravity's new /swarm turns one prompt into a coordinated team of agents.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "date_published": "2026-11-10",
+      "source": "Google Blog",
+      "tag": "models",
+      "why_it_matters_for_FDEs": "Carbon undercuts Fable 5.2 on per-token price, so benchmark it on your customers' hardest agent workloads before Nov 30 and budget for the price doubling; Google itself says Argon is still the better default for most work.",
+      "verified": "2026-11-11"
+    },
+    {
+      "title": "Anthropic launches Claude Meetings, Whiteboards and Sheets, and makes Claude Data generally available",
+      "summary": "Claude can now join Google Meet calls as a visible participant (beta, Team and Enterprise), build shared whiteboards and spreadsheets with teams (beta, paid plans), and answer questions from a connected warehouse or CRM through Claude Data, alongside interactive connectors that open apps like Adobe, Atlassian and HubSpot inside Claude.",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "date_published": "2026-11-10",
+      "source": "Claude by Anthropic",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "Check customer Enterprise org settings now: Whiteboards and Sheets are off by default there, but Claude Data turns on by default on Nov 19, and Meetings leaves calls when an external guest joins unless an admin allows it.",
+      "verified": "2026-11-11"
+    },
+    {
+      "title": "OpenAI launches Businesses in ChatGPT, letting companies claim profiles and run their own Business Agents",
+      "summary": "Through Business Hub, companies can claim and verify their ChatGPT listing, add product feeds and see aggregated engagement insights, and eligible US ecommerce and online service businesses can now build a Business Agent that shoppers chat with inside ChatGPT.",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "date_published": "2026-11-10",
+      "source": "OpenAI News",
+      "tag": "agents",
+      "why_it_matters_for_FDEs": "Customer-facing agents now have a distribution channel inside ChatGPT, so retail and services customers will ask for help claiming their listing, keeping feeds accurate and building a Business Agent.",
+      "verified": "2026-11-11"
+    },
     {
       "title": "Anthropic releases Claude Fable 5.2 to everyone, with Mythos 5.2 gated to verified cyber and life-sciences orgs",
       "summary": "Fable 5.2 and Mythos 5.2 are the same model with different safeguards; Fable 5.2 is out now on the Claude Platform, AWS, Google Cloud and Azure as claude-fable-5-2 at $8/$40 per million tokens, up to 30% faster than 5.1, with an optional fast mode at $16/$80.",
@@ -94,16 +124,6 @@
       "verified": "2026-11-06"
     },
     {
-      "title": "Google DeepMind launches Gemini Omni 1.2 Flash with 15-second video and 30% lower price",
-      "summary": "Gemini Omni 1.2 Flash is generally available on the Gemini API and Google Cloud, adds native 15-second clips, multi-turn conversational edits, stronger reference adherence, and cuts price 30% to $0.07 per second at 720p.",
-      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-      "date_published": "2026-11-05",
-      "source": "Google DeepMind",
-      "tag": "models",
-      "why_it_matters_for_FDEs": "For customer video, ads, and product-demo pipelines, you can draft cheaply then edit in conversation instead of regenerating, and the same model is already on Vercel AI Gateway as google/gemini-omni-1.2-flash.",
-      "verified": "2026-11-06"
-    },
-    {
       "title": "Cursor adds realtime voice chat with agents, powered by Grok Voice",
       "summary": "Cursor users can now hold a two-way voice call with an agent in the IDE, web, Agents Window and iOS app, asking about diffs and progress while the coding agent keeps working, with zero data retention under Privacy Mode.",
       "url": "https://cursor.com/changelog/voice-chat",
@@ -114,16 +134,6 @@
       "verified": "2026-11-09"
     },
     {
-      "title": "LangChain ships async subagents so Deep Agents can keep chatting while work runs in the background",
-      "summary": "Deep Agents for Python and JavaScript, and Managed Deep Agents, now support async subagents with start/check/update/cancel/list tools so an orchestrator stays responsive while background workers finish long tasks.",
-      "url": "https://blog.langchain.com/agents-are-going-async",
-      "date_published": "2026-11-05",
-      "source": "LangChain Blog",
-      "tag": "agents",
-      "why_it_matters_for_FDEs": "If a customer agent stalls on long research or coding steps, switch delegated work to async subagents so the main thread stays steerable, and expect task-notification APIs to still change while they are in beta.",
-      "verified": "2026-11-06"
-    },
-    {
       "title": "OpenAI's agent pipeline found and patched 948 Linux kernel root exploits in one run for about $1.2 million",
       "summary": "Using an upcoming cyber model, OpenAI's autonomous pipeline reproduced 1,724 Linux kernel vulnerabilities, built 948 working local privilege escalation exploits on a stock distro and generated candidate patches, which it is reporting to maintainers through its Patch the Planet initiative.",
       "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
@@ -131,26 +141,6 @@
       "source": "OpenAI News",
       "tag": "security",
       "why_it_matters_for_FDEs": "OpenAI says a low-privileged account on an unpatched Linux box should now be treated as root for a well-resourced attacker, so keep customer agent hosts patched and run agents in sandboxes like gVisor or Firecracker.",
-      "verified": "2026-11-05"
-    },
-    {
-      "title": "OpenAI will acquire Pierre, the maker of Code Storage and the Trees and Diffs libraries used in Codex",
-      "summary": "OpenAI is buying Pierre Computer Company to build Git and code-review workflows for coding agents into Codex; Pierre's open-source projects stay open and Code Storage customers can keep using it after the deal closes, pending regulatory approval.",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "date_published": "2026-11-04",
-      "source": "OpenAI News",
-      "tag": "tools",
-      "why_it_matters_for_FDEs": "If a customer builds on Pierre's Code Storage API, flag that its features are set to move into Codex and plan for possible changes after closing.",
-      "verified": "2026-11-05"
-    },
-    {
-      "title": "GitHub Copilot now works inside Xcode's built-in coding assistant, in public preview",
-      "summary": "Starting with the Xcode 27.3 beta on macOS Tahoe 26.6 or later, developers on any Copilot plan can pick Copilot in Xcode's own coding assistant, alongside the existing separate Copilot for Xcode extension.",
-      "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
-      "date_published": "2026-11-04",
-      "source": "GitHub Changelog",
-      "tag": "tools",
-      "why_it_matters_for_FDEs": "iOS teams standardized on Copilot can now use it in Xcode's native assistant without the extension, which pairs with the App Intents work for Siri in the same 27.3 betas.",
       "verified": "2026-11-05"
     }
   ]
