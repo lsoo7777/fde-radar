@@ -1,5 +1,17 @@
 [
  {
+  "id": "codex-security",
+  "repo": "openai/codex-security",
+  "url": "https://github.com/openai/codex-security",
+  "stars": 12086,
+  "checked": "2026-11-12",
+  "license": "Apache-2.0",
+  "what": "OpenAI's official Codex Security CLI and TypeScript SDK finds vulnerabilities and drafts fixes on request. It has been public since July 13.",
+  "install_label": "Get it:",
+  "install": "git clone https://github.com/openai/codex-security.git",
+  "date_label": "Nov 12, 2026"
+ },
+ {
   "id": "hyperframes",
   "repo": "heygen-com/hyperframes",
   "url": "https://github.com/heygen-com/hyperframes",

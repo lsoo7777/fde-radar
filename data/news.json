@@ -1,8 +1,28 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "window_days": 7,
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
+    {
+      "title": "Google launches the Gemini Decisions API and Gemini Decision 1 for fast, calibrated yes/no, choice and rubric decisions",
+      "summary": "The new Gemini API endpoint scores up to 1,000 closed-set questions (yes/no, multiple choice, rubric) against one text, image, audio, video or PDF input in a single pass, returning probabilities and confidence in about 150-250 ms at $0.10 per million input tokens with no output tokens billed.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "date_published": "2026-11-11",
+      "source": "Google Blog",
+      "tag": "models",
+      "why_it_matters_for_FDEs": "Routing, policy checks and triage steps you now do with prompt-and-parse JSON calls can move to a cheaper, faster endpoint with a confidence score you can threshold to send unsure cases to a human; it's in Google AI Studio and Vercel AI Gateway now, but not yet in Gemini on Google Cloud.",
+      "verified": "2026-11-12"
+    },
+    {
+      "title": "Hugging Face adds decision models to Transformers and llama.cpp, served on a shared /v1/systemone API",
+      "summary": "Hugging Face's guide shows open-weight decision models (the category TypeSafe started with Jev) running through a new Transformers \"decision\" pipeline, with transformers serve and llama.cpp both exposing the same /v1/systemone endpoint that returns structured choices with probabilities instead of generated text.",
+      "url": "https://huggingface.co/blog/decision",
+      "date_published": "2026-11-10",
+      "source": "Hugging Face Blog",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "For customers who can't send data to a hosted API, you can now run the same routing and classification pattern on their own hardware with a standard endpoint, but you still need to calibrate thresholds per question before trusting the probabilities.",
+      "verified": "2026-11-12"
+    },
     {
       "title": "Google makes Gemini 4 Carbon generally available, with /swarm multi-agent teams previewing in Antigravity",
       "summary": "Gemini 4 Carbon, Google's strongest model for long-horizon coding, research and cyber work, is now on the paid Gemini API, Gemini for business and Google AI Ultra at an introductory $2/$10 per million tokens through Nov 30 (then $4/$20), and Antigravity's new /swarm turns one prompt into a coordinated team of agents.",
@@ -81,16 +101,6 @@
       "source": "Conductor",
       "tag": "tools",
       "why_it_matters_for_FDEs": "If you or a customer run agents in Conductor Cloud, use Transfer to local or Settings > Account > Export data before Nov 13, and plan a replacement for parallel-agent workflows before the local app winds down.",
-      "verified": "2026-11-09"
-    },
-    {
-      "title": "@GitHub in Slack and Microsoft Teams is generally available",
-      "summary": "Teams can now mention @GitHub in Slack or Teams to investigate bugs, create issues, implement changes and open pull requests, with Canvas in Teams for reviewing plans and diffs and automatic repo detection from the message.",
-      "url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
-      "date_published": "2026-11-06",
-      "source": "GitHub Changelog",
-      "tag": "agents",
-      "why_it_matters_for_FDEs": "Customers already on Copilot can hand coding tasks to an agent from the chat where requests arrive; check repo access and app permissions before rollout, since issues and PRs it creates are attributed to the requesting user.",
       "verified": "2026-11-09"
     },
     {
