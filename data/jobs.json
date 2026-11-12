@@ -134,6 +134,13 @@
  },
  {
   "co": "databricks",
+  "title": "Senior Scale Solution Engineer (Korean-speaking; English required)",
+  "loc": "Tokyo, Japan",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8779026002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
   "title": "Sr. Solutions Engineer",
   "loc": "Chicago, Illinois; Remote - California; Remote - New York; United States",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8918565002",
@@ -193,13 +200,6 @@
   "title": "AI Forward Deployed Engineer",
   "loc": "London, United Kingdom",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8927179002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "Forward Deployed Strategist",
-  "loc": "Sydney, Australia",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8922945002",
   "status": "open"
  },
  {
@@ -540,7 +540,7 @@
  },
  {
   "co": "notion",
-  "title": "Forward Deployed Architect, EMEA",
+  "title": "Forward Deployed Architect",
   "loc": "Dublin, Ireland",
   "url": "https://jobs.ashbyhq.com/notion/77861b77-9493-4869-bbaf-eaa11477a251",
   "status": "open"
@@ -568,7 +568,7 @@
  },
  {
   "co": "langchain",
-  "title": "Deployed Engineering Manager, Northern Europe & DACH",
+  "title": "Sales Engineering Manager, Northern Europe & DACH",
   "loc": "Amsterdam",
   "url": "https://jobs.ashbyhq.com/langchain/0ce4562c-3a98-408f-8945-15d8d4af6cb6",
   "status": "open"
@@ -610,13 +610,6 @@
  },
  {
   "co": "langchain",
-  "title": "Deployed Engineer (Bay Area)",
-  "loc": "San Francisco, CA",
-  "url": "https://jobs.ashbyhq.com/langchain/e773649c-4ea7-47c2-9987-74d525474e82",
-  "status": "open"
- },
- {
-  "co": "langchain",
   "title": "Deployed Engineer (Early Career- SF)",
   "loc": "San Francisco, CA",
   "url": "https://jobs.ashbyhq.com/langchain/0f35c8e1-9318-411d-929b-04c60e6d8522",
@@ -634,6 +627,13 @@
   "title": "Deployed Engineer (Chicago)",
   "loc": "Chicago, IL",
   "url": "https://jobs.ashbyhq.com/langchain/38947013-3d0c-4257-aa58-ab8fe247ea3e",
+  "status": "open"
+ },
+ {
+  "co": "langchain",
+  "title": "Deployed Engineer (Seattle)",
+  "loc": "Seattle, WA",
+  "url": "https://jobs.ashbyhq.com/langchain/60d3bd4f-e80f-45fb-9801-725d8b681d54",
   "status": "open"
  },
  {
@@ -743,23 +743,9 @@
  },
  {
   "co": "decagon",
-  "title": "Strategic Solutions Engineer, East",
-  "loc": "Remote",
-  "url": "https://jobs.ashbyhq.com/decagon/6431a6f9-2ebe-4b68-beb6-200b42aeeca8",
-  "status": "open"
- },
- {
-  "co": "decagon",
   "title": "Enterprise Solutions Engineer",
   "loc": "Australia",
   "url": "https://jobs.ashbyhq.com/decagon/95dadea4-8bd2-421a-bf3f-51c04e102ee2",
-  "status": "open"
- },
- {
-  "co": "decagon",
-  "title": "Strategic Solutions Engineer, West",
-  "loc": "Remote",
-  "url": "https://jobs.ashbyhq.com/decagon/78745829-74ee-41cb-836c-480ca7bf9edc",
   "status": "open"
  },
  {
@@ -774,6 +760,13 @@
   "title": "Senior Solutions Engineer",
   "loc": "London",
   "url": "https://jobs.ashbyhq.com/decagon/1a7adb8e-f652-4556-9540-651f5299a0cd",
+  "status": "open"
+ },
+ {
+  "co": "decagon",
+  "title": "Senior Solutions Engineer",
+  "loc": "San Francisco",
+  "url": "https://jobs.ashbyhq.com/decagon/63dd8fb8-8c5b-44e4-8371-5ad453b56eb8",
   "status": "open"
  },
  {
@@ -1037,7 +1030,7 @@
  },
  {
   "co": "cursor",
-  "title": "Forward Deployed Engineer (Australia)",
+  "title": "Forward Deployed Engineer (Australia/Singapore)",
   "loc": "Australia",
   "url": "https://jobs.ashbyhq.com/cursor/44264403-5674-40b7-8b8d-e60b0a86e9ec",
   "status": "open"
@@ -1100,20 +1093,6 @@
  },
  {
   "co": "palantir",
-  "title": "Deployment Strategist, Internship - Warp Speed",
-  "loc": "New York, NY",
-  "url": "https://jobs.lever.co/palantir/69ab7e24-8f5d-426e-84f7-6d3b2d4a7efd",
-  "status": "open"
- },
- {
-  "co": "palantir",
-  "title": "Deployment Strategist, New Grad - Warp Speed",
-  "loc": "New York, NY",
-  "url": "https://jobs.lever.co/palantir/37780e70-c7af-45e1-9be7-071df201c387",
-  "status": "open"
- },
- {
-  "co": "palantir",
   "title": "Forward Deployed Software Engineer, Internship - Warp Speed",
   "loc": "New York, NY",
   "url": "https://jobs.lever.co/palantir/b3d81928-6c26-432f-8a0a-36602c2eefcb",
@@ -1152,6 +1131,20 @@
   "title": "Forward Deployed Software Engineer - US Government",
   "loc": "Norfolk, VA",
   "url": "https://jobs.lever.co/palantir/5b0f37e6-8569-4a62-9e38-c5a4edc67dcf",
+  "status": "open"
+ },
+ {
+  "co": "palantir",
+  "title": "Deployment Strategist - US Government",
+  "loc": "Kitsap, WA",
+  "url": "https://jobs.lever.co/palantir/802add74-04cf-479c-9479-ff3043940e29",
+  "status": "open"
+ },
+ {
+  "co": "palantir",
+  "title": "Forward Deployed Software Engineer - US Government",
+  "loc": "Kitsap, WA",
+  "url": "https://jobs.lever.co/palantir/a2e9ab0f-4dd1-4744-92b9-edc7ae393c58",
   "status": "open"
  },
  {

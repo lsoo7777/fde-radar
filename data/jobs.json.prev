@@ -22,6 +22,13 @@
  },
  {
   "co": "anthropic",
+  "title": "GTM Strategy & Operations, FDE",
+  "loc": "San Francisco, CA | New York City, NY",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5427938008",
+  "status": "open"
+ },
+ {
+  "co": "anthropic",
   "title": "Forward Deployed Engineer",
   "loc": "London, UK",
   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5423029008",
@@ -127,6 +134,13 @@
  },
  {
   "co": "databricks",
+  "title": "Sr. Solutions Engineer",
+  "loc": "Chicago, Illinois; Remote - California; Remote - New York; United States",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8918565002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
   "title": "Sr. Technical Program Manager, FDE",
   "loc": "Tokyo, Japan",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8922954002",
@@ -176,23 +190,16 @@
  },
  {
   "co": "databricks",
-  "title": "AI Forward Deployed Engineer - France",
-  "loc": "Paris, France",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8929894002",
+  "title": "AI Forward Deployed Engineer",
+  "loc": "London, United Kingdom",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8927179002",
   "status": "open"
  },
  {
   "co": "databricks",
-  "title": "AI Forward Deployed Engineer - Germany",
-  "loc": "Munich, Germany",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8930374002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "AI Forward Deployed Engineer - Netherlands",
-  "loc": "Amsterdam, Netherlands",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8930378002",
+  "title": "Forward Deployed Strategist",
+  "loc": "Sydney, Australia",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8922945002",
   "status": "open"
  },
  {
@@ -302,7 +309,7 @@
  },
  {
   "co": "samsara",
-  "title": "Sales Engineering Manager Core - UK&I",
+  "title": "Sales Engineering Manager Select - UK&I",
   "loc": "London, England, United Kingdom",
   "url": "https://job-boards.greenhouse.io/samsara/jobs/8336436",
   "status": "open"
@@ -361,6 +368,13 @@
   "title": "Associate Sales Engineer, SE Desk - TOLA",
   "loc": "Remote - LA; Remote - OK; Remote - TX",
   "url": "https://job-boards.greenhouse.io/samsara/jobs/7848363",
+  "status": "open"
+ },
+ {
+  "co": "openai",
+  "title": "Manager, Deployment Lead, Forward Deployed Engineering (FDE) - Singapore",
+  "loc": "Singapore",
+  "url": "https://jobs.ashbyhq.com/openai/1ddf1fcf-a647-4016-92c3-2da4b45d1b15",
   "status": "open"
  },
  {
@@ -424,13 +438,6 @@
   "title": "Forward Deployed Engineer (FDE) - NYC",
   "loc": "New York City",
   "url": "https://jobs.ashbyhq.com/openai/9471b38b-f65c-4a01-9626-bd33fca90f1d",
-  "status": "open"
- },
- {
-  "co": "openai",
-  "title": "Forward Deployed Engineering Manager, Financial Services",
-  "loc": "New York City",
-  "url": "https://jobs.ashbyhq.com/openai/8e7ba2dd-d632-4a8b-b95b-e2592f77a679",
   "status": "open"
  },
  {
@@ -561,6 +568,13 @@
  },
  {
   "co": "langchain",
+  "title": "Deployed Engineering Manager, Northern Europe & DACH",
+  "loc": "Amsterdam",
+  "url": "https://jobs.ashbyhq.com/langchain/0ce4562c-3a98-408f-8945-15d8d4af6cb6",
+  "status": "open"
+ },
+ {
+  "co": "langchain",
   "title": "Deployed Engineer (Singapore) - APAC",
   "loc": "Remote - Singapore",
   "url": "https://jobs.ashbyhq.com/langchain/c02afa2f-5544-411d-a4e2-8bdc199b0c53",
@@ -623,31 +637,10 @@
   "status": "open"
  },
  {
-  "co": "langchain",
-  "title": "Deployed Engineer (Seattle)",
-  "loc": "Seattle, WA",
-  "url": "https://jobs.ashbyhq.com/langchain/60d3bd4f-e80f-45fb-9801-725d8b681d54",
-  "status": "open"
- },
- {
-  "co": "sierra",
-  "title": "Enterprise Sales Engineer - Majors, Healthcare",
-  "loc": "Toronto",
-  "url": "https://jobs.ashbyhq.com/Sierra/74451d23-45f5-4fa5-ae7c-121df8efb6b8",
-  "status": "open"
- },
- {
   "co": "sierra",
   "title": "Enterprise Sales Engineer - Majors, Healthcare",
   "loc": "San Francisco, CA",
   "url": "https://jobs.ashbyhq.com/Sierra/19d700ac-5624-42fc-ab2b-868c9a23c4ea",
-  "status": "open"
- },
- {
-  "co": "sierra",
-  "title": "Enterprise Sales Engineer - Majors, Financial Services",
-  "loc": "Toronto",
-  "url": "https://jobs.ashbyhq.com/Sierra/953b48fe-5a8f-4732-8957-5b0a1d022dae",
   "status": "open"
  },
  {
@@ -660,22 +653,8 @@
  {
   "co": "sierra",
   "title": "Enterprise Sales Engineer - Strategic, Retail",
-  "loc": "Toronto",
-  "url": "https://jobs.ashbyhq.com/Sierra/fcbf5519-6bfc-4250-a171-669e5708b345",
-  "status": "open"
- },
- {
-  "co": "sierra",
-  "title": "Enterprise Sales Engineer - Strategic, Retail",
   "loc": "San Francisco, CA",
   "url": "https://jobs.ashbyhq.com/Sierra/9eed16e3-9a45-4961-a10b-aea58777fa54",
-  "status": "open"
- },
- {
-  "co": "sierra",
-  "title": "Enterprise Sales Engineer",
-  "loc": "Toronto",
-  "url": "https://jobs.ashbyhq.com/Sierra/761052bb-963c-4707-9be7-f3d7b73c5e17",
   "status": "open"
  },
  {
@@ -697,6 +676,34 @@
   "title": "Enterprise Sales Engineer - Majors",
   "loc": "Toronto",
   "url": "https://jobs.ashbyhq.com/Sierra/4ec93df5-05a5-45c8-9ce9-92e7e41e0cb8",
+  "status": "open"
+ },
+ {
+  "co": "sierra",
+  "title": "Enterprise Sales Engineer - Majors",
+  "loc": "San Francisco, CA",
+  "url": "https://jobs.ashbyhq.com/Sierra/7e6bcbfd-17ad-4ba2-a2e8-8df0d0f3a588",
+  "status": "open"
+ },
+ {
+  "co": "sierra",
+  "title": "Enterprise Sales Engineer - Majors, Retail",
+  "loc": "San Francisco, CA",
+  "url": "https://jobs.ashbyhq.com/Sierra/b870fc11-f984-4aa8-9f16-26feb0281789",
+  "status": "open"
+ },
+ {
+  "co": "sierra",
+  "title": "Enterprise Sales Engineer - Majors, Consumer Business Services",
+  "loc": "San Francisco, CA",
+  "url": "https://jobs.ashbyhq.com/Sierra/245f2cf8-84a5-4a33-9193-e0139f88e0f2",
+  "status": "open"
+ },
+ {
+  "co": "sierra",
+  "title": "Enterprise Sales Engineer, Consumer Business Services",
+  "loc": "San Francisco, CA",
+  "url": "https://jobs.ashbyhq.com/Sierra/6c09a95b-8569-4f75-989f-5838ed633718",
   "status": "open"
  },
  {
@@ -904,13 +911,6 @@
  },
  {
   "co": "cohere",
-  "title": "Engineering Manager, FDE Infrastructure (NORAM)",
-  "loc": "Canada",
-  "url": "https://jobs.ashbyhq.com/cohere/6a6120d5-5e02-4811-99d9-6baf0b910e37",
-  "status": "open"
- },
- {
-  "co": "cohere",
   "title": "Forward Deployed Engineer, Infrastructure Specialist (Public Sector)",
   "loc": "Ottawa",
   "url": "https://jobs.ashbyhq.com/cohere/52a2b83b-7537-4e88-af7b-e4e9630a96e0",
@@ -928,6 +928,13 @@
   "title": "Forward Deployed Engineer, Agentic Platform (UK Public Sector)",
   "loc": "United Kingdom",
   "url": "https://jobs.ashbyhq.com/cohere/691982e3-9357-42e4-b4c3-a65cae906935",
+  "status": "open"
+ },
+ {
+  "co": "cohere",
+  "title": "Forward Deployed Engineer, Infrastructure Specialist (UK Public Sector)",
+  "loc": "United Kingdom",
+  "url": "https://jobs.ashbyhq.com/cohere/a0f174cf-4407-4334-b812-45a767092fca",
   "status": "open"
  },
  {
