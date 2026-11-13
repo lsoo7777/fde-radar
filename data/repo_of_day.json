@@ -1,5 +1,17 @@
 [
  {
+  "id": "modern-web-guidance",
+  "repo": "GoogleChrome/modern-web-guidance",
+  "url": "https://github.com/GoogleChrome/modern-web-guidance",
+  "stars": 9368,
+  "checked": "2026-11-13",
+  "license": "Apache-2.0",
+  "what": "Google Chrome's Modern Web Guidance 1.0 (v1.0.0 on Nov 10): \"Keep your coding agent up to date with the latest web best practices.\" It installs for Claude Code, Codex, Antigravity and Copilot CLI, and includes a legacy-scan command for older codebases. It has been public since March 23.",
+  "install_label": "Get it:",
+  "install": "git clone https://github.com/GoogleChrome/modern-web-guidance.git",
+  "date_label": "Nov 13, 2026"
+ },
+ {
   "id": "codex-security",
   "repo": "openai/codex-security",
   "url": "https://github.com/openai/codex-security",

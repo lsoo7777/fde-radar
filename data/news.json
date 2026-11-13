@@ -1,8 +1,38 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "window_days": 7,
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
+    {
+      "title": "Google DeepMind releases Gemini 4 Hydrogen, a fast agentic model at $1.50/$7.50 per million tokens, plus Orchestrator in Antigravity",
+      "summary": "Hydrogen is Google's new fast model for everyday coding and agent work, scoring 51 on the Artificial Analysis Intelligence Index at its default setting (one point above Argon), with a flat-priced 1 million-token context, four thinking levels, and availability today in the Gemini API, AI Studio, Gemini for business, the Gemini app and Search.",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "date_published": "2026-11-12",
+      "source": "Google DeepMind Blog",
+      "tag": "models",
+      "why_it_matters_for_FDEs": "Customers on Gemini 3.8 Flash have a clear upgrade path (Google reports 2.5x faster tasks and 57% vs 18.2% on Terminal-Bench 4.1), and the Carbon-plans, Hydrogen-executes split is a ready pattern for cutting cost on multi-agent deployments; rerun your own evals before switching.",
+      "verified": "2026-11-13"
+    },
+    {
+      "title": "Fireworks AI breach exposed customer data, including Notion AI chat transcripts",
+      "summary": "Fireworks AI confirmed an attacker got into a development system through its cloud provider and took billing information and some customer datasets; Notion says about 1% of its customers were affected, including Notion AI Insights chat inputs and outputs, and it cut its connection to Fireworks on Nov 3.",
+      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+      "date_published": "2026-11-12",
+      "source": "TechCrunch",
+      "tag": "security",
+      "why_it_matters_for_FDEs": "If a customer routes prompts through Fireworks or any inference provider, check what data that provider stores and for how long, and rotate any keys there; this is the second Fireworks incident in two months.",
+      "verified": "2026-11-13"
+    },
+    {
+      "title": "United Airlines blocks third-party AI agents from booking flights and managing reservations",
+      "summary": "United says it is restricting unauthorized personal AI agents on its own platforms and through travel agencies and aggregators, citing the risk of shared credentials and federal rules that require a human to complete steps like check-in.",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "date_published": "2026-11-12",
+      "source": "TechCrunch",
+      "tag": "agents",
+      "why_it_matters_for_FDEs": "Agents that act on a user's logged-in accounts are hitting policy walls at airlines and banks, so design customer agents around sanctioned APIs and partner channels rather than shared passwords, and keep a human step where regulations require it.",
+      "verified": "2026-11-13"
+    },
     {
       "title": "Google launches the Gemini Decisions API and Gemini Decision 1 for fast, calibrated yes/no, choice and rubric decisions",
       "summary": "The new Gemini API endpoint scores up to 1,000 closed-set questions (yes/no, multiple choice, rubric) against one text, image, audio, video or PDF input in a single pass, returning probabilities and confidence in about 150-250 ms at $0.10 per million input tokens with no output tokens billed.",
@@ -32,6 +62,16 @@
       "tag": "models",
       "why_it_matters_for_FDEs": "Carbon undercuts Fable 5.2 on per-token price, so benchmark it on your customers' hardest agent workloads before Nov 30 and budget for the price doubling; Google itself says Argon is still the better default for most work.",
       "verified": "2026-11-11"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang resigns after 33 years; CFO Colette Kress is interim CEO",
+      "summary": "Nvidia's board said Huang resigned as president, CEO and director effective immediately after reports of affairs, including one with an alleged Chinese spy, and CFO Colette Kress is leading the company while it searches for a successor, with earnings due Tuesday.",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+      "date_published": "2026-11-12",
+      "source": "TechCrunch",
+      "tag": "industry",
+      "why_it_matters_for_FDEs": "Nothing changes in your stack today, but watch Tuesday's earnings call for any shift in GPU supply, pricing or Nvidia's open-model and software commitments before you lock customer infrastructure plans.",
+      "verified": "2026-11-13"
     },
     {
       "title": "Anthropic launches Claude Meetings, Whiteboards and Sheets, and makes Claude Data generally available",
@@ -104,26 +144,6 @@
       "verified": "2026-11-09"
     },
     {
-      "title": "OpenAI releases GPT-6 Cyber for scoped vulnerability research through Daybreak Red",
-      "summary": "GPT-6 Cyber improves ExploitGym to 48.5% from GPT-5.6 Cyber's 32.1%, stayed in-scope on 99.93–100% of honeypot tests, powered the Linux and Firefox findings OpenAI disclosed this week, and is initially available via API and Codex to approved Daybreak Red customers.",
-      "url": "https://openai.com/index/introducing-gpt-6-cyber",
-      "date_published": "2026-11-05",
-      "source": "OpenAI News",
-      "tag": "security",
-      "why_it_matters_for_FDEs": "If a customer has Daybreak Red access, this is the model to trial for authorized vuln research and patching; if not, apply for Daybreak and keep agents sandboxed, because OpenAI now rates the model Critical for cyber under its Preparedness Framework.",
-      "verified": "2026-11-06"
-    },
-    {
-      "title": "Cursor lets cloud agents build, security-check, and deploy live internal apps from a prompt",
-      "summary": "On paid plans with cloud agents, Cursor can scaffold a web app, provision Postgres and Cursor SSO auth, run deterministic and agentic security checks, and publish a shareable live link behind team sign-in.",
-      "url": "https://cursor.com/changelog/build-live-apps",
-      "date_published": "2026-11-05",
-      "source": "Cursor Changelog",
-      "tag": "tools",
-      "why_it_matters_for_FDEs": "Customer teams can turn ops, onboarding, and sales tools into shareable internal apps without a separate deploy stack, but treat secrets, admin publish rules, and the built-in security review as part of the rollout checklist.",
-      "verified": "2026-11-06"
-    },
-    {
       "title": "Claude Code was putting users' account emails into User-Agent headers; Anthropic is removing them from model context",
       "summary": "Claude Code sometimes put the signed-in account email into User-Agent on web or curl calls after Anthropic added that email to model context; a built-in privacy mod landed in 2.1.317+, and Anthropic says a release early next week will stop putting the email in context.",
       "url": "https://github.com/anthropics/claude-code/issues/107757",
@@ -132,26 +152,6 @@
       "tag": "security",
       "why_it_matters_for_FDEs": "Any customer running Claude Code with web tools should update to 2.1.317+, keep the privacy mod on, and audit agent network egress until the context fix ships, because leaked work emails create spam and compliance exposure.",
       "verified": "2026-11-06"
-    },
-    {
-      "title": "Cursor adds realtime voice chat with agents, powered by Grok Voice",
-      "summary": "Cursor users can now hold a two-way voice call with an agent in the IDE, web, Agents Window and iOS app, asking about diffs and progress while the coding agent keeps working, with zero data retention under Privacy Mode.",
-      "url": "https://cursor.com/changelog/voice-chat",
-      "date_published": "2026-11-06",
-      "source": "Cursor Changelog",
-      "tag": "tools",
-      "why_it_matters_for_FDEs": "Useful for checking on long agent runs hands-free during customer sessions; confirm Privacy Mode is on before using it with customer code.",
-      "verified": "2026-11-09"
-    },
-    {
-      "title": "OpenAI's agent pipeline found and patched 948 Linux kernel root exploits in one run for about $1.2 million",
-      "summary": "Using an upcoming cyber model, OpenAI's autonomous pipeline reproduced 1,724 Linux kernel vulnerabilities, built 948 working local privilege escalation exploits on a stock distro and generated candidate patches, which it is reporting to maintainers through its Patch the Planet initiative.",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "date_published": "2026-11-04",
-      "source": "OpenAI News",
-      "tag": "security",
-      "why_it_matters_for_FDEs": "OpenAI says a low-privileged account on an unpatched Linux box should now be treated as root for a well-resourced attacker, so keep customer agent hosts patched and run agents in sandboxes like gVisor or Firecracker.",
-      "verified": "2026-11-05"
     }
   ]
 }
