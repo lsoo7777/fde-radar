@@ -113,13 +113,6 @@
  },
  {
   "co": "scaleai",
-  "title": "Product Leadership, Forward Deployed & Strategy",
-  "loc": "London, UK",
-  "url": "https://job-boards.greenhouse.io/scaleai/jobs/4702890005",
-  "status": "open"
- },
- {
-  "co": "scaleai",
   "title": "Staff Frontier Agents Engineer (Forward Deployed Engineering)",
   "loc": "San Francisco, CA",
   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694865005",
@@ -130,6 +123,13 @@
   "title": "Senior Frontier Agents Engineer (Forward Deployed Engineering)",
   "loc": "San Francisco, CA",
   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694863005",
+  "status": "open"
+ },
+ {
+  "co": "scaleai",
+  "title": "Frontier Agents Engineer (Forward Deployed Engineering)",
+  "loc": "San Francisco, CA",
+  "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694861005",
   "status": "open"
  },
  {
@@ -309,6 +309,13 @@
  },
  {
   "co": "samsara",
+  "title": "Sales Engineering Manager Select - UK&I",
+  "loc": "London, England, United Kingdom",
+  "url": "https://job-boards.greenhouse.io/samsara/jobs/8336436",
+  "status": "open"
+ },
+ {
+  "co": "samsara",
   "title": "Enterprise Sales Engineer - US Southeast",
   "loc": "Remote - FL; Remote - GA; Remote - NC",
   "url": "https://job-boards.greenhouse.io/samsara/jobs/8244432",
@@ -361,13 +368,6 @@
   "title": "Associate Sales Engineer, SE Desk - TOLA",
   "loc": "Remote - LA; Remote - OK; Remote - TX",
   "url": "https://job-boards.greenhouse.io/samsara/jobs/7848363",
-  "status": "open"
- },
- {
-  "co": "samsara",
-  "title": "Associate Sales Engineer, SE Desk - Southeast",
-  "loc": "Remote - FL; Remote - GA; Remote - NC; Remote - TN",
-  "url": "https://job-boards.greenhouse.io/samsara/jobs/7848351",
   "status": "open"
  },
  {
@@ -508,6 +508,13 @@
   "title": "Partner Deployed Engineer",
   "loc": "San Francisco",
   "url": "https://jobs.ashbyhq.com/cognition/6d539905-c75e-45e0-8c3e-db9831a5e6e6",
+  "status": "open"
+ },
+ {
+  "co": "notion",
+  "title": "Forward Deployed Architect",
+  "loc": "London, United Kingdom",
+  "url": "https://jobs.ashbyhq.com/notion/7a044182-7787-47cd-b8eb-18ebf5642ed4",
   "status": "open"
  },
  {
@@ -925,16 +932,16 @@
  },
  {
   "co": "cohere",
-  "title": "Forward Deployed Engineer, Infrastructure Specialist (UK Public Sector)",
-  "loc": "United Kingdom",
-  "url": "https://jobs.ashbyhq.com/cohere/a0f174cf-4407-4334-b812-45a767092fca",
+  "title": "Forward Deployed Engineer, Agentic Platform (Europe)",
+  "loc": "Europe",
+  "url": "https://jobs.ashbyhq.com/cohere/2d256112-b336-4539-8133-a0bf7f6698f0",
   "status": "open"
  },
  {
   "co": "cohere",
-  "title": "Forward Deployed Engineer, Agentic Platform (Europe)",
-  "loc": "Europe",
-  "url": "https://jobs.ashbyhq.com/cohere/2d256112-b336-4539-8133-a0bf7f6698f0",
+  "title": "Forward Deployed Engineer, Agentic Platform",
+  "loc": "Middle East",
+  "url": "https://jobs.ashbyhq.com/cohere/75c0032c-7200-48bf-9d6d-355880dd93d9",
   "status": "open"
  },
  {

@@ -1,167 +1,167 @@
 [
  {
   "repo": "langchain-ai/langgraph",
-  "stars": 44949,
+  "stars": 44984,
   "description": "Build resilient agents.",
   "url": "https://github.com/langchain-ai/langgraph",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "crewAIInc/crewAI",
-  "stars": 60879,
+  "stars": 60932,
   "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
   "url": "https://github.com/crewAIInc/crewAI",
-  "pushed": "2026-11-13",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "microsoft/autogen",
-  "stars": 61814,
+  "stars": 61837,
   "description": "A programming framework for agentic AI",
   "url": "https://github.com/microsoft/autogen",
   "pushed": "2026-11-12",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "openai/openai-agents-python",
-  "stars": 30675,
+  "stars": 30691,
   "description": "A lightweight, powerful framework for multi-agent workflows",
   "url": "https://github.com/openai/openai-agents-python",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "modelcontextprotocol/servers",
-  "stars": 91984,
+  "stars": 92006,
   "description": "Model Context Protocol Reference Servers",
   "url": "https://github.com/modelcontextprotocol/servers",
   "pushed": "2026-11-12",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "modelcontextprotocol/python-sdk",
-  "stars": 24857,
+  "stars": 24868,
   "description": "The official Python SDK for Model Context Protocol servers and clients",
   "url": "https://github.com/modelcontextprotocol/python-sdk",
   "pushed": "2026-11-05",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "anthropics/claude-cookbooks",
-  "stars": 54632,
+  "stars": 54694,
   "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
   "url": "https://github.com/anthropics/claude-cookbooks",
   "pushed": "2026-11-04",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "openai/openai-cookbook",
-  "stars": 77102,
+  "stars": 77137,
   "description": "Examples and guides for using the OpenAI API",
   "url": "https://github.com/openai/openai-cookbook",
   "pushed": "2026-11-14",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "vercel/ai",
-  "stars": 27932,
+  "stars": 27973,
   "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
   "url": "https://github.com/vercel/ai",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "vercel/chatbot",
-  "stars": 21050,
+  "stars": 21053,
   "description": "A full-featured, hackable Next.js AI chatbot built by Vercel",
   "url": "https://github.com/vercel/chatbot",
   "pushed": "2026-11-03",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "promptfoo/promptfoo",
-  "stars": 27160,
+  "stars": 27217,
   "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.",
   "url": "https://github.com/promptfoo/promptfoo",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "confident-ai/deepeval",
-  "stars": 19475,
+  "stars": 19486,
   "description": "The LLM Evaluation Framework",
   "url": "https://github.com/confident-ai/deepeval",
   "pushed": "2026-11-12",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "vibrantlabsai/ragas",
-  "stars": 16317,
+  "stars": 16326,
   "description": "Supercharge Your LLM Application Evaluations 🚀",
   "url": "https://github.com/vibrantlabsai/ragas",
   "pushed": "2026-11-14",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "langfuse/langfuse",
-  "stars": 37419,
+  "stars": 37446,
   "description": "🪢 Open source AI engineering platform: AI Gateway, agent observability, evals, and prompt/skill management, built on OpenTelemetry. One open platform for every AI call and every agent. Self-host or use Langfuse Cloud.",
   "url": "https://github.com/langfuse/langfuse",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "run-llama/llama_index",
-  "stars": 52899,
+  "stars": 52907,
   "description": "LlamaIndex is the document processing platform for AI",
   "url": "https://github.com/run-llama/llama_index",
   "pushed": "2026-11-14",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "pydantic/pydantic-ai",
-  "stars": 21204,
+  "stars": 21220,
   "description": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.",
   "url": "https://github.com/pydantic/pydantic-ai",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "vercel/next.js",
-  "stars": 143510,
+  "stars": 143526,
   "description": "The React Framework",
   "url": "https://github.com/vercel/next.js",
   "group": "Indie starter",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "shadcn-ui/ui",
-  "stars": 128160,
+  "stars": 128216,
   "description": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
   "url": "https://github.com/shadcn-ui/ui",
   "group": "Indie starter",
   "pushed": "2026-11-13",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "t3-oss/create-t3-app",
@@ -171,269 +171,269 @@
   "group": "Indie starter",
   "pushed": "2025-12-13",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "supabase/supabase",
-  "stars": 115000,
+  "stars": 115053,
   "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
   "url": "https://github.com/supabase/supabase",
   "group": "Indie starter",
-  "pushed": "2026-11-13",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "ollama/ollama",
-  "stars": 186934,
+  "stars": 187031,
   "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
   "url": "https://github.com/ollama/ollama",
   "group": "Indie starter",
   "pushed": "2026-11-14",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "ggml-org/llama.cpp",
-  "stars": 134976,
+  "stars": 135149,
   "description": "LLM inference in C/C++",
   "url": "https://github.com/ggml-org/llama.cpp",
   "group": "Indie starter",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "open-webui/open-webui",
-  "stars": 158629,
+  "stars": 158696,
   "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
   "url": "https://github.com/open-webui/open-webui",
   "group": "Indie starter",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "simonw/llm",
-  "stars": 12755,
+  "stars": 12761,
   "description": "Access large language models from the command-line",
   "url": "https://github.com/simonw/llm",
   "group": "Indie starter",
-  "pushed": "2026-11-11",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "Aider-AI/aider",
-  "stars": 50116,
+  "stars": 50122,
   "description": "aider is AI pair programming in your terminal",
   "url": "https://github.com/Aider-AI/aider",
   "group": "Indie starter",
   "pushed": "2026-05-22",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "openai/codex",
-  "stars": 135243,
+  "stars": 135352,
   "description": "Lightweight coding agent that runs in your terminal",
   "url": "https://github.com/openai/codex",
   "group": "Indie starter",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "anthropics/claude-code",
-  "stars": 155622,
+  "stars": 155738,
   "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
   "url": "https://github.com/anthropics/claude-code",
   "group": "Indie starter",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "BerriAI/litellm",
-  "stars": 63242,
+  "stars": 63287,
   "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
   "url": "https://github.com/BerriAI/litellm",
   "group": "Agents & infra",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "browser-use/browser-use",
-  "stars": 120984,
+  "stars": 121077,
   "description": "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
   "url": "https://github.com/browser-use/browser-use",
   "group": "Agents & infra",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "microsoft/playwright-mcp",
-  "stars": 39621,
+  "stars": 39666,
   "description": "Playwright MCP server",
   "url": "https://github.com/microsoft/playwright-mcp",
   "group": "Agents & infra",
   "pushed": "2026-11-13",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "n8n-io/n8n",
-  "stars": 210457,
+  "stars": 210562,
   "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
   "url": "https://github.com/n8n-io/n8n",
   "group": "Agents & infra",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "langgenius/dify",
-  "stars": 161145,
+  "stars": 161187,
   "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
   "url": "https://github.com/langgenius/dify",
   "group": "Agents & infra",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "mastra-ai/mastra",
-  "stars": 29514,
+  "stars": 29532,
   "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
   "url": "https://github.com/mastra-ai/mastra",
   "group": "Agents & infra",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "stanfordnlp/dspy",
-  "stars": 39047,
+  "stars": 39068,
   "description": "DSPy: The framework for programming—not prompting—language models",
   "url": "https://github.com/stanfordnlp/dspy",
   "group": "Agents & infra",
   "pushed": "2026-11-13",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "huggingface/smolagents",
-  "stars": 30365,
+  "stars": 30377,
   "description": "🤗 smolagents: a barebones library for agents that think in code.",
   "url": "https://github.com/huggingface/smolagents",
   "group": "Agents & infra",
-  "pushed": "2026-11-10",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "google/adk-python",
-  "stars": 22211,
+  "stars": 22226,
   "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
   "url": "https://github.com/google/adk-python",
   "group": "Agents & infra",
   "pushed": "2026-11-14",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "Arize-ai/phoenix",
-  "stars": 12283,
+  "stars": 12300,
   "description": "AI Observability & Evaluation",
   "url": "https://github.com/Arize-ai/phoenix",
   "group": "Agents & infra",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "firecrawl/firecrawl",
-  "stars": 201675,
+  "stars": 201914,
   "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
   "url": "https://github.com/firecrawl/firecrawl",
   "group": "Agents & infra",
-  "pushed": "2026-11-13",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "unclecode/crawl4ai",
-  "stars": 87339,
+  "stars": 87379,
   "description": "Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI agents. Free API key, 1,000 credits a month, no card. Fully open source: this repo is the Apache-2.0 crawler that powers it, and you can self-host it.",
   "url": "https://github.com/unclecode/crawl4ai",
   "group": "Agents & infra",
   "pushed": "2026-11-13",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "mem0ai/mem0",
-  "stars": 68950,
+  "stars": 69002,
   "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
   "url": "https://github.com/mem0ai/mem0",
   "group": "Agents & infra",
   "pushed": "2026-11-06",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "livekit/agents",
-  "stars": 15219,
+  "stars": 15235,
   "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
   "url": "https://github.com/livekit/agents",
   "group": "Agents & infra",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "pipecat-ai/pipecat",
-  "stars": 17253,
+  "stars": 17269,
   "description": "Open Source framework for voice agents, multimodal apps, and realtime AI. Maintained by Daily and the community.",
   "url": "https://github.com/pipecat-ai/pipecat",
   "group": "Agents & infra",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false,
-  "checked": "2026-11-14"
+  "checked": "2026-11-15"
  },
  {
   "repo": "anomalyco/opencode",
-  "stars": 226766,
+  "stars": 226961,
   "description": "The open source coding agent.",
   "oneliner": "The open source coding agent.",
   "url": "https://github.com/anomalyco/opencode",
-  "checked": "2026-11-14",
+  "checked": "2026-11-15",
   "license": "MIT",
   "anchor": "opencode",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false
  },
  {
   "repo": "ChromeDevTools/chrome-devtools-mcp",
-  "stars": 55888,
+  "stars": 56580,
   "description": "Chrome DevTools for coding agents",
   "oneliner": "Lets your coding agent (such as Antigravity, Claude, Cursor or Copilot) control and inspect a live Chrome browser. MCP server and CLI.",
   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-  "checked": "2026-11-14",
+  "checked": "2026-11-15",
   "license": "Apache-2.0",
   "anchor": "chrome-devtools-mcp",
-  "pushed": "2026-11-13",
+  "pushed": "2026-11-15",
   "archived": false
  },
  {
   "repo": "anthropics/financial-services",
-  "stars": 41286,
+  "stars": 41305,
   "description": "Reference agents, skills and data connectors for common financial-services workflows: investment banking, equity research, private equity and wealth management.",
   "oneliner": "Reference agents, skills and data connectors for common financial-services workflows: investment banking, equity research, private equity and wealth management.",
   "url": "https://github.com/anthropics/financial-services",
-  "checked": "2026-11-14",
+  "checked": "2026-11-15",
   "license": "Apache-2.0",
   "anchor": "financial-services",
   "pushed": "2026-11-12",
@@ -441,14 +441,14 @@
  },
  {
   "repo": "yetone/magpie",
-  "stars": 36367,
+  "stars": 36744,
   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
   "oneliner": "Every agent's model in one place: one local gateway serves Claude Code, Codex, Gemini CLI and more on the model you choose, and moves to the next account when a quota runs out.",
   "url": "https://github.com/yetone/magpie",
-  "checked": "2026-11-14",
+  "checked": "2026-11-15",
   "license": "MIT",
   "anchor": "magpie",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-15",
   "archived": false
  }
 ]
