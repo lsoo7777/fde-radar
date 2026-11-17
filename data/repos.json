@@ -136,12 +136,12 @@
  },
  {
   "repo": "pydantic/pydantic-ai",
-  "stars": 21236,
+  "stars": 21252,
   "description": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.",
   "url": "https://github.com/pydantic/pydantic-ai",
-  "pushed": "2026-11-16",
+  "pushed": "2026-11-17",
   "archived": false,
-  "checked": "2026-11-16"
+  "checked": "2026-11-17"
  },
  {
   "repo": "vercel/next.js",
@@ -185,7 +185,7 @@
  },
  {
   "repo": "ollama/ollama",
-  "stars": 187339,
+  "stars": 187341,
   "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
   "url": "https://github.com/ollama/ollama",
   "group": "Indie starter",
@@ -205,7 +205,7 @@
  },
  {
   "repo": "open-webui/open-webui",
-  "stars": 158904,
+  "stars": 158905,
   "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
   "url": "https://github.com/open-webui/open-webui",
   "group": "Indie starter",
@@ -325,7 +325,7 @@
  },
  {
   "repo": "huggingface/smolagents",
-  "stars": 30401,
+  "stars": 30402,
   "description": "🤗 smolagents: a barebones library for agents that think in code.",
   "url": "https://github.com/huggingface/smolagents",
   "group": "Agents & infra",
@@ -355,7 +355,7 @@
  },
  {
   "repo": "firecrawl/firecrawl",
-  "stars": 202480,
+  "stars": 202481,
   "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
   "url": "https://github.com/firecrawl/firecrawl",
   "group": "Agents & infra",
@@ -417,7 +417,7 @@
  },
  {
   "repo": "ChromeDevTools/chrome-devtools-mcp",
-  "stars": 57918,
+  "stars": 57922,
   "description": "Chrome DevTools for coding agents",
   "oneliner": "Lets your coding agent (such as Antigravity, Claude, Cursor or Copilot) control and inspect a live Chrome browser. MCP server and CLI.",
   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
