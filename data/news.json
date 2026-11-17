@@ -1,8 +1,38 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-16",
   "window_days": 7,
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
+    {
+      "title": "Alibaba releases Qwen4-Max, a 2.4T-parameter MoE flagship with native vision and a 1M-token context",
+      "summary": "Alibaba's new top Qwen model activates 71B of 2.4T parameters per token, ranks 6th on Code Arena, and Alibaba says it beats Qwen3.8-Max on its Work360 benchmark while using 35% fewer tokens and costing about 60% less per task; it is available now via the QwenCloud API, with smaller open-weight Qwen4 models promised soon.",
+      "url": "https://www.alibabacloud.com/blog/alibaba-unveils-qwen4-max-new-ai-teammate-for-work-creativity-and-discovery_603783",
+      "date_published": "2026-11-16",
+      "source": "Alibaba Cloud Blog",
+      "tag": "models",
+      "why_it_matters_for_FDEs": "A cheaper closed frontier option for long-running agent and document-heavy work (also live on Vercel AI Gateway as alibaba/qwen4-max); benchmarks are vendor-reported, so run your own evals and check data-residency rules before proposing it to customers.",
+      "verified": "2026-11-16"
+    },
+    {
+      "title": "OpenAI launches ChatGPT Wallet so agents can pay without seeing card details",
+      "summary": "Built with American Express, Mastercard and Visa, ChatGPT Wallet lets agents complete purchases with a security check on every purchase and without access to the real card number, starting with ChatGPT Pro users in the US through dots, plus guidance for businesses on accepting agent payments.",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "date_published": "2026-11-13",
+      "source": "OpenAI News",
+      "tag": "agents",
+      "why_it_matters_for_FDEs": "Commerce customers now need to make sure bot defenses and fraud rules don't block legitimate agent checkouts; read OpenAI's merchant guidance before agent traffic shows up in their payment flows.",
+      "verified": "2026-11-16"
+    },
+    {
+      "title": "GitHub Copilot will retire Claude Fable 5, Gemini 4 Argon, Grok 4.6, Kimi K3 and others on December 14",
+      "summary": "GitHub is deprecating six models across all Copilot experiences on December 14, 2026, with suggested replacements such as Claude Fable 5.2, Claude Haiku 5.5, Gemini 4 Hydrogen and Gemini 4 Carbon (Kimi K3's replacement is still to be announced).",
+      "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+      "date_published": "2026-11-13",
+      "source": "GitHub Changelog",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "Any customer workflow or integration pinned to these models breaks in four weeks, and orgs that turned off default model enablement must turn on the replacements by hand.",
+      "verified": "2026-11-16"
+    },
     {
       "title": "Google DeepMind releases Gemini 4 Hydrogen, a fast agentic model at $1.50/$7.50 per million tokens, plus Orchestrator in Antigravity",
       "summary": "Hydrogen is Google's new fast model for everyday coding and agent work, scoring 51 on the Artificial Analysis Intelligence Index at its default setting (one point above Argon), with a flat-priced 1 million-token context, four thinking levels, and availability today in the Gemini API, AI Studio, Gemini for business, the Gemini app and Search.",
@@ -22,6 +52,16 @@
       "tag": "security",
       "why_it_matters_for_FDEs": "If a customer routes prompts through Fireworks or any inference provider, check what data that provider stores and for how long, and rotate any keys there; this is the second Fireworks incident in two months.",
       "verified": "2026-11-13"
+    },
+    {
+      "title": "DeepSeek opens its app's web search, file parsing, URL reading, safety checks and voice to the API",
+      "summary": "DeepSeek's V4.1-Flash (deepseek-flash) now handles web search, deep-thinking search, file input, URL reading and safety checks server-side across its Messages, Responses and Chat Completions APIs, plus standalone OCR, speech-to-text and text-to-speech APIs.",
+      "url": "https://api-docs.deepseek.com/news/news261113/",
+      "date_published": "2026-11-13",
+      "source": "DeepSeek API Docs",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "A low-cost built-in tool stack can replace hand-built search and file-ingest plumbing, but public-facing apps must turn on DeepSeek's safety checks, and customers' data-handling policies for a China-based provider still apply.",
+      "verified": "2026-11-16"
     },
     {
       "title": "United Airlines blocks third-party AI agents from booking flights and managing reservations",
@@ -44,14 +84,14 @@
       "verified": "2026-11-12"
     },
     {
-      "title": "Hugging Face adds decision models to Transformers and llama.cpp, served on a shared /v1/systemone API",
-      "summary": "Hugging Face's guide shows open-weight decision models (the category TypeSafe started with Jev) running through a new Transformers \"decision\" pipeline, with transformers serve and llama.cpp both exposing the same /v1/systemone endpoint that returns structured choices with probabilities instead of generated text.",
-      "url": "https://huggingface.co/blog/decision",
-      "date_published": "2026-11-10",
+      "title": "llama.cpp and ggml hit v1.0.0 with a stable, semantically versioned C API",
+      "summary": "The ggml-org team released libllama and ggml v1.0.0 and committed to major-version bumps for any breaking change to the public C API or ABI.",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "date_published": "2026-11-13",
       "source": "Hugging Face Blog",
       "tag": "tools",
-      "why_it_matters_for_FDEs": "For customers who can't send data to a hosted API, you can now run the same routing and classification pattern on their own hardware with a standard endpoint, but you still need to calibrate thresholds per question before trusting the probabilities.",
-      "verified": "2026-11-12"
+      "why_it_matters_for_FDEs": "On-prem and private deployments built on llama.cpp can now pin a major version and upgrade without surprise API breaks, which makes local inference easier to support for customers.",
+      "verified": "2026-11-16"
     },
     {
       "title": "Google makes Gemini 4 Carbon generally available, with /swarm multi-agent teams previewing in Antigravity",
@@ -72,6 +112,16 @@
       "tag": "industry",
       "why_it_matters_for_FDEs": "Nothing changes in your stack today, but watch Tuesday's earnings call for any shift in GPU supply, pricing or Nvidia's open-model and software commitments before you lock customer infrastructure plans.",
       "verified": "2026-11-13"
+    },
+    {
+      "title": "Conductor is joining Meta, and Conductor Cloud shuts down on November 20",
+      "summary": "Conductor, the Mac app for running parallel Claude Code and Codex agents, stopped new sign-ups on Nov 4; its cloud workspaces go read-only Nov 13 and cloud data deletion begins Nov 20, while the local app gets fixes until early 2027.",
+      "url": "https://www.conductor.build/announcement",
+      "date_published": "2026-11-04",
+      "source": "Conductor",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "If you or a customer run agents in Conductor Cloud, use Transfer to local or Settings > Account > Export data before Nov 13, and plan a replacement for parallel-agent workflows before the local app winds down.",
+      "verified": "2026-11-09"
     },
     {
       "title": "Anthropic launches Claude Meetings, Whiteboards and Sheets, and makes Claude Data generally available",
@@ -102,56 +152,6 @@
       "tag": "lab",
       "why_it_matters_for_FDEs": "Anthropic's top model is now cheaper and on every major cloud, so re-run your customer evals and cost estimates on claude-fable-5-2, and route security or biomedical customers to the Verification Programs if they need Mythos.",
       "verified": "2026-11-10"
-    },
-    {
-      "title": "Claude Fable 5.2 is GA in GitHub Copilot, but admins must opt in and it requires data retention by default",
-      "summary": "Fable 5.2 is available to Copilot Pro+, Max, Business and Enterprise across VS Code, the CLI, the coding agent and more; the org policy is off by default because Anthropic retains prompts and outputs for safety classifiers, with a zero-data-retention exemption for eligible enterprises through year end.",
-      "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
-      "date_published": "2026-11-09",
-      "source": "GitHub Changelog",
-      "tag": "tools",
-      "why_it_matters_for_FDEs": "Before turning Fable on for a customer's Copilot org, check their data-retention rules; enabling the policy counts as accepting retention, and ZDR eligibility only goes through the GitHub account team.",
-      "verified": "2026-11-10"
-    },
-    {
-      "title": "Google DeepMind's AlphaProof Code agents formally verified Signal's protocol implementation in four weeks",
-      "summary": "A multi-agent framework built on Gemini Carbon wrote over six million lines of Lean to prove key security properties of Signal's actual compiled cryptographic code, leaving about 1% for human review, and DeepMind is open-sourcing the verification artifacts.",
-      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-      "date_published": "2026-11-10",
-      "source": "Google DeepMind",
-      "tag": "lab",
-      "why_it_matters_for_FDEs": "Agent-driven formal verification is moving from research toward production code, which is worth knowing for security-sensitive customers who ask how far AI code assurance can go.",
-      "verified": "2026-11-10"
-    },
-    {
-      "title": "ChatGPT Enterprise is now sold through AWS Marketplace",
-      "summary": "Organizations can buy and manage ChatGPT Enterprise, plus ChatGPT for Healthcare and Financial Services, through their AWS billing and apply eligible spend to AWS commitments, alongside OpenAI models already in Amazon Bedrock.",
-      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "date_published": "2026-11-09",
-      "source": "OpenAI News",
-      "tag": "lab",
-      "why_it_matters_for_FDEs": "For AWS-committed customers, procurement for ChatGPT Enterprise can now go through their existing AWS contract, which can shorten deal cycles.",
-      "verified": "2026-11-10"
-    },
-    {
-      "title": "Conductor is joining Meta, and Conductor Cloud shuts down on November 20",
-      "summary": "Conductor, the Mac app for running parallel Claude Code and Codex agents, stopped new sign-ups on Nov 4; its cloud workspaces go read-only Nov 13 and cloud data deletion begins Nov 20, while the local app gets fixes until early 2027.",
-      "url": "https://www.conductor.build/announcement",
-      "date_published": "2026-11-04",
-      "source": "Conductor",
-      "tag": "tools",
-      "why_it_matters_for_FDEs": "If you or a customer run agents in Conductor Cloud, use Transfer to local or Settings > Account > Export data before Nov 13, and plan a replacement for parallel-agent workflows before the local app winds down.",
-      "verified": "2026-11-09"
-    },
-    {
-      "title": "Claude Code was putting users' account emails into User-Agent headers; Anthropic is removing them from model context",
-      "summary": "Claude Code sometimes put the signed-in account email into User-Agent on web or curl calls after Anthropic added that email to model context; a built-in privacy mod landed in 2.1.317+, and Anthropic says a release early next week will stop putting the email in context.",
-      "url": "https://github.com/anthropics/claude-code/issues/107757",
-      "date_published": "2026-11-05",
-      "source": "Anthropic Claude Code (GitHub issue + staff confirmation)",
-      "tag": "security",
-      "why_it_matters_for_FDEs": "Any customer running Claude Code with web tools should update to 2.1.317+, keep the privacy mod on, and audit agent network egress until the context fix ships, because leaked work emails create spam and compliance exposure.",
-      "verified": "2026-11-06"
     }
   ]
 }
