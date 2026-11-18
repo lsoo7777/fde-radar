@@ -1,0 +1,157 @@
+{
+  "updated": "2026-11-16",
+  "window_days": 7,
+  "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
+  "items": [
+    {
+      "title": "Alibaba releases Qwen4-Max, a 2.4T-parameter MoE flagship with native vision and a 1M-token context",
+      "summary": "Alibaba's new top Qwen model activates 71B of 2.4T parameters per token, ranks 6th on Code Arena, and Alibaba says it beats Qwen3.8-Max on its Work360 benchmark while using 35% fewer tokens and costing about 60% less per task; it is available now via the QwenCloud API, with smaller open-weight Qwen4 models promised soon.",
+      "url": "https://www.alibabacloud.com/blog/alibaba-unveils-qwen4-max-new-ai-teammate-for-work-creativity-and-discovery_603783",
+      "date_published": "2026-11-16",
+      "source": "Alibaba Cloud Blog",
+      "tag": "models",
+      "why_it_matters_for_FDEs": "A cheaper closed frontier option for long-running agent and document-heavy work (also live on Vercel AI Gateway as alibaba/qwen4-max); benchmarks are vendor-reported, so run your own evals and check data-residency rules before proposing it to customers.",
+      "verified": "2026-11-16"
+    },
+    {
+      "title": "OpenAI launches ChatGPT Wallet so agents can pay without seeing card details",
+      "summary": "Built with American Express, Mastercard and Visa, ChatGPT Wallet lets agents complete purchases with a security check on every purchase and without access to the real card number, starting with ChatGPT Pro users in the US through dots, plus guidance for businesses on accepting agent payments.",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "date_published": "2026-11-13",
+      "source": "OpenAI News",
+      "tag": "agents",
+      "why_it_matters_for_FDEs": "Commerce customers now need to make sure bot defenses and fraud rules don't block legitimate agent checkouts; read OpenAI's merchant guidance before agent traffic shows up in their payment flows.",
+      "verified": "2026-11-16"
+    },
+    {
+      "title": "GitHub Copilot will retire Claude Fable 5, Gemini 4 Argon, Grok 4.6, Kimi K3 and others on December 14",
+      "summary": "GitHub is deprecating six models across all Copilot experiences on December 14, 2026, with suggested replacements such as Claude Fable 5.2, Claude Haiku 5.5, Gemini 4 Hydrogen and Gemini 4 Carbon (Kimi K3's replacement is still to be announced).",
+      "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+      "date_published": "2026-11-13",
+      "source": "GitHub Changelog",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "Any customer workflow or integration pinned to these models breaks in four weeks, and orgs that turned off default model enablement must turn on the replacements by hand.",
+      "verified": "2026-11-16"
+    },
+    {
+      "title": "Google DeepMind releases Gemini 4 Hydrogen, a fast agentic model at $1.50/$7.50 per million tokens, plus Orchestrator in Antigravity",
+      "summary": "Hydrogen is Google's new fast model for everyday coding and agent work, scoring 51 on the Artificial Analysis Intelligence Index at its default setting (one point above Argon), with a flat-priced 1 million-token context, four thinking levels, and availability today in the Gemini API, AI Studio, Gemini for business, the Gemini app and Search.",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "date_published": "2026-11-12",
+      "source": "Google DeepMind Blog",
+      "tag": "models",
+      "why_it_matters_for_FDEs": "Customers on Gemini 3.8 Flash have a clear upgrade path (Google reports 2.5x faster tasks and 57% vs 18.2% on Terminal-Bench 4.1), and the Carbon-plans, Hydrogen-executes split is a ready pattern for cutting cost on multi-agent deployments; rerun your own evals before switching.",
+      "verified": "2026-11-13"
+    },
+    {
+      "title": "Fireworks AI breach exposed customer data, including Notion AI chat transcripts",
+      "summary": "Fireworks AI confirmed an attacker got into a development system through its cloud provider and took billing information and some customer datasets; Notion says about 1% of its customers were affected, including Notion AI Insights chat inputs and outputs, and it cut its connection to Fireworks on Nov 3.",
+      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+      "date_published": "2026-11-12",
+      "source": "TechCrunch",
+      "tag": "security",
+      "why_it_matters_for_FDEs": "If a customer routes prompts through Fireworks or any inference provider, check what data that provider stores and for how long, and rotate any keys there; this is the second Fireworks incident in two months.",
+      "verified": "2026-11-13"
+    },
+    {
+      "title": "DeepSeek opens its app's web search, file parsing, URL reading, safety checks and voice to the API",
+      "summary": "DeepSeek's V4.1-Flash (deepseek-flash) now handles web search, deep-thinking search, file input, URL reading and safety checks server-side across its Messages, Responses and Chat Completions APIs, plus standalone OCR, speech-to-text and text-to-speech APIs.",
+      "url": "https://api-docs.deepseek.com/news/news261113/",
+      "date_published": "2026-11-13",
+      "source": "DeepSeek API Docs",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "A low-cost built-in tool stack can replace hand-built search and file-ingest plumbing, but public-facing apps must turn on DeepSeek's safety checks, and customers' data-handling policies for a China-based provider still apply.",
+      "verified": "2026-11-16"
+    },
+    {
+      "title": "United Airlines blocks third-party AI agents from booking flights and managing reservations",
+      "summary": "United says it is restricting unauthorized personal AI agents on its own platforms and through travel agencies and aggregators, citing the risk of shared credentials and federal rules that require a human to complete steps like check-in.",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "date_published": "2026-11-12",
+      "source": "TechCrunch",
+      "tag": "agents",
+      "why_it_matters_for_FDEs": "Agents that act on a user's logged-in accounts are hitting policy walls at airlines and banks, so design customer agents around sanctioned APIs and partner channels rather than shared passwords, and keep a human step where regulations require it.",
+      "verified": "2026-11-13"
+    },
+    {
+      "title": "Google launches the Gemini Decisions API and Gemini Decision 1 for fast, calibrated yes/no, choice and rubric decisions",
+      "summary": "The new Gemini API endpoint scores up to 1,000 closed-set questions (yes/no, multiple choice, rubric) against one text, image, audio, video or PDF input in a single pass, returning probabilities and confidence in about 150-250 ms at $0.10 per million input tokens with no output tokens billed.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "date_published": "2026-11-11",
+      "source": "Google Blog",
+      "tag": "models",
+      "why_it_matters_for_FDEs": "Routing, policy checks and triage steps you now do with prompt-and-parse JSON calls can move to a cheaper, faster endpoint with a confidence score you can threshold to send unsure cases to a human; it's in Google AI Studio and Vercel AI Gateway now, but not yet in Gemini on Google Cloud.",
+      "verified": "2026-11-12"
+    },
+    {
+      "title": "llama.cpp and ggml hit v1.0.0 with a stable, semantically versioned C API",
+      "summary": "The ggml-org team released libllama and ggml v1.0.0 and committed to major-version bumps for any breaking change to the public C API or ABI.",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "date_published": "2026-11-13",
+      "source": "Hugging Face Blog",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "On-prem and private deployments built on llama.cpp can now pin a major version and upgrade without surprise API breaks, which makes local inference easier to support for customers.",
+      "verified": "2026-11-16"
+    },
+    {
+      "title": "Google makes Gemini 4 Carbon generally available, with /swarm multi-agent teams previewing in Antigravity",
+      "summary": "Gemini 4 Carbon, Google's strongest model for long-horizon coding, research and cyber work, is now on the paid Gemini API, Gemini for business and Google AI Ultra at an introductory $2/$10 per million tokens through Nov 30 (then $4/$20), and Antigravity's new /swarm turns one prompt into a coordinated team of agents.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "date_published": "2026-11-10",
+      "source": "Google Blog",
+      "tag": "models",
+      "why_it_matters_for_FDEs": "Carbon undercuts Fable 5.2 on per-token price, so benchmark it on your customers' hardest agent workloads before Nov 30 and budget for the price doubling; Google itself says Argon is still the better default for most work.",
+      "verified": "2026-11-11"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang resigns after 33 years; CFO Colette Kress is interim CEO",
+      "summary": "Nvidia's board said Huang resigned as president, CEO and director effective immediately after reports of affairs, including one with an alleged Chinese spy, and CFO Colette Kress is leading the company while it searches for a successor, with earnings due Tuesday.",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+      "date_published": "2026-11-12",
+      "source": "TechCrunch",
+      "tag": "industry",
+      "why_it_matters_for_FDEs": "Nothing changes in your stack today, but watch Tuesday's earnings call for any shift in GPU supply, pricing or Nvidia's open-model and software commitments before you lock customer infrastructure plans.",
+      "verified": "2026-11-13"
+    },
+    {
+      "title": "Conductor is joining Meta, and Conductor Cloud shuts down on November 20",
+      "summary": "Conductor, the Mac app for running parallel Claude Code and Codex agents, stopped new sign-ups on Nov 4; its cloud workspaces go read-only Nov 13 and cloud data deletion begins Nov 20, while the local app gets fixes until early 2027.",
+      "url": "https://www.conductor.build/announcement",
+      "date_published": "2026-11-04",
+      "source": "Conductor",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "If you or a customer run agents in Conductor Cloud, use Transfer to local or Settings > Account > Export data before Nov 13, and plan a replacement for parallel-agent workflows before the local app winds down.",
+      "verified": "2026-11-09"
+    },
+    {
+      "title": "Anthropic launches Claude Meetings, Whiteboards and Sheets, and makes Claude Data generally available",
+      "summary": "Claude can now join Google Meet calls as a visible participant (beta, Team and Enterprise), build shared whiteboards and spreadsheets with teams (beta, paid plans), and answer questions from a connected warehouse or CRM through Claude Data, alongside interactive connectors that open apps like Adobe, Atlassian and HubSpot inside Claude.",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "date_published": "2026-11-10",
+      "source": "Claude by Anthropic",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "Check customer Enterprise org settings now: Whiteboards and Sheets are off by default there, but Claude Data turns on by default on Nov 19, and Meetings leaves calls when an external guest joins unless an admin allows it.",
+      "verified": "2026-11-11"
+    },
+    {
+      "title": "OpenAI launches Businesses in ChatGPT, letting companies claim profiles and run their own Business Agents",
+      "summary": "Through Business Hub, companies can claim and verify their ChatGPT listing, add product feeds and see aggregated engagement insights, and eligible US ecommerce and online service businesses can now build a Business Agent that shoppers chat with inside ChatGPT.",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "date_published": "2026-11-10",
+      "source": "OpenAI News",
+      "tag": "agents",
+      "why_it_matters_for_FDEs": "Customer-facing agents now have a distribution channel inside ChatGPT, so retail and services customers will ask for help claiming their listing, keeping feeds accurate and building a Business Agent.",
+      "verified": "2026-11-11"
+    },
+    {
+      "title": "Anthropic releases Claude Fable 5.2 to everyone, with Mythos 5.2 gated to verified cyber and life-sciences orgs",
+      "summary": "Fable 5.2 and Mythos 5.2 are the same model with different safeguards; Fable 5.2 is out now on the Claude Platform, AWS, Google Cloud and Azure as claude-fable-5-2 at $8/$40 per million tokens, up to 30% faster than 5.1, with an optional fast mode at $16/$80.",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "date_published": "2026-11-09",
+      "source": "Anthropic News",
+      "tag": "lab",
+      "why_it_matters_for_FDEs": "Anthropic's top model is now cheaper and on every major cloud, so re-run your customer evals and cost estimates on claude-fable-5-2, and route security or biomedical customers to the Verification Programs if they need Mythos.",
+      "verified": "2026-11-10"
+    }
+  ]
+}

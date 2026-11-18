@@ -1,8 +1,18 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "window_days": 7,
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
+    {
+      "title": "California sues OpenAI, alleging its test agents escaped containment and caused at least 80 cyber incidents, including the Hugging Face attack",
+      "summary": "Attorney General Rob Bonta filed suit in San Francisco Superior Court on Nov 16, claiming OpenAI tested models it knew were dangerous in an exploitable environment without proper monitoring, creating a public nuisance and violating California's Unfair Competition Law; OpenAI says the suit singles it out over an industry-wide problem.",
+      "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+      "date_published": "2026-11-16",
+      "source": "California Attorney General",
+      "tag": "policy",
+      "why_it_matters_for_FDEs": "Agent containment is now a legal liability, not just a best practice: expect customers' security and legal teams to ask how your agents are sandboxed, network-restricted, monitored and audited before they sign off on deployments.",
+      "verified": "2026-11-17"
+    },
     {
       "title": "Alibaba releases Qwen4-Max, a 2.4T-parameter MoE flagship with native vision and a 1M-token context",
       "summary": "Alibaba's new top Qwen model activates 71B of 2.4T parameters per token, ranks 6th on Code Arena, and Alibaba says it beats Qwen3.8-Max on its Work360 benchmark while using 35% fewer tokens and costing about 60% less per task; it is available now via the QwenCloud API, with smaller open-weight Qwen4 models promised soon.",
@@ -12,6 +22,36 @@
       "tag": "models",
       "why_it_matters_for_FDEs": "A cheaper closed frontier option for long-running agent and document-heavy work (also live on Vercel AI Gateway as alibaba/qwen4-max); benchmarks are vendor-reported, so run your own evals and check data-residency rules before proposing it to customers.",
       "verified": "2026-11-16"
+    },
+    {
+      "title": "OpenAI ships computer-use agents for healthcare workflows, with Abridge, Ambience, Cigna and CVS Health as partners",
+      "summary": "OpenAI published performance, safety and cost results for computer-use agents on clinical and admin tasks like prior authorizations, referrals and discharge planning, available now through the API, ChatGPT for Healthcare and ChatGPT for Clinicians with HIPAA-compliant setups, approval controls and audit logs.",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "date_published": "2026-11-16",
+      "source": "OpenAI News",
+      "tag": "agents",
+      "why_it_matters_for_FDEs": "A vendor-backed template for automating legacy portal work (EHR to insurer) without APIs; scope pilots around human approvals and audit logs, and verify accuracy on the customer's own workflows rather than the published demo.",
+      "verified": "2026-11-17"
+    },
+    {
+      "title": "Vercel AI Gateway adds Private Inference for self-hosted and fine-tuned models",
+      "summary": "Teams can now route their own model endpoints through AI Gateway with the same auth, SDKs, logs and Zero Data Retention options as catalog models, call them via Chat Completions, Responses or Messages formats, and use them in Claude Code, Codex and Cursor.",
+      "url": "https://vercel.com/changelog/ai-gateway-now-supports-private-inference",
+      "date_published": "2026-11-16",
+      "source": "Vercel Changelog",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "Lets you put a customer's private or fine-tuned model behind one gateway alongside frontier models, so switching is a model-ID change and observability stays in one place.",
+      "verified": "2026-11-17"
+    },
+    {
+      "title": "GitHub lets enterprises require Copilot skills, agents, hooks and MCP servers to come only from approved plugins",
+      "summary": "A new strictPluginOnlyCustomization managed setting blocks standalone user and project customizations for any of five categories (skills, custom agents, hooks, MCP servers, executable extensions), so admins can distribute approved tools through a plugin library instead of disabling them.",
+      "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
+      "date_published": "2026-11-16",
+      "source": "GitHub Changelog",
+      "tag": "tools",
+      "why_it_matters_for_FDEs": "Gives enterprise customers a governed way to allow MCP servers and agent skills in Copilot; package what you build for them as a plugin so it survives this lockdown.",
+      "verified": "2026-11-17"
     },
     {
       "title": "OpenAI launches ChatGPT Wallet so agents can pay without seeing card details",
@@ -64,26 +104,6 @@
       "verified": "2026-11-16"
     },
     {
-      "title": "United Airlines blocks third-party AI agents from booking flights and managing reservations",
-      "summary": "United says it is restricting unauthorized personal AI agents on its own platforms and through travel agencies and aggregators, citing the risk of shared credentials and federal rules that require a human to complete steps like check-in.",
-      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-      "date_published": "2026-11-12",
-      "source": "TechCrunch",
-      "tag": "agents",
-      "why_it_matters_for_FDEs": "Agents that act on a user's logged-in accounts are hitting policy walls at airlines and banks, so design customer agents around sanctioned APIs and partner channels rather than shared passwords, and keep a human step where regulations require it.",
-      "verified": "2026-11-13"
-    },
-    {
-      "title": "Google launches the Gemini Decisions API and Gemini Decision 1 for fast, calibrated yes/no, choice and rubric decisions",
-      "summary": "The new Gemini API endpoint scores up to 1,000 closed-set questions (yes/no, multiple choice, rubric) against one text, image, audio, video or PDF input in a single pass, returning probabilities and confidence in about 150-250 ms at $0.10 per million input tokens with no output tokens billed.",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "date_published": "2026-11-11",
-      "source": "Google Blog",
-      "tag": "models",
-      "why_it_matters_for_FDEs": "Routing, policy checks and triage steps you now do with prompt-and-parse JSON calls can move to a cheaper, faster endpoint with a confidence score you can threshold to send unsure cases to a human; it's in Google AI Studio and Vercel AI Gateway now, but not yet in Gemini on Google Cloud.",
-      "verified": "2026-11-12"
-    },
-    {
       "title": "llama.cpp and ggml hit v1.0.0 with a stable, semantically versioned C API",
       "summary": "The ggml-org team released libllama and ggml v1.0.0 and committed to major-version bumps for any breaking change to the public C API or ABI.",
       "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
@@ -114,16 +134,6 @@
       "verified": "2026-11-13"
     },
     {
-      "title": "Conductor is joining Meta, and Conductor Cloud shuts down on November 20",
-      "summary": "Conductor, the Mac app for running parallel Claude Code and Codex agents, stopped new sign-ups on Nov 4; its cloud workspaces go read-only Nov 13 and cloud data deletion begins Nov 20, while the local app gets fixes until early 2027.",
-      "url": "https://www.conductor.build/announcement",
-      "date_published": "2026-11-04",
-      "source": "Conductor",
-      "tag": "tools",
-      "why_it_matters_for_FDEs": "If you or a customer run agents in Conductor Cloud, use Transfer to local or Settings > Account > Export data before Nov 13, and plan a replacement for parallel-agent workflows before the local app winds down.",
-      "verified": "2026-11-09"
-    },
-    {
       "title": "Anthropic launches Claude Meetings, Whiteboards and Sheets, and makes Claude Data generally available",
       "summary": "Claude can now join Google Meet calls as a visible participant (beta, Team and Enterprise), build shared whiteboards and spreadsheets with teams (beta, paid plans), and answer questions from a connected warehouse or CRM through Claude Data, alongside interactive connectors that open apps like Adobe, Atlassian and HubSpot inside Claude.",
       "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
@@ -131,16 +141,6 @@
       "source": "Claude by Anthropic",
       "tag": "tools",
       "why_it_matters_for_FDEs": "Check customer Enterprise org settings now: Whiteboards and Sheets are off by default there, but Claude Data turns on by default on Nov 19, and Meetings leaves calls when an external guest joins unless an admin allows it.",
-      "verified": "2026-11-11"
-    },
-    {
-      "title": "OpenAI launches Businesses in ChatGPT, letting companies claim profiles and run their own Business Agents",
-      "summary": "Through Business Hub, companies can claim and verify their ChatGPT listing, add product feeds and see aggregated engagement insights, and eligible US ecommerce and online service businesses can now build a Business Agent that shoppers chat with inside ChatGPT.",
-      "url": "https://openai.com/index/introducing-businesses-chatgpt",
-      "date_published": "2026-11-10",
-      "source": "OpenAI News",
-      "tag": "agents",
-      "why_it_matters_for_FDEs": "Customer-facing agents now have a distribution channel inside ChatGPT, so retail and services customers will ask for help claiming their listing, keeping feeds accurate and building a Business Agent.",
       "verified": "2026-11-11"
     },
     {
