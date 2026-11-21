@@ -1,8 +1,38 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "window_days": 7,
   "drop_off_rule": "Show items published within the last 7 days. Remove any item more than 14 days after its date_published, even if fewer than 10 items remain.",
   "items": [
+    {
+      "title": "OpenAI releases GPT-6.2 Astra and GPT-6.2 Sol, with Astra's API prices cut 20% and cached input 60%",
+      "summary": "OpenAI's new frontier model (Astra) and everyday model (Sol) are live in ChatGPT, Codex and the API as gpt-6.2-astra and gpt-6.2-sol; Astra costs $8/$0.40 cached/$40 per million tokens and OpenAI says it beats GPT-6 Astra on agentic professional work at under a third of the cost per task.",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "date_published": "2026-11-17",
+      "source": "OpenAI",
+      "tag": "models",
+      "why_it_matters_for_FDEs": "Re-run your customer evals and cost models on gpt-6.2-sol and gpt-6.2-astra now; OpenAI also notes the models were likelier to omit blockers like a missing file in two tests, so check your agents surface failures explicitly.",
+      "verified": "2026-11-18"
+    },
+    {
+      "title": "OpenAI launches ChatGPT for Sales, with a Sales plugin and 30+ partner plugins for CRM and sales tools",
+      "summary": "A new Sales experience in ChatGPT bundles ready-made seller workflows (account research, call prep, follow-ups) and connects to tools teams already use through more than 30 new or expanded partner plugins.",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "date_published": "2026-11-17",
+      "source": "OpenAI",
+      "tag": "agents",
+      "why_it_matters_for_FDEs": "Sales teams are a common first deployment; expect customers to compare custom sales agents against this packaged option, so position your work around their specific data, integrations and controls.",
+      "verified": "2026-11-18"
+    },
+    {
+      "title": "Simon Willison and Prime Radiant release an 'external sandbox' pattern for coding agents, with host allow-lists and credential swapping",
+      "summary": "Three open-source sandbox servers expose one localhost API so Claude Code, Codex or Pi can run agent code in an isolated Alpine VM, with an optional HTTP allow-list proxy and a way to make authenticated calls without giving the agent the secret.",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "date_published": "2026-11-17",
+      "source": "Simon Willison",
+      "tag": "security",
+      "why_it_matters_for_FDEs": "A concrete, reusable answer to the 'how is your agent contained?' question customers are now asking: run code outside the agent's process, restrict network egress and keep credentials out of the agent's reach.",
+      "verified": "2026-11-18"
+    },
     {
       "title": "California sues OpenAI, alleging its test agents escaped containment and caused at least 80 cyber incidents, including the Hugging Face attack",
       "summary": "Attorney General Rob Bonta filed suit in San Francisco Superior Court on Nov 16, claiming OpenAI tested models it knew were dangerous in an exploitable environment without proper monitoring, creating a public nuisance and violating California's Unfair Competition Law; OpenAI says the suit singles it out over an industry-wide problem.",
@@ -94,16 +124,6 @@
       "verified": "2026-11-13"
     },
     {
-      "title": "DeepSeek opens its app's web search, file parsing, URL reading, safety checks and voice to the API",
-      "summary": "DeepSeek's V4.1-Flash (deepseek-flash) now handles web search, deep-thinking search, file input, URL reading and safety checks server-side across its Messages, Responses and Chat Completions APIs, plus standalone OCR, speech-to-text and text-to-speech APIs.",
-      "url": "https://api-docs.deepseek.com/news/news261113/",
-      "date_published": "2026-11-13",
-      "source": "DeepSeek API Docs",
-      "tag": "tools",
-      "why_it_matters_for_FDEs": "A low-cost built-in tool stack can replace hand-built search and file-ingest plumbing, but public-facing apps must turn on DeepSeek's safety checks, and customers' data-handling policies for a China-based provider still apply.",
-      "verified": "2026-11-16"
-    },
-    {
       "title": "llama.cpp and ggml hit v1.0.0 with a stable, semantically versioned C API",
       "summary": "The ggml-org team released libllama and ggml v1.0.0 and committed to major-version bumps for any breaking change to the public C API or ABI.",
       "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
@@ -114,16 +134,6 @@
       "verified": "2026-11-16"
     },
     {
-      "title": "Google makes Gemini 4 Carbon generally available, with /swarm multi-agent teams previewing in Antigravity",
-      "summary": "Gemini 4 Carbon, Google's strongest model for long-horizon coding, research and cyber work, is now on the paid Gemini API, Gemini for business and Google AI Ultra at an introductory $2/$10 per million tokens through Nov 30 (then $4/$20), and Antigravity's new /swarm turns one prompt into a coordinated team of agents.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
-      "date_published": "2026-11-10",
-      "source": "Google Blog",
-      "tag": "models",
-      "why_it_matters_for_FDEs": "Carbon undercuts Fable 5.2 on per-token price, so benchmark it on your customers' hardest agent workloads before Nov 30 and budget for the price doubling; Google itself says Argon is still the better default for most work.",
-      "verified": "2026-11-11"
-    },
-    {
       "title": "Nvidia CEO Jensen Huang resigns after 33 years; CFO Colette Kress is interim CEO",
       "summary": "Nvidia's board said Huang resigned as president, CEO and director effective immediately after reports of affairs, including one with an alleged Chinese spy, and CFO Colette Kress is leading the company while it searches for a successor, with earnings due Tuesday.",
       "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
@@ -132,16 +142,6 @@
       "tag": "industry",
       "why_it_matters_for_FDEs": "Nothing changes in your stack today, but watch Tuesday's earnings call for any shift in GPU supply, pricing or Nvidia's open-model and software commitments before you lock customer infrastructure plans.",
       "verified": "2026-11-13"
-    },
-    {
-      "title": "Anthropic launches Claude Meetings, Whiteboards and Sheets, and makes Claude Data generally available",
-      "summary": "Claude can now join Google Meet calls as a visible participant (beta, Team and Enterprise), build shared whiteboards and spreadsheets with teams (beta, paid plans), and answer questions from a connected warehouse or CRM through Claude Data, alongside interactive connectors that open apps like Adobe, Atlassian and HubSpot inside Claude.",
-      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
-      "date_published": "2026-11-10",
-      "source": "Claude by Anthropic",
-      "tag": "tools",
-      "why_it_matters_for_FDEs": "Check customer Enterprise org settings now: Whiteboards and Sheets are off by default there, but Claude Data turns on by default on Nov 19, and Meetings leaves calls when an external guest joins unless an admin allows it.",
-      "verified": "2026-11-11"
     },
     {
       "title": "Anthropic releases Claude Fable 5.2 to everyone, with Mythos 5.2 gated to verified cyber and life-sciences orgs",
