@@ -295,6 +295,20 @@
  },
  {
   "co": "samsara",
+  "title": "Enterprise Core Sales Engineer - France",
+  "loc": "Remote - France",
+  "url": "https://job-boards.greenhouse.io/samsara/jobs/8417295",
+  "status": "open"
+ },
+ {
+  "co": "samsara",
+  "title": "Senior Sales Engineer - Select UK&I",
+  "loc": "Remote - UK",
+  "url": "https://job-boards.greenhouse.io/samsara/jobs/8417333",
+  "status": "open"
+ },
+ {
+  "co": "samsara",
   "title": "Associate Sales Engineer, SE Desk- Mexico",
   "loc": "Remote - Mexico",
   "url": "https://job-boards.greenhouse.io/samsara/jobs/8353148",
@@ -347,20 +361,6 @@
   "title": "Sales Engineer, Mid Market - TOLA",
   "loc": "Remote - OK; Remote - TX",
   "url": "https://job-boards.greenhouse.io/samsara/jobs/7848459",
-  "status": "open"
- },
- {
-  "co": "samsara",
-  "title": "Associate Sales Engineer, SE Desk - TOLA",
-  "loc": "Remote - LA; Remote - OK; Remote - TX",
-  "url": "https://job-boards.greenhouse.io/samsara/jobs/7848363",
-  "status": "open"
- },
- {
-  "co": "samsara",
-  "title": "Associate Sales Engineer, SE Desk - Southeast",
-  "loc": "Remote - FL; Remote - GA; Remote - NC; Remote - TN",
-  "url": "https://job-boards.greenhouse.io/samsara/jobs/7848351",
   "status": "open"
  },
  {
@@ -904,6 +904,13 @@
  },
  {
   "co": "elevenlabs",
+  "title": "Technical Recruiter (FDE), LATAM",
+  "loc": "Argentina",
+  "url": "https://jobs.ashbyhq.com/ElevenLabs/78fdf018-aa20-456b-8cc1-66eb7d4fed67",
+  "status": "open"
+ },
+ {
+  "co": "elevenlabs",
   "title": "Deployment Strategist, Public Sector (Federal & SLED) - North America",
   "loc": "United States",
   "url": "https://jobs.ashbyhq.com/ElevenLabs/7758cdc5-b5c9-4a5c-8c80-11678f7cba9d",
@@ -963,13 +970,6 @@
   "title": "Deployment Strategist - Colombia",
   "loc": "Colombia",
   "url": "https://jobs.ashbyhq.com/ElevenLabs/c89e8bf6-6d4c-43bd-bd2a-661ae73c82bf",
-  "status": "open"
- },
- {
-  "co": "elevenlabs",
-  "title": "Forward Deployed Engineer - Software Engineer - Argentina",
-  "loc": "Argentina",
-  "url": "https://jobs.ashbyhq.com/ElevenLabs/1f7a2786-46d3-46c9-81f3-c3849b412988",
   "status": "open"
  },
  {
