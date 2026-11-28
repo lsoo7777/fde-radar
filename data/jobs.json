@@ -128,6 +128,20 @@
  {
   "co": "databricks",
   "title": "Deployment Strategist",
+  "loc": "Amsterdam, Netherlands",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8960960002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "Staff Forward Deployment Strategist",
+  "loc": "Paris, France",
+  "url": "https://job-boards.greenhouse.io/databricks/jobs/8960967002",
+  "status": "open"
+ },
+ {
+  "co": "databricks",
+  "title": "Deployment Strategist",
   "loc": "Munich, Germany",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8960976002",
   "status": "open"
@@ -179,20 +193,6 @@
   "title": "Senior Manager, AI Forward Deployed Engineering",
   "loc": "Munich, Germany",
   "url": "https://job-boards.greenhouse.io/databricks/jobs/8948870002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "Senior Manager, AI Forward Deployed Engineering",
-  "loc": "Stockholm, Sweden",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8948868002",
-  "status": "open"
- },
- {
-  "co": "databricks",
-  "title": "Senior Manager, AI Forward Deployed Engineering",
-  "loc": "Amsterdam, Netherlands",
-  "url": "https://job-boards.greenhouse.io/databricks/jobs/8937360002",
   "status": "open"
  },
  {
@@ -295,7 +295,7 @@
  },
  {
   "co": "samsara",
-  "title": "Manager I, Inside Sales Engineering",
+  "title": "Manager, Mid-Market Sales Engineering-Mexico",
   "loc": "Remote - Mexico",
   "url": "https://job-boards.greenhouse.io/samsara/jobs/8386022",
   "status": "open"
@@ -358,9 +358,9 @@
  },
  {
   "co": "samsara",
-  "title": "Sales Engineering Manager Select - UK&I",
-  "loc": "London, England, United Kingdom",
-  "url": "https://job-boards.greenhouse.io/samsara/jobs/8336436",
+  "title": "Enterprise Sales Engineer - US Southeast",
+  "loc": "Remote - FL; Remote - GA; Remote - NC",
+  "url": "https://job-boards.greenhouse.io/samsara/jobs/8244432",
   "status": "open"
  },
  {
